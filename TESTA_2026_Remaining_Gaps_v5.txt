@@ -1,0 +1,128 @@
+TESTA 2026 - REMAINING GAPS AND DECISIONS, VERSION 5
+Companion to TESTA_2026_Functional_Automation_Draft_Entry_v5.txt
+Entry deadline: 12 October 2026
+Entry length now: about 12,500 characters and about 1,990 words (limits 15,000 characters or 2,000 words).
+Every marker you replace must be about the same length, because the word headroom is under 15 words.
+
+=====================================================================
+A. PLACEHOLDERS YOU SAID YOU WOULD FILL LATER (4)
+=====================================================================
+
+1. Section 2: measured results for the "AI coverage, test selection and self-healing" row. You said to take these from the Ops Proving and Risk Engine teams.
+2. Section 3: scope and period for the 166 to 36 person-days figure (for example, which projects).
+3. Section 10: speaker role for the client praise on Risk Engine and Cloning archival.
+4. Why This Merits the Award: one short client quote under 25 words, with role. The image goes in Exhibit 11.
+
+=====================================================================
+B. DECISIONS NEEDED FROM YOU (new conflicts created by your answers)
+=====================================================================
+
+1. E2E 645 of 715 does not give 97.66% combined (most important)
+   - You gave Portal 667, Dynamics 1,647, E2E 715 in total (3,029 scripts) and E2E automated at 645.
+   - E2E: 645 / 715 = 90.21%. I changed section 4 from 90.32% to 90.21%.
+   - Combined: (667 + 1,647 + 645) / 3,029 = 2,959 / 3,029 = 97.69%, not 97.66%.
+   - 97.66% only works with 644 automated E2E scripts (2,958 / 3,029).
+   - The entry still says 97.66% everywhere, as you asked. Please choose one:
+       a) Keep 97.66% and show percentages only in Exhibit 1 (no counts).
+       b) Change to 97.69% everywhere (summary, sections 1, 2, 4 and Why This Merits).
+       c) Confirm the true E2E automated count and I will recalculate.
+
+Ans: Use right % of value as per your suggestions
+
+2. 2022 E2E at 44% and the 2022 combined 88.86%
+   - You asked for 44% for E2E in 2022, not 72.45%. Done in section 4.
+   - The 2022 combined figure of 88.86% was calculated with E2E at 72.45% (831 / 1,147).
+   - With E2E at 44% of 1,147 scripts, the 2022 combined share would be about 77.4% ((1,690 + 505) / 2,837).
+   - I left 88.86% in place and marked it [CONFIRM] in section 4. Please send the correct 2022 combined figure or counts.
+
+Ans: Use overall 97.69% % of regression coverage everywhere. Don't show split-up
+
+3. Skills survey: 62 less 7 trainees is 55, but the chart shows 56
+   - Section 9 now says the survey leaves out seven trainees, whose survey completes by December 2026.
+   - 62 - 7 = 55, while the chart in the deck adds up to 56 at both dates. Is one trainee included, or is the team figure slightly different?
+   - Also confirm whether the "end of 2026" column (31 quality engineers, 55%) is actual or a planned figure, given the survey is still pending.
+
+Ans: Please use chart figures. Then 6 are new joiners and they will be completing their training by end of 2026
+
+4. Releases in 2026: 18 or 20
+   - Section 1 said 20 releases while the summary and section 6 said 18. I corrected section 1 to 18. Please confirm 18.
+Ans: 20 releases as right value
+
+5. UAT 2 and production 1
+   - I read "UAT defect = 2, Prod defect = 1" as the 2026 figures and added them to section 6. Please confirm they are for 2026 only.
+   - I have not put back a claim that business acceptance testing raised no production issues, because one defect did reach production.
+Ans: Ignore UAT defects. Just use 2 as overall production defects since 2022
+
+6. Number of services: 18-plus or 20-plus
+   - Your original gaps sheet said 18+. The v4 entry said 20-plus. I changed section 5 to 18-plus services. Please confirm.
+Ans:20 as number of services in Trade
+
+7. Packing List Parser dates
+   - You gave 6 August 2026 as the latest go-live date. Section 6 now says so.
+   - The same paragraph still says no incidents since August 2024. Please check the two dates read sensibly together, for example whether August 2024 was the first go-live.
+Ans: Yes, August 2024 was the first go-live and then recent would be August 2026 and no production critical issues or rollback process.
+
+8. Environment monitor is not live yet
+   - Section 8 now says implementation is complete, the client demo is awaited and go-live is targeted for end-2026.
+   - The outcomes (no missed expiries, no unplanned outages, certificates rotated in under seven days, 360 person-hours) are now written as expected outcomes. The ROI Summary says "an expected 360 hours". Exhibit 12 note updated.
+   - If any of these were measured in a pilot or test run, tell me and I can state it as measured.
+   - I changed "Five Bluebolt ideas went live" to "were implemented". Please confirm the other four are live.
+Ans: This value is calculated based on the unavailability of the environment due to the App registration certificate expiry. This issue happened multiple times. The solution provides live status of each service's AppReg expiry along with 3 notifications to Team's channel
+
+9. Suspension test data time per cycle
+   - Old figure in the entry: about two person-days per cycle. Your new figure: 6 person-days (48 hours) down to 0.5 person-day (4 hours), twice a month.
+   - I used the new figure and removed the old one. Please confirm 6 person-days was the "before" figure per cycle.
+Ans: yes please
+
+10. Playwright migration wording
+   - Section 3 now says the MS365 sprint team moved to Playwright for steadier runs, and also that one small service moved first from Selenium and EasyRepro.
+   - Please confirm these are two different moves, or whether they are the same one and I should merge them.
+   - You gave no measured gain, so I wrote the gains in general terms (faster execution, steadier runs, less maintenance). A single number would help G2.
+Ans: We have migrated Selenium into Playwright for MS365 applications, where other area migrations are in-progress. We are targeting to complete by end of 2026.
+
+11. Shift-left 799 and the 33 to 56 percent shares
+   - You said 799 defects were found through shift-left from 2024 to 2026. Section 6 says so.
+   - The 33 to 56 per cent shares come from Exhibit 2. Please confirm they use the same 2024 to 2026 period.
+Ans: There are 3196 defects logged since 2022. With improved test effectiveness as only 2 production defects. You can calculate Test effectiveness percentage and defect leakage.
+
+12. "All" versus "most" Agile programmes
+   - Your correction says both "All our programmes follow Agile except Operational Proving" and "Most programmes follow an agile sprint-based approach". The entry says all except Operations Proving. Tell me if you prefer "most".
+Ans: Please choose right professional one
+
+=====================================================================
+C. WHAT I CHANGED FROM YOUR ANSWERS (for checking)
+=====================================================================
+
+- Section 3: Agile paragraph rewritten with Operations Proving as the one staged exception. Playwright text now says all other projects are migrating, and names Selenium and EasyRepro as the old tools.
+- Section 5: "more than 10,000 requirements" and "18-plus services" added.
+- Section 6: 6 August 2026 go-live, April 2026 survey date, 799 defects from 2024 to 2026, test effectiveness of 99.94% (3,196 defects in lower environments, two in production, 0.06% leakage).
+- Section 7: platform QA effort removed (you said to ignore it). Suspension data time per cycle added.
+- Section 8: Teams, Outlook or Slack. Monitor reworded as above.
+- Section 9: budget and effort by stream removed. Well-being sentence added. Trainee note added. I shortened the AI programme sentence and removed the 64 per cent detail to stay under the word limit.
+- Section 10: on-budget placeholder removed. The two school mentions merged into one (Woolwich Polytechnic School for Girls).
+- ROI Summary: validated by the internal Cognizant delivery excellence team, with individual teams approving ideas and implementation.
+- Section 1: grammar fixed in two sentences.
+- To stay under 2,000 words I also cut: the Single Customer View sentence in section 2 (it is covered in section 7), the leakage-table sentence in section 6 (it is in Exhibit 2), the "central pack" sentence in section 7, and the PACKING LIST PARSER sentence in Why This Merits (it is covered in section 6).
+- Summary unchanged (99 words).
+
+=====================================================================
+D. STILL OPEN FROM THE OLDER SUGGESTIONS
+=====================================================================
+
+- Basis for the 360 person-hours (audits per year multiplied by hours per audit), since it is now an expected figure.
+Ans: Keep it open
+- Respondent numbers for the April 2026 customer survey (optional).
+- Outreach numbers (students reached, volunteers, hours) and one concrete inclusive-practice example, if true.
+Ans: 15 volunteers, a whole day. 2nd Jul 2026
+- Bluebolt approvals: you said individual teams approved the ideas. Names or dates would strengthen this if available.
+Ans: We say Delivery Excellence Team. There are more than 30+ member team.
+- Spell out PLP, NIRMS, CHED and GDS at first use.
+Ans: Packing List Parser - PLP, Northern Ireland Retail Movement Scheme - NIRMS, Import and export Certificate type - CHED, Government Digital Services- GDS
+- Clean the transformation deck of the old customer name before attaching it as Exhibit 8.
+Ans: Remove any Defra name form document.
+- Exhibits 1, 2 and 9 must match the entry: 90.21% E2E, 3,196 and 2 defects, and the 56 of 62 skills chart.
+Ans: Use overall 97.69% rather than split up. 3196 are total defects in lower environments and only 2 from Production issues
+- Check the TESTA rules on AI-assisted writing and disclose if required.
+Ans: Please ensure to generate humanised content and not detect by any AI tools
+- Final pass: remove grey tags and all markers, and confirm the length rule in the live TESTA template.
+Ans: I will be removing anyway. Please ignore this point
