@@ -1,0 +1,102 @@
+Project Summary
+
+Since July 2022, Cognizant has supported testing for UK public sector services. IPAFFS and Risk Engine regression takes approximately 0.5 days per cycle, previously 4 days. Document checks take 2 minutes rather than 10. Five Salesforce service teams contribute their own tests to shared regression. We have also introduced automated accessibility checks and reusable guidance for AI-assisted testing. Our 62 colleagues support export certification, import controls and air quality information. During 2026, they gained 36 external certifications. The work combines repeatable release checks with shared ownership and continuing team development.
+
+1. Testing services people depend on
+
+We began this Cognizant engagement in July 2022 supporting a client in UK government. Exporters need usable certificates, importers need dependable border checks and the public needs accurate air quality information. Testing delays can hold up releases. Escaped defects can disrupt those services.
+
+Manual regression for the Import of Products, Animals, Food and Feed System (IPAFFS) and its Risk Engine occupied approximately 4 days per cycle. On Salesforce, changes from one service could affect another. We addressed these problems through automation and shared responsibility for regression, alongside broader functional and non-functional testing.
+
+2. Scope and goals
+
+Our work spans Trade, Common Platform, Operations Proving, Air Quality, the Plant Health Export Service, the Northern Ireland Retail Movement Scheme (NIRMS) and Salesforce Single Customer View. Trade comprises 20 services. We report requirements-to-test traceability for over 10,000 requirements.
+
+- IPAFFS and Risk Engine regression fell from approximately 4 days to 0.5 days per cycle (Exhibit 4).
+- Five Salesforce service teams contribute tests to the shared regression model, as set out in the platform test strategy.
+- Posit upgrade testing is 40 per cent automated and 60 per cent manual, against a target of 90 per cent automated and 10 per cent manual (Exhibit 7).
+
+3. Public value and the longer view
+
+Export Health Certificates processed through the service number over 1.8 million, across more than 1,552 digital journeys. Exports valued at £657 million have been supported by the Plant Health Export Service. NIRMS reports capacity savings equivalent to 19.5 full-time posts. These are service outcomes to which testing contributes. They are not financial returns attributable to our testing alone.
+
+For Salesforce Single Customer View, we placed test design and maintenance with the five service teams that understand their own workflows. The platform team manages execution and governance. This gives new services a repeatable way to join regression without requiring the platform testers to recreate every team's business knowledge.
+
+At Air Quality, simulated external services let testers exercise over 100 business scenarios when third-party systems were unavailable. In 2026, the client formally recognised this change in testing practice (Exhibit 3).
+
+4. Measures we use
+
+Execution measures identify where testing became quicker:
+
+- IPAFFS and Risk Engine regression takes approximately 0.5 days per cycle, down from 4 days (Exhibit 4).
+- Risk Engine application programming interface (API) regression fell from 36 hours to 5 minutes per release cycle, as reported for 2026 (Exhibit 4).
+- IPAFFS PDF checks take 2 minutes per document, compared with 10 previously (Exhibit 4).
+- Air Quality virtual services supported over 100 scenarios and saved approximately 180 hours of effort (Exhibit 3).
+
+Capability and maintenance measures show how the work can continue:
+
+- Posit upgrade testing stands at 40 per cent automated against a 90 per cent target, with implementation continuing (Exhibit 7).
+- Colleagues gained 36 external certifications in 2026, the largest annual total reported for the engagement (Exhibit 9).
+- Five Salesforce service teams contribute to shared regression and retain responsibility for maintaining their tests.
+
+5. How we test
+
+Agile delivery is used across the programmes apart from Operations Proving, where staged validation supports fixed-scope regulatory releases. Testing includes integration and business acceptance as well as accessibility, security and performance. BrowserStack supports checks on Android and iOS. We have added AXE-core and Google Lighthouse checks to delivery pipelines, bringing accessibility findings and page-performance reports into release preparation. Automated scans provide evidence for review; they do not establish complete accessibility compliance.
+
+The tool choices follow the test layer. We use RestSharp and Postman for API checks, and WebdriverIO with Allure for Air Quality. The Microsoft 365 applications have moved from Selenium to Playwright. Migration elsewhere continues, with completion targeted for the end of 2026. Reqnroll and NUnit replaced the earlier SpecFlow-based setup for end-to-end tests.
+
+For IPAFFS, testers and domain specialists reviewed the automated import-certificate workflows before scripts were merged. PDF checks compare document contents with the values entered in the application. That comparison tests a user-facing output as well as the underlying transaction (Exhibit 4).
+
+Artificial intelligence (AI) assists test design and scripting. In Air Quality, GitHub Copilot was used across more than 120 regression cases, with a reported 50 per cent reduction in scripting effort. A separate generator uses acceptance criteria and application knowledge to prepare test cases for Azure DevOps import. It checks the output format. Format validation alone does not establish the correctness of a test (Exhibits 3 and 7).
+
+6. Release decisions and stakeholder involvement
+
+The programme reports 20 production releases in 2026. For Packing List Parser (PLP), the initial go-live was in August 2024 and the latest was on 6 August 2026. The team reports no critical production issues or rollbacks over that service history.
+
+PLP migration testing checked transferred data and documents, revised integrations and the public-facing address. Cutover included smoke tests and production validation. Quality assurance sign-off followed the planned checks, and the migration met its agreed date (Exhibit 4).
+
+On Salesforce, release bookings previously relied on a shared Excel file. We replaced it with Microsoft Lists and Power Automate so teams can see available slots, receive notifications and review the change history. Five service teams and client management saw the demonstration. Feedback was positive, with interest in wider adoption.
+
+After 7 months of delivery on Risk Engine and Cloning archival, the client praised the work and recognised the contribution of testing (Exhibit 8). Cognizant's internal Delivery Excellence Team validates the improvement figures, while individual delivery teams approve ideas and implementation.
+
+7. Where testing was difficult
+
+Cross-service regression was the first problem on Salesforce. Each team now applies the @platform-regression tag to its important Playwright cases. The shared pack selects those tests, while failures are routed to the relevant service or platform owner. Five teams already contribute. Their existing tests serve both local and platform checks.
+
+Execution also depended on individual machines and manual starts. We introduced three Azure DevOps pipelines for change validation, on-demand team testing and shared regression. Reports are published after failed runs as well as successful ones. Traces and screenshots help the responsible team investigate.
+
+New teams previously spent 2 to 3 days copying and adapting project files. A utility written in Node.js creates the repository structure and configuration in minutes.
+
+Air Quality testing stalled when external systems were unavailable. Virtual services removed that dependency for the covered scenarios and saved approximately 180 hours of effort. Manual PDF comparison presented a different burden in IPAFFS: each automated check takes 2 minutes, compared with 10 previously (Exhibits 3 and 4).
+
+Suspension testing also depended on manually prepared data. The team analysed which data could be shared between scenarios, then automated its preparation. This made repeatable data creation part of the testing process.
+
+Repeated application-registration certificate expiries exposed another problem: unavailable test environments. The environment monitor displays each service's expiry status and sends three notifications to a Microsoft Teams channel. Implementation is complete, but the client demonstration is pending with go-live planned before the end of 2026 (Exhibit 12).
+
+8. Building capability
+
+The current team comprises 62 colleagues. During 2026, colleagues gained 36 external certifications. This was their largest reported annual total. Of 55 colleagues enrolled in AI learning, 64 per cent followed quality engineering and test-development tracks. Three Operations colleagues completed external AI certifications (Exhibit 9).
+
+Project demonstrations, hackathons and academy learning provide routes to share practice. The Prompt Library stores reusable testing prompts with role-based administration and versioning. Its templates support test design, script creation and framework migration. A knowledge assistant for the Pega work draws responses from approved project documents to help colleagues find business and testing information. The skills chart covers 56 colleagues. Six new joiners are due to complete training by the end of 2026, so their completion is still a plan.
+
+9. Participation and inclusion
+
+Women account for 24 of the team's 62 colleagues, approximately 39 per cent. The programme reports female representation of at least 35 per cent since 2022. Cross-team hackathons and brainstorming sessions invite contributions across seniority levels, and structured learning is available to everyone. The team also reports mentoring and flexibility to accommodate individual needs (Exhibit 9).
+
+On 2 July 2026, 15 volunteers spent a full day supporting outreach at Woolwich Polytechnic School for Girls. Colleagues also contributed to DigiTech work experience through mentoring and panel discussions, sharing practical experience with students considering technology careers.
+
+10. ROI Summary
+
+We describe the return through changes in testing effort and execution time.
+
+- IPAFFS and Risk Engine regression takes approximately 0.5 days per cycle, compared with 4 days previously (Exhibit 4).
+- PDF checks take 2 minutes per document, previously 10 (Exhibit 4).
+- Air Quality virtualisation delivered a reported capacity gain of approximately 180 hours (Exhibit 3).
+
+These measures cover different activities and are not added into a single total. The Delivery Excellence Team is identified as the internal validator. We do not claim a monetary net benefit, ROI percentage, avoided-cost value or payback period. Wider export values are excluded from this return, as are forecast benefits from the environment monitor.
+
+11. Why This Merits the Award
+
+Cognizant's public sector testing programme reduced IPAFFS and Risk Engine regression from approximately 4 days to 0.5 days and PDF checks from 10 minutes to 2 (Exhibit 4). Those improvements support release testing for services used by importers and exporters.
+
+Five Salesforce teams own tests reused across their shared platform. Air Quality virtualisation addressed unavailable external systems, while PLP testing supported a scheduled migration (Exhibits 3 and 4). Learning continues through 36 certifications in 2026, shared guidance and mentoring. School outreach extends that contribution beyond delivery (Exhibit 9). Posit automation and the environment monitor remain in progress. The delivered methods can be maintained and reused by the teams that run them.

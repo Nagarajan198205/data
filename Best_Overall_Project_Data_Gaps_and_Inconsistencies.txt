@@ -1,0 +1,166 @@
+DATA GAPS AND INCONSISTENCIES – Best Overall Project
+
+Missing: 3. Weak or unsupported: 17. Inconsistencies: 12. Resolved decisions: 10.
+Highest-impact actions: provide the cost reconciliation, resolve the current defect/automation population and attach source evidence for the main delivery and inclusion outcomes.
+
+BASIS AND DELIVERY STATUS
+- Latest governing prompt: TESTA_2026_Multi_Category_Master_Prompt_v2.md at e684bc5. Branch main was pulled and was already up to date.
+- Current result: Best_Overall_Project_Result.txt. This is a review copy with disputed claims omitted, not an independently verified award submission.
+- Earlier explicit user answers remain source evidence where v2 does not contradict them. New conflicts are listed here without choosing a preferred number. Archived assistant drafts are not independent evidence.
+- Source references below name sections in v2. Its embedded source-line labels refer to an earlier export, not the physical line numbers of this file.
+- Exhibit references are inherited placeholders for evidence organisation. No numbered exhibit, skills image or testimonial image was available to inspect.
+- Budget, target and proof gaps remain here rather than inside the entry. The financial closing is consequently limited to reported capacity and timing outcomes.
+
+1. MISSING DATA (🔴)
+- G-01 🔴 [O1, O3, G3, ROI] No approved budget, actual cost or cost period is supplied. Question: What were approved and actual costs, including people, infrastructure, licences, training and operation?
+- G-02 🔴 [All criteria] Exhibits and underlying measurement records are absent. Existing exhibit numbers are inherited from the previous entry, not independently verified. Question: Can you supply the evidence pack and confirm the exhibit references?
+- G-03 🔴 [O2, O3, G3] Client stakeholder identities/roles and an attributed testimonial are missing. Question: Which client role approved the outcomes, and what approved quotation or sign-off can be used?
+
+2. WEAK OR UNSUPPORTED DATA (🟠)
+- G-04 🟠 [O1, O4] Most headline KPIs have no agreed target or common reporting cut-off. Question: What original targets and measurement dates apply to each KPI?
+- G-05 🟠 [O4, O5] The 4-to-0.5-day, 36-hour-to-5-minute and 10-to-2-minute comparisons need matched scope and timing records. Question: What runs, workload and dates support each comparison?
+- G-06 🟠 [O2] Service context includes 1.8M+ certificates, 1,552+ journeys, £657m exports and 19.5 FTE capacity. These are wider service outcomes. Question: What source and period support each, and what user benefit can testing itself demonstrate?
+- G-07 🟠 [O1, G2] Over 10,000 requirements comes from earlier supplied answers; the current story claims 100% traceability through test-management tools. Question: What scope and dated traceability extract support the requirement count and completeness claim?
+- G-08 🟠 [O3] 20 releases is retained from the confirmed earlier answer. PLP dates are repeated in v2, but milestone and incident records are absent. Question: Which records confirm release dates, on-time testing and no critical PLP production incidents or rollbacks?
+- G-09 🟠 [G3, O6] 36 certifications, 55 AI learners, 64% on named tracks, 56 assessed colleagues and six joiners need the learning/chart records. Question: Which dated records support these populations and distinguish completions from year-end plans?
+- G-10 🟠 [O6, G5] The new story adds mentoring, flexibility and DigiTech outreach, but no measured team inclusion outcome. Question: Give one dated inclusive practice, who benefited and what changed, plus the outreach attendance evidence.
+- G-11 🟠 [G2, O4] Air Quality reports 50% less scripting effort across 120+ cases and approximately 180 virtualisation hours, without study dates. Question: What effort logs, comparison conditions and periods support those results?
+- G-12 🟠 [G2, ROI] The new story clarifies that 166-to-36 person-days concerns test-case creation, resolving the activity label only. Question: Which projects, dates and review activities were included in the study?
+- G-13 🟠 [G2] Prompt Library, Pega knowledge assistant and AI generator have descriptions but limited evaluation/governance evidence. Question: What deployed versions, human approval checks and measured quality outcomes substantiate these tools?
+- G-14 🟠 [G2, O4] The 55% productivity gain, 48% scripting improvement, 20+ submissions, four recognitions and 82% defect reduction lack matched baselines or scope. Question: What dated evidence and definitions support these figures, and do they overlap other reported results?
+- G-15 🟠 [G2, O3] Monitor, impact analysis, failure analysis and carbon work have mixed idea, proof-of-concept and implemented labels. Question: What is the dated deployment status of each, including the monitor demonstration and go-live?
+- G-16 🟠 [ROI] The proposed 360-hour monitor forecast remains intentionally open; its latest description also claims AI recovery functionality. Question: What calculation and observed test evidence support the forecast and recovery capability?
+- G-17 🟠 [ROI] The new Prompt Library account says hours were scaled to a 12,993 target, with no currency or measurement period. Question: What unscaled task-level observations, currency, cost basis and signed evidence establish the saving independently of the target?
+- G-18 🟠 [G2, O4] AXE-core and Lighthouse are described as implemented, but coverage, thresholds and findings are not quantified. Question: What applications, scan versions, acceptance thresholds and before/after findings support the assurance results?
+- G-19 🟠 [ROI] The older £6,930 migration-cycle claim and financial validation lack a complete calculation and overlap check. Question: What activity, baseline, rate, period and signed calculation support this claim?
+- G-20 🟠 [O5, G3] Specific mentoring and workload/well-being outcomes are not supplied; the narrative has limited failed-attempt detail. Question: What real testing setback or workload adjustment occurred, who addressed it and what changed?
+
+3. INCONSISTENCIES
+- I-01 🟠 [2026 defects] V2 Theme 10 reports 121 in the headline versus 432 in component data; archived raw data states 425. The current entry uses none. Question: Which scoped export and cut-off reconcile all three counts?
+- I-02 🟠 [Defect population] V2 reports component totals of 3,379 logged and 3,325 valid, versus stated totals of 3,250 and 3,196. Both subtract 54 rejected records: 3,379 - 54 = 3,325; 3,250 - 54 = 3,196. The former 3,196 was user-confirmed, but v2 introduces a new conflict. The underlying table was not provided with v2. The entry omits detection/leakage rates. Question: Which deduplicated population should be used with the two production defects?
+- I-03 🟠 [Trade automation] V2 reports 96.69% and 97.66%; earlier answers explicitly chose 97.69%. The earlier corrected inventory calculates 2,959 / 3,029 x 100 = 97.6890%. None is selected in the new entry. Question: Does the earlier 97.69% decision still govern this snapshot, or is there a newer signed inventory?
+- I-04 🟠 [Automation inventory] V2 item 11 states 609 to 645 scenarios across 716 cases and a 5.9% increase. Earlier data uses 715 total cases, with 644 or 645 automated. Calculated count growth: (645 - 609) / 609 x 100 = 5.91%, which is not a percentage-point coverage gain. Component percentages are excluded. Question: What are the authoritative total and automated counts, and does 5.9% describe count growth?
+- I-05 🟠 [Suspension data preparation] V2 states approximately two person-days before automation. Earlier explicit answers confirm six person-days (48 hours) to 0.5 person-days (4 hours), twice monthly. The entry describes the automation without selecting a duration. Question: Do the two baselines cover different scopes, or which value now applies?
+- I-06 🟠 [AI effort reduction] V2 supplies 166 to 36 person-days and labels it 79%. Calculated: (166 - 36) / 166 x 100 = 78.3133%, with 130 person-days difference. These calculations are kept separate and neither percentage is used in the entry. Question: Please confirm the input effort values and whether 79% should be corrected or uses a different basis.
+- I-07 🟠 [Currencies and return] V2 quotes £31K hard plus £28K soft for virtualisation, £52K hard savings and revenue for resilience, and £24K hard savings and revenue for reporting. The archived entry labels the same components USD and calls their sum $135K net benefit. Calculated numeric sum: 31 + 28 + 52 + 24 = 135, which does not establish net benefit or currency. No financial total is claimed. Question: Which currency, client-saving/supplier-revenue classification and period apply to each amount?
+- I-08 🟠 [Survey label] V2 calls 10/10 NPS and gives PCSAT 5/5. Earlier output changed 10/10 to a recommendation rating, which v2 now prohibits doing without confirmation. Both figures are omitted from the entry. Question: Is 10/10 an individual recommendation response, a custom measure or an aggregate Net Promoter Score, and how many people responded?
+- I-09 🟠 [Onboarding effort] V2 states two to three days per team, five teams and roughly 40–50 saved hours. Calculated at an assumed eight-hour day solely to illustrate the mismatch: 2 x 5 x 8 = 80 hours and 3 x 5 x 8 = 120 hours before residual work. The assumption is not adopted as a fact. The entry retains elapsed setup time only. Question: How do elapsed days, active person-hours and the population reconcile?
+- I-10 🟠 [Training targets and results] V2 presents 100% training completion, 55% associates certified and 100% team certified as roadmap targets and again as headline metrics. Trade also claims achieved 100% AI certification. These may cover different populations; the entry does not choose an aggregate percentage. Question: Which values are achieved versus planned, for which teams and dates?
+- I-11 🟠 [Source text corruption] V2 contains corrupted words such as attaImport Certificate Types and sImport Certificate Typesule, duplicated Packing List Parser labels, and Auzre. No source file was silently rewritten. The result paraphrases only claims separately supported by readable passages. Question: Can you provide a corrected source export and confirm the intended import-certificate terminology?
+- I-12 🟠 [Prompt Library calculation labels] V2 states a saving of 12,993, daily rate 540, hourly rate 67.50, 192.49 hours and 24.06 days, plus an efficiency gain of 56 without a unit. Calculated: 12,993 / 67.50 = 192.4889 hours and 12,993 / 540 = 24.0611 days; the rounded hours multiply to 12,993.075. The larger issue is the stated scaling to a financial target, not the small rounding difference. No amount or gain is claimed. Question: What currency and unit were intended, and which raw observations support the claimed gain?
+
+4. ATTRIBUTION AND CLAIM RISKS
+- 🟠 G-06: Export values and NIRMS capacity describe the public services, not a return caused solely by testing. They remain context only; supply the attributable public outcome.
+- 🟠 G-02/G-07/G-08: Claims of 100% traceability, no critical PLP incidents and a largest annual certification total need records. The result softens traceability and attributes the PLP statement to the team; confirm with evidence.
+- 🟠 G-13/G-18: Format checks do not establish AI test correctness, and automated accessibility scans do not establish complete compliance. Supply evaluation and manual review evidence.
+- 🟠 G-15/G-16: The environment monitor is described using the last explicit deployment status. No forecast hours or automated-recovery benefit is counted as delivered; confirm its present status.
+- 🟠 G-14: The four recognition activities include event participation as well as placements. Provide the precise award/participation evidence before describing them all as awards.
+- 🟠 G-02: Remove the client organisation name from any future exhibits before publication, consistent with the earlier request. The incoming prompt still contains it; that source has been preserved, not published as an output update.
+
+6. DECISIONS NEEDED
+- 🟠 I-03/I-05: Confirm whether earlier explicit metric decisions remain authoritative where the latest story repeats a conflicting older value.
+- 🟠 G-03: If a nomination title is needed, approve a title and the client role to be named. The result uses no invented project title.
+
+7. CONSOLIDATED CHECKLIST
+- [ ] 1. G-01: What were approved and actual costs, including people, infrastructure, licences, training and operation?
+- [ ] 2. G-02: Can you supply the evidence pack and confirm the exhibit references?
+- [ ] 3. G-03: Which client role approved the outcomes, and what approved quotation or sign-off can be used?
+- [ ] 4. G-04: What original targets and measurement dates apply to each KPI?
+- [ ] 5. G-05: What runs, workload and dates support each comparison?
+- [ ] 6. G-06: What source and period support each, and what user benefit can testing itself demonstrate?
+- [ ] 7. G-07: What scope and dated traceability extract support the requirement count and completeness claim?
+- [ ] 8. G-08: Which records confirm release dates, on-time testing and no critical PLP production incidents or rollbacks?
+- [ ] 9. G-09: Which dated records support these populations and distinguish completions from year-end plans?
+- [ ] 10. G-10: Give one dated inclusive practice, who benefited and what changed, plus the outreach attendance evidence.
+- [ ] 11. G-11: What effort logs, comparison conditions and periods support those results?
+- [ ] 12. G-12: Which projects, dates and review activities were included in the study?
+- [ ] 13. G-13: What deployed versions, human approval checks and measured quality outcomes substantiate these tools?
+- [ ] 14. G-14: What dated evidence and definitions support these figures, and do they overlap other reported results?
+- [ ] 15. G-15: What is the dated deployment status of each, including the monitor demonstration and go-live?
+- [ ] 16. G-16: What calculation and observed test evidence support the forecast and recovery capability?
+- [ ] 17. G-17: What unscaled task-level observations, currency, cost basis and signed evidence establish the saving independently of the target?
+- [ ] 18. G-18: What applications, scan versions, acceptance thresholds and before/after findings support the assurance results?
+- [ ] 19. G-19: What activity, baseline, rate, period and signed calculation support this claim?
+- [ ] 20. G-20: What real testing setback or workload adjustment occurred, who addressed it and what changed?
+- [ ] 21. I-01: Which scoped export and cut-off reconcile all three counts?
+- [ ] 22. I-02: Which deduplicated population should be used with the two production defects?
+- [ ] 23. I-03: Does the earlier 97.69% decision still govern this snapshot, or is there a newer signed inventory?
+- [ ] 24. I-04: What are the authoritative total and automated counts, and does 5.9% describe count growth?
+- [ ] 25. I-05: Do the two baselines cover different scopes, or which value now applies?
+- [ ] 26. I-06: Please confirm the input effort values and whether 79% should be corrected or uses a different basis.
+- [ ] 27. I-07: Which currency, client-saving/supplier-revenue classification and period apply to each amount?
+- [ ] 28. I-08: Is 10/10 an individual recommendation response, a custom measure or an aggregate Net Promoter Score, and how many people responded?
+- [ ] 29. I-09: How do elapsed days, active person-hours and the population reconcile?
+- [ ] 30. I-10: Which values are achieved versus planned, for which teams and dates?
+- [ ] 31. I-11: Can you provide a corrected source export and confirm the intended import-certificate terminology?
+- [ ] 32. I-12: What currency and unit were intended, and which raw observations support the claimed gain?
+
+RESOLVED DECISIONS
+- R-01 🟢 RESOLVED: 20 releases in 2026, from the earlier explicit answer; retained with a request for evidence.
+- R-02 🟢 RESOLVED: 20 services in Trade, from the earlier explicit answer; v2 also describes governance across 20 services.
+- R-03 🟢 RESOLVED: PLP initial go-live August 2024 and latest 6 August 2026; consistent with v2.
+- R-04 🟢 RESOLVED: 56 colleagues in the skills chart plus six new joiners; earlier answer retained, with year-end completion still planned.
+- R-05 🟢 RESOLVED: Microsoft 365 migration completed, other Playwright migration work still targeted for end-2026; earlier answer retained.
+- R-06 🟢 RESOLVED: School outreach on 2 July 2026 involved 15 volunteers for a full day; earlier answer retained separately from the new 25 September workshop.
+- R-07 🟢 RESOLVED: Delivery Excellence Team is the validator named by the user; no client co-validation invented.
+- R-08 🟢 RESOLVED: The 166-to-36 effort activity is now explicitly test-case creation in v2; period and calculation discrepancy remain open.
+- R-09 🟢 RESOLVED: Latest v2 selects Best Overall Project. categories.txt lists available categories, rather than instructing five separate entries.
+- R-10 🟢 RESOLVED: Both delivered files contain no tables. Client organisation name and archive contents are excluded from publication.
+
+RECONCILIATION AND EXTRACTION NOTES
+- Identity and scope: Cognizant, Public Sector, Best Overall Project; v2 input fields. July 2022 start, Trade service count and requirements volume use earlier supplied story/answers.
+- Users and importance: v2 Theme 9 identifies exporters, import users and air quality users. Wider service outcomes remain context, with no claim that testing generated exports.
+- Goals and KPIs: v2 Themes 1 and 3 supply regression, API, PDF and virtualisation timings. Posit 40:60 versus 90:10 comes from the archived original project story and remains an unfinished objective.
+- Resources: current 62 colleagues and 39% women appear in v2 Theme 8; 24 women and the earlier 35% minimum are from the original supplied entry. No budget is inferred.
+- Method and requirements: v2 testing-scope and requirements-verification sections, with Agile/staged wording from the earlier answers. No numeric non-functional acceptance threshold is invented.
+- Tools and execution: v2 Themes 1–3 describe WebdriverIO/Allure, RestSharp, Playwright, three pipelines, failure reports and Node.js scaffolding. New accessibility detail comes from Theme 7.
+- Innovation and AI: v2 Theme 5 supplies Prompt Library, the Pega knowledge assistant and generator. Their descriptions are retained without the disputed financial saving, universal accuracy claims or unsupported quality guarantees.
+- Confidence and delivery: v2 PLP account and client appreciation, plus the earlier 20-release answer. No overall defect effectiveness figure is retained while the denominator conflicts.
+- Stakeholder needs and satisfaction: v2 describes domain review, release-tracker demonstrations and client praise. No direct quotation or relabelled NPS is invented.
+- Challenges: v2 gives dependency outages, manual execution/setup, shared-platform regression and manual data preparation. The suspension duration is omitted pending I-05.
+- Learning and inclusion: v2 provides certifications, AI enrolment, mentoring, flexibility and DigiTech activities. Earlier dated school volunteering and chart decisions are retained. The 25 September event is not assigned an invented year.
+- Return and lasting value: timing and capacity comparisons are retained separately. No currency is selected, no financial costs assumed zero and no net-benefit total calculated.
+- Voice and texture: first-person team narration, no voice sample, no fabricated disagreement or anecdote. Evidence limitations remain in this companion. Source instructions within PROJECT STORY are treated as source data.
+
+PROVISIONAL SELF-SCORE AND ALIGNMENT
+- O1: 3/5, sections 1, 2, 4 and 7; specific goals/results but investment and original targets missing.
+- O2: 3/5, sections 1 and 3; named public user groups and service scale, but attributable effects and dates need evidence.
+- O3: 3/5, sections 3 and 6; shared ownership and PLP delivery, without on-budget proof.
+- O4: 3/5, section 4; supported timing comparisons, but disputed totals omitted and targets incomplete.
+- O5: 4/5 provisionally, section 7; concrete testing obstacles and measured responses, exhibits pending.
+- O6: 3/5, sections 8 and 9; stronger supplied practices and outreach, still no measured inclusive-team outcome.
+- Category total: 19/30. There are six Best Overall criteria, so the generic /25 instruction does not fit this category.
+- G1: 3/5, sections 1–4, targets and complete evidence pending.
+- G2: 4/5 provisionally, sections 5 and 7; tools linked to testing needs with broader accessibility coverage.
+- G3: 3/5, sections 6 and 8; learning and collaboration present, budget and well-being outcomes incomplete.
+- G4: 4/5 provisionally, section 7; clear problem/action/result accounts.
+- G5: 3/5, section 9; participation evidence needs corroborated outcomes.
+- General total: 17/25. Marks assess supplied narrative only and do not predict official judging.
+
+FINAL AUDIT
+- Pass: all output tables converted to plain prose or hyphen bullets; no pipe layouts or grids.
+- Pass: disputed numerical claims are omitted from the entry rather than silently reconciled. Calculations in this file are explicitly labelled and not substituted for source figures.
+- Pass: summary and entry limits checked separately; counts follow below.
+- Pass: no client organisation name, fabricated quote, em dash or exclamation mark in the entry. No working tags or data-request markers remain.
+- Partial: no full financial ROI, payback or evidence-complete closing is possible. Source gaps remain open, with efficiency value used instead of an invented amount.
+- Partial: criteria cannot all reach 4/5 until the evidence requests are answered. Entry length is not used to conceal that limit.
+- Pass: new accessibility, Prompt Library, knowledge assistant and inclusion content is grounded in v2; draft does not fall back solely to the previous archived result.
+- Partial: exhibit numbering is carried over and must be reconciled to the actual pack. Source comparisons are not exhibit verification.
+- Human edit: review the wording aloud, check each claim against its evidence and add only an approved quotation. No AI-detector outcome is asserted.
+- Stand-out points: five service teams own tests reused across shared Salesforce regression; recurring checks have concrete before-and-after timings.
+
+COUNTS
+- Summary: 90 words, 645 characters.
+- Entry: 1,625 whitespace-delimited words, 11,186 characters including spaces and line breaks.
+- Summary plus entry: 1,715 words, excluding the separate Project Summary label.
+- 1. Testing services people depend on: 692 characters including heading and following line breaks.
+- 2. Scope and goals: 695 characters including heading and following line breaks.
+- 3. Public value and the longer view: 997 characters including heading and following line breaks.
+- 4. Measures we use: 984 characters including heading and following line breaks.
+- 5. How we test: 1,678 characters including heading and following line breaks.
+- 6. Release decisions and stakeholder involvement: 1,210 characters including heading and following line breaks.
+- 7. Where testing was difficult: 1,764 characters including heading and following line breaks.
+- 8. Building capability: 914 characters including heading and following line breaks.
+- 9. Participation and inclusion: 710 characters including heading and following line breaks.
+- 10. ROI Summary: 742 characters including heading and following line breaks.
+- 11. Why This Merits the Award: 800 characters including heading and following line breaks.
