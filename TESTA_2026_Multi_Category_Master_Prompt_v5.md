@@ -2268,17 +2268,7 @@ To improve testing efficiency and enhance delivery confidence, we collaborated c
 
 The initiative focused on automating all major CHED (Common Health Entry Document) types, ensuring repeatable, reliable, and faster validation of core business processes. 
 
-We successfully automated end-to-end test scenarios covering: 
-
-CHED-A 
-
-CHED-D 
-
-CHED-P 
-
-CHED-PP 
-
-across both IPAFFS and Risk Engine applications. 
+We successfully automated end-to-end test scenarios covering: All import certificate types across both IPAFFS and Risk Engine applications. 
 
 Automation scripts were developed following collaboration with the domain experts and manual testers to ensure that all business requirements and expected behaviours were accurately represented within the automated test suite. 
 
@@ -2612,7 +2602,50 @@ Benefits:
 
 · 5 service teams have been onboard so far, saving roughly 40-50 hours of manual effort.
 
+2. QAT Assurance Reporting Templatization  Automation
 
+Problem Statement:
+
+Reporting practices currently vary across delivery groups, resulting in inconsistent visibility and limited comparability of QA delivery status. To address this challenge, we have developed a consolidated reporting template aligned with a unified QA assurance approach. The solution standardises reporting, improves transparency, and provides a consistent view of delivery across all Delivery groups. We are also automating the template to reduce manual effort, improve data accuracy, and enable teams to focus on higher-value delivery activities.
+
+Solution:
+
+The solution collects data across defined QA parameters, sanitises and validates the data, and applies RAG to evaluate the parameter against threshold values. It then automatically updates the standardised reporting template for each project, enabling consistent and transparent reporting.
+
+Customer Need:
+
+Enables consistent reporting across delivery groups
+
+Note: This is a Proof of Concept (POC) that has been completed.
+ 
+3. Driving Quality Excellence Through Continuous Service Assurance
+
+Problem Statement:
+
+Code quality findings and automation testing gaps are not always addressed promptly due to delivery pressures, increasing the risk of defects, technical debt, and costly downstream remediation.
+
+Solution:
+
+Provide governance across 20 services by monitoring static code analysis results, tracking quality metrics, and driving timely remediation. Review automation pipelines to assess test coverage and effectiveness, recommending enhancements across accessibility, compatibility, regression, and smoke testing to strengthen quality gates.
+
+Customer Need:
+
+Ensure consistent quality, reliable releases, reduced technical debt, and improved customer confidence.
+ 
+4. Title: Automated Accessibility & Performance Assurance
+
+Problem Statement:
+
+Accessibility and performance issues can go undetected until late testing stages, increasing remediation costs and delivery risk.
+
+Solution:
+
+Built an automated assurance solution leveraging AXE-core and Google Lighthouse, integrated into CI/CD pipelines. The solution uses browser automation to execute accessibility scans against web applications, validating compliance with WCAG standards and identifying issues such as missing labels, contrast violations, and keyboard navigation defects. In parallel, Lighthouse performs automated audits of performance, accessibility, SEO, and best-practice metrics by analyzing page rendering, resource loading, Core Web Vitals, and runtime behavior. Results are consolidated into actionable reports and dashboards, enabling teams to proactively identify, prioritize, and remediate issues before release.
+
+Customer Need:
+
+Deliver accessible, high-performing, and compliant applications through continuous monitoring, early issue detection, and improved user experience
+ 
 4. Smart Release Management Tracker
 
 Problem statement: Multiple service teams deploy code to production through a central release management process. This covers booking release slots, arranging support and tracking completion of mandatory release activities. All of this was managed in a shared Excel sheet. It caused version conflicts, no real-time visibility, no automatic notifications, and heavy manual coordination by the Platform team.
