@@ -1,0 +1,66 @@
+SUMMARY
+Cognizant Worldwide Limited UK developed Cognizant Intelligent Platform for quality engineering work for a UK government client. It brings together IntelliSec, IntelliA11y and Inteliperf across security, accessibility and performance testing. We achieved 85% accessibility automation and use our own fine-tuned accessibility model, supported by AI governance. The approach combines repeatable checks with contextual analysis and remediation guidance. Engineers retain responsibility for validating findings and interpreting test evidence. The client's identity is withheld for confidentiality.
+
+MAIN ENTRY
+Purpose and scope
+Our work for a UK government client addresses three practical questions about digital services: can people use them, is their information protected, and will the application remain usable under load? Answering these questions requires specialist testing and evidence that delivery teams can act on.
+
+Cognizant Worldwide Limited UK brings three capabilities together under Cognizant Intelligent Platform. IntelliSec supports security investigation. IntelliA11y combines accessibility checks with contextual analysis and remediation guidance. Inteliperf helps engineers interpret performance measurements. Each applies AI to a different task, with its own technical foundations and verification needs.
+
+We achieved 85% accessibility automation. Alongside that result, our principal technical contribution is a fine-tuned accessibility model supported by AI governance. The automation figure describes the accessibility work being reported; it is not a measure of model accuracy or accessibility conformance. The rules engine and AI have complementary roles, so the result should not be attributed to the model alone.
+
+The client's identity is withheld for confidentiality. Artifacts A01 to A07 illustrate the locally running applications and their interfaces. They provide context for the capabilities described below, rather than evidence of client deployment or the automation result.
+
+Domain specific AI for accessibility
+IntelliA11y starts with repeatable accessibility checks and adds analysis of the page context. A missing label can be identified by a rule. Understanding whether a label explains what a person must enter requires consideration of its meaning and the surrounding task. This is where contextual analysis can assist an accessibility specialist.
+
+We use our own fine-tuned accessibility model. The technical documentation identifies it as phi4:14b-a11y, adapted from Phi-4 using QLoRA. This method trains a domain adapter rather than a foundation model from scratch. The contribution lies in adapting the model to accessibility work and connecting its output to the testing workflow.
+
+The fine-tuning pipeline addresses three tasks: classifying potential issues as real findings or false positives, generating remediation guidance, and assessing severity and user impact. Its documented inputs include human validation records, audit material and generated examples. These support model development; separate evaluation is needed to establish how reliably the resulting model performs.
+
+Specialist analysis covers form usability, keyboard interaction, screen-reader experience, visual presentation and cognitive load. The purpose is to help an engineer understand the potential barrier within a user journey. A suggested fix gives the developer a starting point, followed by checking the changed interface and the affected task.
+
+IntelliA11y also includes a retrieval-supported accessibility assistant. It retrieves relevant guidance as context for an answer. This is a separate mechanism from fine-tuning: the adapted model supports domain-specific behaviour, while retrieval supplies reference material for the current question. Artifacts A03 and A04 show the platform introduction and accessibility knowledge interface.
+
+The design addresses a practical limitation of automated findings. A list of failures still leaves someone to interpret the problem, decide its significance and work out a correction. Connecting checks to contextual explanations and remediation guidance gives that investigation a clearer starting point. Specialist judgement remains necessary where meaning, assistive technology or the wider journey determines whether a barrier exists.
+
+AI governance and quality controls
+AI governance is built into IntelliA11y's delivery workflow. The AI SDLC workspace brings together seven configurable AI controls, ten versioned prompt templates, model operations monitoring and evaluation facilities. Teams can manage AI capabilities, inspect usage and review prompt versions within the application. These facilities provide a practical foundation for maintaining the accessibility solution as models, guidance and project requirements evolve.
+
+Feature controls operate at project, organisation and global levels, alongside model policies. Validation queues, false-positive analysis and comparative evaluation facilities support review of AI behaviour. Model health monitoring, a circuit breaker, input sanitisation and output validation provide technical controls around model interactions.
+
+A local verification on 9 October 2026 passed all 59 tests in the existing prompt-sanitisation and LLM-security utility suites. The checks exercised known instruction-override patterns, delimiter handling, input limits and selected output sanitisation behaviours, alongside benign inputs. Artifact A08 records this supplementary technical verification and its scope. Engineers retain responsibility for validating findings and approving the resulting quality decisions.
+
+Intelligent security investigation
+IntelliSec combines security scanning with specialised agents for investigation, prioritisation, verification and reporting. Its documented scope includes static code analysis, dynamic application testing, dependency assessment and cloud configuration. These sources reveal different types of risk and provide context for investigating a potential vulnerability.
+
+The agents follow an observe, think, act and learn cycle, sharing information between stages of investigation. Their role is to help connect a finding with relevant context and the next verification step. The AI contribution is the interpretation and coordination of evidence during investigation. The engineer checks the proposed finding and its relevance.
+
+IntelliSec's benchmark documentation records true positives, missed cases and false positives against particular suites and scanner revisions. Each record identifies the evaluation conditions, supporting review of detector behaviour within that scope. The engineer can examine those results separately from the AI-assisted interpretation.
+
+Artifact A01 shows the local evaluation overview. Artifact A02 shows assessment workflows, including capabilities labelled as planned. They illustrate the application and its scope without presenting the displayed local figures as government-client outcomes.
+
+Performance explanations tied to measurements
+Inteliperf applies AI to the interpretation of performance results and test intent. Its architecture separates assistance from deterministic test execution. Documented capabilities include explaining readiness scores, summarising failures and using information associated with a particular test run.
+
+An engineer often needs to consider several measurements together. Average response time can appear acceptable while the slowest requests deteriorate. Throughput may flatten as concurrency rises, or errors may cluster around a particular journey. Inteliperf's structured analysis covers latency, throughput, reliability and capacity observations, helping the engineer investigate their relationship.
+
+Readiness scores sit alongside response-time percentiles, tail behaviour and service-level objectives. An explanation is useful when it helps the team understand those measurements and their implications. The validity of the decision still depends on the executed workload, the test environment and the evidence collected.
+
+The documented AI boundaries prohibit silent scenario changes, invented endpoints, guessed request payloads and release decisions made by AI alone. These boundaries preserve the connection between the intended test and the result being interpreted. Artifacts A05 to A07 show the platform introduction, demonstration workspace and readiness criteria; they do not report a completed client performance test.
+
+Operational efficiency and continuing value
+Our disclosed efficiency result is 85% accessibility automation. Automation creates an opportunity to reduce repeated execution work and concentrate specialist attention on interpretation, exceptions and verification. The percentage does not, by itself, quantify the time saved once review and remediation effort are included.
+
+Review, exception handling and remediation verification remain part of delivery effort, alongside model inference, infrastructure and maintenance costs. The automation result describes activity coverage; financial savings are not claimed from that percentage alone.
+
+The platform design supports continuing improvement through fine-tuning, retrieval of reference guidance, prompt management and evaluation facilities. Each addresses a different source of change. The application may change, guidance may be revised, or a new model may produce different results. Version control and comparative evaluation provide a basis for assessing those changes before relying on them.
+
+Continuing value also depends on retaining the verification methods appropriate to each discipline. A security finding needs investigation and confirmation. An accessibility change needs to be checked in the affected interaction. A performance conclusion needs representative workload measurements. AI assistance is most useful when it helps specialists work with this evidence and makes their reasoning easier to examine.
+
+Relevance to users and the award
+The work is directed at the experience of people using government services. Accessibility testing considers whether a person can complete a task using the interaction methods they need. Security testing examines protection of information and access. Performance testing assesses usability under the conditions tested. These are the service outcomes the three capabilities are intended to support.
+
+Our case combines the reported accessibility automation with domain adaptation of an AI model, governance controls and specialised analysis across the three testing disciplines. The disclosed outcome concerns testing activity; the service objectives guide how engineers assess the significance of findings and proposed changes.
+
+Cognizant Intelligent Platform applies AI to the work between detecting a potential problem and understanding what to do about it. IntelliA11y connects accessibility checks with contextual assessment and remediation guidance. IntelliSec supports security investigation. Inteliperf explains performance evidence. The approach gives engineers assistance that can be questioned and checked, while keeping responsibility for quality decisions with the delivery team.

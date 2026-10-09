@@ -1,0 +1,77 @@
+DATA GAPS AND INCONSISTENCIES - AI Powered Quality Assurance
+Review date: 9 October 2026
+
+Status
+- Draft produced using master prompt v3 and Cognizant_AI_Profile.txt. Not submitted.
+- Six open evidence gaps and two reconciliation items. No placeholders in the clean result.
+- Priorities: substantiate 85% automation; establish model comparison evidence; provide one anonymised client outcome.
+- Positive wording foregrounds capabilities and supported facts. It does not establish additional outcomes.
+
+Counts and format
+- Summary: 74 whitespace-delimited words.
+- Main entry: 1,399 whitespace-delimited words; 10,545 characters including spaces, headings and paragraph separators, excluding its terminal newline (10,546 including it).
+- The SUMMARY and MAIN ENTRY labels in the file are packaging, not entry-field text. Paste each field separately and check the portal count.
+- No tables. Main narrative covers seven sections; the section audit includes the summary as an eighth section.
+
+Claim register
+- C01 Entrant, anonymous UK government context and solution names: user-confirmed. Uses Cognizant Worldwide Limited UK, IntelliSec, IntelliA11y and Inteliperf. No shared client deployment dates or complete estate coverage inferred.
+- C02 85% accessibility automation: user-supplied result. Scope, period and calculation remain unverified. Not described as accuracy, conformance, AI-only benefit or savings.
+- C03 Fine-tuned model: user statement plus IntelliA11y architecture documentation identifies phi4:14b-a11y and QLoRA. Supports the documented method, not the active model on every instance or improvement over a baseline.
+- C04 Contextual analysis and retrieval: IntelliA11y architecture documentation. The adapted model and retrieval are different mechanisms. No comparative quality result is claimed.
+- C05 AI SDLC: live read-only inspection on 9 October 2026 observed seven enabled feature flags, ten versioned templates and operations/evaluation interfaces. These support the capability paragraph, not completed experiments or measured model improvement.
+- C06 Local control verification: A08 records 59 existing utility tests passed across two suites on 9 October 2026. Supports only those tested behaviours. Synthetic fixtures, no live model inference, no client deployment test. Some cases overlap across suites.
+- C07 Security investigation: IntelliSec architecture and revision-specific benchmark documentation. No scanner percentage imported as AI uplift or government-client performance.
+- C08 Performance interpretation: Inteliperf architecture documentation. No completed client load-test result is claimed from the demonstration screens.
+- C09 A01-A07: existing local interface screenshots. A08: existing local verification report. These artifacts are held in the local evidence pack, not included in this repository. Verify they are attached if the entry is submitted with these references.
+- C10 A09: local dataset integrity report remains internal supporting review. The clean narrative does not claim an independent model comparison and therefore does not cite A09. This report concerns local files, not established live-deployment training provenance.
+
+Section audit
+- Entry summary: Writing 4/5; Evidence 2/5. Clear scope and headline result; C02 needs substantiation.
+- Purpose and scope: Writing 3/5; Evidence 2/5. Relevant objectives; project dates, targets and deployment scope absent.
+- Domain specific AI for accessibility: Writing 4/5; Evidence 3/5. Method is concrete and documented; no demonstrated superiority or independently reviewed holdout result.
+- AI governance and quality controls: Writing 4/5; Evidence 3/5. Observed management facilities and bounded A08 verification; complete control effectiveness in client use remains unverified.
+- Intelligent security investigation: Writing 4/5; Evidence 2/5. Clear AI role; requires a verified project investigation and outcome.
+- Performance explanations tied to measurements: Writing 4/5; Evidence 2/5. Clear engineering workflow; client run and corrective-action evidence absent.
+- Operational efficiency and continuing value: Writing 3/5; Evidence 2/5. Coverage claim and maintenance approach; no comparable effort or net-cost calculation.
+- Relevance to users and the award: Writing 3/5; Evidence 1/5. Purpose is clear; measured user improvement absent.
+- Total: Writing 29/40; Evidence 17/40. Internal subjective audit only, not official marks or a winning probability. Evidence scores were not increased for more positive wording.
+
+Category coverage
+- A1 Quality: partial. Accessibility automation is relevant activity evidence but does not measure model quality or service improvement.
+- A2 Innovation: partial. Domain adaptation and specialist AI workflows are explained; comparison with the previous approach remains open.
+- A3 Continuing value: partial. Governance and maintenance capabilities are supported; longitudinal improvements are not established.
+- A4 Efficiency: partial. Automation percentage retained within scope; effort and cost effects not quantified.
+- A5 Customer/stakeholder outcomes: measured evidence missing. No prohibited feedback requested or reproduced. Anonymised user-task or technical outcomes may help, without being called satisfaction scores.
+
+Missing or weak evidence
+- G-01 Weak, C02 and A1/A4: What numerator, denominator, unit, exclusions and reporting period produce the 85% automation result? Supply a permitted anonymised calculation or report.
+- G-02 Missing, C03 and A1/A2: Is there an existing comparison of the actual fine-tuned model with a baseline on independently reviewed cases? Provide model versions, method, sample, counts and results. Model access is only needed if a fresh evaluation is to be run.
+- G-03 Missing, A1/A5: What one real project finding led to an AI-assisted investigation, engineer action and measured retest outcome? Use an anonymous journey or component description.
+- G-04 Missing, purpose and scope: What are the delivery period, initial targets, application/journey scale and solutions actually used in this engagement?
+- G-05 Missing, A4: What changed in effort for comparable workloads, including review/rework and operating costs? Keep time released separate from avoided expenditure.
+- G-06 Weak, A3: Who owns maintenance, and what real model/prompt/control change has been evaluated and accepted or rejected? Provide a permitted technical record without feedback or personal identifiers.
+
+Reconciliation items
+- R-01 Model identity: documentation identifies phi4:14b-a11y; the inspected AI SDLC instance reports qwen3.5:4b. These may represent different configurations or periods. The paper describes the documented method, not a live fine-tuned-model attestation. Confirm the nominated project's actual model/version and period.
+- R-02 Metrics: AI Controls and Score Card display different precision summaries. Their denominators and provenance have not been reconciled. Neither number is used in the entry. Arena records with one match are not substituted for a formal comparison. Empty-run/default-zero fields are not treated as measured failures.
+
+Additional evaluation boundary
+- Local A09 identifies 73 of 186 evaluation rows with instruction/input overlap against training data. A candidate list of 112 unique non-overlapping inputs exists, but still needs label, semantic-duplicate and source-independence checks. No evidence establishes that these local files are the live model's evaluation files. No independent held-out performance claim is made.
+
+Submission condition
+- The official template requests the third-party organisation name for client work. The narrative uses the agreed anonymous description. Acceptance of a submission that cannot disclose the name remains an organiser question; no exemption is assumed and no organiser was contacted.
+
+Source check
+- Official category page: https://globalsoftwaretestingawards.com/testa/categories/
+- Official template: https://globalsoftwaretestingawards.com/testa/entry-template/
+- Entry guide reviewed earlier in this session: https://globalsoftwaretestingawards.com/testa/entry-guide/
+- Criteria and limits rechecked on 9 October 2026. Deadline and portal-specific conditions require checking before submission.
+- Technical sources: existing local architecture documents, A01-A09, local control-test results and AI SDLC read-only observations. This repository contains their bounded drafting summaries, not raw client data or evidence attachments.
+
+Final audit
+- Entrant and product naming consistent.
+- No client name, identifying programme name, email, credential, feedback, testimonial or application URL reproduced in new outputs.
+- No invented ROI, model superiority, user satisfaction or project measurements.
+- Existing A01-A08 references preserved; no artifact fabricated.
+- Clean narrative and internal gaps separated; essential qualifications retained.
+- New local checks are not presented as historical client outcomes.

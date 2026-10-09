@@ -1,0 +1,29 @@
+COGNIZANT INTELLIGENT PLATFORM AI ENTRY PROFILE
+Use with TESTA_2026_Multi_Category_Master_Prompt_v3.md
+
+Category: AI Powered Quality Assurance
+Entrant: Cognizant Worldwide Limited UK
+Client description: a UK government client
+Solutions: IntelliSec, IntelliA11y and Inteliperf
+Narrator: we, the project team
+Style: positive, plain British professional English; focus on capabilities and supported achievements. Detailed evidence gaps belong in the separate review.
+
+User-supplied result: 85% accessibility automation. Preserve the claim at this scope. Its calculation and reporting period remain outstanding; do not equate it with accuracy, conformance, savings or AI-only impact.
+User-confirmed approach: own fine-tuned accessibility model and AI governance. Documentation identifies phi4:14b-a11y adapted from Phi-4 using QLoRA. This is a documented model approach, not proof of the currently selected model in every environment. Do not invent a separate fine-tuned governance model.
+Scope: three complementary quality-engineering capabilities grouped under Cognizant Intelligent Platform. Common deployment dates, estate coverage and technical integration are not established by that label.
+
+Confidentiality: exclude client names, identifying service/programme names, emails, stakeholder feedback, testimonials, email screenshots, credentials and application URLs from all outputs. Use permitted anonymised technical records. Do not import metrics from the separate programme embedded in historical prompt files.
+
+AI SDLC observation, 9 October 2026: the supplied application exposes seven enabled AI feature flags, ten versioned prompt templates, model operations monitoring and evaluation facilities. These support a capability description. No settings or records were changed during inspection. Do not turn the availability of a facility into a claim that an experiment or improvement was completed.
+Measurement caveats: model operations displayed qwen3.5:4b; the observed instance did not establish a completed comparison involving phi4:14b-a11y. Prompt Lab showed no A/B experiments and Improvement Log no entries. Different pages displayed incompatible precision summaries that need definition/provenance checks before citation. These are internal review matters, not material to a narrowly worded capability description.
+
+Existing local artifact map (files are not included in this repository)
+A01 IntelliSec overview; A02 assessment workflows, retaining Planned labels.
+A03 IntelliA11y introduction; A04 accessibility knowledge interface.
+A05 Inteliperf introduction; A06 demonstration workspace; A07 readiness criteria.
+A01-A07 show local interfaces, not measured government outcomes.
+A08 local utility control verification: 59 existing tests passed in two suites. This is limited technical verification, not a comprehensive security assessment or client deployment attestation.
+A09 local dataset integrity audit: 73 of 186 evaluation rows share instruction/input with training data. A candidate list of 112 unique non-overlapping inputs was prepared, still requiring expert and source-independence review. No evidence establishes that the live application uses those same files.
+Preserve existing IDs. Do not add A08/A09 to the clean narrative unless their specific claims are discussed. Do not assign IDs to absent reports.
+
+Execution: draft now using supported facts; no model access is required just to write. Existing validated comparison reports are acceptable evidence. Keep unknown historical client outcomes open. Run section scores without promising a target score. Produce the clean result and separate review; do not submit or contact organisers.
