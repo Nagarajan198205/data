@@ -1,0 +1,80 @@
+DATA GAPS AND INCONSISTENCIES - Most Innovative Project
+Review date: 9 October 2026
+
+Run selection
+- SELECTED CATEGORY: Most Innovative Project
+- Governing prompt: TESTA_2026_Multi_Category_Master_Prompt_v3.md at 89f9887. See Category_Run_Inputs.txt for the exact per-category configuration.
+- This is a category-specific narrative, not the Best Overall entry with a different filename.
+- Priorities: answer G-01 to G-03 first, then supply scoped measurements and resource records.
+
+Evidence handling
+- Source P2: TESTA_2026_Multi_Category_Master_Prompt_v2.md, embedded programme story only. Instructions are governed by v3.
+- Source U: earlier explicit user answers, recorded in the programme review and archive retained locally. No archive or client evidence attachment is included in this update.
+- Source assertions and documented-design descriptions have not been independently tested in this run. No new artifact IDs are assigned to absent evidence.
+- Numerical comparisons retain their supplied scope. No monetary ROI, production leakage, disputed Trade automation percentage or AI-only efficiency is inferred.
+- The separate Cognizant Intelligent Platform profile is not evidence for this programme entry. Its 85% accessibility automation and model claims are excluded here.
+
+Claim register
+- C01: Five teams contribute tagged tests under split service/platform ownership. Source: P2 Theme 1, decentralised regression. Evidence type/scope/date: Documented design and asserted internal adoption, no claim of industry novelty.
+- C02: Three pipelines and generated team setup, 2–3 days to minutes. Source: P2 Themes 2–3, pipeline and onboarding descriptions. Evidence type/scope/date: Documented design and user-supplied duration comparison; rollout dates absent.
+- C03: Over 100 scenarios, approximately 180 hours released and 2026 client recognition. Source: P2 Theme 3, virtualisation. Evidence type/scope/date: User-supplied outcome and recognition; records not inspected.
+- C04: Prompt Library role-based templates/versioning and Pega knowledge assistance. Source: P2 Theme 5. Evidence type/scope/date: Documented capability descriptions, no financial or model-quality outcome claimed.
+- C05: 62 colleagues, 36 certifications, 55 AI learners and outreach participation. Source: P2 Themes 5, 8 and 9; U. Evidence type/scope/date: Wider programme facts, not staffing of a single innovation.
+- C06: Reusable methods and shared learning. Source: P2 platform benefits, virtualisation and community descriptions. Evidence type/scope/date: Available reuse and learning practices; no independent external adoption or industry-first evidence.
+
+Category coverage
+- I1: partial, sections 2–5. Concrete project-level change in testing practice, broader advancement not demonstrated.
+- I2: stronger narrative, sections 1–4 and 7. Drivers and design responses are specific.
+- I3: material gap, sections 8–9. Internal reuse is supported in narrative; external adoption or comparative novelty evidence missing.
+- I4: partial, sections 6 and 8. Results and wider resources stated; dated targets and dedicated investment missing.
+- I5: partial, section 7. Specific ownership, setup and dependency obstacles addressed; experiments/rollout evidence missing.
+
+Section audit
+- These are internal subjective Writing /5 and Evidence /5 marks, not official scores or predictions. Clarity does not close evidence gaps.
+- Summary: Writing 4/5; Evidence 2/5. Clear category scope, but the retained outcomes depend on supplied narrative. Source: claim register below. Next: attach the supporting result records.
+- 1. The problem behind the change: Writing 4/5; Evidence 3/5. Practical drivers identified. Source C01–C03. Next: original problem records.
+- 2. Shared ownership instead of duplicate authoring: Writing 4/5; Evidence 3/5. Operating-model change clearly explained. Source C01. Next: adoption and comparative evidence.
+- 3. Making participation practical: Writing 4/5; Evidence 3/5. Implementation choices concrete. Source C02. Next: pilot/rollout records.
+- 4. Removing an external testing dependency: Writing 4/5; Evidence 2/5. Reported benefit bounded. Source C03. Next: signed measurement and recognition.
+- 5. Reusing testing knowledge: Writing 4/5; Evidence 2/5. Capability distinguished from outcome. Source C04. Next: measured incremental contribution.
+- 6. Evidence of the changes: Writing 4/5; Evidence 2/5. Independent measures kept separate. Source C01–C03. Next: dated result records.
+- 7. Obstacles and design responses: Writing 4/5; Evidence 3/5. Obstacles connected to decisions. Source C01–C03. Next: experimentation history.
+- 8. People, reuse and continuing value: Writing 4/5; Evidence 2/5. Reuse scope and programme people separated. Source C05/C06. Next: external adoption.
+- 9. Why the work is innovative: Writing 4/5; Evidence 2/5. No unsupported industry-first claim. Source C01/C06. Next: broader advancement evidence.
+
+Prioritised completion checklist
+- [ ] G-01 Missing, I1/I3, source C01/C06: What documented comparison shows the advance over the earlier practice and relevant existing industry approaches?
+- [ ] G-02 Missing, I3, source C06: What external adoption, published technical account or independent reuse demonstrates influence beyond the five service teams?
+- [ ] G-03 Weak, I2/I5, source C01/C02: What dated design decision, pilot, rejected alternative or rollout record demonstrates how the innovation was achieved?
+- [ ] G-04 Weak, I4, source C01–C03: What records support the 180-hour result, setup-time comparison and adoption by five teams?
+- [ ] G-05 Weak, I1/I4, source C03: What permitted approval record substantiates the 2026 process-innovation recognition?
+- [ ] G-06 Missing, I4, source C05: What original goals, delivery dates, dedicated team effort and investment applied to the nominated innovation?
+- [ ] G-07 Weak, I1/I4, source C04: What measured testing result establishes the incremental value of the Prompt Library and knowledge assistant?
+- [ ] G-08 Weak, I4/I5, source C01/C06: Who maintains the shared methods, and what accepted change demonstrates sustained reuse?
+
+Conflicts and resolved decisions
+- R-01 Open: the Prompt Library account scales hours to a 12,993 target and omits currency. No saving is claimed. What unscaled observations and costs justify the result?
+- R-02 Open: onboarding 2–3 days per team does not reconcile to 40–50 saved hours across five teams without an effort/elapsed distinction. Aggregate hours are omitted. What measurement basis applies?
+- R-03 Open: four industry recognitions combines placements with event participation; linkage to the nominated innovation is unproven. The count is omitted. Which independent recognition pertains to this work?
+- R-04 Resolved scope: internal reuse is not described as an industry-first invention or evidence of widespread industry adoption.
+- R-05 Resolved scope: the separate AI profile and its 85% automation/model evidence are not imported into this programme innovation entry.
+
+Final checks
+- Financial ROI is optional under v3 and is omitted rather than calculated from incompatible or absent inputs.
+- Metrics are stated as reported project outcomes, not as newly executed verification.
+- No client organisation name, credentials, email, application URL or archive attachment is included.
+- Section scores are specific to these claims; no compulsory score floor or extra general official scorecard is assumed.
+- A stronger narrative cannot resolve a missing category criterion. Retain necessary qualifications.
+
+Counts and format
+- Summary: 80 whitespace-delimited words; 571 characters.
+- Main entry: 1042 whitespace-delimited words; 7215 characters including spaces, headings, paragraph separators and the terminal newline (7214 excluding it).
+- SUMMARY and MAIN ENTRY labels are packaging, excluded from those field counts. Bullets are included.
+- No tables, column-aligned text or working placeholders. Final portal counts still require confirmation when pasting.
+
+Official source check, 9 October 2026
+- Working category criteria in v3 were checked against the official category page: https://globalsoftwaretestingawards.com/testa/categories/
+- The official template states a maximum 100-word summary and 14,600-character entry including spaces: https://globalsoftwaretestingawards.com/testa/entry-template/
+- The entry guide was checked for relevant project evidence, testing challenges and metric context: https://globalsoftwaretestingawards.com/testa/entry-guide/
+- The third-party naming requirement needs reconciliation with anonymous client wording before submission. No exemption is assumed and no organiser was contacted.
+- No entry was submitted. The deadline and portal-specific conditions must be checked before a later submission; the historical prompt date is not adopted here.

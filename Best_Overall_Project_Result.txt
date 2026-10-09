@@ -1,7 +1,7 @@
-Project Summary
-
+SUMMARY
 Since July 2022, Cognizant has supported testing for UK public sector services. IPAFFS and Risk Engine regression takes approximately 0.5 days per cycle, previously 4 days. Document checks take 2 minutes rather than 10. Five Salesforce service teams contribute their own tests to shared regression. We have also introduced automated accessibility checks and reusable guidance for AI-assisted testing. Our 62 colleagues support export certification, import controls and air quality information. During 2026, they gained 36 external certifications. The work combines repeatable release checks with shared ownership and continuing team development.
 
+MAIN ENTRY
 1. Testing services people depend on
 
 We began this Cognizant engagement in July 2022 supporting a client in UK government. Exporters need usable certificates, importers need dependable border checks and the public needs accurate air quality information. Testing delays can hold up releases. Escaped defects can disrupt those services.
@@ -85,7 +85,7 @@ Women account for 24 of the team's 62 colleagues, approximately 39 per cent. The
 
 On 2 July 2026, 15 volunteers spent a full day supporting outreach at Woolwich Polytechnic School for Girls. Colleagues also contributed to DigiTech work experience through mentoring and panel discussions, sharing practical experience with students considering technology careers.
 
-10. ROI Summary
+10. Time and capacity released
 
 We describe the return through changes in testing effort and execution time.
 
@@ -93,9 +93,9 @@ We describe the return through changes in testing effort and execution time.
 - PDF checks take 2 minutes per document, previously 10 (Exhibit 4).
 - Air Quality virtualisation delivered a reported capacity gain of approximately 180 hours (Exhibit 3).
 
-These measures cover different activities and are not added into a single total. The Delivery Excellence Team is identified as the internal validator. We do not claim a monetary net benefit, ROI percentage, avoided-cost value or payback period. Wider export values are excluded from this return, as are forecast benefits from the environment monitor.
+These measures cover different activities and are not added into a single total. The Delivery Excellence Team is identified as the internal validator. Wider export values are excluded from this return, as are forecast benefits from the environment monitor.
 
-11. Why This Merits the Award
+11. Contribution to public sector delivery
 
 Cognizant's public sector testing programme reduced IPAFFS and Risk Engine regression from approximately 4 days to 0.5 days and PDF checks from 10 minutes to 2 (Exhibit 4). Those improvements support release testing for services used by importers and exporters.
 

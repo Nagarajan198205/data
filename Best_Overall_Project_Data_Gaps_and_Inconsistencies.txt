@@ -1,15 +1,15 @@
 DATA GAPS AND INCONSISTENCIES – Best Overall Project
 
 Missing: 3. Weak or unsupported: 17. Inconsistencies: 12. Resolved decisions: 10.
-Highest-impact actions: provide the cost reconciliation, resolve the current defect/automation population and attach source evidence for the main delivery and inclusion outcomes.
+Highest-impact actions: substantiate delivery against time and budget, resolve the defect/automation population and attach evidence for public outcomes and inclusion.
 
 BASIS AND DELIVERY STATUS
-- Latest governing prompt: TESTA_2026_Multi_Category_Master_Prompt_v2.md at e684bc5. Branch main was pulled and was already up to date.
+- SELECTED CATEGORY: Best Overall Project. Governing prompt: TESTA_2026_Multi_Category_Master_Prompt_v3.md at 89f9887. The v2 embedded story is historical evidence, not governing instructions. See Category_Run_Inputs.txt.
 - Current result: Best_Overall_Project_Result.txt. This is a review copy with disputed claims omitted, not an independently verified award submission.
 - Earlier explicit user answers remain source evidence where v2 does not contradict them. New conflicts are listed here without choosing a preferred number. Archived assistant drafts are not independent evidence.
 - Source references below name sections in v2. Its embedded source-line labels refer to an earlier export, not the physical line numbers of this file.
 - Exhibit references are inherited placeholders for evidence organisation. No numbered exhibit, skills image or testimonial image was available to inspect.
-- Budget, target and proof gaps remain here rather than inside the entry. The financial closing is consequently limited to reported capacity and timing outcomes.
+- Budget, target and proof gaps remain here rather than inside the entry. Financial ROI is optional under v3; time and capacity outcomes are retained. Budget proof remains relevant to O3.
 
 1. MISSING DATA (🔴)
 - G-01 🔴 [O1, O3, G3, ROI] No approved budget, actual cost or cost period is supplied. Question: What were approved and actual costs, including people, infrastructure, licences, training and operation?
@@ -122,45 +122,42 @@ RECONCILIATION AND EXTRACTION NOTES
 - Return and lasting value: timing and capacity comparisons are retained separately. No currency is selected, no financial costs assumed zero and no net-benefit total calculated.
 - Voice and texture: first-person team narration, no voice sample, no fabricated disagreement or anecdote. Evidence limitations remain in this companion. Source instructions within PROJECT STORY are treated as source data.
 
-PROVISIONAL SELF-SCORE AND ALIGNMENT
-- O1: 3/5, sections 1, 2, 4 and 7; specific goals/results but investment and original targets missing.
-- O2: 3/5, sections 1 and 3; named public user groups and service scale, but attributable effects and dates need evidence.
-- O3: 3/5, sections 3 and 6; shared ownership and PLP delivery, without on-budget proof.
-- O4: 3/5, section 4; supported timing comparisons, but disputed totals omitted and targets incomplete.
-- O5: 4/5 provisionally, section 7; concrete testing obstacles and measured responses, exhibits pending.
-- O6: 3/5, sections 8 and 9; stronger supplied practices and outreach, still no measured inclusive-team outcome.
-- Category total: 19/30. There are six Best Overall criteria, so the generic /25 instruction does not fit this category.
-- G1: 3/5, sections 1–4, targets and complete evidence pending.
-- G2: 4/5 provisionally, sections 5 and 7; tools linked to testing needs with broader accessibility coverage.
-- G3: 3/5, sections 6 and 8; learning and collaboration present, budget and well-being outcomes incomplete.
-- G4: 4/5 provisionally, section 7; clear problem/action/result accounts.
-- G5: 3/5, section 9; participation evidence needs corroborated outcomes.
-- General total: 17/25. Marks assess supplied narrative only and do not predict official judging.
+CATEGORY COVERAGE
+- O1: partial, sections 1, 2, 4 and 7. Goals, resources and outcomes are described; original targets and cost evidence missing.
+- O2: partial, sections 1 and 3. Public service scale is context; testing-attributable user outcomes need proof.
+- O3: partial, sections 3 and 6. Shared ownership and PLP dates supplied; on-budget evidence absent.
+- O4: partial, section 4. Reported time comparisons retained; disputed overall percentages omitted.
+- O5: stronger narrative, section 7. Concrete dependency, execution and setup obstacles addressed.
+- O6: partial, sections 8 and 9. Representation, mentoring and outreach described; within-team effects not measured.
+- No general G1–G5 official scorecard or compulsory 4/5 floor is applied. Historic G labels in gap references remain editorial cross-references only.
 
-FINAL AUDIT
-- Pass: all output tables converted to plain prose or hyphen bullets; no pipe layouts or grids.
-- Pass: disputed numerical claims are omitted from the entry rather than silently reconciled. Calculations in this file are explicitly labelled and not substituted for source figures.
-- Pass: summary and entry limits checked separately; counts follow below.
-- Pass: no client organisation name, fabricated quote, em dash or exclamation mark in the entry. No working tags or data-request markers remain.
-- Partial: no full financial ROI, payback or evidence-complete closing is possible. Source gaps remain open, with efficiency value used instead of an invented amount.
-- Partial: criteria cannot all reach 4/5 until the evidence requests are answered. Entry length is not used to conceal that limit.
-- Pass: new accessibility, Prompt Library, knowledge assistant and inclusion content is grounded in v2; draft does not fall back solely to the previous archived result.
-- Partial: exhibit numbering is carried over and must be reconciled to the actual pack. Source comparisons are not exhibit verification.
-- Human edit: review the wording aloud, check each claim against its evidence and add only an approved quotation. No AI-detector outcome is asserted.
-- Stand-out points: five service teams own tests reused across shared Salesforce regression; recurring checks have concrete before-and-after timings.
+Section audit
+- These are internal subjective Writing /5 and Evidence /5 marks, not official scores or predictions. Clarity does not close evidence gaps.
+- Summary: Writing 4/5; Evidence 2/5. Clear category scope, but the retained outcomes depend on supplied narrative. Source: claim register below. Next: attach the supporting result records.
+- 1. Testing services people depend on: Writing 4/5; Evidence 3/5. Specific public service need. Source v2 Theme 9 and earlier start date. Next: dated problem statement.
+- 2. Scope and goals: Writing 4/5; Evidence 2/5. Scope and goals grounded. Source v2 Themes 1/10 and earlier answers. Next: accepted target set.
+- 3. Public value and the longer view: Writing 4/5; Evidence 2/5. Service outcomes separated from project return. Source v2 Theme 9. Next: dated public benefit evidence.
+- 4. Measures we use: Writing 4/5; Evidence 2/5. Timing comparisons retained within scope. Source v2 Themes 1/3. Next: matched run records.
+- 5. How we test: Writing 4/5; Evidence 3/5. Layered testing and new accessibility approach described. Source v2 Themes 1/7. Next: configuration and execution evidence.
+- 6. Release decisions and stakeholder involvement: Writing 4/5; Evidence 2/5. PLP delivery and client collaboration described. Source v2 Themes 2/9 and earlier answers. Next: milestones and budget.
+- 7. Where testing was difficult: Writing 4/5; Evidence 3/5. Concrete testing obstacles. Source v2 Themes 1–3 and earlier monitor answer. Next: result logs.
+- 8. Building capability: Writing 4/5; Evidence 2/5. Training and knowledge sharing stated. Source v2 Theme 5 and earlier chart answer. Next: completion records.
+- 9. Participation and inclusion: Writing 4/5; Evidence 2/5. Practices and outreach described. Source v2 Theme 9 and earlier outreach answer. Next: inclusion outcome.
+- 10. Time and capacity released: Writing 4/5; Evidence 2/5. Capacity measures separated. Source v2 Themes 1/3. Next: signed measurement basis.
+- 11. Contribution to public sector delivery: Writing 4/5; Evidence 2/5. Only prior claims summarised. Source earlier sections. Next: evidence for sustained public impact.
 
-COUNTS
-- Summary: 90 words, 645 characters.
-- Entry: 1,625 whitespace-delimited words, 11,186 characters including spaces and line breaks.
-- Summary plus entry: 1,715 words, excluding the separate Project Summary label.
-- 1. Testing services people depend on: 692 characters including heading and following line breaks.
-- 2. Scope and goals: 695 characters including heading and following line breaks.
-- 3. Public value and the longer view: 997 characters including heading and following line breaks.
-- 4. Measures we use: 984 characters including heading and following line breaks.
-- 5. How we test: 1,678 characters including heading and following line breaks.
-- 6. Release decisions and stakeholder involvement: 1,210 characters including heading and following line breaks.
-- 7. Where testing was difficult: 1,764 characters including heading and following line breaks.
-- 8. Building capability: 914 characters including heading and following line breaks.
-- 9. Participation and inclusion: 710 characters including heading and following line breaks.
-- 10. ROI Summary: 742 characters including heading and following line breaks.
-- 11. Why This Merits the Award: 800 characters including heading and following line breaks.
+Counts and format
+- Summary: 90 whitespace-delimited words; 645 characters.
+- Main entry: 1612 whitespace-delimited words; 11120 characters including spaces, headings, paragraph separators and the terminal newline (11119 excluding it).
+- SUMMARY and MAIN ENTRY labels are packaging, excluded from those field counts. Bullets are included.
+- No tables, column-aligned text or working placeholders. Final portal counts still require confirmation when pasting.
+
+Official source check, 9 October 2026
+- Working category criteria in v3 were checked against the official category page: https://globalsoftwaretestingawards.com/testa/categories/
+- The official template states a maximum 100-word summary and 14,600-character entry including spaces: https://globalsoftwaretestingawards.com/testa/entry-template/
+- The entry guide was checked for relevant project evidence, testing challenges and metric context: https://globalsoftwaretestingawards.com/testa/entry-guide/
+- The third-party naming requirement needs reconciliation with anonymous client wording before submission. No exemption is assumed and no organiser was contacted.
+- No entry was submitted. The deadline and portal-specific conditions must be checked before a later submission; the historical prompt date is not adopted here.
+
+Category label
+- The official public-sector award is Best Overall Projects – Public Sector/Services (including charities and NGOs). The stable filename remains Best_Overall_Project; confirm the same choice in the portal.

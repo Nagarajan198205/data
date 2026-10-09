@@ -1,14 +1,23 @@
-# TESTA award entry prompts
+# TESTA award entry prompts and category outputs
 
-Use [Master prompt v3](TESTA_2026_Multi_Category_Master_Prompt_v3.md) for new work. The older v1 and v2 files contain historical prompts and embedded project stories; their filename and internal version labels differ. They are retained unchanged for reference and should not be pasted alongside v3 as competing instructions.
+Use [Master prompt v3](TESTA_2026_Multi_Category_Master_Prompt_v3.md) for new work. V1 and v2 remain historical source material; their embedded project stories supply facts, while v3 governs drafting and review.
 
-For Cognizant Intelligent Platform, pair v3 with [the AI entry profile](Cognizant_AI_Profile.txt). This profile keeps the three-solution entry separate from the programme described in the older files.
+All five categories in `categories.txt` now have separate results and reviews. [Category run inputs](Category_Run_Inputs.txt) records the explicit category selection, entrant, source scope and confidentiality settings for each run against v3 at `89f9887`.
 
-The latest AI drafting outputs are:
+## Category outputs
 
-- [Positive award narrative](AI_Powered_Quality_Assurance_Result.txt)
-- [Separate review and evidence gaps](AI_Powered_Quality_Assurance_Data_Gaps_and_Inconsistencies.txt)
+- **Best Test Automation Project – Functional:** [Result](Best_Test_Automation_Project_Functional_Result.txt) · [Gaps and review](Best_Test_Automation_Project_Functional_Data_Gaps_and_Inconsistencies.txt)
+- **Best Test Automation Project – Non-Functional:** [Result](Best_Test_Automation_Project_Non_Functional_Result.txt) · [Gaps and review](Best_Test_Automation_Project_Non_Functional_Data_Gaps_and_Inconsistencies.txt)
+- **Best Overall Project:** [Result](Best_Overall_Project_Result.txt) · [Gaps and review](Best_Overall_Project_Data_Gaps_and_Inconsistencies.txt)
+- **Most Innovative Project:** [Result](Most_Innovative_Project_Result.txt) · [Gaps and review](Most_Innovative_Project_Data_Gaps_and_Inconsistencies.txt)
+- **AI Powered Quality Assurance:** [Result](AI_Powered_Quality_Assurance_Result.txt) · [Gaps and review](AI_Powered_Quality_Assurance_Data_Gaps_and_Inconsistencies.txt)
 
-These are text drafting outputs, not a submitted entry. Supporting screenshots and reports remain in the existing local evidence pack; this repository update does not publish them. Scores are internal editorial assessments, not official TESTA marks or predictions.
+These are category-specific narratives and audits, not a single entry renamed five times. Functional automation focuses on requirements, suite design and release evidence. Non-functional automation focuses on accessibility, performance and representative test conditions. Innovation focuses on changes to test ownership and reuse. Best Overall addresses the public sector programme.
 
-V3 retains the latest prompt's no-table output, source reconciliation and separate gaps file. It adds confidentiality, positive factual framing, section-level scoring and AI evidence boundaries. Financial ROI is optional when supported, and category scores use the correct denominator. Published criteria and limits were checked on 9 October 2026; recheck the official entry portal before submission.
+The AI entry uses [Cognizant_AI_Profile.txt](Cognizant_AI_Profile.txt) and its separate three-solution scope. It does not import programme metrics. Existing AI artifact IDs and confidentiality boundaries are preserved. Raw technical artifacts were not re-executed or independently inspected during this writing run.
+
+All result and review files are plain text with no tables. Each result contains only its summary and main entry. Each review records claim sources, category coverage, separate writing/evidence marks, unresolved conflicts and exact counts. Scores are internal editorial assessments, not official marks or predictions. Evidence gaps remain, particularly representative non-functional workloads and external evidence of innovation.
+
+Official criteria, entry guidance and limits were rechecked on 9 October 2026. Submission conditions and the deadline still need checking before submission. Nothing has been submitted and no organiser contacted.
+
+The local archive is excluded. Supporting screenshots, raw evidence and credentials are not part of this update.

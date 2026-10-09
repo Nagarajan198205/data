@@ -1,0 +1,65 @@
+SUMMARY
+Cognizant changed how teams share responsibility for testing across a UK public sector programme. Five Salesforce service teams contribute their own business-critical cases to common regression, while a template utility reduces new-team setup from days to minutes. In Air Quality, virtual services made over 100 scenarios available despite external-system outages and released approximately 180 hours of effort. Reusable testing prompts and project knowledge assistance extend the same principle: retain specialist knowledge while making it easier for other teams to use.
+
+MAIN ENTRY
+1. The problem behind the change
+Our testing problems were practical. On a shared Salesforce platform, one team's change could affect another service. Central platform testers would have needed to learn every team's business processes and duplicate their regression cases. That model became harder to maintain as more teams joined.
+
+Air Quality teams faced a different dependency: tests stopped when third-party systems were unavailable. New platform teams also spent 2 to 3 days copying and adapting files before they could begin. These constraints drove changes in test ownership, execution and setup.
+
+2. Shared ownership instead of duplicate authoring
+We designed the Salesforce regression model around the service teams' existing knowledge. Each team keeps responsibility for its functional cases and marks its important Playwright tests with @platform-regression. A common pack discovers those cases and runs them against the shared environment.
+
+The platform function manages execution and governance. Service teams maintain the business assertions, and failures are routed to the appropriate owner. Five teams already contribute. A case can serve local testing and shared-platform regression without being rewritten by a second team.
+
+The contribution is a change in the operating model as well as the test configuration. It gives the shared platform access to specialist cases while keeping their maintenance with the teams that understand the behaviour.
+
+3. Making participation practical
+Ownership alone would not have solved inconsistent execution. We built three Azure DevOps pipelines for validating changes, running tests on demand and executing the shared regression pack. Parameters select the environment and suite, while configuration is kept separate from code.
+
+Results are published when tests fail as well as when they pass. Failure traces and screenshots help the responsible team investigate. The test strategy defines the relationship between service responsibility and platform governance.
+
+A Node.js utility generates a new team's project from a template. It inserts the service-specific naming and prepares the configuration and authentication setup. The reported setup time moved from 2 to 3 days to minutes. This makes adopting the common model a repeatable task.
+
+4. Removing an external testing dependency
+Air Quality teams used virtual services so testing could proceed when external systems were unavailable. The implementation made over 100 business scenarios available on demand and released approximately 180 hours of effort, according to the project account.
+
+In 2026, the client recognised the approach as a process innovation. Its significance within the project was the change in what testers could do without waiting for another system. They could exercise the covered business combinations earlier and repeat them when needed.
+
+The method is reusable, although a controlled substitute still has to represent the behaviours relevant to each test. Its value here is repeatable access to scenarios, rather than a claim that virtualisation reproduces every condition of the live service.
+
+5. Reusing testing knowledge
+The Prompt Library applies a similar idea to AI-assisted work. It stores reusable templates, provides role-based administration and supports versioning. Templates can guide test design, script generation and framework migration. That gives colleagues a shared starting point for recurring tasks.
+
+A knowledge assistant for the Pega work draws on approved project documents to help people find architecture, business and testing information. It addresses the effort of searching distributed material and dependence on a small number of specialists.
+
+These capabilities complement the delivered execution changes. Their role is to make existing project knowledge easier to access and apply. They are described as implemented capabilities rather than as a measured improvement in model accuracy or an independently established financial return.
+
+6. Evidence of the changes
+The project account supplies specific results for the operating changes:
+
+- Five Salesforce service teams contribute cases to shared regression while maintaining their own tests.
+- Three Azure DevOps pipelines support validation, on-demand testing and shared execution.
+- New-team setup moved from 2 to 3 days to minutes through template generation.
+- Air Quality virtualisation made over 100 scenarios available on demand and released approximately 180 hours of effort.
+
+These are different measures: adoption, execution structure, setup duration and reported capacity. They are not combined into one efficiency percentage. The client recognition in 2026 supports the relevance of the virtualisation change within the engagement.
+
+7. Obstacles and design responses
+Cross-team regression risk created pressure for central ownership of every case. The contribution model provided a way to share coverage while retaining domain knowledge in service teams. Routing failures to a service or platform owner then gave the shared execution a practical support path.
+
+Manual setup caused inconsistent configurations between teams. The utility uses one maintained template and substitutes the service identity, which reduces the number of files a new team must adapt by hand.
+
+Third-party outages prevented planned tests from running. Virtual services provided the covered behaviours on demand. In each case, the design response addressed a limitation that testers had already encountered, rather than introducing technology without a delivery problem to solve.
+
+8. People, reuse and continuing value
+The wider programme comprises 62 colleagues. During 2026, they gained 36 external certifications, and 55 enrolled in AI learning. Demonstrations, hackathons and shared learning provide opportunities to explain approaches across teams.
+
+The programme reports mentoring and flexibility for individual needs. Its community work includes a full day of school outreach by 15 volunteers on 2 July 2026, alongside work-experience activities. These are contributions to learning and participation, separate from evidence of industry adoption of the testing methods.
+
+The Salesforce model already has five contributing teams. Its maintained template and pipelines give further teams a route to join. The virtualisation approach is also described as reusable across programmes. The supported claim is reuse within and beyond the immediate team as an available method, rather than an industry-first invention.
+
+9. Why the work is innovative
+The distinctive change is how knowledge is retained and shared. Service teams write the assertions for their own behaviour, while shared execution protects the platform. Template generation makes joining that model practical, and virtual services remove a recurring dependency from scenario execution.
+
+Five contributing teams and the reported Air Quality capacity gain demonstrate changes in working practice. Reusable prompts and project knowledge assistance extend the same approach to test design and learning. The programme has made specialist testing knowledge easier to apply across delivery teams without transferring all responsibility to a central group.

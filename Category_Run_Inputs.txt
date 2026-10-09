@@ -1,0 +1,54 @@
+CATEGORY RUN INPUTS
+
+Governing prompt: TESTA_2026_Multi_Category_Master_Prompt_v3.md
+Source revision: 89f9887
+Prompt SHA-256: c1f50cb3b483bb50d5aeccf7b07d6734f8eb62e6c3bb6a4b51a7ae356768e17a
+Execution mode: draft and audit now, separately for each selected category.
+Checked: 9 October 2026.
+
+Each selection below is a separate input to the same v3 prompt. The reusable master remains unchanged. Historical prompt instructions do not override v3.
+
+SELECTED CATEGORY: Best Test Automation Project – Functional
+COMPANY: Cognizant
+INDUSTRY / SECTOR: Public Sector; a UK government client
+PROJECT STORY: Historical v2 embedded project story plus previously supplied programme answers recorded in the Best Overall review. Do not import Intelligent Platform metrics.
+CONFIDENTIALITY: Exclude client organisation name, credentials, emails and application URLs. No evidence attachments or archive publication.
+NARRATOR: we, the project team
+RESULT: Best_Test_Automation_Project_Functional_Result.txt
+REVIEW: Best_Test_Automation_Project_Functional_Data_Gaps_and_Inconsistencies.txt
+
+SELECTED CATEGORY: Best Test Automation Project – Non-Functional
+COMPANY: Cognizant
+INDUSTRY / SECTOR: Public Sector; a UK government client
+PROJECT STORY: Historical v2 embedded project story plus previously supplied programme answers recorded in the Best Overall review. Do not import Intelligent Platform metrics.
+CONFIDENTIALITY: Exclude client organisation name, credentials, emails and application URLs. No evidence attachments or archive publication.
+NARRATOR: we, the project team
+RESULT: Best_Test_Automation_Project_Non_Functional_Result.txt
+REVIEW: Best_Test_Automation_Project_Non_Functional_Data_Gaps_and_Inconsistencies.txt
+
+SELECTED CATEGORY: Best Overall Project
+COMPANY: Cognizant
+INDUSTRY / SECTOR: Public Sector; a UK government client
+PROJECT STORY: Historical v2 embedded project story plus previously supplied programme answers recorded in the Best Overall review. Do not import Intelligent Platform metrics.
+CONFIDENTIALITY: Exclude client organisation name, credentials, emails and application URLs. No evidence attachments or archive publication.
+NARRATOR: we, the project team
+RESULT: Best_Overall_Project_Result.txt
+REVIEW: Best_Overall_Project_Data_Gaps_and_Inconsistencies.txt
+
+SELECTED CATEGORY: Most Innovative Project
+COMPANY: Cognizant
+INDUSTRY / SECTOR: Public Sector; a UK government client
+PROJECT STORY: Historical v2 embedded project story plus previously supplied programme answers recorded in the Best Overall review. Do not import Intelligent Platform metrics.
+CONFIDENTIALITY: Exclude client organisation name, credentials, emails and application URLs. No evidence attachments or archive publication.
+NARRATOR: we, the project team
+RESULT: Most_Innovative_Project_Result.txt
+REVIEW: Most_Innovative_Project_Data_Gaps_and_Inconsistencies.txt
+
+SELECTED CATEGORY: AI Powered Quality Assurance
+COMPANY: Cognizant Worldwide Limited UK
+INDUSTRY / SECTOR: Public Sector; a UK government client
+PROJECT STORY: Cognizant_AI_Profile.txt and the existing bounded AI claim register. Do not import historical programme metrics.
+CONFIDENTIALITY: Apply all exclusions in Cognizant_AI_Profile.txt to both outputs.
+NARRATOR: we, the project team
+RESULT: AI_Powered_Quality_Assurance_Result.txt
+REVIEW: AI_Powered_Quality_Assurance_Data_Gaps_and_Inconsistencies.txt

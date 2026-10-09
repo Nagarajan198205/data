@@ -1,5 +1,5 @@
 SUMMARY
-Cognizant Worldwide Limited UK developed Cognizant Intelligent Platform for quality engineering work for a UK government client. It brings together IntelliSec, IntelliA11y and Inteliperf across security, accessibility and performance testing. We achieved 85% accessibility automation and use our own fine-tuned accessibility model, supported by AI governance. The approach combines repeatable checks with contextual analysis and remediation guidance. Engineers retain responsibility for validating findings and interpreting test evidence. The client's identity is withheld for confidentiality.
+Cognizant Worldwide Limited UK developed Cognizant Intelligent Platform for a UK government client. IntelliSec, IntelliA11y and Inteliperf apply AI to security investigation, accessibility analysis and performance interpretation. We achieved 85% accessibility automation and use our own fine-tuned accessibility model, supported by AI governance. Contextual explanations and remediation guidance help engineers investigate findings, while prompt management and evaluation facilities support continuing maintenance. Engineers retain responsibility for validating evidence and quality decisions.
 
 MAIN ENTRY
 Purpose and scope

@@ -1,0 +1,65 @@
+SUMMARY
+Cognizant replaced repeated manual checks with automated functional testing across UK public sector services. IPAFFS and Risk Engine regression takes approximately 0.5 days instead of 4 days, while document validation takes 2 minutes instead of 10. Five Salesforce service teams maintain cases reused in shared-platform regression. Domain specialists review business scenarios, and delivery pipelines publish evidence for investigation and release decisions. The approach combines user-interface, API, document and integration checks, with responsibility for test maintenance retained by the teams that understand each service.
+
+MAIN ENTRY
+1. The functional testing problem
+Our work supports public sector services where a transaction must behave correctly from the initial screen through to its stored data and generated documents. For the Import of Products, Animals, Food and Feed System (IPAFFS) and Risk Engine, regression was predominantly manual. A cycle occupied approximately 4 days. Testers also compared submitted application data with generated PDFs by hand.
+
+A shared Salesforce platform brought a different risk. Five service teams built independent applications on the same platform, so a change from one team could affect another team's workflows. Central platform testers could not sustainably recreate every service's business knowledge. We needed repeatable checks whose owners understood the requirements.
+
+2. Goals and reported results
+We focused on shortening repeat work while keeping business behaviour visible in the tests.
+
+- IPAFFS and Risk Engine regression takes approximately 0.5 days per cycle, compared with 4 days previously.
+- PDF validation takes approximately 2 minutes per document, previously 10 minutes.
+- The Risk Engine application programming interface (API) regression suite moved from 36 hours to 5 minutes per release cycle, as reported for 2026.
+- Five Salesforce service teams contribute their important functional cases to shared regression.
+
+These measures describe distinct activities. A quicker API run is not a measurement of full-system coverage, and the figures are not combined into a single saving.
+
+3. Designing checks around requirements
+We worked with the IPAFFS and Risk Engine manual testers and domain experts to choose the workflows for automation. They reviewed the expected behaviour and supplied feedback before approved scripts were merged. The suite covers the major import-certificate types described in the project account.
+
+PDF validation captures the values entered during the application, retrieves the generated document and compares the two. This checks the delivered output, not just whether a request completed. A discrepancy becomes a reported test failure.
+
+Air Quality teams create positive and negative cases from sprint user stories in Jira. The wider programme reports requirement traceability through Jira and Azure DevOps. For the Packing List Parser migration, testing included transferred records and documents, revised integrations and the public-facing address. These checks linked the migration's technical changes to the behaviour users needed.
+
+4. Suite design and execution
+The suite uses different tools for different layers. RestSharp supports Risk Engine API regression. Air Quality uses WebdriverIO with Allure reporting, while BrowserStack supports Android and iOS checks. End-to-end tests moved from SpecFlow to Reqnroll and NUnit, with browser coverage extended from Chrome to Microsoft Edge.
+
+On Salesforce, service teams label important Playwright cases with @platform-regression. The platform pack discovers those cases and executes them against the shared environment. Teams keep ownership of functional test design and maintenance, while the platform function manages execution and governance. Failures are routed to the relevant service or platform owner.
+
+Three Azure DevOps pipelines cover change validation, on-demand service testing and shared regression. Parameters select the environment and suite. Configuration is supplied separately from the test code, and reports are published after failing runs as well as successful ones. Traces, screenshots and videos retained on failure give investigators evidence beyond a pass/fail status.
+
+5. Making the automation maintainable
+We developed a Node.js utility after seeing new teams spend 2 to 3 days copying and adapting project files. The utility generates the project structure from a template and supplies service-specific names and configuration. Setup now takes minutes according to the project account. Teams start with the same conventions, which makes cross-team support more practical.
+
+For the Microsoft 365 applications, the move from Selenium to Playwright is complete. Other migrations remain in progress, targeted for the end of 2026. The distinction matters: the delivered suite still includes more than one framework.
+
+The automation team continues to investigate failed runs, maintain scripts and support execution for IPAFFS and Risk Engine. Domain review remains part of adding coverage. The delivery therefore includes an operating model as well as the initial scripts.
+
+6. Release confidence
+Packing List Parser migration testing covered data and document transfer, changed integrations and cutover validation. The team completed the planned testing and provided quality assurance sign-off on schedule. Its initial go-live was in August 2024, with the latest on 6 August 2026. The supplied account reports no critical production issues or rollbacks over that service history.
+
+For shared Salesforce releases, service-owned scenarios check for effects beyond the team making a change. Pipeline reports and failure evidence make those results available for triage. This supports a release decision without making the claim that a passing suite guarantees the absence of defects.
+
+The platform also replaced a shared Excel release-booking file with Microsoft Lists and Power Automate. Service teams can see slots, receive notifications and inspect change history. That connects test execution to the practical coordination needed for a release.
+
+7. Obstacles addressed
+Unavailable third-party systems repeatedly stopped Air Quality testing. Virtual services gave the team access to over 100 business scenarios without waiting for those systems. The reported effort released was approximately 180 hours. This allowed planned functional checks to continue under controlled conditions.
+
+Manual document comparison was repetitive and depended on testers matching fields across screens and PDFs. Capturing application inputs and comparing the generated document reduced each check from 10 minutes to 2. The check is part of the regular automation framework.
+
+Suspension testing also relied on prepared data. The team identified opportunities to share data across scenarios and automated its creation. Separately, the shared-platform contribution model addressed duplicate test authoring by reusing service-team cases rather than asking platform testers to recreate them.
+
+8. People and ongoing ownership
+The wider engagement comprises 62 colleagues. During 2026, colleagues gained 36 external certifications and 55 enrolled in AI learning. Three Operations colleagues completed external AI certifications. These figures describe the wider programme rather than the staffing allocated solely to this suite.
+
+Project demonstrations, hackathons and shared learning help teams exchange testing approaches. Collaboration between manual testers, domain specialists and automation engineers gave the IPAFFS scenarios a review path before merging. Service teams retain their own Salesforce tests, so maintenance follows the people closest to the functionality.
+
+The programme reports mentoring and flexibility for individual needs. On 2 July 2026, 15 volunteers supported a full day of school outreach. Those activities sit alongside a team in which women account for approximately 39 per cent.
+
+9. Value and lasting contribution
+The principal result is repeatable functional evidence with less execution work. Regression moved from approximately 4 days to 0.5 days, and document checks from 10 minutes to 2. The five-team Salesforce model combines local ownership with shared-platform checking.
+
+The programme can extend coverage through maintained cases, standard setup and reusable pipeline execution. Each mechanism addresses an observed testing problem. Together they give delivery teams a clearer, faster way to examine whether important business behaviour still works after a change.

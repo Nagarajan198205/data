@@ -1,0 +1,79 @@
+DATA GAPS AND INCONSISTENCIES - Best Test Automation Project – Non-Functional
+Review date: 9 October 2026
+
+Run selection
+- SELECTED CATEGORY: Best Test Automation Project – Non-Functional
+- Governing prompt: TESTA_2026_Multi_Category_Master_Prompt_v3.md at 89f9887. See Category_Run_Inputs.txt for the exact per-category configuration.
+- This is a category-specific narrative, not the Best Overall entry with a different filename.
+- Priorities: answer G-01 to G-03 first, then supply scoped measurements and resource records.
+
+Evidence handling
+- Source P2: TESTA_2026_Multi_Category_Master_Prompt_v2.md, embedded programme story only. Instructions are governed by v3.
+- Source U: earlier explicit user answers, recorded in the programme review and archive retained locally. No archive or client evidence attachment is included in this update.
+- Source assertions and documented-design descriptions have not been independently tested in this run. No new artifact IDs are assigned to absent evidence.
+- Numerical comparisons retain their supplied scope. No monetary ROI, production leakage, disputed Trade automation percentage or AI-only efficiency is inferred.
+- The separate Cognizant Intelligent Platform profile is not evidence for this programme entry. Its 85% accessibility automation and model claims are excluded here.
+
+Claim register
+- C01: Air Quality user needs and late accessibility/performance discovery. Source: P2 Theme 9 overview and Theme 7 assurance problem. Evidence type/scope/date: User-supplied project context, no measured user outcome.
+- C02: AXE-core and Lighthouse scans in pipelines, reports and dashboards. Source: P2 Theme 7, Automated Accessibility & Performance Assurance. Evidence type/scope/date: User-supplied implemented design, no checked scan report or threshold result.
+- C03: BrowserStack Android/iOS coverage. Source: P2 Theme 1, testing approach. Evidence type/scope/date: Declared test scope; exact device/browser versions and execution results absent.
+- C04: Air Quality incident response and extended remit. Source: P2 Theme 7, performance and resilience. Evidence type/scope/date: User-supplied incident and engagement outcome, not controlled load-test proof.
+- C05: Virtual services, over 100 scenarios and approximately 180 hours released. Source: P2 Theme 3. Evidence type/scope/date: User-supplied testing capacity, not production performance or load realism.
+- C06: 62 colleagues, 36 certifications in 2026 and participation practices. Source: P2 Themes 5, 8 and 9. Evidence type/scope/date: Wider programme resources; dedicated specialist allocation unknown.
+
+Category coverage
+- N1: material gap, sections 2–3. Automated checks described; agreed numerical acceptance thresholds and passing results absent.
+- N2: material gap, section 4. Device scope is stated, but production-like workload/environment validation is not established.
+- N3: partial, sections 5 and 8. Incident response and continued remit are reported; test-informed release decisions missing.
+- N4: partial, sections 1, 2 and 7. Objectives and programme context supplied; dedicated resources and measured non-functional results missing.
+- N5: partial, section 6. Earlier finding detection and dependency control described; automation-specific rollout evidence incomplete.
+
+Section audit
+- These are internal subjective Writing /5 and Evidence /5 marks, not official scores or predictions. Clarity does not close evidence gaps.
+- Summary: Writing 4/5; Evidence 2/5. Clear category scope, but the retained outcomes depend on supplied narrative. Source: claim register below. Next: attach the supporting result records.
+- 1. Why service quality mattered: Writing 4/5; Evidence 2/5. Clear service context. Source C01. Next: dated baseline user/release impact.
+- 2. The assurance objectives: Writing 4/5; Evidence 2/5. Concerns separated from threshold proof. Source C02/C03. Next: agreed acceptance values.
+- 3. How the automated checks work: Writing 4/5; Evidence 2/5. Described implementation, no execution verified. Source C02. Next: pipeline runs and reports.
+- 4. Conditions represented in testing: Writing 4/5; Evidence 1/5. Critical real-world criterion remains weak. Source C03/C05. Next: workload/environment mapping.
+- 5. Resilience and stakeholder decisions: Writing 4/5; Evidence 2/5. Incident response properly bounded. Source C04. Next: incident timeline and follow-up tests.
+- 6. Challenges in the testing process: Writing 4/5; Evidence 2/5. Testing obstacles described. Source C01/C05. Next: measured rollout/retest evidence.
+- 7. Collaboration and capability: Writing 4/5; Evidence 2/5. Wider people figures clearly scoped. Source C06. Next: dedicated staffing and training.
+- 8. Contribution to release assurance: Writing 4/5; Evidence 2/5. Avoids unsupported compliance guarantees. Source C02/C04. Next: test-led release outcome.
+
+Prioritised completion checklist
+- [ ] G-01 Missing, N1, source C02: What agreed accessibility conformance level, response-time percentiles, throughput, error, availability and recovery targets applied?
+- [ ] G-02 Missing, N1, source C02: What dated automated reports show measured results against those targets, including unresolved findings and retests?
+- [ ] G-03 Missing, N2, source C03/C05: How were user journeys, arrival rates, concurrency, data volumes, dependency behaviour, devices and environment capacity matched to production?
+- [ ] G-04 Missing, N3, source C02/C04: What release decision or retested defect was directly changed by an automated non-functional finding?
+- [ ] G-05 Weak, N3/N5, source C04: What incident timeline supports the restoration claim, and which later automated resilience tests were actually executed?
+- [ ] G-06 Missing, N4, source C06: What delivery dates, dedicated specialist roles, effort and targets belong specifically to this automation project?
+- [ ] G-07 Weak, N5, source C01/C02: What failed initial approach or automation rollout obstacle was corrected, with a measured result?
+- [ ] G-08 Weak, N1/N2, source C02/C03: What manual assistive-technology testing supplemented scans, and how were scanner false positives and coverage limits reviewed?
+
+Conflicts and resolved decisions
+- R-01 Open: resilience money is £52K in P2 and $52K in an older entry, both mixing savings and revenue. No financial claim is used. Which currency and classification are correct?
+- R-02 Open: P2 claims 82% fewer defects for combined shift-left practices without period or counts. This is omitted and is not treated as a non-functional-specific result. What data defines this population?
+- R-03 Resolved scope: 36 hours to 5 minutes describes API regression execution, not service response time. It is excluded from this entry.
+- R-04 Resolved scope: Intelligent Platform accessibility automation and AI model figures belong to the separate AI profile and are excluded.
+- R-05 Open: virtual service scenario coverage does not establish production-like load. Which validation supports representativeness?
+
+Final checks
+- Financial ROI is optional under v3 and is omitted rather than calculated from incompatible or absent inputs.
+- Metrics are stated as reported project outcomes, not as newly executed verification.
+- No client organisation name, credentials, email, application URL or archive attachment is included.
+- Section scores are specific to these claims; no compulsory score floor or extra general official scorecard is assumed.
+- A stronger narrative cannot resolve a missing category criterion. Retain necessary qualifications.
+
+Counts and format
+- Summary: 79 whitespace-delimited words; 595 characters.
+- Main entry: 856 whitespace-delimited words; 6267 characters including spaces, headings, paragraph separators and the terminal newline (6266 excluding it).
+- SUMMARY and MAIN ENTRY labels are packaging, excluded from those field counts. Bullets are included.
+- No tables, column-aligned text or working placeholders. Final portal counts still require confirmation when pasting.
+
+Official source check, 9 October 2026
+- Working category criteria in v3 were checked against the official category page: https://globalsoftwaretestingawards.com/testa/categories/
+- The official template states a maximum 100-word summary and 14,600-character entry including spaces: https://globalsoftwaretestingawards.com/testa/entry-template/
+- The entry guide was checked for relevant project evidence, testing challenges and metric context: https://globalsoftwaretestingawards.com/testa/entry-guide/
+- The third-party naming requirement needs reconciliation with anonymous client wording before submission. No exemption is assumed and no organiser was contacted.
+- No entry was submitted. The deadline and portal-specific conditions must be checked before a later submission; the historical prompt date is not adopted here.

@@ -1,0 +1,58 @@
+SUMMARY
+Cognizant introduced automated accessibility and performance checks into delivery pipelines for a UK public sector programme. AXE-core and Google Lighthouse bring findings into release preparation, while cross-device checks cover Android and iOS. Air Quality resilience work also helped restore a service after a denial-of-service incident and led to an extended testing remit. The approach connects early technical findings with investigation and stakeholder review. Automated scans support specialist judgement, while performance conclusions remain tied to the workload and environment tested.
+
+MAIN ENTRY
+1. Why service quality mattered
+Public sector users need services they can operate, reach and use within practical response times. In the Air Quality and Industrial Emissions work, user research identified difficulty finding or submitting information across existing services. Testing therefore had to examine more than functional responses from backend systems.
+
+The project account describes accessibility and performance issues reaching late testing stages, when correction became harder to fit into delivery. We introduced automated checks earlier in the delivery process and worked with the client on the case for earlier resilience testing.
+
+2. The assurance objectives
+Our approach covers complementary non-functional concerns:
+
+- Accessibility checks identify potential barriers such as missing labels, contrast problems and keyboard-navigation issues.
+- Performance audits examine page rendering, resource loading and browser performance measures.
+- Cross-device testing considers use on Android and iOS through BrowserStack.
+- Performance and resilience work addresses service behaviour under the conditions tested and supports investigation of availability problems.
+
+The scope combines automated findings with specialist interpretation. A scan result is evidence about the checks performed, rather than proof that every user interaction is accessible.
+
+3. How the automated checks work
+The implemented assurance solution uses AXE-core and Google Lighthouse within delivery pipelines. Browser automation executes accessibility scans against web applications. Lighthouse adds audits of performance, accessibility and related page-quality measures. Findings are brought together in reports and dashboards so teams can review problems during delivery.
+
+The tools have different roles. Rule-based checks can repeatedly flag a missing label or a detectable contrast issue. Browser audits show how the tested page loads and behaves in that run. Testers and developers then need to interpret significance in the context of the affected task.
+
+The wider test scope includes load, stress and security testing as well as accessibility, compatibility and business acceptance. The narrative treats that declared scope separately from the evidence of the implemented AXE-core and Lighthouse automation.
+
+4. Conditions represented in testing
+Air Quality functional testing includes mobile and tablet coverage on Android and iOS using BrowserStack. This extends examination beyond a single desktop browser and brings different interaction contexts into testing. The application journeys and page context provide a starting point for interpreting accessibility findings.
+
+The programme also uses virtual services to exercise business combinations when external dependencies are unavailable. Their role is controlled and repeatable scenario execution. They do not, by themselves, demonstrate that production traffic, external-service latency or peak demand has been reproduced.
+
+Performance findings are meaningful within the run's environment and workload. Accessibility findings similarly need review in the affected interaction. This keeps the interpretation connected to what was actually examined.
+
+5. Resilience and stakeholder decisions
+The original Air Quality plan covered performance and accessibility testing for a fixed period. In a client workshop, the team argued for examining risks earlier, before they affected a live service.
+
+When the production service experienced a distributed denial-of-service attack, the team helped restore it. The client then extended the resource beyond the original plan. The account links the extension to the value of continued performance and resilience work.
+
+This is a reported incident response and stakeholder outcome. It is separate from a controlled test demonstrating resistance to a specified attack volume. The delivery lesson was to bring resilience into continuing quality work and make its purpose clear to stakeholders.
+
+6. Challenges in the testing process
+Late discovery made accessibility and performance problems harder to address within release preparation. Connecting browser checks to delivery pipelines changed when findings became available. Consolidated reports gave teams a common place to inspect them and prioritise remediation.
+
+External dependencies also interrupted testing. Air Quality virtualisation made over 100 business scenarios available on demand and released approximately 180 hours of effort according to the supplied account. That result concerns scenario preparation and execution; it is not presented as a reduction in production latency.
+
+A further challenge was demonstrating the need for continuing resilience work beyond a time-limited engagement. The client workshop and subsequent response to the service incident provided a concrete basis for that discussion.
+
+7. Collaboration and capability
+The wider programme reports 62 colleagues and 36 external certifications earned during 2026. Regular demonstrations and shared learning offer ways to exchange testing practice. These programme figures are not represented as the dedicated staffing or training count for non-functional testing alone.
+
+The supplied account describes mentoring, participation across seniority levels and flexibility for individual needs. It also records school outreach and work-experience activities. These support the broader team culture within which specialist testing is delivered.
+
+Client engagement shaped the Air Quality remit. The team explained why earlier performance and resilience work mattered, then continued supporting the service after its original assignment was extended.
+
+8. Contribution to release assurance
+The delivery provides automated accessibility and page-performance checks, cross-device examination and continuing performance and resilience work. Its strongest contribution is bringing findings into the delivery process where teams can investigate and act on them.
+
+The Air Quality response also demonstrates why service assurance needs sustained ownership. Automated reports give repeatable evidence; engineers interpret the findings and assess the effect of changes on the service. That combination supports release decisions grounded in the conditions actually tested.

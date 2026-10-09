@@ -1,0 +1,81 @@
+DATA GAPS AND INCONSISTENCIES - Best Test Automation Project – Functional
+Review date: 9 October 2026
+
+Run selection
+- SELECTED CATEGORY: Best Test Automation Project – Functional
+- Governing prompt: TESTA_2026_Multi_Category_Master_Prompt_v3.md at 89f9887. See Category_Run_Inputs.txt for the exact per-category configuration.
+- This is a category-specific narrative, not the Best Overall entry with a different filename.
+- Priorities: answer G-01 to G-03 first, then supply scoped measurements and resource records.
+
+Evidence handling
+- Source P2: TESTA_2026_Multi_Category_Master_Prompt_v2.md, embedded programme story only. Instructions are governed by v3.
+- Source U: earlier explicit user answers, recorded in the programme review and archive retained locally. No archive or client evidence attachment is included in this update.
+- Source assertions and documented-design descriptions have not been independently tested in this run. No new artifact IDs are assigned to absent evidence.
+- Numerical comparisons retain their supplied scope. No monetary ROI, production leakage, disputed Trade automation percentage or AI-only efficiency is inferred.
+- The separate Cognizant Intelligent Platform profile is not evidence for this programme entry. Its 85% accessibility automation and model claims are excluded here.
+
+Claim register
+- C01: IPAFFS/Risk Engine regression, approximately 4 to 0.5 days per cycle. Source: P2 Theme 1, Ops Proving automation. Evidence type/scope/date: User-supplied outcome; period and run population absent. Use as reported execution duration.
+- C02: PDF comparison, 10 to 2 minutes per document. Source: P2 Theme 1, PDF validation. Evidence type/scope/date: User-supplied outcome and design; input-to-document check described, sample count absent.
+- C03: Risk Engine API regression, 36 hours to 5 minutes per release cycle. Source: P2 Theme 1, Trade Risk. Evidence type/scope/date: User-supplied 2026 result; identical suite/workload requires confirmation.
+- C04: Five service teams, tag selection, three Azure DevOps pipelines and failure reports. Source: P2 Themes 1–2, Salesforce model and pipelines. Evidence type/scope/date: Documented operating design and asserted adoption; no repositories or run logs inspected.
+- C05: Requirements review, Jira cases, traceability and migration checks. Source: P2 Themes 1, 2 and 10. Evidence type/scope/date: User-supplied process and design; no completeness percentage claimed.
+- C06: PLP dates and no critical production issues/rollbacks. Source: P2 Theme 2, production account; U. Evidence type/scope/date: User-supplied service-specific history, not estate-wide assurance.
+- C07: 2–3 days to minutes setup and approximately 180 virtualisation hours. Source: P2 Theme 3. Evidence type/scope/date: User-supplied results; elapsed setup and labour are not equated.
+- C08: 62 colleagues, 36 certifications, 55 AI learners, three Operations certifications, 39% women; 15 volunteers on 2 July 2026. Source: P2 Themes 5, 8 and 9; U. Evidence type/scope/date: Programme-wide people figures, not dedicated suite resources.
+
+Category coverage
+- F1: partial, sections 3 and 6. Domain review and output checks described; signed requirement acceptance missing.
+- F2: partial, sections 4 and 5. Layered suite and maintenance design described; inventory and reliability evidence absent.
+- F3: partial, section 6. Specific PLP history and release process; no reconciled estate-wide leakage or rollback comparison.
+- F4: partial, sections 1, 2 and 8. Results and wider resources stated; original targets and dedicated effort/budget absent.
+- F5: stronger narrative, section 7. Concrete automation obstacles and responses; measurements still need records.
+
+Section audit
+- These are internal subjective Writing /5 and Evidence /5 marks, not official scores or predictions. Clarity does not close evidence gaps.
+- Summary: Writing 4/5; Evidence 2/5. Clear category scope, but the retained outcomes depend on supplied narrative. Source: claim register below. Next: attach the supporting result records.
+- 1. The functional testing problem: Writing 4/5; Evidence 3/5. Specific test problems. Source C01/C04. Next: date the original constraints.
+- 2. Goals and reported results: Writing 4/5; Evidence 2/5. Separate measures retained. Source C01–C04. Next: matched execution records.
+- 3. Designing checks around requirements: Writing 4/5; Evidence 3/5. Requirements linked to checks. Source C05. Next: acceptance evidence.
+- 4. Suite design and execution: Writing 4/5; Evidence 3/5. Suite design is concrete. Source C04. Next: inventory and successful/failed run records.
+- 5. Making the automation maintainable: Writing 4/5; Evidence 3/5. Ownership and setup explained. Source C04/C07. Next: maintenance history.
+- 6. Release confidence: Writing 4/5; Evidence 2/5. Release claims scoped to PLP. Source C06. Next: incident and approval records.
+- 7. Obstacles addressed: Writing 4/5; Evidence 3/5. Problem and intervention grounded. Source C02/C07. Next: observed before/after evidence.
+- 8. People and ongoing ownership: Writing 4/5; Evidence 2/5. Wider team scope explicit. Source C08. Next: participating-team allocation.
+- 9. Value and lasting contribution: Writing 4/5; Evidence 2/5. Summary of prior claims only. Source C01–C04. Next: evidence for sustained benefit.
+
+Prioritised completion checklist
+- [ ] G-01 Missing, F1, source C05: What dated requirements-to-tests extract and acceptance sign-off show the selected functions met their requirements?
+- [ ] G-02 Missing, F2, source C04: What suite inventory, layer counts, execution cadence, flaky-test rate and maintenance record support the design?
+- [ ] G-03 Weak, F3, source C06: What PLP release/incident records substantiate the stated dates and scoped critical-issue/rollback history?
+- [ ] G-04 Weak, F4/F5, source C01–C03/C07: What matched workload, dates and run records support the regression, API, PDF and virtualisation timings?
+- [ ] G-05 Missing, F4, source C08: What delivery dates, original targets, dedicated team effort and approved-versus-actual resources apply to this automation scope?
+- [ ] G-06 Weak, F2/F4, source C04: What versioned strategy and dated evidence confirm five teams using the shared pack and its three pipelines?
+- [ ] G-07 Weak, F4, source C08: What records substantiate learning and inclusion within the participating automation teams?
+
+Conflicts and resolved decisions
+- R-01 Open: P2 gives 96.69% and 97.66% automation; earlier answers chose 97.69%. The result uses none. Which inventory and date are authoritative?
+- R-02 Open: P2 lists 121 versus 432 defects for 2026 and 3,250 versus 3,379 overall. Its valid totals are 3,196 and 3,325 respectively after 54 rejections. No leakage rate is derived. Which deduplicated export should govern?
+- R-03 Open: suspension preparation is two person-days in P2 versus six to 0.5 in U. Duration is omitted. Which scope/baseline applies?
+- R-04 Open: onboarding is 2–3 days for each of five teams versus 40–50 aggregate saved hours in P2. Only elapsed setup is used. How does active labour relate to elapsed days?
+- R-05 Resolved: PLP August 2024 first release and 6 August 2026 latest release are consistent between P2 and U. Logs remain a proof gap.
+
+Final checks
+- Financial ROI is optional under v3 and is omitted rather than calculated from incompatible or absent inputs.
+- Metrics are stated as reported project outcomes, not as newly executed verification.
+- No client organisation name, credentials, email, application URL or archive attachment is included.
+- Section scores are specific to these claims; no compulsory score floor or extra general official scorecard is assumed.
+- A stronger narrative cannot resolve a missing category criterion. Retain necessary qualifications.
+
+Counts and format
+- Summary: 83 whitespace-delimited words; 627 characters.
+- Main entry: 1130 whitespace-delimited words; 7914 characters including spaces, headings, paragraph separators and the terminal newline (7913 excluding it).
+- SUMMARY and MAIN ENTRY labels are packaging, excluded from those field counts. Bullets are included.
+- No tables, column-aligned text or working placeholders. Final portal counts still require confirmation when pasting.
+
+Official source check, 9 October 2026
+- Working category criteria in v3 were checked against the official category page: https://globalsoftwaretestingawards.com/testa/categories/
+- The official template states a maximum 100-word summary and 14,600-character entry including spaces: https://globalsoftwaretestingawards.com/testa/entry-template/
+- The entry guide was checked for relevant project evidence, testing challenges and metric context: https://globalsoftwaretestingawards.com/testa/entry-guide/
+- The third-party naming requirement needs reconciliation with anonymous client wording before submission. No exemption is assumed and no organiser was contacted.
+- No entry was submitted. The deadline and portal-specific conditions must be checked before a later submission; the historical prompt date is not adopted here.
