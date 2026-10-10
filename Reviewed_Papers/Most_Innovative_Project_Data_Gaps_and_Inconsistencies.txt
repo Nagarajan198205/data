@@ -1,0 +1,110 @@
+DATA GAPS AND INCONSISTENCIES – Most Innovative Project
+
+Review of repository update 85d7373, 10 October 2026. 3 Missing items; 5 Weak items; 11 reconciliation items screened. 1 claim-register items Ready only for their stated local scope. No underlying outcome gap closed solely by the new narrative.
+Top priorities: verify the five-team implementation; measure its effect against prior practice; demonstrate wider contribution.
+
+CLAIM REGISTER
+- IN-C01 Ownership model. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_v4.md:1308 at commit 85d7373. Type: supplied implementation narrative. Scope and date: shared platform, dates unspecified. Permitted wording: service teams retain scenario maintenance; platform team executes and governs.
+- IN-C02 Adoption. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_v4.md:1321 at commit 85d7373. Type: reported adoption. Scope and date: shared platform; onboarding dates unspecified. Permitted wording: five service teams reported onboarded, not industry-wide adoption.
+- IN-C03 Tagged execution. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_v4.md:1311 at commit 85d7373. Type: supplied technical design. Scope and date: shared platform. Permitted wording: tag selects existing service scenarios for shared execution; not a newly invented test technology.
+- IN-C04 Pipelines. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_v4.md:1329 at commit 85d7373. Type: supplied implementation narrative. Scope and date: shared platform. Permitted wording: validation, self-service and shared-regression pipelines; configuration externalised and reports retained.
+- IN-C05 Scaffolding baseline. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_v4.md:1353 at commit 85d7373. Type: reported baseline and implementation. Scope and date: project setup, team scope. Permitted wording: two to three days manual setup versus minutes of generation; no 99 per cent or cumulative saving.
+- IN-C06 Scaffolding method. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_v4.md:1356 at commit 85d7373. Type: supplied implementation narrative. Scope and date: shared platform. Permitted wording: template-driven project generation and replacement of team references.
+- IN-C07 Effort and governance. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_v4.md:1605 at commit 85d7373. Type: reported account outcome. Scope and date: separate AI account work, Q2 and Q3 2026. Permitted wording: 125 plus 132 person-days after review; not attributed to the five-team regression model.
+- IN-C08 Coverage task. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_v4.md:1585 at commit 85d7373. Type: reported monthly comparison. Scope and date: one person; separate AI work. Permitted wording: eight to four hours already included in 257; no additional saving.
+- IN-C09 Prototype analysis. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_v4.md:1583 at commit 85d7373. Type: prototype design. Scope and date: AI workstream, delivery unconfirmed. Permitted wording: documented fixed-code scoring, team separation and up to 200 change identifiers; omit benefit projections.
+- IN-C10 Specialist platform. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_v4.md:1675 at commit 85d7373. Type: reported coverage plus documented capability. Scope and date: separate accessibility work; period missing. Permitted wording: 85 per cent activity coverage and specialist AI development; no integrated deployment inference.
+- IN-C11 Prior local evidence. Ready. Source: TESTA_2026_Multi_Category_Master_Prompt_v4.md:1689 at commit 85d7373. Type: existing local utility record. Scope and date: A08, 9 October 2026. Permitted wording: 59 tests limited to selected controls; interface exhibits A01 to A07 kept in local scope.
+- IN-C12 People. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_v4.md:1564 at commit 85d7373. Type: supplied staffing and learning account. Scope and date: account AI scope, 2026. Permitted wording: 50 initial associates, later 60; separate from five service-team count.
+- IN-C13 Prior process and triage. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_v4.md:1313 at commit 85d7373. Type: supplied design narrative. Scope and date: shared platform. Permitted wording: distinguish platform/environment failures from service failures; no measured closure uplift.
+
+CRITERIA COVERAGE AND SECTION AUDIT
+- I1 Advancement of practice: Weak. Section 1. Writing 5/5; Evidence 3/5. Concrete ownership change and five-team adoption claim; comparative results needed. IN-G01 and IN-G02.
+- I2 Driver and method: Weak. Section 2. Writing 5/5; Evidence 3/5. Specific central-team and setup constraints with implementation detail; primary records needed. IN-G01 and IN-G03.
+- I3 Beyond existing approaches: Weak. Section 3. Writing 4/5; Evidence 2/5. Existing technology combined with explicit ownership and AI prototypes; external contribution is not demonstrated. IN-G04 and IN-G07.
+- I4 Goals resources results: Weak. Section 4. Writing 5/5; Evidence 3/5. Scoped reported outcomes and roles; project boundary, periods and underlying logs incomplete. IN-G03, IN-G05 and IN-G06.
+- I5 Overcoming challenges: Weak. Section 5. Writing 4/5; Evidence 3/5. Design addresses stated obstacles; completed triage/retest case needed. IN-G08.
+Total Writing 23/25; Evidence 14/25. Equal weighting is used only for this simulated internal review, not as official TESTA weighting or winning probability. Writing measures clarity and organisation; evidence measures substantiation. A clear account of an unproved outcome cannot earn strong evidence marks.
+
+MISSING DATA
+- IN-G02: I1 and I4; IN-C01 and IN-C04. How did the contribution model change coverage, maintenance effort or failure resolution? Provide matched baseline and post-change measurements with period and service scope.
+- IN-G04: I3; IN-C03 and IN-C09. What comparison or permitted reuse record demonstrates contribution beyond existing approaches? Provide a concrete comparison to prior practice and any implementation, sharing or adoption beyond the originating platform.
+- IN-G08: I5; IN-C13. Which completed failure or remediation example demonstrates the triage model working? Provide an anonymised failed run, assignment, fix and successful retest with timestamps.
+
+WEAK OR UNSUPPORTED DATA
+- IN-G01: I1 and I2; IN-C01 to IN-C04. Which anonymised strategy, code and pipeline records confirm the five-team model? Provide tag discovery, repository ownership, run results, routing of failures and onboarding dates.
+- IN-G03: I2 and I4; IN-C05 and IN-C06. What identical setup task was timed before and after scaffolding? Separate generation from complete onboarding and reconcile the days, minutes, five-team total and percentage.
+- IN-G05: I4; IN-C07 and IN-C08. Which anonymised records substantiate the account savings and the nested coverage-task saving? Reuse AI-G02 and AI-G03; do not collect or add the same benefit twice.
+- IN-G06: I2 and I4; IN-C01 and IN-C12. What dates, owners and resources define this innovation project across its workstreams? Confirm the project boundary, resources, delivery period and planned versus actual milestones; no on-budget assertion until supported.
+- IN-G07: I3 and I5; IN-C09 to IN-C11. Which representative evaluations support the AI methods and their maturity? Reuse AI-G04, AI-G05 and AI-G07 where applicable; local utility checks do not prove deployed quality.
+
+INCONSISTENCIES
+- X01 Prompt versions: Files named v4 and AI_v2 both identify themselves as v7 internally; AI_v1 identifies itself as v6. File paths and commit 85d7373 identify the sources used. No prompt files renamed.
+- X02 Monitoring maturity: The structured AI account lists environment monitoring as roadmap work, while appended material asserts 360 hours reclaimed, 99 per cent less tracking and no missed expiries. The papers omit those outcome figures and do not claim implemented monitoring.
+- X03 Impact analysis forecasts: Source variants give up to 60 per cent impact-analysis effort reduction, 60–80 per cent regression reduction and about 80 per cent manual-effort reduction. These have different or unclear denominators and no delivery evaluation. All forecast percentages omitted.
+- X04 Productivity status: 55 per cent productivity and 48 per cent scripting improvement appear as both journey outcomes and roadmap targets, without a comparable baseline. Both omitted.
+- X05 Onboarding arithmetic: Source gives two to three days per team, five teams and 40–50 hours total saved, alongside over 99 per cent. At an assumed eight-hour day, the baseline alone would be 80–120 hours, but no day length or comparable work scope is supplied. No total or percentage selected; retain only the attributed setup comparison.
+- X06 Prompt-library cost: The story says hours were scaled to meet a 12,993 monetary target using 67.50 per hour. 12,993 / 67.50 = 192.4889 hours and / 8 = 24.0611 days reproduces the arithmetic, not an independently measured saving. Exclude the money, 56 per cent efficiency and associated ROI claims.
+- X07 Hackathon timing: Different passages put the event in Q3 2026 and Q1–Q2 2026; nomination, submission and finalist populations also need confirmation. Recognition and event statistics omitted; no feedback copied.
+- X08 Other programme aggregates: The broad story contains 121 versus 432 annual defects and 3,250 versus 3,379 total defects. Automation values 96.69 and 97.66 per cent may cover different periods. These figures and their dependent percentages are omitted.
+- X09 Model and evaluation: Documentation names phi4:14b-a11y; the earlier observed workspace displayed qwen3.5:4b. A09 reports 73 of 186 evaluation inputs overlapping training; 112 deduplicated candidates are not an independently validated holdout. Documentation does not establish deployment or model superiority.
+- X10 End-to-end determinism: A fixed scoring function does not prove that variable AI recommendations produce identical end-to-end outputs. Describe fixed-code recalculation only; omit same-input-always-same-output assurance.
+- X11 Team populations: Source references include initial 50, later 60, another programme team of 62, 55 learning enrolments and five service teams. Only scope-labelled 50/60 and five teams are used; populations are not added together.
+
+ATTRIBUTION AND CLAIM RISKS
+- The 257-person-day figure is account-wide AI delivery effort after review, not a measured benefit from the three platform applications or tagged regression. Operating cost, investment and financial ROI are not established.
+- The eight-to-four-hour task is already included in 257. It is not multiplied by 1,200 projects or all users.
+- The 85 per cent measure is reported activity coverage. A01 to A07 are local interfaces and A08 is a utility check; none establishes that percentage or deployed client outcomes.
+- Shared platform teams, the account workforce and specialist applications have separate scopes. Common client identity does not establish shared deployment or a common metrics denominator.
+
+OMITTED OR NARROWED CLAIMS
+- Omitted financial figures, macroeconomic context, client or programme names and excluded feedback or satisfaction material.
+- Omitted purported safety guarantees, universal test coverage, zero-error assertions and no-outage claims without scope or records.
+- Omitted conflicting defect/automation aggregates, forecast benefits, carbon-reduction estimates and unverified hackathon recognition. These do not establish the chosen project outcomes.
+- Fine-tuning is described as a documented approach. A separate fine-tuned governance model is not inferred.
+- No original raw evidence or screenshots are published. Existing A01 to A08 IDs are retained only for relevant claims; A09 remains an internal diagnostic reference. No ID is assigned to an absent Pulse export, test log or client result.
+- The non-functional PerfOps paper is unchanged; the newly supplied examples do not substantiate its specific 90 per cent calculation or cache before/after gap.
+
+DECISIONS NEEDED
+- Confirm the final nomination title and coherent project boundary before submission. The Word title is a working title, not a submitted nomination name.
+- AI working title: AI Led Quality Engineering for a UK Government Client. Alternative: Cognizant Intelligent Platform and AI Assisted Test Services.
+- Innovation working title: Shared Test Ownership and Governed AI for Government Quality Engineering. Alternative: Distributed Quality Assurance for a UK Government Client.
+- Resolve conflicting source figures through underlying records; the draft does not choose an unsupported figure merely to improve a score.
+
+HUMANISATION AUDIT AND STAND OUT TEST
+Plain British professional prose, concrete constraints and technical examples, no invented anecdotes. First-person project voice used where supported. No assurance about AI-detector classification is made. Detailed gaps are kept here; necessary attribution and maturity qualifications remain beside the claims. No tables, testimonials or placeholder instructions appear in the clean entries.
+The AI differentiator is an approved-tool adoption method with review-adjusted reporting alongside domain-specific assistance. The innovation differentiator is service-owned scenarios reused in shared regression with explicit platform governance. Neither is claimed as an industry first.
+Guide checks: problems, methods, people, results and obstacles are covered. On-time/on-budget delivery and measured end-user improvements remain unproved where records are missing. Tool descriptions explain a project decision rather than merely listing products.
+
+REVIEW AND REVISION LOOP
+Pass 1: drafted the selected category from the new source register, preserving delivery scopes. Working writing assessment: 21/25 for AI and 21/25 for innovation; outcome evidence remained partial.
+Pass 2: challenged attribution and implementation claims. Separated account savings from application results, kept score recalculation as a documented prototype design, and narrowed onboarding to project generation. Replaced the AI conclusion's ambiguous review-effort wording with effort after review. Writing assessment: 23/25 for each.
+Pass 3: checked arithmetic, roadmap maturity, confidentiality, reference scope and the final text. Shortened the innovation closing paragraph and distinguished potential wider use from established adoption. A final voice pass moved reviewer instructions out of the narrative, simplified prototype wording and kept project roles explicit. No extra points for polish. Final evidence marks are based on the claim register above, not on iteration count.
+The previous AI evidence score was 11/25 for the narrower platform entry. This broader draft scores 13/25: operational efficiency and stakeholder task evidence each move up one point because the new narrative supplies a scoped period and task baseline. It is not a directly controlled comparison of the same nomination scope and no original measurement record has been verified. Innovation is a new 14/25 evidence assessment.
+Satisfied with the drafts for internal review. Do not describe this assessment as official judge approval or as final substantiation.
+
+COUNTS AND CHECKS
+{
+  "summary_words": 92,
+  "summary_characters": 660,
+  "main_words": 1150,
+  "main_characters": 8092
+}
+Counts use whitespace-delimited words and Unicode characters, including headings, spaces and paragraph breaks; no terminal newline is counted. Result-file labels and document metadata are outside the main-entry field.
+Official criteria and limits checked on 10 October 2026:
+https://globalsoftwaretestingawards.com/testa/categories/
+https://globalsoftwaretestingawards.com/testa/entry-template/
+https://globalsoftwaretestingawards.com/testa/entry-guide/
+These sources define criteria and entry requirements, not the project's results. The checked template permits a 100-word summary and 14,600 main-entry characters including spaces. Deadline not independently checked for submission in this work; no submission is being made.
+
+The third-party naming requirement remains a submission condition: anonymous narrative is not an approved exemption. Arrange an acceptable confidential submission route before submitting. No contact or disclosure has been made.
+
+PRIORITISED COMPLETION CHECKLIST
+1. [ ] IN-G02 How did the contribution model change coverage, maintenance effort or failure resolution? Provide matched baseline and post-change measurements with period and service scope.
+2. [ ] IN-G04 What comparison or permitted reuse record demonstrates contribution beyond existing approaches? Provide a concrete comparison to prior practice and any implementation, sharing or adoption beyond the originating platform.
+3. [ ] IN-G08 Which completed failure or remediation example demonstrates the triage model working? Provide an anonymised failed run, assignment, fix and successful retest with timestamps.
+4. [ ] IN-G01 Which anonymised strategy, code and pipeline records confirm the five-team model? Provide tag discovery, repository ownership, run results, routing of failures and onboarding dates.
+5. [ ] IN-G03 What identical setup task was timed before and after scaffolding? Separate generation from complete onboarding and reconcile the days, minutes, five-team total and percentage.
+6. [ ] IN-G05 Which anonymised records substantiate the account savings and the nested coverage-task saving? Reuse AI-G02 and AI-G03; do not collect or add the same benefit twice.
+7. [ ] IN-G06 What dates, owners and resources define this innovation project across its workstreams? Confirm the project boundary, resources, delivery period and planned versus actual milestones; no on-budget assertion until supported.
+8. [ ] IN-G07 Which representative evaluations support the AI methods and their maturity? Reuse AI-G04, AI-G05 and AI-G07 where applicable; local utility checks do not prove deployed quality.

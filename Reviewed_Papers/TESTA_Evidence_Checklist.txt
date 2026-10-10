@@ -1,3 +1,22 @@
+TESTA EVIDENCE CHECKLIST UPDATE — THREE REVIEWED PAPERS
+Cognizant Worldwide Limited UK — 10 October 2026
+
+STATUS
+AI and Most Innovative Project drafts now include new narrative from repository commit 85d7373. The non-functional paper remains unchanged. No original measurement evidence was added in that commit, so none of the previous six evidence requests is closed. AI-03 is partially informed by the reported eight-to-four-hour assurance task, but still needs source records and a quality or user-outcome comparison.
+
+ADDITIONAL REQUESTS
+[ ] NEW-01 Account AI savings: anonymised Pulse rows supporting 125 plus 132 = 257 person-days in Q2 and Q3 2026; task volumes, baseline method, review deductions and permitted approval record. Include the link showing the monthly coverage-task saving is already counted. See AI-G02 and AI-G03.
+[ ] NEW-02 Retained quality: representative before/after quality comparison for AI-assisted test outputs, including review/rework or defect/coverage results, dates and sample size. See AI-G01.
+[ ] NEW-03 Shared regression: strategy, anonymised repository/pipeline examples, results and onboarding dates for five service teams; a completed triage, fix and retest example. See IN-G01 and IN-G08.
+[ ] NEW-04 Innovation impact: comparable coverage, maintenance effort or failure-resolution measures before and after the contribution model; evidence of wider reuse or a specific comparison with existing approaches. See IN-G02 and IN-G04.
+[ ] NEW-05 Setup comparison: matched records for manual project setup and automated generation; reconcile two to three days per team, five teams, 40–50 total hours and the reported percentage. Separate setup generation from complete onboarding. See IN-G03.
+[ ] NEW-06 AI maturity: impact-analyser evaluation, model/deployment provenance, training/adoption records and dated roadmap status. Resolve competing forecast and environment-monitoring claims before including outcomes. See AI-G04, AI-G07 and AI-G08.
+[ ] NEW-07 Project boundary: confirm the nomination titles, workstream owners, dates and resources. Keep account savings separate from platform application coverage and shared-regression results. See AI-G09 and IN-G06.
+
+PRIORITY FOR THIS UPDATE
+First obtain the Pulse calculation and the five-team implementation records. Then supply measured quality and innovation comparisons. These additions can strengthen the new papers without changing the client confidentiality restrictions.
+
+PREVIOUS SIX REQUESTS — ALL REMAIN OPEN
 TESTA — EVIDENCE CHECKLIST
 Cognizant Worldwide Limited UK
 For the AI and non-functional papers reviewed on 10 October 2026

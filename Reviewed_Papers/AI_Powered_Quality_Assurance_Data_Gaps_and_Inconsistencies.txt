@@ -1,0 +1,113 @@
+DATA GAPS AND INCONSISTENCIES – AI Powered Quality Assurance
+
+Review of repository update 85d7373, 10 October 2026. 3 Missing items; 6 Weak items; 11 reconciliation items screened. 3 claim-register items Ready only for their stated local scope. No underlying outcome gap closed solely by the new narrative.
+Top priorities: verify the 257-person-day ledger; measure retained quality; substantiate model deployment and accessibility coverage.
+
+CLAIM REGISTER
+- AI-C01 Delivery constraints. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_AI_v2.md:787 at commit 85d7373. Type: supplied project narrative. Scope and date: account AI delivery, 2026. Permitted wording: approved tools constrained adoption; no claim of platform-wide integration.
+- AI-C02 Quarter sequence and training. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_AI_v2.md:815,1251,1274 at commit 85d7373. Type: supplied project narrative. Scope and date: Q2 and Q3 2026. Permitted wording: 50 associates initially trained; Copilot 365 followed by GitHub Copilot.
+- AI-C03 Reported effort. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_AI_v2.md:826,1300 at commit 85d7373. Type: reported outcome, source records not provided. Scope and date: account delivery in Q2 and Q3 2026. Permitted wording: 125 + 132 = 257 person-days after review; no money conversion.
+- AI-C04 Governance. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_AI_v2.md:827,1302 at commit 85d7373. Type: reported approval process. Scope and date: same 257-person-day account measure. Permitted wording: the supplied account describes Pulse recording and internal approval, not independent verification.
+- AI-C05 Coverage agent. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_AI_v2.md:862 at commit 85d7373. Type: reported use and task comparison. Scope and date: one person, monthly; dates and repetitions unspecified. Permitted wording: assurance team uses the agent; 8 to 4 hours is already included in 257.
+- AI-C06 Estate size. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_AI_v2.md:856 at commit 85d7373. Type: supplied scope assertion. Scope and date: Sonar estate; capture date unspecified. Permitted wording: more than 1,200 projects in the estate, not 1,200 validated AI outputs.
+- AI-C07 Impact analysis. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_AI_v2.md:844 at commit 85d7373. Type: documented design in supplied story. Scope and date: prototype, 2026. Permitted wording: design supports up to 200 identifiers and fixed-code score calculation; no deterministic end-to-end accuracy or realised saving.
+- AI-C08 Model approach. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_AI_v2.md:947 at commit 85d7373. Type: documented technical approach plus prior local review. Scope and date: accessibility model development; deployed instance unconfirmed. Permitted wording: documentation describes adaptation and tasks; no comparative superiority.
+- AI-C09 Accessibility coverage. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_AI_v2.md:940 at commit 85d7373. Type: user-reported result. Scope and date: accessibility activity; denominator and period missing. Permitted wording: 85 per cent activity coverage, not conformance, accuracy or account savings.
+- AI-C10 Application references. Ready. Source: TESTA_2026_Multi_Category_Master_Prompt_AI_v2.md:942 at commit 85d7373. Type: existing local interfaces. Scope and date: local applications, previously reviewed. Permitted wording: A01 to A07 illustrate capabilities; planned labels preserved; no deployment proof.
+- AI-C11 Controls and prompts. Ready. Source: TESTA_2026_Multi_Category_Master_Prompt_AI_v2.md:951,1330 at commit 85d7373. Type: observed interface in prior review. Scope and date: local workspace observed 9 October 2026. Permitted wording: seven controls and ten templates are facilities, not completed quality evaluations.
+- AI-C12 Utility verification. Ready. Source: TESTA_2026_Multi_Category_Master_Prompt_AI_v2.md:952 at commit 85d7373. Type: existing executed local test record A08. Scope and date: 59 tests in two utility suites, 9 October 2026. Permitted wording: selected utility behaviours passed; no model inference or client traffic.
+- AI-C13 Learning and growth. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_AI_v2.md:794 at commit 85d7373. Type: supplied project narrative. Scope and date: account staffing, 2026. Permitted wording: team grew to 60; approximately 25 regular co-learning participants are not an additional trained cohort.
+- AI-C14 Roadmap. Weak. Source: TESTA_2026_Multi_Category_Master_Prompt_AI_v2.md:928 at commit 85d7373. Type: planning narrative with conflicting appended status. Scope and date: 2026 roadmap. Permitted wording: knowledge discovery and failure analysis described as development; no realised monitoring savings.
+
+CRITERIA COVERAGE AND SECTION AUDIT
+- A1 Quality standards: Weak. Section 1. Writing 4/5; Evidence 2/5. Review mechanism and coverage are described; quality uplift is unmeasured. AI-G01 and AI-G05.
+- A2 Originality: Weak. Section 2. Writing 5/5; Evidence 3/5. Specific agent and adaptation designs; no comparative AI validation. AI-G04 and AI-G07.
+- A3 Sustained value: Weak. Section 3. Writing 5/5; Evidence 3/5. Two quarters of reported delivery, reuse and observed governance facilities. AI-G08.
+- A4 Efficiency with quality: Weak. Section 4. Writing 5/5; Evidence 3/5. Period, review deduction and nested task baseline supplied; original ledger and quality comparison missing. AI-G01 to AI-G03.
+- A5 Customer outcomes: Weak. Section 5. Writing 4/5; Evidence 2/5. Reported assurance use and a bounded task outcome; no user outcome study. AI-G03 and AI-G06.
+Total Writing 23/25; Evidence 13/25. Equal weighting is used only for this simulated internal review, not as official TESTA weighting or winning probability. Writing measures clarity and organisation; evidence measures substantiation. A clear account of an unproved outcome cannot earn strong evidence marks.
+
+MISSING DATA
+- AI-G01: A1; AI-C02. Which before/after quality comparison shows the reviewed AI outputs maintained or improved quality? Provide sample size, dates, acceptance/rework or defect/coverage measure and review criteria.
+- AI-G06: A5; AI-C05 and AI-C09. Which anonymised operational or user measure demonstrates improvement beyond adoption? Provide verified barrier removal, task completion or another relevant before/after outcome; no feedback requested.
+- AI-G07: A2 and A3; AI-C07. What completed evaluation supports the impact analyser recommendations? Provide representative changes, expected results, evaluation method, failure cases and deployment status.
+
+WEAK OR UNSUPPORTED DATA
+- AI-G02: A4; AI-C03 and AI-C04. Which anonymised Pulse export supports the 125 and 132 person-days? Provide task baselines, volumes, review deductions, period, non-overlap check and permitted internal approval record.
+- AI-G03: A4 and A5; AI-C05. Which task logs support the monthly eight-to-four-hour comparison? Provide comparable task scope, dates, repeats and the ledger link showing inclusion in 257.
+- AI-G04: A2; AI-C08. Which training and deployment records link the adapted model to the relevant application run? Provide model/checkpoint identifier, run/configuration provenance and an independent evaluation if claiming improvement.
+- AI-G05: A1 and A4; AI-C09. What numerator, denominator and period produce the reported 85 per cent? Define eligible and automated activity, review/exceptions and the rules-versus-AI contribution.
+- AI-G08: A3; AI-C13 and AI-C14. Which dated records confirm adoption and the status of each development workstream? Provide training/adoption records, prompt revision history and roadmap status; do not merge certification or staffing populations.
+- AI-G09: All; AI-C01 and AI-C10. What is the agreed nomination boundary and working title? Confirm account delivery plus separately scoped platform development; retain unconfirmed common deployment and budget as open.
+
+INCONSISTENCIES
+- X01 Prompt versions: Files named v4 and AI_v2 both identify themselves as v7 internally; AI_v1 identifies itself as v6. File paths and commit 85d7373 identify the sources used. No prompt files renamed.
+- X02 Monitoring maturity: The structured AI account lists environment monitoring as roadmap work, while appended material asserts 360 hours reclaimed, 99 per cent less tracking and no missed expiries. The papers omit those outcome figures and do not claim implemented monitoring.
+- X03 Impact analysis forecasts: Source variants give up to 60 per cent impact-analysis effort reduction, 60–80 per cent regression reduction and about 80 per cent manual-effort reduction. These have different or unclear denominators and no delivery evaluation. All forecast percentages omitted.
+- X04 Productivity status: 55 per cent productivity and 48 per cent scripting improvement appear as both journey outcomes and roadmap targets, without a comparable baseline. Both omitted.
+- X05 Onboarding arithmetic: Source gives two to three days per team, five teams and 40–50 hours total saved, alongside over 99 per cent. At an assumed eight-hour day, the baseline alone would be 80–120 hours, but no day length or comparable work scope is supplied. No total or percentage selected; retain only the attributed setup comparison.
+- X06 Prompt-library cost: The story says hours were scaled to meet a 12,993 monetary target using 67.50 per hour. 12,993 / 67.50 = 192.4889 hours and / 8 = 24.0611 days reproduces the arithmetic, not an independently measured saving. Exclude the money, 56 per cent efficiency and associated ROI claims.
+- X07 Hackathon timing: Different passages put the event in Q3 2026 and Q1–Q2 2026; nomination, submission and finalist populations also need confirmation. Recognition and event statistics omitted; no feedback copied.
+- X08 Other programme aggregates: The broad story contains 121 versus 432 annual defects and 3,250 versus 3,379 total defects. Automation values 96.69 and 97.66 per cent may cover different periods. These figures and their dependent percentages are omitted.
+- X09 Model and evaluation: Documentation names phi4:14b-a11y; the earlier observed workspace displayed qwen3.5:4b. A09 reports 73 of 186 evaluation inputs overlapping training; 112 deduplicated candidates are not an independently validated holdout. Documentation does not establish deployment or model superiority.
+- X10 End-to-end determinism: A fixed scoring function does not prove that variable AI recommendations produce identical end-to-end outputs. Describe fixed-code recalculation only; omit same-input-always-same-output assurance.
+- X11 Team populations: Source references include initial 50, later 60, another programme team of 62, 55 learning enrolments and five service teams. Only scope-labelled 50/60 and five teams are used; populations are not added together.
+
+ATTRIBUTION AND CLAIM RISKS
+- The 257-person-day figure is account-wide AI delivery effort after review, not a measured benefit from the three platform applications or tagged regression. Operating cost, investment and financial ROI are not established.
+- The eight-to-four-hour task is already included in 257. It is not multiplied by 1,200 projects or all users.
+- The 85 per cent measure is reported activity coverage. A01 to A07 are local interfaces and A08 is a utility check; none establishes that percentage or deployed client outcomes.
+- Shared platform teams, the account workforce and specialist applications have separate scopes. Common client identity does not establish shared deployment or a common metrics denominator.
+
+OMITTED OR NARROWED CLAIMS
+- Omitted financial figures, macroeconomic context, client or programme names and excluded feedback or satisfaction material.
+- Omitted purported safety guarantees, universal test coverage, zero-error assertions and no-outage claims without scope or records.
+- Omitted conflicting defect/automation aggregates, forecast benefits, carbon-reduction estimates and unverified hackathon recognition. These do not establish the chosen project outcomes.
+- Fine-tuning is described as a documented approach. A separate fine-tuned governance model is not inferred.
+- No original raw evidence or screenshots are published. Existing A01 to A08 IDs are retained only for relevant claims; A09 remains an internal diagnostic reference. No ID is assigned to an absent Pulse export, test log or client result.
+- The non-functional PerfOps paper is unchanged; the newly supplied examples do not substantiate its specific 90 per cent calculation or cache before/after gap.
+
+DECISIONS NEEDED
+- Confirm the final nomination title and coherent project boundary before submission. The Word title is a working title, not a submitted nomination name.
+- AI working title: AI Led Quality Engineering for a UK Government Client. Alternative: Cognizant Intelligent Platform and AI Assisted Test Services.
+- Innovation working title: Shared Test Ownership and Governed AI for Government Quality Engineering. Alternative: Distributed Quality Assurance for a UK Government Client.
+- Resolve conflicting source figures through underlying records; the draft does not choose an unsupported figure merely to improve a score.
+
+HUMANISATION AUDIT AND STAND OUT TEST
+Plain British professional prose, concrete constraints and technical examples, no invented anecdotes. First-person project voice used where supported. No assurance about AI-detector classification is made. Detailed gaps are kept here; necessary attribution and maturity qualifications remain beside the claims. No tables, testimonials or placeholder instructions appear in the clean entries.
+The AI differentiator is an approved-tool adoption method with review-adjusted reporting alongside domain-specific assistance. The innovation differentiator is service-owned scenarios reused in shared regression with explicit platform governance. Neither is claimed as an industry first.
+Guide checks: problems, methods, people, results and obstacles are covered. On-time/on-budget delivery and measured end-user improvements remain unproved where records are missing. Tool descriptions explain a project decision rather than merely listing products.
+
+REVIEW AND REVISION LOOP
+Pass 1: drafted the selected category from the new source register, preserving delivery scopes. Working writing assessment: 21/25 for AI and 21/25 for innovation; outcome evidence remained partial.
+Pass 2: challenged attribution and implementation claims. Separated account savings from application results, kept score recalculation as a documented prototype design, and narrowed onboarding to project generation. Replaced the AI conclusion's ambiguous review-effort wording with effort after review. Writing assessment: 23/25 for each.
+Pass 3: checked arithmetic, roadmap maturity, confidentiality, reference scope and the final text. Shortened the innovation closing paragraph and distinguished potential wider use from established adoption. A final voice pass moved reviewer instructions out of the narrative, simplified prototype wording and kept project roles explicit. No extra points for polish. Final evidence marks are based on the claim register above, not on iteration count.
+The previous AI evidence score was 11/25 for the narrower platform entry. This broader draft scores 13/25: operational efficiency and stakeholder task evidence each move up one point because the new narrative supplies a scoped period and task baseline. It is not a directly controlled comparison of the same nomination scope and no original measurement record has been verified. Innovation is a new 14/25 evidence assessment.
+Satisfied with the drafts for internal review. Do not describe this assessment as official judge approval or as final substantiation.
+
+COUNTS AND CHECKS
+{
+  "summary_words": 89,
+  "summary_characters": 666,
+  "main_words": 1082,
+  "main_characters": 7727
+}
+Counts use whitespace-delimited words and Unicode characters, including headings, spaces and paragraph breaks; no terminal newline is counted. Result-file labels and document metadata are outside the main-entry field.
+Official criteria and limits checked on 10 October 2026:
+https://globalsoftwaretestingawards.com/testa/categories/
+https://globalsoftwaretestingawards.com/testa/entry-template/
+https://globalsoftwaretestingawards.com/testa/entry-guide/
+These sources define criteria and entry requirements, not the project's results. The checked template permits a 100-word summary and 14,600 main-entry characters including spaces. Deadline not independently checked for submission in this work; no submission is being made.
+
+The third-party naming requirement remains a submission condition: anonymous narrative is not an approved exemption. Arrange an acceptable confidential submission route before submitting. No contact or disclosure has been made.
+
+PRIORITISED COMPLETION CHECKLIST
+1. [ ] AI-G01 Which before/after quality comparison shows the reviewed AI outputs maintained or improved quality? Provide sample size, dates, acceptance/rework or defect/coverage measure and review criteria.
+2. [ ] AI-G06 Which anonymised operational or user measure demonstrates improvement beyond adoption? Provide verified barrier removal, task completion or another relevant before/after outcome; no feedback requested.
+3. [ ] AI-G07 What completed evaluation supports the impact analyser recommendations? Provide representative changes, expected results, evaluation method, failure cases and deployment status.
+4. [ ] AI-G02 Which anonymised Pulse export supports the 125 and 132 person-days? Provide task baselines, volumes, review deductions, period, non-overlap check and permitted internal approval record.
+5. [ ] AI-G03 Which task logs support the monthly eight-to-four-hour comparison? Provide comparable task scope, dates, repeats and the ledger link showing inclusion in 257.
+6. [ ] AI-G04 Which training and deployment records link the adapted model to the relevant application run? Provide model/checkpoint identifier, run/configuration provenance and an independent evaluation if claiming improvement.
+7. [ ] AI-G05 What numerator, denominator and period produce the reported 85 per cent? Define eligible and automated activity, review/exceptions and the rules-versus-AI contribution.
+8. [ ] AI-G08 Which dated records confirm adoption and the status of each development workstream? Provide training/adoption records, prompt revision history and roadmap status; do not merge certification or staffing populations.
+9. [ ] AI-G09 What is the agreed nomination boundary and working title? Confirm account delivery plus separately scoped platform development; retain unconfirmed common deployment and budget as open.

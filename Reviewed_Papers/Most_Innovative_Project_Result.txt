@@ -1,0 +1,55 @@
+Summary
+
+Cognizant Worldwide Limited UK changed how teams contribute to quality assurance for a UK government client. Five service teams now supply business-critical tests to a shared regression suite while retaining ownership of their scenarios. Reusable setup and pipelines support that model. Across a separate account delivery scope, governed AI assistance produced reported savings of 257 person-days in Q2 and Q3 2026, net of review time. Specialist AI prototypes extend the work into change analysis and accessibility interpretation. The innovation combines distributed test ownership with reviewable assistance and explicit responsibility for quality decisions.
+
+Main entry
+
+1 Advancing practice through shared test ownership
+
+A shared platform creates a testing problem as more service teams join. A change for one service can disrupt another, yet a central platform test team cannot continually recreate every team's business knowledge. For a UK government client, Cognizant Worldwide Limited UK developed a contribution model that keeps scenario design close to the people who understand the service.
+
+Five service teams are reported as onboarded. Each retains its functional tests and marks business-critical Playwright scenarios for shared regression. The platform pipeline selects the tagged scenarios from team repositories and runs them against the common environment. One maintained test can therefore contribute to service testing and platform assurance.
+
+Responsibility is explicit. Service teams maintain their scenarios; the platform team runs the shared suite and manages its governance. Triage separates environment or platform failures from service failures so findings reach the relevant owner. A formal test strategy supports the arrangement. This changes the contribution process that would otherwise make the central team a bottleneck.
+
+The wider quality engineering work also develops AI assistance for test preparation and technical interpretation. These are complementary workstreams for the same anonymous client, with separate delivery scopes and measurements. Each workstream retains its own implementation and measures.
+
+2 Why the approach changed and how it was built
+
+Manual project setup was a second constraint. Engineers copied and edited files for each new team, with manual setup reported as taking two to three days. We built a Node.js utility that creates a standard project structure from a template and replaces team-specific references in files and configuration. It also prepares the authentication journey and Playwright setup. The team reports that generation now takes minutes; this is a setup comparison, not a measure of complete onboarding.
+
+Three Azure DevOps pipelines give the contribution model an execution path. One validates proposed changes before merge. A self-service pipeline lets teams run their tests in development and QA environments. A regression pipeline executes the selected cross-service scenarios in the shared environment. Runtime parameters select the environment and suite, while configuration is supplied separately from the test code.
+
+The pipelines provision dependencies and browsers consistently, publish structured results and retain diagnostic artefacts after failure. This matters when a shared run fails: the responsible team needs evidence of what happened, even when the run did not complete successfully. Failure reports and traces support investigation without depending on the machine of the person who initiated the test.
+
+AI adoption faced a different constraint. The client governed tool availability and approval. The account team planned its approach in Q1 2026, trained the initial 50 associates and used Microsoft Copilot 365 in Q2, then extended automation coding with GitHub Copilot in Q3. Reusable prompts and review before test-tool upload made the method repeatable within the permitted tools.
+
+3 Extending the method with AI
+
+The Test Impact Analyser prototype explores whether changes can be connected more directly to the regression work they require. It brings requirements, dependencies, risks and existing tests into the analysis, then publishes recommendations to Azure DevOps. Fixed code recalculates scores after model interpretation. Its design includes team-level data separation, caching and batches of up to 200 change identifiers. Its projected reductions are not claimed as delivery results.
+
+Cognizant Intelligent Platform develops specialist interpretation in accessibility, security and performance. IntelliA11y's documented fine-tuning approach adapts Phi-4 for accessibility through QLoRA. Rules identify potential issues, while contextual analysis and retrieved guidance help a specialist assess the barrier and proposed correction. The team reports 85 per cent accessibility automation for that workflow, separately from account effort savings.
+
+IntelliSec supports investigation across security evidence. Inteliperf relates performance explanations to the intended test and its measurements, with documented limits on changes made by AI. Existing exhibits A01 to A07 show local application interfaces; their contribution here is to illustrate the technical direction. They are not records of common client deployment.
+
+The innovation is grounded in a change to working practice: domain teams contribute reusable tests, shared pipelines make those contributions executable, and AI proposes material that an engineer can inspect. The Playwright tag mechanism is established technology. Our contribution is the ownership and execution arrangement built around it, alongside controlled development of AI assistance.
+
+4 Results and resources within each delivery scope
+
+Five onboarded teams demonstrate adoption of the shared regression approach within the platform. The scaffolding utility and pipelines provide reusable assets for further teams. The supplied narrative reports a move from days of manual setup to minutes of generation. That comparison describes project preparation; it does not establish the time for complete team onboarding or a programme-wide percentage saving.
+
+Across the separate account AI delivery scope, the team reports 125 person-days saved in Q2 2026 and 132 in Q3, totalling 257 after review time. The delivery team reports these benefits quarterly through Cognizant's Pulse portal, with approval by Delivery Excellence and the engagement delivery lead. This is an effort result from the wider AI delivery method, not a saving attributed to tagged regression.
+
+The Code Coverage Agent supplies a specific example within that total. It supports the client assurance team's analysis of a Sonar estate containing more than 1,200 projects. One person's monthly evaluation reportedly fell from eight hours to four. The saving is already included in the account figure.
+
+The work draws on different responsibilities rather than requiring the platform team to own every business scenario. Service testers supply domain knowledge and maintain tests. Platform engineers provide execution and governance. Within the account AI work, a reusable prompt library and a month of daily co-learning supported adoption as the team grew from 50 to 60 associates.
+
+5 Overcoming constraints and sustaining the contribution
+
+The shared-suite design addresses the risk that central QA becomes a queue for every service change. Test maintenance stays with the contributing team, while platform governance provides a common execution route. That balance requires continued ownership: a tag selects a scenario but cannot establish that it still represents the service correctly. Failure triage and the test strategy remain essential parts of the method.
+
+Standard templates address inconsistent setup, and the three pipelines remove reliance on individual execution environments. Reports retained after failed runs make the result available for investigation. These are practical responses to the conditions that can prevent shared testing from working as more teams contribute.
+
+For AI-assisted work, review is retained before generated material enters delivery tools. The specialist accessibility workspace also provides versioned prompts, configurable controls and evaluation facilities. A local run passed 59 existing utility tests covering selected sanitisation and validation behaviours, recorded in A08. That check supports the tested controls without establishing model accuracy or client outcomes.
+
+Further development includes selective change analysis and retrieval of QA knowledge. Five-team adoption supplies an internal reuse example for the shared regression approach. Its wider value is the combination of domain ownership, common execution and reviewable assistance: other multi-team environments can assess and adapt that method.

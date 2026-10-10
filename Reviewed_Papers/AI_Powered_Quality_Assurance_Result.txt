@@ -1,0 +1,55 @@
+Summary
+
+Cognizant Worldwide Limited UK introduced governed AI assistance into test delivery for a UK government client. The team reports 257 person-days saved in Q2 and Q3 2026 after deducting review time. Training, reusable prompts and specialist checks supported adoption. A code coverage agent shortened a monthly assurance task from eight hours to four. Alongside this delivery work, Cognizant Intelligent Platform provides accessibility, security and performance assistance, with 85 per cent accessibility automation reported separately. The approach combines practical delivery gains with domain-specific development and controlled evaluation of emerging capabilities.
+
+Main entry
+
+1 Quality goals and the delivery approach
+
+Our test services team at Cognizant Worldwide Limited UK needed to reduce repetitive preparation for a UK government client without weakening review. Test design, documentation and automation scripting were the initial focus. The client selected and approved the available tools, so our approach had to work within that environment. We began with a planning quarter and introduced AI into test plans during Q2 2026.
+
+Microsoft Copilot 365 supported the first delivery phase. We trained the 50 associates then on the account and established reusable prompts. GitHub Copilot extended the approach to automation coding in Q3. Engineers checked AI-assisted deliverables before they entered the test management system, including whether test cases addressed expected behaviour and negative scenarios. Review remained part of the work.
+
+The account team reports 125 person-days saved in Q2 and 132 in Q3, after review time. These figures describe AI-assisted delivery across the account. Cognizant Intelligent Platform provides a complementary development strand covering IntelliA11y, IntelliSec and Inteliperf. The account total is not attributed to these three applications.
+
+Within the accessibility strand, we report 85 per cent automation of the activity covered by that result. Repeatable rules and AI-assisted interpretation contribute different parts of the workflow. This is coverage of testing activity, rather than a measure of model accuracy or accessibility conformance. An accessibility specialist still needs to examine the barrier and verify the correction.
+
+2 Applying AI to specific quality decisions
+
+The Code Coverage Agent uses GitHub Copilot to assemble analysis and reporting across a Sonar estate containing more than 1,200 projects. The client assurance team uses it to review coverage, quality indicators and maintenance needs. Bringing those observations together gives the reviewer a starting point for examining gaps across the estate.
+
+A prototype Test Impact Analyser explores a more selective regression approach. It considers a change alongside requirements, dependencies, risks and existing tests, then publishes recommendations and proposed test cases into Azure DevOps. The documented design uses fixed code to recalculate scores after model interpretation. It also separates team data and caches repeated requests. The design supports batches of up to 200 change identifiers. Delivery savings from this prototype are not included in our reported total.
+
+IntelliA11y addresses another interpretation problem. A rule can find a missing label, while assessing whether a label is meaningful requires the surrounding interaction. Our technical documentation describes phi4:14b-a11y, a Phi-4 accessibility adaptation using quantised low-rank adaptation, or QLoRA. The fine-tuning pipeline covers finding classification, proposed remediation and severity assessment. Retrieved guidance supplies reference context separately from model adaptation.
+
+The accessibility analysis covers forms, keyboard interaction, screen-reader experience, visual presentation and cognitive load. A proposed correction gives the developer something specific to investigate. Exhibits A03 and A04 show the local application and knowledge interface. They illustrate the workflow; the documented fine-tuning approach does not by itself establish which model served a client run.
+
+IntelliSec assists investigation and prioritisation across code, application, dependency and cloud findings. Engineers confirm the suspected weakness and its relevance. Local exhibits A01 and A02 show the investigation and assessment interfaces, including functions labelled as planned. Inteliperf helps interpret performance measurements against workload intent, with AI assistance separated from deterministic execution. Its documented boundaries prohibit invented endpoints, silent scenario changes and release decisions made by AI alone. Exhibits A05 to A07 show this local capability.
+
+3 Maintaining value as the work changes
+
+Reusable prompts gave the account a shared starting point for AI-assisted work as the team grew from 50 to 60 associates. A month of daily one-hour co-learning sessions supported practical use, with approximately 25 regular participants in agentic AI exercises. These practical sessions complemented the initial account training.
+
+The IntelliA11y AI SDLC workspace provides seven configurable AI controls and ten versioned prompt templates. Controls can be applied at project, organisation and global levels. Validation queues and comparative evaluation facilities support review when a prompt, model or application changes. Version history helps an engineer identify the instructions associated with a finding.
+
+Local verification on 9 October 2026 passed 59 existing tests across two utility suites. These exercised selected input-sanitisation and output-validation behaviours, including instruction-override patterns and benign inputs. Exhibit A08 records this limited technical check. It did not run model inference or measure client outcomes.
+
+Further work includes a discovery exercise for a QA knowledge hub and AI-assisted retrieval, together with failure analysis that links pipeline triage to application logs. These activities remain development work. New AI services depend on client approval, and the roadmap separates proposed capabilities from the delivery benefits already reported.
+
+4 Effort released through governed adoption
+
+The reported 257 person-days cover Q2 and Q3 2026. Our delivery team reports these benefits through Cognizant's Pulse portal, with review by Delivery Excellence and the engagement delivery lead. Review time was deducted before reporting the savings. The planning quarter contributed no recorded saving.
+
+The Code Coverage Agent provides a smaller, concrete example within that total. The team reports that one person's monthly evaluation task fell from eight hours to four. Those hours are already included in the 257 person-days.
+
+We report the days as released delivery effort. Review time is included in the calculation; operating and maintenance costs remain separate considerations. The accessibility automation result measures activity coverage within its own workflow and is not used to calculate the account saving.
+
+The practical change is that testers can start with proposed test content and engineers can review consolidated quality information. They still assess whether the output is correct for the requirement or system. This review step is part of both the delivery method and the reported effort calculation.
+
+5 Outcomes for assurance teams and service users
+
+The client assurance team's use of the Code Coverage Agent connects the delivery work to a defined operational need: reviewing a large Sonar estate without assembling every observation manually. The reported reduction in the monthly evaluation task gives a bounded example of that benefit. It does not establish a satisfaction score.
+
+For service users, the accessibility work focuses on whether an interaction presents a real barrier and what correction would address it. IntelliSec and Inteliperf support different technical decisions about security and performance. Specialists verify the relevant behaviour before relying on the AI-assisted conclusion.
+
+The project has established an account delivery method with reported savings across two quarters and a set of specialist capabilities for further development. Its strongest disclosed outcomes are released effort after review within the stated delivery scope, alongside accessibility automation. Decisions about individual findings and release readiness remain with the responsible engineers.
