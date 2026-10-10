@@ -6,8 +6,8 @@ Highest-priority actions: choose the nominated scope; provide measured quality e
 RUN STATUS
 - Run date: 10 October 2026. Source commit: 695fdbc. Only TESTA_2026_Multi_Category_Master_Prompt_AI.md was executed.
 - Source line numbers below refer to that exact file. No earlier programme or profile numbers were imported as new evidence.
-- Phase 0 extraction and Phase 1 validation completed. Phase 2 drafting is paused under the source prompt’s stop rule at lines 501–505 because A1 and G5 are Missing.
-- Predicted marks below are the requested internal assessment of source readiness, not official judging or a completed draft self-score. No claim of a guaranteed 4/5 or award outcome is made.
+- Phases 0 and 1 completed. Following the user’s instruction to continue and push, Phases 2 and 3 are now complete as a working draft. Phase 4 clean copy remains unproduced while evidence markers are open.
+- Predicted marks below are the requested internal assessment of source readiness, not official judging; the Phase 3 draft assessment retains these evidence-limited marks. No claim of a guaranteed 4/5 or award outcome is made.
 - Existing confidentiality restrictions are retained. Client identifiers, identifying service labels, feedback and email material are not reproduced.
 - Stable files are isolated under AI_Prompt_Run so the different, existing platform narrative remains available. This is a new prompt-specific record; older-platform review IDs are not silently repurposed.
 
@@ -58,7 +58,7 @@ RUN STATUS
 - 🔴 G-02: Source line 1007 has an evaluation-result placeholder. No result is invented.
 - 🔴 G-01: Source line 1008 has a quality-evidence placeholder. No baseline or outcome is invented.
 - 🔴 G-07: Source line 1032 has a certification-count/holder placeholder. No count is inferred.
-- No generated draft markers exist because drafting has not started. These are source markers, not missing edits to a clean entry.
+- Draft markers are listed below. Existing source placeholders remain unresolved.
 
 6. DECISIONS NEEDED
 - 🟠 I-01: Select the account programme, the platform, or explain the evidenced linkage before combining their achievements. The extraction does not choose for you.
@@ -132,7 +132,7 @@ What I found: Rows 11 and 21 give candidate differentiators but scope, quality i
 - [ ] 26. I-09: Confirm that the repetition introduces no additional delivery or savings population.
 - [ ] 27. I-10: What scenario/model, baseline, region coverage and measurement status support each percentage?
 
-You can answer these in plain text by ID. The named prompt permits continuing after a reply of proceed, with unresolved items still identified; the strongest immediate improvement is a scope decision and a measured quality comparison.
+The user authorised continuation. A working draft now exists with unresolved evidence marked. Items can be answered in plain text by ID.
 
 ARITHMETIC AND RECONCILIATION
 - Calculated: 125 + 132 = 257 person-days, matching the supplied total. This checks arithmetic, not the records.
@@ -148,6 +148,34 @@ EXECUTION AUDIT
 - Pass: all A1–A5, supplementary G1–G5 and both closing sections assessed as requested.
 - Pass: source facts, projections, prototype results and supplementary local checks remain distinct.
 - Pass: no table, pipe layout, invented exhibit, client identifier, feedback quotation or detector-evasion promise in generated outputs.
-- Not run: Phase 2 narrative, Phase 3 draft score/audits and Phase 4 clean copy, as required by the Phase 1 stop rule.
-- Not assessed: final-entry word/character limits and writing rhythm, because these outputs are validation artifacts, not an entry.
+- Complete: Phase 2 narrative and Phase 3 draft review after user-authorised continuation. Phase 4 clean copy not produced.
+- Assessed: summary and main-entry limits, character counts and writing checks recorded in result file.
 - No external rule/deadline verification was performed in this extraction run. The prompt’s stated deadline is source metadata, not newly verified information.
+
+CONTINUATION DECISIONS
+- I-01 remains unresolved. The working narrative focuses on the dated account nomination; the separate platform block is retained in extraction only. No claim of user-confirmed scope.
+- I-02 to I-10 remain unresolved; contradictory catalogue metrics are excluded from the working narrative. No source value has been silently corrected.
+- No gap has been marked resolved because continuation supplied no new factual evidence.
+
+DRAFT OPEN MARKERS BY SECTION
+- 2. Why the work mattered: [DATA NEEDED: agreed capacity target, G-08]
+- 2. Why the work mattered: [DATA NEEDED: anonymised review record, G-16]
+- 2. Why the work mattered: [DATA NEEDED: dated training register and cohort definitions, G-13]
+- 3. Where AI entered testing: [DATA NEEDED: documented comparison with conventional approaches and alternatives, G-14]
+- 4. Quality still needed a measured comparison: [DATA NEEDED: manual preparation and review baseline, G-08]
+- 4. Quality still needed a measured comparison: [DATA NEEDED: evaluation period and target, G-09]
+- 4. Quality still needed a measured comparison: [DATA NEEDED: matched quality measure, sample and period, G-01]
+- 5. Experimenting beyond assisted authoring: [DATA NEEDED: scored evaluation cases and error results, G-02]
+- 5. Experimenting beyond assisted authoring: [DATA NEEDED: permitted event evidence, G-11]
+- 6. Making adoption last: [DATA NEEDED: account data permissions, evaluation owner, drift checks and rollback triggers, G-06]
+- 7. What stakeholders could use: [DATA NEEDED: permitted, anonymised stakeholder outcome with baseline and result, G-05]
+- 8. Constraints and responses: [DATA NEEDED: observed AI errors, corrective action and measured result, G-02]
+- 9. Learning and delivery: [DATA NEEDED: certifications, distinct holders and completion date, G-07]
+- 9. Learning and delivery: [DATA NEEDED: agreed milestones, actual dates, implementation resources and budget, G-04]
+- 9. Learning and delivery: [DATA NEEDED: specific inclusion practice and outcome, G-03]
+- 9. Learning and delivery: [DATA NEEDED: evidenced mentoring or workload support and a real setback response, G-17]
+- 10. ROI Summary: [DATA NEEDED: itemised implementation, licence and operating costs, G-04]
+- 10. ROI Summary: [DATA NEEDED: realised cash reduction attributable to this work, G-04]
+- 10. ROI Summary: [DATA NEEDED: any defensible avoided-cost basis, G-04]
+- 10. ROI Summary: [DATA NEEDED: hours per person-day and approved rate, G-08]
+- 10. ROI Summary: [DATA NEEDED: total financial benefit, cost and timing, G-04]

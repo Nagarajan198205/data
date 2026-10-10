@@ -1,18 +1,181 @@
-AI POWERED QUALITY ASSURANCE - EXTRACTION RESULT
+AI POWERED QUALITY ASSURANCE - WORKING DRAFT AND REVIEW
 
-Execution: Phases 0 and 1 of the explicitly requested AI prompt.
-Category: AI POWERED QUALITY ASSURANCE
-Company: Cognizant
-Industry / sector: Public Sector
-Run date: 10 October 2026
-Source: TESTA_2026_Multi_Category_Master_Prompt_AI.md
-Source commit: 695fdbc
-Source SHA-256: 2884fce16da36cc18b548d92281316351c3ce44edbf857879c347e34d902d3ae
+Source: TESTA_2026_Multi_Category_Master_Prompt_AI.md at 695fdbc. Run date: 10 October 2026.
+Phases 2 and 3 continued following the user’s instruction to keep working and push. This is a working draft with open evidence markers; Phase 4 clean copy has not been requested or produced.
 
-This file is the requested extraction-stage result, not a replacement clean award narrative. Only this prompt and its embedded story were processed. Existing client-confidentiality restrictions remain in force. The earlier three-solution AI draft is preserved outside this run directory.
+1. Executive Summary
+Cognizant’s test services account team introduced AI into test preparation and automation for a UK government department during January to September 2026. We trained the initial 50 associates and adopted client-approved Copilot tools in stages. Our reported capacity gain was 257 person-days across Q2 and Q3, after deducting human review time. Delivery Excellence and the engagement delivery lead approved the quarterly records. Review remained compulsory before uploading AI-assisted deliverables. Reusable prompts and practical learning supported adoption, while experimental agents followed a separate route towards client approval.
 
-The prompt’s Phase 1 stop rule is reached. No Phase 2 entry or Phase 3 self-score is represented as completed. The separate gaps file records the findings and criterion assessments.
+ENTRY TEXT
+2. Why the work mattered
+Preparing tests and automation code absorbed time that our test services team could use elsewhere. The department’s approved technology estate shaped our response. We planned the account programme in Q1 2026, introduced Microsoft Copilot 365 in Q2 and adopted GitHub Copilot in Q3.
 
+Our objectives and reported progress were:
+- Reduce preparation effort: target [DATA NEEDED: agreed capacity target, G-08]; achieved Q2 capacity of 125 person-days and Q3 capacity of 132 person-days during 2026, with review deducted; evidence is the source’s account of quarterly Pulse records, with approved extracts still needed under G-16.
+- Establish reviewed AI use: target human review before uploading each AI-assisted deliverable; the source reports this as the account’s operating practice; evidence [DATA NEEDED: anonymised review record, G-16].
+- Build practical capability: the initial 50 associates received training; the account later grew to 60; mandatory learning completion was almost 70% of that larger group towards the deadline of 31 October 2026; evidence [DATA NEEDED: dated training register and cohort definitions, G-13].
+[Serves: A3, A4, G1, G3]
+
+3. Where AI entered testing
+We used Microsoft Copilot 365 to assist test design and documentation, including test plans. GitHub Copilot supported automation coding. These tasks require interpretation of requirements or code, which made generated suggestions useful inputs for our reviewers. People retained the decision to accept an output.
+
+Client approval determined which tools we could introduce. We could not bring our own AI platform into the account. That constraint favoured a staged rollout through approved products. [DATA NEEDED: documented comparison with conventional approaches and alternatives, G-14].
+
+The Code Coverage Agent analysed Sonar information and produced reporting for review. Separately, the Impact Analyser prototype used change information to suggest affected scope. Its design recalculated scores in fixed code, separated team data and cached repeated requests. The batch limit was 200 change IDs. Fixed scoring does not establish repeatable model reasoning. Client next steps and evaluation results remain outstanding.
+[Serves: A2, A3, G2]
+
+4. Quality still needed a measured comparison
+We required human review before AI-assisted deliverables were uploaded. Reviewers considered the generated test scenarios, including positive and negative cases. The source describes their quality favourably, but provides no matched defect or review-acceptance comparison.
+
+The available measures have different purposes:
+- Review effort: baseline [DATA NEEDED: manual preparation and review baseline, G-08]; result 257 person-days reported during the second and third quarters of 2026 after deducting AI-output review time; chosen to measure released capacity. It does not measure defect reduction.
+- Monthly coverage evaluation: baseline 8 hours for one person; result 4 hours with the Code Coverage Agent; target and observed months [DATA NEEDED: evaluation period and target, G-09]. This measures a specific reporting task and already forms part of the reported 257 person-days.
+- Test quality: baseline and result [DATA NEEDED: matched quality measure, sample and period, G-01]; chosen to establish whether AI-assisted testing improved quality alongside efficiency.
+
+Pulse approvals support the reported effort benefit. Approved supporting records are still required before the figures can be independently checked.
+[Serves: A1, A4, G1]
+
+5. Experimenting beyond assisted authoring
+The account combined routine Copilot use with agent prototypes. Impact Analyser connected change interpretation to scope recommendations, then used conventional code to recalculate scores. This division made the scoring step inspectable without treating model output as a final decision. [DATA NEEDED: scored evaluation cases and error results, G-02].
+
+Two account prototypes reached the UiPath hackathon final. LAQO, the Linguistic Adversary & Quality Oracle, received Judges’ Choice in Innovative Agentic Excellence. TestPilotPro was also a finalist. The source reports 140+ nominations, 38 ideas submitted, with 18 reaching the final, including the two account entries. These prototypes had not entered client delivery. The recognition supports the experimentation story; it cannot validate operational benefit. [DATA NEEDED: permitted event evidence, G-11].
+[Serves: A2, G2, G4]
+
+6. Making adoption last
+A shared prompt library let associates reuse earlier work. We paired this with review before upload and quarterly recording of benefits in Pulse. Review time was deducted before savings were submitted to Delivery Excellence and the engagement delivery lead for approval.
+
+This established a repeatable reporting process across Q2 and Q3. It also kept a human checkpoint between generation and use. [DATA NEEDED: account data permissions, evaluation owner, drift checks and rollback triggers, G-06]. Training data provenance and any retraining arrangements for account agents also need confirmation under G-06.
+
+Failure analysis and environment monitoring remained on the implementation roadmap. Impact Analyser depended on client next steps. Their projected benefits are excluded from our realised capacity total.
+[Serves: A3, A4, G2, G3]
+
+7. What stakeholders could use
+The assurance team was reported to use the Code Coverage Agent. Its monthly evaluation task required 4 hours compared with the previous 8 hours for one person, giving a concrete example of an operational change. The observed months and supporting records still need confirmation.
+
+Client approval shaped deployment decisions, while Delivery Excellence and the engagement delivery lead reviewed reported capacity gains. These are evidence of engagement and internal assurance. [DATA NEEDED: permitted, anonymised stakeholder outcome with baseline and result, G-05]. No confidential feedback is reproduced here.
+[Serves: A5, G3]
+
+8. Constraints and responses
+The first constraint was access. Client rules limited the products available to the account, so we introduced approved Copilot tools in successive quarters. We kept further agent work in prototypes pending the relevant approval. The account nevertheless reported Q2 capacity of 125 person-days, followed by 132 person-days in Q3.
+
+Generated content brought a review burden. Our response was compulsory checking before upload and deduction of that effort from the reported benefit. This made the capacity figures more useful for delivery decisions. It does not prove that hallucinations or false positives were eliminated. [DATA NEEDED: observed AI errors, corrective action and measured result, G-02].
+
+Manual coverage evaluation supplied a narrower comparison: one person’s monthly task required 4 hours compared with the previous 8 hours. That result is included in the quarterly total. For failure diagnosis, the proposed move from hours to minutes remained a target, so it contributes no realised saving here.
+[Serves: A1, A4, G4]
+
+9. Learning and delivery
+We trained the original 50 associates and continued onboarding as the team grew to 60. A month of voluntary co-learning included daily 1-hour sessions, with 25 regular attendees practising with CrewAI. Attendance alone does not establish a total number of learning hours.
+
+Almost 70 per cent of the 60 associates had completed mandatory learning towards the deadline of 31 October 2026. Certification routes were also described, but completion counts were absent. [DATA NEEDED: certifications, distinct holders and completion date, G-07].
+
+The quarterly sequence provides a delivery timeline. [DATA NEEDED: agreed milestones, actual dates, implementation resources and budget, G-04]. The source does not establish delivery within budget. [DATA NEEDED: specific inclusion practice and outcome, G-03]. [DATA NEEDED: evidenced mentoring or workload support and a real setback response, G-17].
+[Serves: A3, G1, G3, G5]
+
+10. ROI Summary
+The reported return was 257 person-days of capacity during Q2 and Q3 2026, after human review.
+- Capacity: calculated 125 + 132 = 257 person-days; source basis is quarterly Pulse reporting. The coverage evaluation improvement is included.
+- Investment: [DATA NEEDED: itemised implementation, licence and operating costs, G-04].
+- Direct cash savings: [DATA NEEDED: realised cash reduction attributable to this work, G-04].
+- Avoided cost: no quantified risk estimate supplied; [DATA NEEDED: any defensible avoided-cost basis, G-04].
+- Productivity value: [DATA NEEDED: hours per person-day and approved rate, G-08]. Capacity has not been converted to cash.
+- Net benefit, ROI and payback: [DATA NEEDED: total financial benefit, cost and timing, G-04]. ROI % = (total financial benefit - total cost) / total cost x 100. No monetary benefits are included in a calculated total.
+Delivery Excellence and the engagement delivery lead approved the reported capacity figures. Approved records remain needed under G-16.
+[Serves: A4, G1, G3]
+
+11. Why This Merits the Award
+Cognizant’s account team reported 257 person-days of capacity across Q2 and Q3 and trained its initial 50 associates. The case rests on reviewed AI use, with review effort deducted before approval of benefits. The monthly coverage task provides a specific efficiency example. Agent prototypes and hackathon recognition extend the innovation case beyond assisted authoring. Reusable prompts and practical learning support continued adoption. Assurance-team use provides stakeholder context. Quality improvement, measured satisfaction and inclusion still require evidence before the award case is complete. The account has a concrete, governed efficiency result to build on.
+[Serves: A1, A2, A3, A4, A5, G1, G2, G3, G4, G5]
+
+END OF ENTRY TEXT
+
+PHASE 3 REVIEW
+Scores are provisional internal editorial assessments, not official marks. No source exhibits were attached or independently verified. Evidence locations below identify draft sections; exhibit status for every criterion is pending G-16.
+
+Category criteria
+- A1: 2/5; review controls exist; comparative quality evidence absent; sections 4, 8; exhibit pending.
+- A2: 3/5; agent design and prototype recognition need evaluation records; sections 3, 5; exhibit pending.
+- A3: 3/5; reuse and learning described; evaluation ownership incomplete; sections 6, 9; exhibit pending.
+- A4: 4/5; quarterly net capacity and a task baseline are reported; sections 4, 8, 10; exhibit pending.
+- A5: 2/5; adoption is described without measured satisfaction; sections 7; exhibit pending.
+- Total: 14/25.
+
+Supplementary criteria
+- G1: 3/5; period and results clear; targets and resource baseline incomplete; sections 2, 4, 9, 10; exhibit pending.
+- G2: 3/5; technology rationale given; comparative evaluations absent; sections 3, 5, 6; exhibit pending.
+- G3: 3/5; learning and approval clear; budget and schedule comparison absent; sections 2, 6, 7, 9; exhibit pending.
+- G4: 3/5; constraints and responses described; error outcome evidence absent; sections 5, 8; exhibit pending.
+- G5: 0/5; inclusion evidence not supplied; sections 9; exhibit pending.
+- Total: 12/25.
+
+Alignment summary
+- A1: sections 4, 8; Weak.
+- A2: sections 3, 5; Adequate.
+- A3: sections 6, 9; Adequate.
+- A4: sections 4, 8, 10; Strong.
+- A5: sections 7; Weak.
+- G1: sections 2, 4, 9, 10; Adequate.
+- G2: sections 3, 5, 6; Adequate.
+- G3: sections 2, 6, 7, 9; Adequate.
+- G4: sections 5, 8; Adequate.
+- G5: sections 9; Weak.
+
+Revision outcome
+- Revised for scope, metric attribution and explicit prototype status. The monthly task benefit is included once. No score was raised through wording alone. Lower marks are limited by missing evidence; actionable fixes are in the companion file.
+
+Extraction fidelity and consistency
+- Pass: supplied numerical claims trace to extraction fields 3, 5, 6, 9, 11, 17 and 20. No invented person, quotation or exhibit number is used.
+- Pass: 125 + 132 = 257 person-days; repeated totals agree. The 8-hour to 4-hour task is included, never added again.
+- Pass: no annualisation, assumed day length, cash rate or exact headcount derived from almost 70%.
+- Partial: account-focused draft uses the dated nomination block. The separate platform narrative remains in the extraction, without merging its metrics. Scope decision I-01 remains open.
+
+Closing-section audit
+- ROI arithmetic: Pass. Costs and benefit types itemised: Pass for structure, Partial for evidence. Estimates labelled: Pass, none quantified. Figure agreement and project attribution: Pass.
+- Award case uses earlier facts: Pass. Differentiator and continued use: Pass. Full criterion proof and exhibit links: Partial; evidence remains incomplete. No unsupported award prediction.
+
+Guide compliance
+- Pass: public sector context, category-specific structure, plain numbered sections and metric bullets.
+- Partial: goals and outcome evidence have missing targets and comparison data.
+- Partial: technology choices and testing challenges described without a completed model evaluation.
+- Partial: stakeholder engagement and learning described; inclusion, well-being and on-time/on-budget proof incomplete.
+- Pass: efficiency is distinguished from quality and satisfaction; recognition is distinguished from client delivery.
+- Pass: no claims copied from other category results, no confidential client feedback, no fabricated supporting exhibit.
+- Partial: all criteria covered structurally, but several cannot yet be substantiated.
+- Pass: no unlabelled estimate, inflated precision or unscoped catalogue percentage in the entry.
+
+Humanisation audit
+- Punctuation: Pass; em dashes 0, exclamation marks 0, semicolons 15. En dashes outside ranges: 0.
+- Rhythm: Partial; approximate prose sentence length 5 to 24 words; 35% under 10 words. Evidence-heavy wording does not meet the one-third short-sentence aspiration.
+- Openers: Pass; no three consecutive prose sentences with the same first word.
+- Template shape: Pass; varied titles and paragraph lengths, no bold labels or arrow chains. Required data bullets retain parallel structure.
+- Triplets: Partial; several factual lists remain for evidence precision. No “not only/but also” construction; no stacked promotional triplet.
+- Anchors: Pass for factual prose; numerical, named-tool, role or decision anchors retained. Unsubstantiated topics carry markers.
+- British English: Pass; programme, analyse-related wording and British date format used.
+- Candour: Pass; client restrictions, review cost and planned deployments traced to the source. No invented setback.
+- Story echo: Partial; mechanical five-word comparison prompted rephrasing of ordinary source overlap. Named approver-role phrases remain.
+- Banned words: Pass; scan found no banned vocabulary in summary or entry. No detector-performance claim made.
+
+Stand-out test
+A judge should remember the 257 person-days reported after deducting review effort, with named internal approvers.
+The 8-hour to 4-hour monthly task gives that account-wide claim a concrete example, subject to its supporting record.
+
+CHARACTER COUNTS (including spaces and working tags; excluding audit and extraction)
+- Executive Summary: 636 characters; 86 whitespace-separated words.
+- 2. Why the work mattered: 1178 characters.
+- 3. Where AI entered testing: 1071 characters.
+- 4. Quality still needed a measured comparison: 1287 characters.
+- 5. Experimenting beyond assisted authoring: 925 characters.
+- 6. Making adoption last: 862 characters.
+- 7. What stakeholders could use: 657 characters.
+- 8. Constraints and responses: 1063 characters.
+- 9. Learning and delivery: 939 characters.
+- 10. ROI Summary: 1048 characters.
+- 11. Why This Merits the Award: 751 characters.
+- Main entry: 9799 characters, including blank separators; limit 14,600.
+- Summary and main entry combined: 10437 characters.
+
+Remaining gaps: see AI_POWERED_QUALITY_ASSURANCE_Data_Gaps_and_Inconsistencies.txt. Missing: 7; weak: 10; inconsistencies: 10.
+
+SOURCE EXTRACTION RETAINED FOR TRACEABILITY
 EXTRACTION MAP
 - 1. Nomination and entrant: Cognizant account team, test services; COMPANY is Cognizant; sector is Public Sector. Client description: a UK government department. A later passage introduces Cognizant Intelligent Platform without establishing the same nominated scope. Source: TESTA_2026_Multi_Category_Master_Prompt_AI.md, lines 756–758, 984–985, 1110–1112. Confidence: 🟠.
 - 2. Systems and business need: The account narrative concerns AI-assisted test design, documentation and automation code within client-approved tooling. Earlier solution descriptions cover change analysis, code coverage, knowledge retrieval and operational support. The final block describes IntelliA11y, IntelliSec and Inteliperf. These remain separate source groups. Source: TESTA_2026_Multi_Category_Master_Prompt_AI.md, lines 777–915, 988–989, 1054–1112. Confidence: 🟠.
@@ -43,5 +206,3 @@ CALCULATIONS, SEPARATE FROM SUPPLIED RESULTS
 - Calculated check: 8 - 4 = 4 hours per monthly evaluation; (8 - 4) / 8 x 100 = 50% reduction for that task. It is included in the account total, not an extra saving.
 - Calculated check: 132 - 125 = 7 person-days; 7 / 125 x 100 = 5.6%. Different workloads and team size mean this is not a controlled productivity comparison.
 - Almost 70% of 60 is not converted into an exact completion count. No number of co-learning days or full attendance hours is inferred.
-
-Companion: AI_POWERED_QUALITY_ASSURANCE_Data_Gaps_and_Inconsistencies.txt.
