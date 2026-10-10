@@ -4,6 +4,15 @@ Use [Master prompt v3](TESTA_2026_Multi_Category_Master_Prompt_v3.md) for new wo
 
 All five categories in `categories.txt` now have separate results and reviews. [Category run inputs](Category_Run_Inputs.txt) records the explicit category selection, entrant, source scope and confidentiality settings for each run against v3 at `89f9887`.
 
+## Latest AI-only prompt run
+
+The explicitly requested [AI prompt](TESTA_2026_Multi_Category_Master_Prompt_AI.md), added at `695fdbc`, was executed separately on 10 October 2026. Its own instructions govern this run, including the Phase 1 stop rule.
+
+- [Extraction-stage result](AI_Prompt_Run/AI_POWERED_QUALITY_ASSURANCE_Result.txt)
+- [Data gaps and inconsistencies](AI_Prompt_Run/AI_POWERED_QUALITY_ASSURANCE_Data_Gaps_and_Inconsistencies.txt)
+
+Extraction and validation are complete. Drafting is paused under that prompt because required evidence is missing. The existing category entries below are preserved; this run does not merge the new account story with the previous platform entry.
+
 ## Category outputs
 
 - **Best Test Automation Project – Functional:** [Result](Best_Test_Automation_Project_Functional_Result.txt) · [Gaps and review](Best_Test_Automation_Project_Functional_Data_Gaps_and_Inconsistencies.txt)

@@ -1,0 +1,153 @@
+DATA GAPS AND INCONSISTENCIES – AI POWERED QUALITY ASSURANCE
+
+Missing: 7. Weak or unsupported: 10. Inconsistencies: 10.
+Highest-priority actions: choose the nominated scope; provide measured quality evidence; reconcile achieved results with prototypes and forecasts.
+
+RUN STATUS
+- Run date: 10 October 2026. Source commit: 695fdbc. Only TESTA_2026_Multi_Category_Master_Prompt_AI.md was executed.
+- Source line numbers below refer to that exact file. No earlier programme or profile numbers were imported as new evidence.
+- Phase 0 extraction and Phase 1 validation completed. Phase 2 drafting is paused under the source prompt’s stop rule at lines 501–505 because A1 and G5 are Missing.
+- Predicted marks below are the requested internal assessment of source readiness, not official judging or a completed draft self-score. No claim of a guaranteed 4/5 or award outcome is made.
+- Existing confidentiality restrictions are retained. Client identifiers, identifying service labels, feedback and email material are not reproduced.
+- Stable files are isolated under AI_Prompt_Run so the different, existing platform narrative remains available. This is a new prompt-specific record; older-platform review IDs are not silently repurposed.
+
+1. MISSING DATA (🔴)
+- G-01 🔴 [A1, extraction 8/13] A measured quality improvement is absent; the source still contains a quality-evidence placeholder. Source lines 1005–1008. Question: What matched baseline/result, sample size, period and review or defect measure demonstrate improved quality?
+- G-02 🔴 [A2/A3, extraction 8/12] Impact Analyser evaluation results are placeholders; design alone cannot validate correctness. Source lines 1007, 1021. Question: What evaluation cases, expected outputs, error counts and results support the analyser’s scoring and scope selection?
+- G-03 🔴 [G5, extraction 18] No concrete project inclusion practice or outcome is supplied. Source lines 763–1112. Question: What inclusive team practice was used, who benefited and what changed?
+- G-04 🔴 [G3 and ROI, extraction 5/19/20] Investment and approved-versus-actual delivery evidence are absent. Source lines 985–1047. Question: What budget, implementation effort, operating cost and agreed/actual milestones apply to the nominated scope?
+- G-05 🔴 [A5, extraction 15] No disclosable measured customer or user outcome is supplied. Source lines 1049–1052. Question: What anonymised outcome with a baseline and result can demonstrate benefit to the assurance team or service users?
+- G-06 🔴 [A3, extraction 12] Data privacy, model evaluation ownership and drift response for the account agents are not specified. Source lines 1000–1003, 1021. Question: Who reviews quality and privacy, what data is permitted and what triggers reevaluation or rollback?
+- G-07 🔴 [G3, extraction 17] Certification counts and holders remain a placeholder. Source lines 1032. Question: How many certifications were completed, by how many distinct associates, and by what date?
+
+2. WEAK OR UNSUPPORTED DATA (🟠)
+- G-08 🟠 [A4/ROI, extraction 20] 125, 132 and 257 person-days are asserted as approved; no underlying records are attached. Source lines 987, 1039–1047. Question: What anonymised Pulse extract, calculation basis, working-day definition and approval dates substantiate the quarterly totals?
+- G-09 🟠 [A4, extraction 20] The monthly Code Coverage Agent saving is already inside 257. Source lines 1023. Question: Which months and tasks are included, and how were overlap and review effort handled?
+- G-10 🟠 [A1/A4, extraction 13] 55% productivity and 48% scripting gains lack population and calculation context. Source lines 934–935, 976–977. Question: What numerator, denominator, comparison workload and dates support these figures?
+- G-11 🟠 [A2, extraction 11] Hackathon figures and award are reported, without supporting evidence or a clear relation to the earlier recognition list. Source lines 920–924, 1025–1027. Question: What permitted event record confirms 140+ nominations, 38 ideas, 18 finalists, the two account finalists and the named award?
+- G-12 🟠 [A1/A3, extraction 12/13] 85% accessibility automation and the fine-tuned model belong to the appended platform block with no account linkage or reporting period. Source lines 1054–1076. Question: What scope, calculation and approved evidence connect these claims to this nomination, if they belong here?
+- G-13 🟠 [A3, extraction 17] Initial training of 50, almost 70% mandatory completion among 60, and global 100% labels refer to unclear or different cohorts. Source lines 948–950, 980–982, 994, 1030–1031. Question: What training type, population and date apply to each completion percentage?
+- G-14 🟠 [A3/G2, extraction 7/12] Use of AI to build a tool does not establish runtime AI contribution. Source lines 794–807, 846–870. Question: Which decisions in monitoring, GreenOps and the release tracker actually use a model, and what incremental testing value was measured?
+- G-15 🟠 [A2/A3, extraction 9/12] Up to 200 change IDs, access separation, caching and fixed scoring are design assertions. Source lines 1021. Question: What tested limits and controls establish these behaviours, including repeated-input results across model outputs?
+- G-16 🟠 [All criteria, extraction 21] Slides, Pulse records, agent evaluations and A01–A08 are referenced or implied but not attached. Source lines 775, 1001, 1056–1103. Question: Which redacted records can substantiate the nominated claims without disclosing client identifiers or feedback?
+- G-17 🟠 [G3 and voice, extraction 16/23] The account gives useful constraints but no specific well-being measure or failed iteration. Source lines 989, 1030–1035. Question: What real testing setback, mentoring intervention or workload adjustment can be described with its outcome?
+
+3. INCONSISTENCIES
+- I-01 🟠 [Scope] The account nomination covers January–September 2026 and approved Copilot use (985–1047); the appended block covers a separately described three-solution platform, 85% accessibility automation and local artifacts (1054–1112). No common delivery boundary is established. Extraction keeps both separate. Question: Should this nomination cover the account programme only, the platform only, or a demonstrably linked scope?
+- I-02 🟠 [Impact Analyser] Early claims say 3x faster analysis, 60–80% regression reduction, about 80% manual-effort reduction and zero reporting (783–787). The dated narrative instead projects up to 60% impact-analysis effort reduction and says it is unmeasured in delivery (1022). Different activities and evidence stages cannot be substituted. Question: Which values are measured, which are projections and what exact tasks do they concern?
+- I-03 🟠 [Environment monitor] The early block claims 360 person-hours reclaimed, 99% less tracking, 100% notifications/auditability and no missed expiries or outages since go-live (811–818). Later passages describe implementation still progressing in Q4 2026 (996, 1036–1038). Neither version is silently chosen. Question: What is the actual deployment status, observation period and measured-versus-forecast status of each benefit?
+- I-04 🟠 [Failure analysis] The early block presents 70–90% faster diagnosis, 5–10 hours per project weekly, about 50% better recurring detection and 40–60% less resolution time (909–912). The roadmap describes an early version, future implementation and an hours-to-minutes target (1036–1037). Question: Which measurements were achieved in which environment, and which values are targets?
+- I-05 🟠 [LAQO prototype claims] The early account claims 100% coverage, roughly 90% less manual time and elimination of severe hallucinations, with a threshold example below 0.9 (894–899). Later it identifies a hackathon prototype not in client delivery (1025–1026). Prototype test results, even if supplied, would not prove a client-production guarantee. Question: What bounded evaluation was actually run, and can the unsupported guarantee be removed?
+- I-06 🟠 [Training labels] 100% training and team certification appear both as targets and headline metrics (948–950, 980–982); the detailed narrative states all initial 50 trained and almost 70% of the current 60 meeting a different learning goal (994, 1030). Question: Which cohort, learning programme and reporting date belong to each statement?
+- I-07 🟠 [Recognition count] The broad list counts four recognitions, including participation, with UiPath finalist timing in Q1–Q2 2026 (920–937). The account places an agentic hackathon in Q3 and reports a Judges’ Choice award plus another finalist (995, 1025–1027). These may be separate events. Question: Which events are distinct, when did they occur and does the count of four include the latest award?
+- I-08 🟠 [Duplicate Academy] Items 1 and 5 both describe a proposed Academy and the same 50-hour discovery within the first three contract months (763–766, 820–832). Treating them as separate would risk double counting. Question: Are these two descriptions of one proposed initiative?
+- I-09 🟠 [Repeat roadmap] The Q1–Q4 and 2027 roadmap is repeated in the client-implementation subsection (993–997 and 1016–1020). The 125/132 savings are the same reported pair, not two sets. Question: Confirm that the repetition introduces no additional delivery or savings population.
+- I-10 🟠 [GreenOps potential versus outcome] Approximately 54% is labelled achievable today and 90% potential in a full rollout (798–799), while the roadmap labels the carbon dashboard a proof of concept (960). Neither is a realised client saving. Question: What scenario/model, baseline, region coverage and measurement status support each percentage?
+
+4. ATTRIBUTION AND CLAIM RISKS
+- 🟠 G-01/G-12: 85% accessibility automation measures activity coverage; it does not demonstrate model accuracy, conformance or effort saved. Define the population before including it in the nomination.
+- 🟠 G-14: The release tracker is described through rules and workflows. AI-assisted construction of monitoring or GreenOps does not by itself make the delivered operation AI-powered. Identify the runtime model contribution.
+- 🟠 I-05/G-02: Universal safety, coverage, traceability and repeated-output claims require bounded tests. Fixed calculation code can be deterministic while model-generated inputs vary. Supply the evaluation and narrow the permitted wording.
+- 🟠 G-08/G-09: 257 person-days is reported capacity after review, not a cash saving or net programme ROI. The 8-to-4-hour task is already included. Provide costs only if a financial claim is wanted.
+- 🟠 I-10: Carbon-reduction potential needs baseline and scenario context. Do not add carbon percentages to person-day savings.
+- 🟠 G-16: A01–A07 show local interfaces, and A08 covers 59 local utility tests as described in the source. These do not prove client deployment, general safety or historical account outcomes. Supply permitted underlying records.
+- 🟠 G-05: Client feedback is omitted under existing confidentiality restrictions. Use approved anonymised operational outcomes; do not infer satisfaction from tool adoption.
+- 🟠 G-02: For diagnostic explanation evidence, provide user-visible decision rationale and test records, without claiming access to a model’s private internal reasoning.
+
+5. OPEN MARKERS
+- 🔴 G-02: Source line 1007 has an evaluation-result placeholder. No result is invented.
+- 🔴 G-01: Source line 1008 has a quality-evidence placeholder. No baseline or outcome is invented.
+- 🔴 G-07: Source line 1032 has a certification-count/holder placeholder. No count is inferred.
+- No generated draft markers exist because drafting has not started. These are source markers, not missing edits to a clean entry.
+
+6. DECISIONS NEEDED
+- 🟠 I-01: Select the account programme, the platform, or explain the evidenced linkage before combining their achievements. The extraction does not choose for you.
+- 🟠 I-08: Confirm whether the Academy descriptions represent one initiative.
+- 🟠 Nomination identity: retain the supplied Cognizant account team, test services name unless you confirm that the separate platform is the intended nomination. The COMPANY input remains Cognizant exactly as supplied.
+
+CRITERION MISSING INPUT REPORT
+CRITERION A1 - Quality improvement. Status: 🔴 Missing. Predicted mark: 2/5.
+What I found: Rows 8 and 13 contain review controls and automation activity, but no measured quality comparison.
+- Fix list: answer G-01, G-02, G-12 above.
+CRITERION A2 - Originality. Status: 🟠 Weak. Predicted mark: 3/5.
+What I found: Rows 7, 11 and 12 show constrained rollout, agents and prototype recognition; comparative evidence is limited.
+- Fix list: answer G-02, G-11, G-15, I-01 above.
+CRITERION A3 - Continuing value. Status: 🟠 Weak. Predicted mark: 3/5.
+What I found: Rows 6, 12, 17 and 22 describe training, reusable prompts and governance, with deployment and evaluation gaps.
+- Fix list: answer G-06, G-13, I-03, I-04 above.
+CRITERION A4 - Efficiency. Status: 🟠 Weak. Predicted mark: 4/5.
+What I found: Row 20 has scoped Q2/Q3 capacity figures and named internal approval, net of review but not verified against attached records.
+- Fix list: answer G-08, G-09, G-04 above.
+CRITERION A5 - Stakeholder outcomes. Status: 🟠 Weak. Predicted mark: 2/5.
+What I found: Row 15 records assurance-team use; measured benefit or satisfaction change is missing and confidential feedback is withheld.
+- Fix list: answer G-05 above.
+CRITERION G1 - Goals and results. Status: 🟠 Weak. Predicted mark: 3/5.
+What I found: Rows 3, 5 and 13 give dates and results, with scope and baseline ambiguities.
+- Fix list: answer G-01, G-10, I-01 above.
+CRITERION G2 - Technology fit. Status: 🟠 Weak. Predicted mark: 3/5.
+What I found: Rows 7, 8 and 12 describe tools and design within client constraints; evaluations are incomplete.
+- Fix list: answer G-02, G-14, G-15 above.
+CRITERION G3 - Learning, collaboration and delivery. Status: 🟠 Weak. Predicted mark: 3/5.
+What I found: Rows 17 and 19 provide learning and quarterly plans, but not cost/schedule validation.
+- Fix list: answer G-04, G-07, G-13, G-17 above.
+CRITERION G4 - Testing obstacles. Status: 🟠 Weak. Predicted mark: 3/5.
+What I found: Row 16 identifies constraints and responses; prototype result and status evidence remain uneven.
+- Fix list: answer G-02, G-17, I-02, I-04 above.
+CRITERION G5 - Inclusion. Status: 🔴 Missing. Predicted mark: 0/5.
+What I found: Row 18 contains no concrete inclusion practice or outcome within this prompt.
+- Fix list: answer G-03 above.
+CRITERION ROI SUMMARY - Return evidence. Status: 🟠 Weak. Predicted mark: 2/5.
+What I found: Row 20 supports capacity figures but not total investment, cash benefit, net ROI or payback.
+- Fix list: answer G-04, G-08, G-09 above.
+CRITERION WHY THIS MERITS THE AWARD - Award case. Status: 🟠 Weak. Predicted mark: 3/5.
+What I found: Rows 11 and 21 give candidate differentiators but scope, quality improvement and supporting records remain open.
+- Fix list: answer G-01, G-11, G-16, I-01 above.
+
+7. CONSOLIDATED CHECKLIST
+- [ ] 1. G-01: What matched baseline/result, sample size, period and review or defect measure demonstrate improved quality?
+- [ ] 2. G-02: What evaluation cases, expected outputs, error counts and results support the analyser’s scoring and scope selection?
+- [ ] 3. G-03: What inclusive team practice was used, who benefited and what changed?
+- [ ] 4. G-04: What budget, implementation effort, operating cost and agreed/actual milestones apply to the nominated scope?
+- [ ] 5. G-05: What anonymised outcome with a baseline and result can demonstrate benefit to the assurance team or service users?
+- [ ] 6. G-06: Who reviews quality and privacy, what data is permitted and what triggers reevaluation or rollback?
+- [ ] 7. G-07: How many certifications were completed, by how many distinct associates, and by what date?
+- [ ] 8. G-08: What anonymised Pulse extract, calculation basis, working-day definition and approval dates substantiate the quarterly totals?
+- [ ] 9. G-09: Which months and tasks are included, and how were overlap and review effort handled?
+- [ ] 10. G-10: What numerator, denominator, comparison workload and dates support these figures?
+- [ ] 11. G-11: What permitted event record confirms 140+ nominations, 38 ideas, 18 finalists, the two account finalists and the named award?
+- [ ] 12. G-12: What scope, calculation and approved evidence connect these claims to this nomination, if they belong here?
+- [ ] 13. G-13: What training type, population and date apply to each completion percentage?
+- [ ] 14. G-14: Which decisions in monitoring, GreenOps and the release tracker actually use a model, and what incremental testing value was measured?
+- [ ] 15. G-15: What tested limits and controls establish these behaviours, including repeated-input results across model outputs?
+- [ ] 16. G-16: Which redacted records can substantiate the nominated claims without disclosing client identifiers or feedback?
+- [ ] 17. G-17: What real testing setback, mentoring intervention or workload adjustment can be described with its outcome?
+- [ ] 18. I-01: Should this nomination cover the account programme only, the platform only, or a demonstrably linked scope?
+- [ ] 19. I-02: Which values are measured, which are projections and what exact tasks do they concern?
+- [ ] 20. I-03: What is the actual deployment status, observation period and measured-versus-forecast status of each benefit?
+- [ ] 21. I-04: Which measurements were achieved in which environment, and which values are targets?
+- [ ] 22. I-05: What bounded evaluation was actually run, and can the unsupported guarantee be removed?
+- [ ] 23. I-06: Which cohort, learning programme and reporting date belong to each statement?
+- [ ] 24. I-07: Which events are distinct, when did they occur and does the count of four include the latest award?
+- [ ] 25. I-08: Are these two descriptions of one proposed initiative?
+- [ ] 26. I-09: Confirm that the repetition introduces no additional delivery or savings population.
+- [ ] 27. I-10: What scenario/model, baseline, region coverage and measurement status support each percentage?
+
+You can answer these in plain text by ID. The named prompt permits continuing after a reply of proceed, with unresolved items still identified; the strongest immediate improvement is a scope decision and a measured quality comparison.
+
+ARITHMETIC AND RECONCILIATION
+- Calculated: 125 + 132 = 257 person-days, matching the supplied total. This checks arithmetic, not the records.
+- Calculated: 8 - 4 = 4 hours per evaluation; 4 / 8 x 100 = 50%. The source includes that gain in 257, so it is not added again.
+- Calculated: Q3 exceeds Q2 by 132 - 125 = 7 person-days; 7 / 125 x 100 = 5.6%. No controlled productivity improvement is inferred from changing workloads and headcount.
+- A 3x speed ratio would imply 1 - 1/3 = approximately 66.67% less time only for an identical task at constant output quality. This hypothetical arithmetic does not validate the source’s different 60–80%, approximately 80% or projected 60% claims.
+- Approximately 70% of 60 is not rounded into an exact completion count because the source says almost 70%.
+- No conversion between days and hours, cash rate, annualisation or overlap assumption has been introduced.
+
+EXECUTION AUDIT
+- Pass: exactly the requested prompt was read in full, including its embedded account and platform narratives. Other category outputs were not regenerated.
+- Pass: 23 extraction fields supplied as bullets with source line references and confidence labels.
+- Pass: all A1–A5, supplementary G1–G5 and both closing sections assessed as requested.
+- Pass: source facts, projections, prototype results and supplementary local checks remain distinct.
+- Pass: no table, pipe layout, invented exhibit, client identifier, feedback quotation or detector-evasion promise in generated outputs.
+- Not run: Phase 2 narrative, Phase 3 draft score/audits and Phase 4 clean copy, as required by the Phase 1 stop rule.
+- Not assessed: final-entry word/character limits and writing rhythm, because these outputs are validation artifacts, not an entry.
+- No external rule/deadline verification was performed in this extraction run. The prompt’s stated deadline is source metadata, not newly verified information.
