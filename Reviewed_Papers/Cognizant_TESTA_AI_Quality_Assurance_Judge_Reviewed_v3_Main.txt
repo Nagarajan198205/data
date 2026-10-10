@@ -1,0 +1,47 @@
+Quality challenge and reported outcome
+
+Cognizant Worldwide Limited UK developed Cognizant Intelligent Platform to help specialists turn potential testing findings into actionable engineering decisions for a UK government client. IntelliA11y addresses accessibility, IntelliSec supports security investigation and Inteliperf interprets performance evidence. The delivery team reports 85% accessibility automation for the work covered by the entry.
+
+The problem begins after a check identifies a possible issue. An engineer must decide whether the finding is relevant, understand its effect on a user journey and establish what to change. AI assists that interpretation through contextual analysis, evidence synthesis and remediation guidance. The relevant specialist then verifies the finding and the proposed action.
+
+In IntelliA11y, repeatable checks identify potential barriers, contextual analysis explains their significance and remediation guidance gives developers a starting point. The 85% figure describes reported automation coverage for the combined workflow. It includes rules-based activity and should not be read as model accuracy, overall accessibility conformance or an isolated measure of AI uplift.
+
+The platform brings the three disciplines together while retaining their distinct verification methods. The local interfaces in exhibits A01 to A07 illustrate these capabilities. They provide a view of the applications and their workflows, separate from the reported client result.
+
+Domain specific AI and practical originality
+
+The AI approach combines domain-specific model development, retrieved reference guidance and specialist review. Each has a practical role. In accessibility testing, a rule may detect a missing label; contextual analysis can examine whether an existing label makes sense within the surrounding task. Retrieved guidance gives the specialist reference material against which to assess the explanation.
+
+The technical documentation describes a fine-tuning pipeline for phi4:14b-a11y, adapted from Phi-4 using QLoRA. It addresses classification of findings and potential false positives, remediation guidance, and severity or user-impact assessment. Documented inputs include human validation records, audit material and generated examples. This establishes the documented development approach; deployed-model provenance and comparative quality results remain separate evidence requirements.
+
+IntelliA11y's retrieval-supported assistant supplies reference context for the current question. Its specialist analysis spans form usability, keyboard interaction, screen-reader experience, visual presentation and cognitive load. A suggested correction is an input to engineering work: the specialist assesses the barrier and checks the changed interaction. Exhibits A03 and A04 show the accessibility platform and knowledge interface.
+
+IntelliSec applies AI to investigation, prioritisation, verification and reporting across security evidence. Its documented scope includes static analysis, dynamic testing, dependencies and cloud configuration. Agents help connect a finding to relevant context and a next verification step; engineers check whether the suspected weakness is valid. Exhibits A01 and A02 show local workflows, with planned functions labelled. Scanner benchmark records describe detector behaviour within particular suites and revisions, rather than the incremental impact of AI investigation.
+
+Inteliperf helps engineers interpret latency, throughput, reliability and capacity observations alongside test intent. An explanation of a readiness score is useful when the engineer can trace it to the underlying measurements. Its documented design keeps assistance separate from deterministic execution and prohibits silent scenario changes, invented endpoints, guessed payloads and AI-only release decisions. Exhibits A05 to A07 illustrate the demonstration workspace and readiness criteria.
+
+Sustained value through governed change
+
+The AI SDLC workspace makes change management part of the application. The reviewed interface contained seven configurable AI controls and ten versioned prompt templates, together with model operations and evaluation facilities. Project, organisation and global controls allow teams to manage where capabilities are enabled. Versioned prompts provide a record of the instructions used as the application evolves.
+
+Validation queues, false-positive analysis and comparative evaluation facilities give teams ways to review model behaviour. Retrieval-supported guidance can provide updated reference context, while prompt and model changes can be assessed separately. These facilities support adaptability; measured improvement depends on completed evaluations and subsequent verification of the findings.
+
+Technical controls also cover input sanitisation and output validation. On 9 October 2026, supplementary local verification passed all 59 existing tests across two utility suites. The checks exercised selected instruction-override patterns, delimiters, input limits and output sanitisation alongside benign inputs. Exhibit A08 records the execution and its scope: verification of these utility behaviours, without model inference or client traffic.
+
+Versioned prompts and validation records provide a foundation for reviewing AI-assisted findings over time. Engineers continue to check the affected interaction or technical evidence when assessing a proposed action. Model development and evaluation continue; the entry makes no claim of measured model superiority from the existing evaluation material.
+
+Efficiency while maintaining specialist review
+
+The reported accessibility automation establishes coverage of activity in the combined workflow. Its operational purpose is to make repeatable checking easier and provide specialists with contextual explanations and proposed corrections to examine. Human review, exception handling and retesting remain necessary; the percentage is not converted into a time-saving or financial return.
+
+The contribution differs by discipline. IntelliA11y connects a potential barrier with an explanation and suggested remediation. IntelliSec helps organise an investigation across security evidence. Inteliperf explains observations against the workload and test intent. The common workflow is to give the engineer a more structured starting point while preserving responsibility for verification.
+
+Efficiency must be considered alongside the quality of the decision. Model inference, infrastructure, maintenance and review all require effort. The platform's validation and governance facilities support that balance by making assistance reviewable and configurable. The entry therefore reports the automation result within its stated scope and describes the mechanisms intended to reduce repetitive work.
+
+User outcomes and the quality decision
+
+The service objective is practical: people should be able to complete the intended task, have their information and access protected, and use the application under the conditions tested. These objectives guide specialists when they assess a finding's significance. A technically plausible response from a model still needs to be tested against the affected interaction, suspected vulnerability or performance measurement.
+
+IntelliA11y supports that decision with contextual assessment and remediation guidance. IntelliSec supports investigation and confirmation. Inteliperf supports interpretation of executed tests. The three applications bring AI into engineering work where a proposed answer can be challenged and checked before it influences a quality decision.
+
+The result disclosed here is accessibility automation, together with documented AI workflows and observed governance facilities. No satisfaction percentage is inferred from those measures. The project establishes a practical approach to AI-assisted quality engineering with specialist responsibility retained across each discipline.

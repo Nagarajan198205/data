@@ -4,6 +4,16 @@ Use [Master prompt v3](TESTA_2026_Multi_Category_Master_Prompt_v3.md) for new wo
 
 All five categories in `categories.txt` now have separate results and reviews. [Category run inputs](Category_Run_Inputs.txt) records the explicit category selection, entrant, source scope and confidentiality settings for each run against v3 at `89f9887`.
 
+## Reviewed papers and evidence checklist
+
+The local TESTA judge–revise loop produced these two reviewer drafts on 10 October 2026. They are a separate reviewed set; the other prompt runs and category outputs below remain preserved.
+
+- [AI paper — Word](Reviewed_Papers/Cognizant_TESTA_AI_Quality_Assurance_Judge_Reviewed_v3.docx) · [Main entry](Reviewed_Papers/Cognizant_TESTA_AI_Quality_Assurance_Judge_Reviewed_v3_Main.txt) · [Summary](Reviewed_Papers/Cognizant_TESTA_AI_Quality_Assurance_Judge_Reviewed_v3_Summary.txt)
+- [Non-functional paper — Word](Reviewed_Papers/Cognizant_TESTA_Non_Functional_Automation_Judge_Reviewed_v4.docx) · [Main entry](Reviewed_Papers/Cognizant_TESTA_Non_Functional_Automation_Judge_Reviewed_v4_Main.txt) · [Summary](Reviewed_Papers/Cognizant_TESTA_Non_Functional_Automation_Judge_Reviewed_v4_Summary.txt)
+- [Six-item evidence checklist](Reviewed_Papers/TESTA_Evidence_Checklist.txt)
+
+Both papers meet the checked entry-text limits. They are ready for internal review; the checklist records evidence still needed before final submission. The AI paper concerns Cognizant Intelligent Platform; the non-functional paper centres on PerfOps and performance assurance. Their metrics are not interchangeable. Raw evidence and application screenshots are not included in this set.
+
 ## Latest AI-only prompt run
 
 The explicitly requested [AI prompt](TESTA_2026_Multi_Category_Master_Prompt_AI.md), added at `695fdbc`, was executed separately on 10 October 2026. Its own instructions govern this run, with drafting continued after the user’s instruction to keep working and push.

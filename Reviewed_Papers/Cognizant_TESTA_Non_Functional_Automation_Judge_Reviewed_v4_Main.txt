@@ -1,0 +1,55 @@
+Project goals and engineering resources
+
+Cognizant Worldwide Limited UK developed PerfOps to make performance assurance a repeatable part of delivery for a UK government client. The team reports that automation reduced manual performance-validation effort by over 90% and infrastructure-validation effort by over 90%. The wider work supported three major releases and migration decisions. Its purpose was to give engineers timely evidence of service capacity, response times and release risks.
+
+The starting process required engineers to validate results, inspect server utilisation, prepare reports and distribute findings manually. Cloud migration added distributed services and Kubernetes scaling behaviour to the scope. Daily rebuilds in some environments removed test data and left a short window for collecting infrastructure telemetry. A repeatable test therefore depended on reliable preparation and evidence collection as well as workload execution.
+
+Performance specialists worked with development and environment teams to define workloads, investigate findings and repeat validation after remediation. Azure DevOps coordinated execution; JMeter and Azure Load Testing supplied workloads; Python routines assessed results; and a .NET generator prepared related synthetic records. Perf Insights supported reproducible analysis. The work combined a reusable automation approach with investigations into particular service risks.
+
+Meeting non functional requirements
+
+PerfOps integrates performance assurance into Azure DevOps pipelines. It scales test environments to production-like capacity before execution and scales them down afterwards to limit running costs. Custom Python routines validate response-time SLAs, error thresholds, throughput targets and capacity requirements. Infrastructure metrics are collected and assessed alongside application results, with automated pass or fail outcomes.
+
+PerfOps generates HTML reports, publishes results and issues automated alerts. One recorded example shows two transactions with P90 response times of 5,134 ms and 4,943 ms against a 4,000 ms threshold. The transaction-volume checks passed, but the response-time checks reported failure. Engineers could identify the failed criteria directly from the alert and follow the result back to the pipeline artefacts. This is a concrete example of automation detecting a performance risk even when the workload volume was achieved.
+
+For identity migration, peak-load, 1x to 4x scalability and endurance testing examined response times, throughput, errors and resource behaviour. Early runs exposed load-balancing, session-stickiness and subsystem integration issues. The teams investigated these findings and repeated validation after remediation before supplying evidence for the migration decision. A separate integration capacity exercise validated 1,000 transactions per minute, approximately 50 times the regular production volume reported by the team, to inform sizing decisions.
+
+Testing representative conditions
+
+The cloud-native framework provides a structured approach to performance testing for services running on Azure Kubernetes Service. A reusable Kusto Query Language library analyses production traffic to establish request rates, transaction mix, peak periods and workload distribution. This gives teams a practical basis for defining workloads and non-functional requirements from observed service use.
+
+The approach covers baseline, load, stress, spike, endurance and failover testing. It includes validation of Horizontal Pod Autoscaling and Cluster Autoscaler behaviour, sizing at pod and node level, and assessment of dependencies between services. Application and Kubernetes telemetry support investigation across both software and infrastructure. The framework has been applied to AKS migration programmes and contributed to the client's wider performance testing strategy.
+
+The workload evidence records 7,532 requests over 60 minutes against a target of 7,200, with approximately 2.1 requests per second against a target of 2. Comparing achieved traffic with the intended volume checks the validity of the test before its response times are interpreted. The framework also considers workload mix and dependent services, so volume is assessed within the wider workload design.
+
+Alongside this framework, the identity performance suite standardises six execution profiles: smoke, load at 1x peak demand, scalability at 2x, 3x and 4x, and endurance. Each uses a shared data preparation stage. Azure Load Testing integration includes 16 data files, with central metric configuration for 64 Azure resources. Environment readiness checks and consolidated stage reporting distinguish unavailable environments from executed tests.
+
+Overcoming execution and evidence challenges
+
+Daily rebuilds required fresh, consistent data for repeated testing. The .NET 8 generator sizes datasets to each profile and creates related records across the identity and business systems. Schema validation, retries, duplicate protection and per-file checks support provisioning. Routine repopulation is automated, while exceptional partial-creation failures follow a documented recovery process. We also corrected failure paths that had returned successful exit states, added validation gates and automated retrieval of the current storage key. These changes address specific causes of invalid or interrupted runs.
+
+A cache-exhaustion investigation demonstrated why realistic testing also had to account for abnormal traffic. A production service experienced excessive cache growth following repeated requests to a public endpoint. Conventional browser-like tests reused cached responses and could not reproduce the behaviour. The team examined application logs, request characteristics and cache activity to identify how automated clients differed from normal browser traffic.
+
+We built a custom JMeter simulation using dynamic request fingerprinting and cache-key variation to recreate the relevant request pattern. Controlled tests in a non-production environment reproduced the cache growth, giving developers a repeatable way to investigate the issue. The team then used the simulation to validate changes to cache-key normalisation, cache bucket segregation and retention. This provided a reusable method for exercising the failure condition and checking remediation in subsequent testing.
+
+Perf Insights addresses the next difficulty: assembling results from separate test files and infrastructure sources into a report that can be reproduced. It integrates six evidence sources and four output formats using approximately ten deterministic insight rules. A common JSON summary supports baseline comparison and offline regeneration, while stable run identifiers preserve traceability when files move or are renamed.
+
+One performance report identifies 22 endpoints exceeding the P95 SLA, giving engineers a defined set of transactions to investigate. Reviewing individual endpoints matters because an aggregate response-time measure can conceal slower user journeys. The analysis combines transaction results with infrastructure metrics to support diagnosis and defect prioritisation.
+
+Resource-level checks also detected missing telemetry for 57 of 64 configured resources on runs that had previously appeared successful. Only about 11% of the expected resources had supplied telemetry. We introduced a quality gate that fails substantially incomplete collection, with configurable coverage requirements and a controlled override. The checks distinguish idle resources from collection errors.
+
+Daily rebuilds can make missed telemetry unrecoverable after roughly 24 hours. Identifying incomplete collection during the workflow gives engineers a chance to respond while evidence is still available. The analysis platform is supported by 285 passing automated regression tests. These validate the tooling that processes performance evidence; performance conclusions follow deterministic rules that engineers can inspect. Further controlled adoption of Perf Insights is planned.
+
+Release confidence and operational results
+
+The delivery team reports over 90% less manual effort for each of two activities: performance validation and infrastructure validation. Automated report generation also removes manual report preparation from the workflow. Engineers retain the work that requires judgement: interpreting findings, investigating defects and advising on release readiness. These are scoped operational results for PerfOps, rather than a claim that the entire testing lifecycle requires 90% less effort.
+
+Power BI dashboards draw on Azure DevOps Boards to bring project status, open defects, assurance activities and test strategy progress into a shared view. A supplied portfolio snapshot displays 11 projects and 10 open bugs, with green, amber and red status indicators. A service-level view shows the latest test outcome, open defects and release readiness. These views make unresolved performance risks visible alongside delivery progress.
+
+Performance testing supplied readiness evidence for three major releases, including Release 3.1. The team reports no production issues following those releases. For identity migration, testing found load-balancing, session and integration issues before the migration decision; investigation and repeat validation supplied the evidence used to proceed. Capacity testing also informed integration sizing. These examples connect the testing activity to a delivery decision.
+
+AI supported the engineering of these capabilities. Microsoft Copilot assisted dashboard design, data modelling, DAX and report development. AI assistance also helped create a PowerShell utility that updates transaction names, naming conventions and think times in large JMeter suites containing more than 1,000 requests. The resulting utility automates repetitive maintenance of test assets.
+
+The project produced reusable assets at several levels: execution profiles, test-data generation, cloud-native testing guidance, automated validation and the cache-reproduction scenario. Teams can repeat the method while adapting workloads and acceptance criteria to the service under test. The value lies in making both the result and its supporting evidence available for engineering review.
+
+Further work will extend controlled adoption of Perf Insights and automate exceptional recovery, alongside wider accessibility automation.

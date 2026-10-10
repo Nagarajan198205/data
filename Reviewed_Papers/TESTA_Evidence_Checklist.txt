@@ -1,0 +1,49 @@
+TESTA — EVIDENCE CHECKLIST
+Cognizant Worldwide Limited UK
+For the AI and non-functional papers reviewed on 10 October 2026
+
+Use anonymised reports, spreadsheets, logs or internal technical records. Exclude client names, identifying programme/resource/tenant details, emails, stakeholder feedback, testimonials and email screenshots. Remove URLs and identifiers from application screenshots before sharing.
+
+[ ] AI-01 — Substantiate 85% accessibility automation
+Provide the total activities assessed, number automated, definition of an automated activity and measurement period. Identify the application/workflow and separate rules-based and AI-assisted activity where possible. Include manual review and exceptions in the scope description.
+Calculation: automated eligible activities / total eligible activities x 100.
+Do not substitute model accuracy or accessibility conformance for automation coverage.
+Owner: __________  Target date: __________  Evidence file/reference: __________
+
+[ ] AI-02 — Confirm fine-tuned model use
+Provide the training-run record, model/checkpoint identifier and deployment/configuration record linking that model to the relevant application and period. Include base model, adaptation method and training-data provenance in an anonymised technical record. A base-versus-fine-tuned evaluation on an independent, representative holdout would strengthen the claim; record sample size and evaluation method.
+A documented training pipeline alone does not confirm deployment or quality uplift.
+Owner: __________  Target date: __________  Evidence file/reference: __________
+
+[ ] AI-03 — Demonstrate measured client improvement
+Provide comparable before/after results for one or more relevant measures: verified accessibility barriers, false positives, remediation time or successful task completion. State sample size, dates, scope, measurement method and specialist verification. Explain which workflow change contributed to the result.
+Anonymised technical outcome records can be used without feedback or testimonials. Do not infer user outcomes from automation coverage.
+Owner: __________  Target date: __________  Evidence file/reference: __________
+
+[ ] NFT-01 — Substantiate 90% effort savings
+Provide manual hours and automated-process hours for the same scope, including human review and exception handling. Record the number of runs, measurement period, task boundaries and calculation basis. Calculate performance validation and infrastructure validation separately.
+Calculation: (manual effort - automated-process effort) / manual effort x 100.
+Distinguish measured effort from estimates and elapsed pipeline time.
+Owner: __________  Target date: __________  Evidence file/reference: __________
+
+[ ] NFT-02 — Demonstrate cache improvement
+Provide comparable before/after test results covering workload, duration, environment/configuration, cache growth or memory use, response times and errors. Include run IDs, the remediation applied and the retest result. Explain material differences between test conditions.
+The existing reproduction narrative supports the method; it does not supply numerical improvement results.
+Owner: __________  Target date: __________  Evidence file/reference: __________
+
+[ ] NFT-03 — Reconcile results and substantiate release outcomes
+Provide original anonymised exports with run IDs, dates, filters, units and scope to explain screenshot differences. Reconcile workload labels and targets, latency/failure aggregates and dashboard time windows. Supply defect-closure/retest records, dates of the three releases and the observation period and incident scope behind the reported absence of production issues.
+Do not combine measurements from different runs or treat a failed alert as evidence of final resolution.
+Owner: __________  Target date: __________  Evidence file/reference: __________
+
+PRIORITY
+Start with AI-01 and NFT-01: these substantiate the headline 85% and 90% claims.
+
+FINAL CHECK
+[ ] Each retained claim links to a real, accessible evidence file and an exact page, section or run.
+[ ] Calculations use consistent scope and reproducible source values.
+[ ] Confidential information has been removed from text, images and file metadata.
+[ ] Summary and main-entry limits are rechecked after revisions.
+[ ] Any organiser requirement for the third-party organisation name is resolved through an acceptable confidential submission arrangement before submission.
+
+The checklist records outstanding requests, not completed verification. Use actual project measurements; leave missing values open rather than inventing them. The local TESTA_Evidence_Collection_and_Verification_Pack.docx provides the fuller collection form.
