@@ -1,9 +1,0 @@
-{
-  "executedScriptSha256": "e6858c366fb746e9f6055e0f5d545389e02dc62252f63c747fc8604612426a38",
-  "currentPortableScriptSha256": "994cbce3ab315a45fa5868cee7323a507a6cd3f35111a573efb56681412f3168",
-  "portableScriptRerun": false,
-  "postRunChanges": "Added INTELIPERF_REPO override and public redaction/private preservation only. Core demo execution and outcome checks unchanged.",
-  "privateRawSha256": "4440d8d6b4a824da47f520a172d558e131f29eaf1aeca7eb6b1a4e50695ae36f",
-  "publishedRawSha256": "77205993cc4c42f4b78fc27c4361c222a02c292ff1c8166e3d6e7238e591d0b8",
-  "redaction": "Loopback target address replaced by fixture alias; personal absolute paths replaced by directory placeholders. Measurements unchanged."
-}

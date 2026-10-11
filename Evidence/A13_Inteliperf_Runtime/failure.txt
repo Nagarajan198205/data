@@ -1,2 +1,0 @@
-AssertionError [ERR_ASSERTION]: 0 == 3
-    at <EVIDENCE_DIR>/run-demo.cjs:74:10
