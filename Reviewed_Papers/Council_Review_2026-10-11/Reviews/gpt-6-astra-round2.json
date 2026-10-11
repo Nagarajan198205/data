@@ -1,0 +1,93 @@
+{
+  "reviewer": "GPT-6 Astra \u2014 independent simulated category review, round 2",
+  "papers": {
+    "ai": {
+      "criterion_scores": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "writing_score": 21,
+      "reasons": [
+        "A1: No matched test-quality result. Activity coverage and effort savings do not demonstrate quality improvement; the dataset audit prevents treating the existing split as independent uplift evidence.",
+        "A2: Domain adaptation and deterministic rescoring offer a specific technical approach, but design documentation and local interfaces do not establish implemented comparative advantage.",
+        "A3: Two quarters of reported benefits, training and reusable prompts support continuity. Sustained quality, operational adaptation and change-evaluation outcomes remain unmeasured.",
+        "A4: The reported 257 net-review days and included eight-to-four-hour task are relevant. Original calculations, approvals and evidence that quality was maintained remain absent.",
+        "A5: The assurance task has plausible operational value, but no measured stakeholder or verified service-user outcome is supplied."
+      ],
+      "editorial_fixes": [
+        "The sentence 'The accessibility automation result measures activity coverage within its own workflow' calls an undefined claim a measurement. Replace with 'The accessibility automation claim concerns activity coverage within its own workflow and is not used to calculate the account saving.'",
+        "The prototype paragraph says 'then publishes recommendations and proposed test cases into Azure DevOps' before switching to documented design. To avoid implying verified integration, replace the sentence with 'Its documented design considers a change alongside requirements, dependencies, risks and existing tests, and provides for publishing recommendations and proposed test cases into Azure DevOps.'",
+        "The conclusion 'matched quality comparison is still needed' and the summary's separate-scope wording correctly expose the main gaps. Retain them; further rhetorical expansion cannot repair A1 or A5."
+      ],
+      "missing_evidence": [
+        "Original task-level benefit calculations, review deductions, approval records, work-volume comparability and retained-quality results.",
+        "Accessibility activity numerator, denominator, measurement period and attribution between deterministic automation and AI.",
+        "Deployed model identity and independent comparative evaluation; verified accessibility corrections or other stakeholder outcomes.",
+        "Eligible nomination boundary connecting account delivery and specialist development, or a narrower account-only nomination. Available now: S01 source digest, labelled A01\u2013A07 local illustrations, A08 limited utility checks and A09 adverse dataset audit; none substitutes for client outcome evidence."
+      ],
+      "target_met": false
+    },
+    "nft": {
+      "criterion_scores": [
+        2,
+        3,
+        2,
+        3,
+        3
+      ],
+      "writing_score": 22,
+      "reasons": [
+        "N1: N01 demonstrates failed threshold detection, with four displayed samples per transaction. Successful requirements acceptance and remediation closure remain narrative claims.",
+        "N2: Production-informed methodology, workload-volume evidence, scaling profiles and abnormal-traffic reproduction are relevant. Production baselines, environment equivalence and transaction-level sample sufficiency remain incomplete.",
+        "N3: Three release inputs and migration investigations are explicitly reported. Linked release decisions, final retests and acceptance records are absent.",
+        "N4: Goals, engineering roles, tooling and operational examples are detailed. Timed effort evidence, quantified resource commitments and reconciled result records remain missing.",
+        "N5: Cache reproduction, daily rebuilds, false success states and missing telemetry have specific responses. Primary before/after or closure records are needed to evaluate their demonstrated effectiveness."
+      ],
+      "editorial_fixes": [
+        "'These validate the tooling that processes performance evidence' overstates a source-reported test count without inspected coverage or results. Replace with 'These are reported checks of the analysis tooling, not client performance scenarios.'",
+        "The summary's 'A custom JMeter simulation reproduced abnormal cache growth for remediation testing' loses the source qualification used in the main text. Replace with 'The team reports using a custom JMeter simulation to reproduce abnormal cache growth for remediation testing.'",
+        "'It supplies a repeatable investigation method' could imply demonstrated reproducibility from the digest. Replace with 'It describes the investigation method, but supplies no paired numerical before-and-after measurements.' The method remains useful without presenting the digest as a replication record."
+      ],
+      "missing_evidence": [
+        "Approved NFRs, final passing acceptance results and matched cache baseline/retest records tied to changes and reviewer acceptance.",
+        "Production workload derivation, transaction mix, environment equivalence, adequate transaction samples and reconciled endpoint results.",
+        "Dated release/migration decision trail, comparable manual and automated task timings, telemetry gate retests and raw tooling-test output.",
+        "Available now: N01 accurately scoped transcription and N02\u2013N04 attributed source digests. Preserve the four-sample limitation and unresolved production denominator. Original identifying visuals and email imagery remain excluded."
+      ],
+      "target_met": false
+    },
+    "innovation": {
+      "criterion_scores": [
+        2,
+        3,
+        1,
+        2,
+        2
+      ],
+      "writing_score": 22,
+      "reasons": [
+        "I1: A coherent local change in test ownership is described, but active contributions, execution and measured improvement remain unverified.",
+        "I2: The central-team constraint maps clearly to tagging, three pipelines and a template utility. S02 substantiates the source narrative, not actual implementation.",
+        "I3: Transferability is plausible; a substantiated attempt to advance industry practice is not yet demonstrated. External adoption is not required, but a comparative contribution or evidenced boundary-pushing attempt is needed.",
+        "I4: Goals and responsibilities are clear, while adoption remains reported and benefits unmeasured. Removing unrelated savings correctly narrows the claim without creating new result evidence.",
+        "I5: Ownership, setup consistency and failure investigation have sensible design responses. A completed operational example is still needed to show the response worked."
+      ],
+      "editorial_fixes": [
+        "'but it no longer has to re-author every service's business-critical scenario' implies an established operational change. Replace with 'with the aim of avoiding re-authoring each service's business-critical scenario.'",
+        "Remove 'Specialist AI work elsewhere in the account has a separate delivery scope' and its following exclusion sentence. The next sentence already defines this project's scope; the removed wording unnecessarily asserts an account relationship when the nomination boundary remains unestablished.",
+        "The final paragraph is an evidence-acquisition note rather than a project conclusion. Keep the missing triage example in the evidence requirements and close with 'The reported method combines domain-led test maintenance with shared execution; its operational benefits remain to be verified through contribution and run records.'"
+      ],
+      "missing_evidence": [
+        "Five-team contribution histories, shared pipeline runs, template/pipeline implementation and governance records.",
+        "Completed failure-assignment-correction-retest example and comparable preparation timings including validation effort.",
+        "Measured regression coverage, duplicate-maintenance or central-team workload change; comparison with existing practice explaining the distinctive contribution or boundary-pushing attempt.",
+        "Available now: S02 as an attributed design/adoption digest. Unrelated AI savings and local specialist demonstrations are correctly excluded from this project's results."
+      ],
+      "target_met": false
+    }
+  },
+  "council_recommendation": "Substantiation totals: AI 8/25, NFT 13/25, Innovation 10/25. Writing and scope discipline improved; substantiation has plateaued because traceable digests add provenance, not new client measurements. Apply the narrow wording fixes, retain evidence limitations and acquire the primary records before representing any paper as meeting 4/5 on every criterion. Innovation now avoids the main cross-paper double attribution; AI still needs an eligible boundary between account delivery and specialist development. Maintain the distinction between PerfOps/Perf Insights and the separate specialist performance application. Supply third-party identity separately under organiser rules without placing it in anonymous papers or this review."
+}

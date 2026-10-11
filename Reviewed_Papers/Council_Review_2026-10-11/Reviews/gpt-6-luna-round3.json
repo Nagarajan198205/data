@@ -1,0 +1,87 @@
+{
+  "reviewer": "GPT-6 Luna",
+  "papers": {
+    "ai": {
+      "criterion_scores": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "writing_score": 24,
+      "reasons": [
+        "A1: The paper expressly says a matched quality comparison is still needed; no test-quality or accuracy uplift is evidenced.",
+        "A2: The described governance and specialist designs are plausible, but deployment and distinctive comparative contribution are unproved.",
+        "A3: Prompt reuse and training are reported, but sustained use and quality of outputs over time lack records.",
+        "A4: Savings are explicitly reported, but ledger, approvals, task timing and retained-quality evidence are absent.",
+        "A5: Use cases are described; no measured stakeholder or service-user outcomes or satisfaction are supplied."
+      ],
+      "editorial_fixes": [
+        "The 257-day claim appears twice in the main entry. Retain one occurrence and use the freed space for a compact evidence limitation; the current duplicate does not add substantiation.",
+        "Clarify \u2018The Code Coverage Agent uses GitHub Copilot\u2019 as \u2018The account narrative describes a Code Coverage Agent using GitHub Copilot\u2019 to match the narrative-only evidence status."
+      ],
+      "missing_evidence": [
+        "Underlying benefit ledger, review deductions, approval provenance, and time records for the nested monthly task.",
+        "Matched test-quality evidence showing quality maintained or improved with the claimed effort reduction; measured stakeholder outcomes.",
+        "Verified deployed model identity and use; a clean independent evaluation set and comparative results. A09 finds overlap and does not validate the remaining candidate inputs."
+      ],
+      "target_met": false
+    },
+    "nft": {
+      "criterion_scores": [
+        3,
+        3,
+        2,
+        2,
+        3
+      ],
+      "writing_score": 24,
+      "reasons": [
+        "N1: Automated checks compare results with explicit SLAs, but the evidence is mainly a failed alert and reported methods, not demonstrated acceptance across requirements.",
+        "N2: Production-traffic analysis and workload design are described; the visual confirms volume only, with four samples per alerted transaction and no environment-comparability record.",
+        "N3: Testing is reported as informing migration and release decisions, but no decision or acceptance records corroborate that contribution.",
+        "N4: Scope and methods are detailed, but >90% effort claims and delivery outcomes lack primary measurement records.",
+        "N5: The paper explains cache and telemetry responses; cache benefit is unquantified and telemetry records show 57/64 resources missing data."
+      ],
+      "editorial_fixes": [
+        "Change \u2018A cache-exhaustion investigation demonstrated why realistic testing also had to account for abnormal traffic\u2019 to \u2018The supplied case narrative describes an investigation into abnormal traffic and cache growth.\u2019 This avoids presenting an unverified source account as independently demonstrated.",
+        "Change \u2018PerfOps integrates performance assurance into Azure DevOps pipelines\u2019 to \u2018The delivery narrative describes PerfOps as integrated with Azure DevOps pipelines\u2019 unless implementation records are added."
+      ],
+      "missing_evidence": [
+        "Raw workload and per-transaction records, representative workload mix, comparable environment conditions, and adequate samples.",
+        "Matched cache reproduction and retest measurements, change record, and reviewer acceptance; before/after task hours for both reported effort reductions.",
+        "Raw telemetry gate results, migration/release decision records, and release dates plus defined outcome observation window. N01/N02/N03/N04 are transcriptions or narrative digests, not primary execution evidence."
+      ],
+      "target_met": false
+    },
+    "innovation": {
+      "criterion_scores": [
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "writing_score": 24,
+      "reasons": [
+        "I1: Domain-owned scenarios with shared execution are a plausible practice contribution, but the described method and benefits lack implementation records.",
+        "I2: The driver and architecture are clear in the narrative; repositories, pipeline history and executed runs were not inspected.",
+        "I3: The paper positions an adaptation around established tagging and pipelines; no substantiated attempt or comparison shows a boundary-pushing contribution.",
+        "I4: Roles and intended assets are clear, but five-team participation and realized project results remain narrative-only.",
+        "I5: Ownership and triage address maintenance risks conceptually; no actual failure assignment and retest example is evidenced."
+      ],
+      "editorial_fixes": [
+        "Change \u2018Cognizant ... developed a contribution model\u2019 to \u2018The source narrative describes a contribution model\u2019 because S02 is not an inspected implementation record.",
+        "The claim that the pipeline \u2018selects those scenarios ... and executes them\u2019 should be attributed to the design narrative until contribution and shared-run records are supplied."
+      ],
+      "missing_evidence": [
+        "Source repositories, pipeline/template implementation and execution history; contribution and shared-run records by team.",
+        "A completed failure triage and retest example, plus evidence of reduced duplication, improved coverage, or another outcome against prior practice.",
+        "A substantiated comparison or other evidence showing how the contribution advances practice; external adoption is not required as the only route."
+      ],
+      "target_met": false
+    }
+  },
+  "council_recommendation": "The revisions corrected key overclaims: AI distinguishes activity coverage from accuracy and discloses the evaluation overlap; NFT removes the unresolved 125% label and qualifies small-sample, cache, telemetry, and release evidence; Innovation excludes unrelated AI savings and makes no quantified onboarding claim. The remaining plateau is primary evidence: narrative digests and transcriptions establish source attribution or file identity, not client outcomes or implementation. Keep the 257 person-days solely within the account AI scope, do not attribute it to specialist applications or shared regression, and keep NFT effort claims separate. The final papers are carefully calibrated, but none reaches 4/5 on every criterion."
+}

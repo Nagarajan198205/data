@@ -1,0 +1,11 @@
+N02 — CACHE CASE SOURCE DIGEST
+Prepared 11 October 2026. Evidence type: supplied engineering narrative, not raw test output.
+NFT-NAGAP.docx
+Source SHA256: 12ebdeff4e139ffc5cf0db918475c5b3bde89ba94c3f45b5f0b267a74707bfef
+Source locators: paragraphs 5–12 (problem), 14–23 (method), 25–32 (reported outcome), counting every Word paragraph from 1.
+
+The source describes abnormal cache growth caused by repeated automated requests. Browser-like test traffic reused cached responses and did not reproduce the condition. Engineers examined application logs and request characteristics, then used JMeter with dynamic request fingerprinting and cache-key variation in a non-production environment. The source reports reproducing growth and validating changes to cache-key normalisation, bucket segregation and retention.
+
+The source asserts reduced cache footprint and removal of excessive accumulation, but supplies no paired numerical measurements, run dates, workload equivalence or defect-closure record. The evidence supports the reported investigation method. It does not independently establish the extent or durability of remediation.
+
+Needed to close: matched baseline/retest request pattern, test duration, cache growth or memory, response time/error results, change identifier and reviewer acceptance.

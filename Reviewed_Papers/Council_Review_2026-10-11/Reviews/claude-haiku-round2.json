@@ -1,0 +1,107 @@
+{
+  "reviewer": "Claude council reader (simulated category judge; not an official judge)",
+  "papers": {
+    "ai": {
+      "criterion_scores": [
+        1,
+        2,
+        2,
+        1,
+        1
+      ],
+      "writing_score": 18,
+      "reasons": [
+        "A1: No matched quality comparison exists. The 85% figure is user-reported with no numerator, denominator or period, and A09 shows train/evaluation overlap, so no uplift can be claimed.",
+        "A2: Documented designs (fixed-code score recalculation, adapted-model approach) are described, but the deployed model and any client run are not shown. Originality is plausible, not substantiated.",
+        "A3: Growth from 50 to 60 associates, prompt templates and controls show scale. Sustained value over time is not measured. A08 covers 59 synthetic-fixture tests, not inference or client traffic.",
+        "A4: The 257 person-days is an account claim with no task ledger, no export of the internal recording, no approval record and no quality-retained comparison. Efficiency with quality maintained is unproven.",
+        "A5: The only outcome is one person's monthly task falling from eight to four hours. No satisfaction or client outcome record exists."
+      ],
+      "editorial_fixes": [
+        "Section 4 contradicts itself. Replace 'Review time is included in the calculation' with 'Review time is deducted from the reported figure, so 257 person-days is a net claim.'",
+        "Section 3: replace 'The IntelliA11y AI SDLC workspace was observed with seven configurable AI controls and ten versioned prompt templates' with 'A demonstration workspace displayed seven configurable AI controls and ten versioned prompt templates. This shows interface capability, not deployment.'",
+        "Section 2: after 'did not establish that the documented adapted model served a client run', add 'The reviewed workspace displayed a different model identifier, and the local model service did not list the adapted model at inspection.'",
+        "Section 3: after 'Exhibit A08 records this limited technical check', add 'The 59 tests overlap across two synthetic-fixture suites and are not 59 unique attack classes.'",
+        "Section 1: after 'with its calculation and measurement period still to be substantiated', add 'The numerator, denominator and period are not yet supplied, and the figure is not used in any saving.'"
+      ],
+      "missing_evidence": [
+        "Task-level ledger for the 125 and 132 person-days, including the review deductions.",
+        "Original approval record for the quarterly figures, not a summary.",
+        "Matched quality comparison of AI-assisted and prior deliverables on the same sample.",
+        "Numerator, denominator and measurement period for the 85% coverage figure.",
+        "Deployed model identifier and inference logs for any client run.",
+        "Frozen candidate evaluation set with independent label review and a fresh holdout.",
+        "Client outcome or satisfaction records, if they exist."
+      ],
+      "target_met": false
+    },
+    "nft": {
+      "criterion_scores": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "writing_score": 17,
+      "reasons": [
+        "N1: The failed P90 alert (5,134 and 4,943 ms against 4,000 ms) shows failure detection, not requirements met. No passing acceptance result is supplied.",
+        "N2: The cache case is a non-production reproduction. The workload (about 104.6% of the 7,200 target; 2.1 against 2 requests per second) checks volume only. Four displayed samples per failed transaction limit percentile validity.",
+        "N3: Three releases are reported without dates, acceptance records or an observation window. The 285 passing tests validate tooling, not client scenarios.",
+        "N4: The 90% effort reduction has no baseline hours, run count or observation period. The 1,000 transactions-per-minute capacity exercise has no provenance. The telemetry gap (7 of 64, about 11%) is stated honestly.",
+        "N5: Challenges (daily rebuilds, invalid runs, cache behaviour, telemetry gate) are described with responses. The remediation effect is unmeasured, so the evaluation is partial."
+      ],
+      "editorial_fixes": [
+        "Heading 'Meeting non functional requirements' should read 'Meeting non-functional requirements'. Reword the first sentence as design intent: 'The approach is designed to check response-time, error, throughput and capacity criteria.'",
+        "Remove the internal evidence tags '(N01)', '(N02)', '(N03)' and '(N04)' from the entry text, or replace them with exhibit numbers.",
+        "Replace 'The workload visual records 7,532 requests over 60 minutes against a target of 7,200' with 'The workload visual records 7,532 requests over 60 minutes, about 104.6% of the 7,200 target. Its separate 125%-of-production label has an unresolved baseline and is not used.'",
+        "Replace 'Each transaction has a displayed count of four, limiting percentile interpretation' with 'Each failed transaction's P90 rests on four displayed samples, so the percentile values are indicative only.'",
+        "After 'over 90% less manual effort', add 'No baseline hours, run count or observation period is supplied, so the percentage is unverified.'",
+        "Replace 'approximately 50 times the regular production volume reported by the team' with 'approximately 50 times the team-reported normal volume; the production baseline and run provenance are not supplied.'",
+        "Replace 'The team reports that the wider work supported three major releases' with 'The delivery narrative reports performance-readiness inputs for three releases. Release dates and acceptance records are not yet supplied.'"
+      ],
+      "missing_evidence": [
+        "Release dates, acceptance or sign-off records and a post-release observation window.",
+        "Raw workload and alert outputs with run identifiers.",
+        "Pre- and post-automation hours with task timings for the 90% claims.",
+        "Matched cache baseline and retest numbers (cache growth or memory, response time, errors) with a change identifier.",
+        "Production baseline for the 1,000 transactions-per-minute exercise and the 125% label.",
+        "More samples per failing transaction, or a statement that percentiles are not relied on.",
+        "Telemetry gate retest records and raw output of the 285 tests."
+      ],
+      "target_met": false
+    },
+    "innovation": {
+      "criterion_scores": [
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "writing_score": 19,
+      "reasons": [
+        "I1: Tag-based ownership with a three-pipeline split is a reasonable practice advance, but it applies existing Playwright and Azure DevOps features. No comparison with prior practice is given.",
+        "I2: The driver (the central team cannot hold every service's domain knowledge) is well stated. The implementation is a design description; no pipeline history or template has been inspected.",
+        "I3: No external adoption and no comparative contribution are established. The paper says so honestly. A substantiated comparison with a prior approach could qualify, but none is given.",
+        "I4: Five teams is reported participation, not verified adoption. The setup-timing conflict is correctly excluded, but no run or contribution records support the goals.",
+        "I5: Obstacles (maintenance, triage, inconsistent setup) and design responses are identified. No completed failure-to-fix example demonstrates the response."
+      ],
+      "editorial_fixes": [
+        "Replace 'A formal test strategy defines the approach' with 'The source describes a test strategy in which service teams maintain scenarios and the platform team governs execution.'",
+        "Replace 'The innovation case here rests on the shared regression method and its reported internal adoption' with 'The innovation case rests on the shared regression method. Internal participation is reported by the team and is not independently verified. No external adoption is established.'",
+        "Remove the internal source tag '(S02)' from the entry text."
+      ],
+      "missing_evidence": [
+        "Contribution history and shared-run records for each of the five teams.",
+        "Pipeline definitions and recent run history, with run or commit identifiers.",
+        "One completed example: a contributed scenario fails, is triaged, is corrected and passes on rerun.",
+        "Matched setup timing with a defined scope and working-day definition.",
+        "Measured regression benefit compared with prior practice.",
+        "External adoption records. None are established, so none may be claimed."
+      ],
+      "target_met": false
+    }
+  },
+  "council_recommendation": "No paper meets 4/5 on every criterion. The gaps are evidential, not editorial: no ledger, quality comparison, release records, numerical remediation outcome, run history or holdout exists yet. Safe editorial corrections now: AI section 4 review-deduction contradiction; 'observed' wording for the workspace; disclosure of the different model identifier; the NFT heading and internal tags; the innovation 'formal test strategy' and 'internal adoption' wording. Do not rewrite 'reported' as 'estimated', do not state that an export is being compiled, and do not state that there were no external adopters. Cross-paper scope conflicts: (a) NFT credits AI-assisted dashboard and utility work, but the AI paper does not say whether it falls inside the 257 person-days; (b) the NFT paper's 'Perf Insights' and the AI paper's performance-interpretation application are different tools and should be distinguished by name in both; (c) the 257 person-days is account-wide and must not be read as covering the innovation or NFT savings; (d) the 90% NFT effort claim, the innovation 99% setup claim and the AI 85% coverage figure have different populations and denominators and must not be combined; (e) setup-timing claims stay excluded from the innovation paper until reconciled; (f) the dashboard's 11 projects and 10 bugs are not deployment counts and must not be read as such."
+}

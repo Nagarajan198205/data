@@ -1,0 +1,102 @@
+{
+  "reviewer": "Simulated category judge (Claude Haiku 5.5). Not an official judge. Editorial review only, with no new evidence.",
+  "papers": {
+    "ai": {
+      "criterion_scores": [
+        0,
+        2,
+        1,
+        1,
+        0
+      ],
+      "writing_score": 18,
+      "reasons": [
+        "A1: No matched quality comparison exists. A09 shows train/eval overlap, and no model run supports measured uplift.",
+        "A2: Documented designs (Test Impact Analyser, QLoRA adaptation, fixed-code score recalculation) are distinctive but unverified in operation. Scored as design only.",
+        "A3: Controls, versioned prompts and 59 synthetic utility tests show structure, not sustained use over time.",
+        "A4: The 257 person-day figure is an unverified account claim. No ledger, approval record or retained-quality comparison is supplied, and the review deduction cannot be checked.",
+        "A5: No stakeholder or service-user measurement exists. The eight-to-four task change is one team-reported example."
+      ],
+      "editorial_fixes": [
+        "Replace 'Exhibits A05 to A07 show this local capability' with 'Exhibits A05 to A07 show a fresh demonstration workspace and score descriptions, not a deployed capability.' The current wording overstates what those screenshots show.",
+        "Replace 'The account narrative describes training associates then working on the account' with 'The account narrative describes training the associates assigned to the account before AI-assisted work began.'",
+        "Replace the named internal time-recording system with 'the internal time-recording system', so no internal system name is reproduced.",
+        "Remove the duplicate 'Review time was deducted' sentence in section 4 so the deduction is stated once."
+      ],
+      "missing_evidence": [
+        "Account effort ledger for Q2 and Q3 with task scope, review deductions and the approval record.",
+        "Matched before-and-after quality data (review findings, rework or defect escapes) for AI-assisted and prior work.",
+        "Run or deployment records showing which model served the Code Coverage and accessibility workflows, with dates.",
+        "Timed before-and-after record for the monthly evaluation task.",
+        "Frozen, independently labelled accessibility evaluation with the numerator, denominator and period behind the 85 per cent figure."
+      ],
+      "target_met": false
+    },
+    "nft": {
+      "criterion_scores": [
+        1,
+        1,
+        1,
+        2,
+        3
+      ],
+      "writing_score": 16,
+      "reasons": [
+        "N1: One failed alert shows failure detection, not a passing acceptance result. The volume visual alone does not establish requirements met.",
+        "N2: The transcribed volume is 104.6 per cent of target. The production baseline is unresolved, and the cache reproduction is non-production with no numbers.",
+        "N3: Three releases and migration decisions are reported without dates, acceptance records or an observation window. The 90 per cent effort claim is unverified.",
+        "N4: Resources, workloads and goals are specified clearly. Achievements remain narrative, and the 285 tests check tooling rather than client scenarios.",
+        "N5: Challenges (57 of 64 telemetry gaps, cache exhaustion, false success exits) and responses are described clearly. Post-remediation outcomes are not quantified."
+      ],
+      "editorial_fixes": [
+        "Change 'PerfOps integrates performance assurance ... It scales test environments to production-like capacity' to 'The design is described as scaling test environments to production-like capacity', because it is a described design.",
+        "Change the heading 'Meeting non functional requirements' to 'Meeting non-functional requirements'.",
+        "Change 'Each transaction has a displayed count of four' to 'The two transactions shown each have a displayed count of four', which matches N01.",
+        "Change 'Report generation automates preparation' to 'The narrative describes report generation as automating preparation'."
+      ],
+      "missing_evidence": [
+        "Primary run records for the 1x to 4x scalability and endurance profiles, with response-time, error and resource results.",
+        "Numerical before-and-after cache growth data, with run dates and workload equivalence.",
+        "Production baseline supporting the 125 per cent label, or its removal.",
+        "Sample counts per transaction and a retest after the failed P90 alert was fixed.",
+        "Dated release records, acceptance decisions and a defined post-release observation window.",
+        "Telemetry-gate retest output and raw output for the 285 tests.",
+        "Timed before-and-after records for the 90 per cent effort claims.",
+        "Packageable now, as derived material only: N01 transcription, N02, N03 and N04 digests."
+      ],
+      "target_met": false
+    },
+    "innovation": {
+      "criterion_scores": [
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "writing_score": 18,
+      "reasons": [
+        "I1: Tag-based selection is an established Playwright mechanism. The advance is organisational (service-owned scenarios with central execution), not a demonstrated practice advance.",
+        "I2: The driver and the three-pipeline and generator implementation are clear. No repository or pipeline run history has been inspected.",
+        "I3: The contribution model is a genuine attempt to extend shared regression. It has no comparative contribution, external adoption or measured regression benefit yet, so it is not substantiated.",
+        "I4: The goal, resources and five reported teams are stated. The achievements are not verified.",
+        "I5: The maintenance obligation and triage model are described. No completed owner-fix-rerun example is supplied."
+      ],
+      "editorial_fixes": [
+        "Change 'The innovation case rests on the shared regression method. The source describes internal participation' to 'The source describes five service teams on the shared platform.' 'Internal' is an unsupported inference.",
+        "Add 'as reported' after 'The source describes five service teams' in the summary, so the count is attributed.",
+        "Keep 'with the aim of avoiding a second platform copy' as written. It is the correct level of claim and should not be strengthened."
+      ],
+      "missing_evidence": [
+        "Contribution history per team and shared-run records.",
+        "Pipeline definitions and template exports from the repository, for implementation verification.",
+        "One completed example of a contributed scenario failing, being triaged to its owner, corrected and rerun.",
+        "Matched setup-timing record with a defined scope and working-day definition.",
+        "Measured regression benefit or comparison with prior practice.",
+        "Packageable now, as derived material only: the S02 digest and the design description."
+      ],
+      "target_met": false
+    }
+  },
+  "council_recommendation": "No paper meets 4/5 on every criterion, and none should be described as meeting it. The plateau comes from absent primary records (ledgers, approvals, run and release records, matched quality data, a completed ownership example), not from prose. Round three adds no evidence, so wording changes do not raise marks. The editorial fixes above are correctable without new facts and should be made: they remove overstated capability language (AI A05 to A07), an unsupported 'internal' inference (innovation), and unqualified design claims (NFT). Cross-paper scope conflicts: (1) If AI-assisted NFT dashboard or PowerShell effort, or the innovation generator effort, falls inside the 257 person-day account total, the populations double-count. Confirm the boundary before any combined claim. (2) NFT and AI papers both describe AI-assisted engineering on distinct tools; keep them separate. (3) The shared-regression savings are excluded from the AI total and must stay excluded. Packageable now, as digests and disclosures only: S01, S02, N01 to N04, A08, A09 (adverse, retain internally), and A01 to A07 with scope labels. Evidence that cannot be packaged now is listed per paper. Record that no paper passes the target until those primary records exist."
+}

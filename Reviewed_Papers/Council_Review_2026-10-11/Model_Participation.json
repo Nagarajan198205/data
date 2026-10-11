@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-11",
+  "successful_reviewers": [
+    {
+      "requested": "gpt-6.1-sol",
+      "reported_model": "gpt-6.1-sol",
+      "rounds_completed": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "requested": "gpt-6-astra",
+      "reported_model": "gpt-6-astra",
+      "rounds_completed": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "requested": "gpt-6-sol",
+      "reported_model": "gpt-6-sol",
+      "rounds_completed": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "requested": "gpt-6-luna",
+      "reported_model": "gpt-6-luna",
+      "rounds_completed": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "requested": "gpt-5.6-sol",
+      "reported_model": "gpt-5.6-sol",
+      "rounds_completed": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "requested": "claude-opus",
+      "reported_model": "claude-opus-5-5",
+      "rounds_completed": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "requested": "claude-sonnet",
+      "reported_model": "claude-sonnet-5-5",
+      "rounds_completed": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "requested": "claude-haiku",
+      "reported_model": "claude-haiku-5-5",
+      "rounds_completed": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "attempted_unavailable": [
+    {
+      "alias": "fable",
+      "reason": "Fable 5.1 requires usage credits; no review returned and no credits purchased."
+    }
+  ],
+  "coverage": "All five selectable Codex model overrides exposed in this session and three successful Claude families. This is not a claim that every model version in either vendor catalogue was used.",
+  "claude_execution": "Authenticated local CLI, tools disabled, no MCP connections, anonymised packet on stdin. Session/account metadata excluded."
+}

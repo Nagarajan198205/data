@@ -4,20 +4,19 @@ Start with the current reviewed papers below. Their latest source prompts are id
 
 All five categories in `categories.txt` now have separate results and reviews. [Category run inputs](Category_Run_Inputs.txt) records the explicit category selection, entrant, source scope and confidentiality settings for each run against v3 at `89f9887`.
 
-## Current reviewed papers and evidence checklist
+## Current council reviewed papers and evidence
 
-The latest reviewed set contains three papers. The AI and innovation entries incorporate the sources added at `85d7373`; the non-functional paper is unchanged. Earlier versions and other prompt-run outputs remain available as historical drafts.
+Eight model reviewers completed three review rounds on 11 October 2026: five Codex models and Claude Opus, Sonnet and Haiku. Fable was attempted but required usage credits. These are simulated reviews, not official TESTA marks. No entry has been submitted.
 
-- **AI Powered Quality Assurance v4:** [Word](Reviewed_Papers/Cognizant_TESTA_AI_Quality_Assurance_Judge_Reviewed_v4.docx) · [Paste-ready result](Reviewed_Papers/AI_Powered_Quality_Assurance_Result.txt) · [Section audit and evidence gaps](Reviewed_Papers/AI_Powered_Quality_Assurance_Data_Gaps_and_Inconsistencies.txt)
-- **Most Innovative Project v1:** [Word](Reviewed_Papers/Cognizant_TESTA_Most_Innovative_Project_Judge_Reviewed_v1.docx) · [Paste-ready result](Reviewed_Papers/Most_Innovative_Project_Result.txt) · [Section audit and evidence gaps](Reviewed_Papers/Most_Innovative_Project_Data_Gaps_and_Inconsistencies.txt)
-- **Non-functional Automation v4:** [Word](Reviewed_Papers/Cognizant_TESTA_Non_Functional_Automation_Judge_Reviewed_v4.docx) · [Main entry](Reviewed_Papers/Cognizant_TESTA_Non_Functional_Automation_Judge_Reviewed_v4_Main.txt) · [Summary](Reviewed_Papers/Cognizant_TESTA_Non_Functional_Automation_Judge_Reviewed_v4_Summary.txt)
-- [Updated evidence checklist for all three papers](Reviewed_Papers/TESTA_Evidence_Checklist.txt)
+- **AI Powered Quality Assurance:** [Word](Reviewed_Papers/Council_Review_2026-10-11/Cognizant_TESTA_AI_Quality_Assurance_Council_v5.docx) · [Paste-ready text](Reviewed_Papers/Council_Review_2026-10-11/Cognizant_TESTA_AI_Quality_Assurance_Council_v5_Result.txt)
+- **Non-functional Test Automation:** [Word](Reviewed_Papers/Council_Review_2026-10-11/Cognizant_TESTA_Non_Functional_Automation_Council_v5.docx) · [Paste-ready text](Reviewed_Papers/Council_Review_2026-10-11/Cognizant_TESTA_Non_Functional_Automation_Council_v5_Result.txt)
+- **Most Innovative Project:** [Word](Reviewed_Papers/Council_Review_2026-10-11/Cognizant_TESTA_Most_Innovative_Project_Council_v2.docx) · [Paste-ready text](Reviewed_Papers/Council_Review_2026-10-11/Cognizant_TESTA_Most_Innovative_Project_Council_v2_Result.txt)
+- [Section scores and review method](Reviewed_Papers/Council_Review_2026-10-11/Final_Council_Scores.txt) · [Revision decisions](Reviewed_Papers/Council_Review_2026-10-11/Council_Decisions.txt)
+- [Evidence pack ZIP](Reviewed_Papers/Council_Review_2026-10-11/TESTA_Council_Evidence_Pack.zip) · [Evidence index](Reviewed_Papers/Council_Review_2026-10-11/Evidence/EVIDENCE_INDEX.txt) · [Required real records](Reviewed_Papers/Council_Review_2026-10-11/Evidence/EVIDENCE_REQUIRED.txt)
 
-The AI paper now covers account AI delivery and separately scoped specialist platform development. The innovation paper focuses on service-owned shared regression, reusable setup and governed AI. Account savings, accessibility coverage and platform adoption are not combined into one outcome. The non-functional entry remains centred on PerfOps.
+Council median evidence totals: AI Powered Quality Assurance 8/25, Non-functional Test Automation 12/25, Most Innovative Project 9.5/25. The working target of 4/5 on every criterion remains unmet. Primary outcome and implementation records are required; writing alone cannot close these gaps. Individual scores and separate writing assessments are preserved.
 
-Both newly generated Word papers were rendered and visually reviewed. Summary and main-entry counts meet the checked limits. The section audits record the revision loop, claim sources and unresolved conflicts; scores are simulated internal assessments, not official marks. Original measurement records are still required. Nothing has been submitted.
-
-Source prompts for this update: [Innovation source v4](TESTA_2026_Multi_Category_Master_Prompt_v4.md) and [AI source v2](TESTA_2026_Multi_Category_Master_Prompt_AI_v2.md). Both label themselves v7 internally; the filenames and commit identify the inputs. Raw evidence, client identifiers and application screenshots are not included in the reviewed set.
+The three scopes are account AI with separately described specialist development, PerfOps/Perf Insights, and service-owned shared regression. Benefits are not combined across populations. The monthly assurance example remains within the account saving. Evidence includes seven local interface screenshots, existing utility and dataset audits, and explicitly derived anonymous source extracts. No client identity, application URL, credentials, feedback or email screenshots are packaged. Entry counts pass; final Word layouts and evidence references are checked. Earlier versions below are historical, not the current entry set.
 
 ## Earlier AI-only prompt run
 

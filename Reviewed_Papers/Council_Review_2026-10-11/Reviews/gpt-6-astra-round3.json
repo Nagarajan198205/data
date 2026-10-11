@@ -1,0 +1,81 @@
+{
+  "reviewer": "GPT-6 Astra \u2014 independent simulated category review, final round 3",
+  "papers": {
+    "ai": {
+      "criterion_scores": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "writing_score": 22,
+      "reasons": [
+        "A1: No matched test-quality result. Activity coverage and effort savings do not demonstrate quality improvement; the dataset audit prevents treating the existing split as independent uplift evidence.",
+        "A2: Domain adaptation and deterministic rescoring offer a specific technical approach, but design documentation and local interfaces do not establish implemented comparative advantage.",
+        "A3: Two quarters of reported benefits, reusable prompts and training provide limited support for continuity. No longitudinal quality result or demonstrated adaptation outcome is supplied.",
+        "A4: The reported 257 net-review days and included eight-to-four-hour task are relevant. Original calculations, approvals and evidence that quality was maintained remain absent.",
+        "A5: The assurance task has plausible operational value, but no measured stakeholder or verified service-user outcome is supplied."
+      ],
+      "editorial_fixes": [],
+      "missing_evidence": [
+        "Original task-level benefit calculations, review deductions, approval records, work-volume comparability and retained-quality results.",
+        "Accessibility activity numerator, denominator, measurement period and attribution between deterministic automation and AI.",
+        "Deployed model identity and independent comparative evaluation; verified accessibility corrections or other stakeholder outcomes.",
+        "Eligible nomination boundary connecting account delivery and specialist development, or a narrower account-only nomination. Available: S01 attributed source digest, A01\u2013A07 labelled local illustrations, A08 utility checks and A09 dataset audit. The corrected text does not present these as client outcome proof."
+      ],
+      "target_met": false
+    },
+    "nft": {
+      "criterion_scores": [
+        2,
+        3,
+        2,
+        3,
+        3
+      ],
+      "writing_score": 23,
+      "reasons": [
+        "N1: N01 demonstrates failed threshold detection, with four displayed samples per transaction. Successful requirements acceptance and remediation closure remain narrative claims.",
+        "N2: Production-informed methodology, workload-volume evidence, scaling profiles and abnormal-traffic reproduction are relevant. Production baselines, environment equivalence and transaction-level sample sufficiency remain incomplete.",
+        "N3: Three release inputs and migration investigations are explicitly reported. Linked release decisions, final retests and acceptance records are absent.",
+        "N4: Goals, engineering roles, tooling and operational examples are detailed. Timed effort evidence, quantified resource commitments and reconciled result records remain missing.",
+        "N5: Cache reproduction, daily rebuilds, false success states and missing telemetry have specific responses. Primary before/after or closure records are needed to evaluate their demonstrated effectiveness."
+      ],
+      "editorial_fixes": [],
+      "missing_evidence": [
+        "Approved NFRs, final passing acceptance results and matched cache baseline/retest records tied to changes and reviewer acceptance.",
+        "Production workload derivation, transaction mix, environment equivalence, adequate transaction samples and reconciled endpoint results.",
+        "Dated release/migration decision trail, comparable manual and automated task timings, telemetry gate retests and raw tooling-test output.",
+        "Available now: N01 accurately scoped transcription and N02\u2013N04 attributed source digests. Preserve the four-sample limitation and unresolved production denominator. Original identifying visuals and email imagery remain excluded."
+      ],
+      "target_met": false
+    },
+    "innovation": {
+      "criterion_scores": [
+        2,
+        3,
+        1,
+        2,
+        2
+      ],
+      "writing_score": 23,
+      "reasons": [
+        "I1: A coherent local change in test ownership is described, but active contributions, execution and measured improvement remain unverified.",
+        "I2: The central-team constraint maps clearly to tagging, three pipelines and a template utility. S02 substantiates the source narrative, not actual implementation.",
+        "I3: Transferability is plausible; a substantiated attempt to advance industry practice is not yet demonstrated. External adoption is not required, but a comparative contribution or evidenced boundary-pushing attempt is needed.",
+        "I4: Goals and responsibilities are clear, while adoption remains reported and benefits unmeasured. Removing unrelated savings correctly narrows the claim without creating new result evidence.",
+        "I5: Ownership, setup consistency and failure investigation have sensible design responses. A completed operational example is still needed to show the response worked."
+      ],
+      "editorial_fixes": [],
+      "missing_evidence": [
+        "Five-team contribution histories, shared pipeline runs, template/pipeline implementation and governance records.",
+        "Completed failure-assignment-correction-retest example and comparable preparation timings including validation effort.",
+        "Measured regression coverage, duplicate-maintenance or central-team workload change; comparison with existing practice explaining the distinctive contribution or boundary-pushing attempt.",
+        "Available now: S02 as an attributed design/adoption digest. Unrelated AI savings and local specialist demonstrations are correctly excluded from this project's results."
+      ],
+      "target_met": false
+    }
+  },
+  "council_recommendation": "Primary-evidence plateau confirmed. Final totals remain AI 8/25, NFT 13/25 and Innovation 10/25; none reaches 4/5 on every criterion. The final papers correct the material wording issues: prototype publication is design-scoped, accessibility automation remains an undefined reported claim, local interfaces do not establish model deployment, NFT failure detection is distinguished from acceptance and tooling tests from client scenarios, and Innovation excludes unrelated AI savings and unverified onboarding percentages. No further material editorial correction is identified from this packet. This is not verification of the underlying delivery claims. Traceable digests and prose changes add no new client measurements. Obtain the primary records listed for each paper before seeking higher substantiation marks; repeated polishing cannot close the gaps. AI retains an unresolved nomination boundary between account delivery and specialist development, explicitly disclosed rather than falsely unified. Maintain the separate PerfOps/Perf Insights and Inteliperf scopes and supply required third-party identity separately under organiser rules."
+}

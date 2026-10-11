@@ -1,0 +1,101 @@
+{
+  "reviewer": "Claude Sonnet 5.5 simulated category judge, round three final verification. Not an official judge.",
+  "papers": {
+    "ai": {
+      "criterion_scores": [
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "writing_score": 21,
+      "reasons": [
+        "A1: No quality comparison exists. A09 shows eval/train overlap, and A08 is a utility test with no inference. Nothing measures quality improvement.",
+        "A2: Phi-4 QLoRA, the Impact Analyser and the control design are documented, but deployment of the adapted model is unproved (A01-A07 are local illustrations). Originality is credible as design only.",
+        "A3: The final text removed the unevidenced team-growth and participation figures. What remains is narrative on prompts and training, with no usage-over-time or adaptation records. A08 does not show sustained value.",
+        "A4: 257 person-days (125+132, net of review) and the 8-to-4-hour task rest on a digest (S01) with no ledger or approval record. The paper attributes them as reported. The 'quality maintained' half of the criterion is unevidenced.",
+        "A5: The paper concedes there is no satisfaction or service-user measure. The 85% figure has no numerator, denominator or period. Outcomes are intent only."
+      ],
+      "editorial_fixes": [
+        "Summary: 'using approved tools, reusable prompts and review before use' is stated as fact. Attribute it, e.g. 'the account narrative describes approved tools...'.",
+        "Section 1: 'Engineers checked AI-assisted deliverables before they entered the test management system' is unattributed fact. Add 'The account narrative states'.",
+        "Section 2: 'Exhibits A05 to A07 show this local capability' overstates. Use 'illustrate local interfaces and score descriptions in a fresh demonstration workspace; they are not client runs'.",
+        "Align 'saved' (section 1) with 'released effort' (summary and section 4) so the same term is used throughout.",
+        "Section 3 is headed 'Maintaining value' but contains no evidence of maintained value. Retitle it, or state plainly that sustained value is unevidenced."
+      ],
+      "missing_evidence": [
+        "Pulse export, task ledger, review-time deductions and approval record for the 257 person-days.",
+        "Matched quality comparison, with and without AI, on an independent holdout.",
+        "Definition, numerator, denominator and period for the 85% figure.",
+        "Proof of the deployed model identity and a client-run log.",
+        "Stakeholder feedback or satisfaction data, if any exists. No testimonials."
+      ],
+      "target_met": false
+    },
+    "nft": {
+      "criterion_scores": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "writing_score": 21,
+      "reasons": [
+        "N1: N01 shows volume at about 104.6% of target, and the alert FAILED on P90 with only four samples per transaction. No requirement is shown as met, and no closure or retest is shown.",
+        "N2: The KQL production-traffic method, profiles and 1x-4x scaling are narrative (N03/N04). The one primary-derived item is a single 60-minute workload whose production-baseline label is unresolved.",
+        "N3: The three releases and capacity exercise are reported (N04) with no dates, acceptance records or observation window. The 90% effort claims have no hours behind them. The dashboard is no longer presented as evidence.",
+        "N4: Goals and resources are clear and the scope is disciplined. Results are unquantified, and the 285 tests are tooling checks, not client NFT scenarios.",
+        "N5: The challenges are specific: daily rebuilds, telemetry gaps (7/64 supplied) and cache non-reproduction. The responses are described credibly but have no before/after numbers or retest records (N02, N04)."
+      ],
+      "editorial_fixes": [
+        "Several background and design statements are unattributed fact: 'Daily rebuilds...removed test data', 'The .NET 8 generator sizes datasets...', 'PerfOps scales test environments...' and 'Microsoft Copilot assisted dashboard design...'. Prefix them with 'The delivery narrative describes' and cite N03/N04.",
+        "'A production service experienced excessive cache growth' and 'could not reproduce the behaviour' should be attributed to the N02 narrative.",
+        "The heading 'Meeting non functional requirements' sits over evidence of a failed check. Retitle it 'Performance validation approach and observed results'.",
+        "'Teams can repeat the method' and 'reusable assets' are asserted. Say 'the narrative presents these as reusable'.",
+        "'Together, these capabilities give engineers a repeatable way' is stronger than the evidence. Soften to 'are intended to give'."
+      ],
+      "missing_evidence": [
+        "Run records and dates for the workload and alert, with a post-fix retest and acceptance.",
+        "Baseline and post-automation hours, run counts and period for the 90% claims.",
+        "Matched before/after cache measurements, request pattern, change ID and reviewer acceptance.",
+        "Release dates, acceptance records and an observation window for the three releases.",
+        "Raw telemetry-gate output, 285-test output and the production baseline for the 1,000/min exercise."
+      ],
+      "target_met": false
+    },
+    "innovation": {
+      "criterion_scores": [
+        2,
+        3,
+        2,
+        2,
+        2
+      ],
+      "writing_score": 21,
+      "reasons": [
+        "I1: Domain-owned tagged scenarios feeding shared regression is a plausible practice advance. The paper itself calls it existing technology applied to an ownership problem, and no comparison with prior practice exists.",
+        "I2: The driver (the central team cannot hold every service's domain knowledge) and the implementation (tag, three pipelines, generator, triage) are clearly described. The records behind them are unseen (S02 is a digest), so this is the best-supported criterion.",
+        "I3: A reasoned attempt to shift ownership is stated honestly, but there is no comparative contribution or boundary evidence, and the paper concedes wider impact is not established. Credit is limited to a modest attempt.",
+        "I4: The aims and assets are stated, but 'five teams' is unevidenced and no benefit is quantified. The paper correctly makes no timing claim.",
+        "I5: The maintenance and tag-staleness obstacle and the triage response are sensible design points. No contributed scenario has been shown failing, being routed, fixed and rerun."
+      ],
+      "editorial_fixes": [
+        "Section 2 states 'The anticipated bottleneck was...' and 'Three Azure DevOps pipelines support the method' as fact. Attribute them to the source (S02).",
+        "'Retaining failure reports and traces makes unsuccessful runs available' and 'Standard templates address inconsistent project setup' are effect claims. Rephrase as design intent.",
+        "Make the I3 position explicit without inventing facts: 'The attempt is to move shared regression from centrally authored to domain-contributed scenarios; comparative evidence is not yet available'.",
+        "Section 3's 'Other shared platforms could assess that method' is fine. Keep it, and avoid any wording that implies adoption."
+      ],
+      "missing_evidence": [
+        "Repository, contribution and shared-run history for each of the five teams.",
+        "Pipeline and template implementation records.",
+        "One complete triage example: failure, owner assignment, fix and green rerun.",
+        "Like-for-like onboarding timing, if it is to be claimed.",
+        "Comparison with prior central-authoring practice, which could support I3 without external adopters."
+      ],
+      "target_met": false
+    }
+  },
+  "council_recommendation": "No new evidence arrived in round three; only wording changed. The marks therefore plateau at the levels above, and 4/5 on every criterion is not defensible for any paper. Prose and repeated review do not raise evidence marks. The final texts are honest about their limits, with no material unsupported claim left unqualified. The remaining editorial work is small: attribute narrative facts (the specific passages are listed above), retitle two headings, and align 'saved' with 'released effort'. Everything else is blocked on primary records. Those are the Pulse ledger and approvals, the matched quality comparison on an independent holdout, NFT run and retest records, release dates and acceptance, and the shared-regression repository and run history. Scope conflicts to keep controlled: Inteliperf belongs in the AI paper only, and the Copilot-assisted engineering in the NFT paper must not feed the AI savings. The account savings, the NFT effort claims and the shared-regression method are distinct populations and must not be combined. Submit with the disclosed limits, or acquire the primary records first. Do not claim a target the evidence cannot support."
+}

@@ -1,0 +1,50 @@
+INDEPENDENT SIMULATED CATEGORY REVIEW — GPT-6 ASTRA, ROUND 1
+
+Basis: supplied review packet only; no independent inspection of underlying records. Scores assess substantiation against the supplied official criteria, not potential merit. Writing is scored separately. A source narrative is evidence of an assertion, not verification of its result.
+
+AI — substantiation 8/25; writing 19/25
+
+A1 Measured quality improvement: 1/5. Neither the savings nor activity automation measures improvement in test quality. No baseline/comparator, defect-detection result, accepted-output rate or demonstrated accessibility correction is supplied.
+A2 Originality: 2/5. Domain adaptation, deterministic rescoring and specialist interpretation describe potentially distinctive implementation. Most account delivery uses established tools; the adapted model's deployment and comparative advantage remain unproved.
+A3 Sustained value/adaptability: 2/5. Two quarters of reported savings, reusable prompts and training support continuity in principle. Versioning and controls describe adaptability, but no change evaluation or longitudinal quality evidence demonstrates it.
+A4 Efficiency with quality maintained: 2/5. The net-review 257-day assertion and included eight-to-four-hour example are relevant and clearly scoped. Underlying approvals, calculation records, comparable work volumes and maintained-quality measures are absent; operating costs are excluded.
+A5 Stakeholder/customer outcomes: 1/5. A defined assurance use case and reported task saving establish plausible utility. No measured stakeholder outcome, satisfaction evidence or verified service-user improvement follows.
+
+Three principal defects and replacements:
+1. “Within the accessibility strand, we report 85 per cent automation of the activity covered by that result.” The denominator is circular and cannot be evaluated. Replace with: “The accessibility workflow combines automated checks with specialist review. Its automation coverage has not yet been established with a defined activity inventory and observation period.” Restore the percentage only with numerator, denominator, period and measurement method.
+2. “Its strongest disclosed outcomes are released effort after review within the stated delivery scope, alongside accessibility automation.” This closes an AI-quality nomination on efficiency and an undefined coverage claim. Replace with: “The delivery team reports released effort after review. The supplied evidence does not yet measure changes in test quality or verified accessibility outcomes.” The resulting gap requires evidence, not stronger prose.
+3. “Alongside this delivery work, Cognizant Intelligent Platform provides accessibility, security and performance assistance”. The summary implies a unified delivered intervention despite unestablished deployment and project boundaries. Replace with: “Separately, local specialist applications illustrate development in accessibility, security and performance; the supplied records do not establish their deployment in the account delivery scope.”
+
+Package now: dated, redacted local interface exhibits; the limited utility-test report; architecture/model-training documentation; the dataset audit, explicitly disclosing 73/186 overlap and that deduplicated candidates are not a validated independent holdout. These support design and limitations, not uplift. Obtain: original benefit records and approvals, baseline/post-adoption quality comparisons, defined automation inventory, runtime model identification, independent evaluation, stakeholder/service-user outcome records and a nomination scope statement. Four on every criterion is not defensible.
+
+NON-FUNCTIONAL — substantiation 13/25; writing 20/25
+
+N1 Requirements met/exceeded: 2/5. Threshold failures concretely demonstrate detection. Successful capacity and remediation statements lack linked acceptance criteria and final passing results; detecting failure is not evidence of meeting requirements.
+N2 Representative conditions: 3/5. Production-informed workload design, measured achieved volume, scaling profiles and abnormal-traffic reproduction are relevant. Production baseline, transaction-mix correspondence and the unexplained 125% label remain unresolved.
+N3 Release confidence: 2/5. Release and migration connections are narrated, but dated decisions, sign-offs and linked closure evidence are absent. “No production issues” lacks a defined observation window.
+N4 Goals/resources/results: 3/5. Goals, technologies, responsibilities and operational examples are concrete. Effort percentages lack baseline hours; resources are not quantified and some result aggregates conflict.
+N5 Challenges/responses: 3/5. Cache reproduction, ephemeral environments, false success states and missing telemetry have specific responses. Before/after validation and repeatable closure records are still needed.
+
+Three principal defects and replacements:
+1. “The team reports that automation reduced manual performance-validation effort by over 90% and infrastructure-validation effort by over 90%.” Both headline benefits lack underlying times. Replace with: “PerfOps automates result checks and infrastructure validation that previously required manual work. The team estimates effort reductions above 90% for each activity; comparable before-and-after time records have not been supplied.” Prefer omit percentages in the summary until records exist.
+2. “The team reports no production issues following those releases.” Undefined incident scope and observation time make this uninterpretable. Replace with: “The team reports that performance testing informed three release decisions. Release dates, decision records and post-release observation periods are not included in the supplied evidence.” Add the outcome only when those records establish it.
+3. “One performance report identifies 22 endpoints exceeding the P95 SLA”. Known conflicting aggregates undermine this seemingly precise finding. Replace with: “The report highlights endpoint-level SLA breaches for investigation; the endpoint count requires reconciliation against the underlying results.” Reconcile units, endpoint inclusion rules and aggregation before restoring the count.
+
+Package now: redacted original workload and threshold-failure visuals, with the 125% label explained or excluded; documented cache scenario and telemetry-gap calculation; tooling test report clearly distinguished from client performance tests; implementation/configuration excerpts. Exclude the email image. Obtain: production workload derivation, approved NFRs, raw reconciled endpoint results, final remediation reruns, migration/release decision trail, timed manual-effort comparison, telemetry gate before/after runs and dated incident observation records. Four on every criterion is not defensible.
+
+INNOVATION — substantiation 10/25; writing 19/25
+
+I1 Advancement of practice: 2/5. Distributed ownership and shared execution offer a coherent local improvement. No inspected implementation/run records or measured improvement substantiate the advance.
+I2 Driver/implementation: 3/5. Central-team bottlenecks and inconsistent setup motivate a specific scaffold and three-pipeline design. Actual operation remains narrative evidence.
+I3 Industry boundaries: 1/5. Established tagging, templates and pipelines establish implementation, not an attempt demonstrably extending industry practice. External adoption is not inherently required, but distinctiveness and comparison with prior practice are missing.
+I4 Goals/resources/results: 2/5. Roles and five-team adoption are stated; setup timings are inconsistent across source accounts. The strongest numeric saving comes from a separate population.
+I5 Obstacles/responses: 2/5. Ownership, reproducibility and client tool constraints have reasonable design responses. Actual encountered failure, intervention and subsequent improvement are not traced.
+
+Three principal defects and replacements:
+1. “Five onboarded teams demonstrate adoption”. This upgrades an unverified assertion. Replace with: “The team reports onboarding five service teams; repository contributions and shared execution records are needed to substantiate adoption.”
+2. “generation now takes minutes”. Generation is narrower than the stated manual setup baseline. Replace with: “The utility automates project generation and configuration replacement. A comparable timing study covering the same preparation steps has not been supplied.”
+3. “Its wider value is the combination of domain ownership, common execution and reviewable assistance”. This implies a combined innovation without demonstrated integration. Replace with: “The shared-regression contribution is a proposed reusable ownership and execution model. Specialist AI work remains a separately scoped development strand.”
+
+Package now: available strategy, scaffold/pipeline design and carefully labelled local AI exhibits. Obtain: five-team contribution/run records, governance and triage examples, comparable setup timings, central-team workload or regression-quality changes, prior-art comparison and evidence of distinctive boundary-pushing. Four on every criterion is not defensible.
+
+Cross-paper issues: the shared regression, account AI and specialist applications have distinct populations; a common anonymous client does not establish one eligible project. Do not reuse 257 days as an innovation result without that boundary. The four-hour example is already included. NFT tooling tests and AI utility tests establish neither client quality nor model performance. Anonymous prose does not remove the organiser's separate identity requirement. Editorial honesty improves credibility but cannot fill these evidence gaps.

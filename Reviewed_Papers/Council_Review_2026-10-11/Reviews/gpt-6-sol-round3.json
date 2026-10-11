@@ -1,0 +1,81 @@
+{
+  "reviewer": "gpt-6-sol simulated category judge, final verification, 11 October 2026",
+  "papers": {
+    "ai": {
+      "criterion_scores": [
+        2,
+        3,
+        2,
+        2,
+        1
+      ],
+      "writing_score": 24,
+      "reasons": [
+        "A1: Reported effort and activity coverage lack a matched quality measure and original calculations.",
+        "A2: The impact analyser and accessibility adaptation are specific designs, but deployment and comparative model evidence are absent.",
+        "A3: Training and reusable prompts support adaptability in principle; sustained use and evaluated changes are unshown.",
+        "A4: The 257-day and monthly-task claims have defined scope, but ledger, costs and maintained quality are not established.",
+        "A5: Reported assurance use has no measured stakeholder or service-user outcome or satisfaction result."
+      ],
+      "editorial_fixes": [
+        "Minor grammar: replace 'The account narrative describes training associates then working on the account and established reusable prompts' with 'The account narrative describes training for associates then on the account and the creation of reusable prompts.' No material unsupported claim remains that wording alone can repair."
+      ],
+      "missing_evidence": [
+        "Package A01\u2013A07 only as local interface demonstrations, A08 only as synthetic utility checks, A09 as evidence of evaluation overlap, and S01 as an attributed narrative digest.",
+        "Obtain the original benefit ledger and approvals, matched quality comparison, 85% calculation and period, deployed-model record, independent model evaluation, and stakeholder outcomes. The 112 filtered inputs are candidates, not a validated holdout."
+      ],
+      "target_met": false
+    },
+    "nft": {
+      "criterion_scores": [
+        2,
+        3,
+        2,
+        2,
+        3
+      ],
+      "writing_score": 24,
+      "reasons": [
+        "N1: The supplied alert demonstrates failed P90 checks with four samples each; acceptance and closure are unproved.",
+        "N2: Production-informed design, six described profiles and observed workload volume support representativeness partly; mix and environment comparison remain unverified.",
+        "N3: The release and migration links are source claims without decision records or an observation window.",
+        "N4: Goals and technical resources are clear, while >90% task savings lack comparable timings and complete cost evidence.",
+        "N5: Cache reproduction, telemetry checks and data-rebuild fixes respond to concrete obstacles; measured remediation and gate operation need primary runs."
+      ],
+      "editorial_fixes": [
+        "No material fact-free correction remains. The final paper correctly treats N01 as a transcription, the P90 alert as a failure with small counts, N02\u2013N04 as narratives, and the 90% savings as unverified task-level reports."
+      ],
+      "missing_evidence": [
+        "Package N01 as anonymised transcribed workload and failed alert values; N02\u2013N04 as source digests with their limits. Withhold identifying originals until redacted.",
+        "Obtain requirements and accepted retests, production workload baseline and mix, matched effort timings, paired cache metrics, telemetry-gate runs, reconciled endpoint analysis, and dated release approvals and observation windows."
+      ],
+      "target_met": false
+    },
+    "innovation": {
+      "criterion_scores": [
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "writing_score": 24,
+      "reasons": [
+        "I1: Shared service ownership is a coherent advance proposition, but contribution and execution history is not inspected.",
+        "I2: The driver, tag convention, pipelines and generator are described; primary implementation and five-team use records are absent.",
+        "I3: Transferability is argued, but no comparative contribution or observed boundary-pushing attempt is substantiated; external adoption is not uniquely required.",
+        "I4: Goals and roles are clear, but implementation and measured reuse or coverage outcomes are missing.",
+        "I5: The proposed ownership and triage design addresses plausible barriers; an operated failure-to-rerun case is absent."
+      ],
+      "editorial_fixes": [
+        "Minor summary precision: replace 'with failures directed to the team responsible for investigation' with 'with a triage model intended to direct failures to the responsible team.' This avoids implying an observed triage outcome. Otherwise the final paper is appropriately qualified."
+      ],
+      "missing_evidence": [
+        "Package S02 as an attributed design and adoption narrative, not inspected source code or run history.",
+        "Obtain team-level contributions, pipeline and generator source and runs, a complete triage-to-rerun case, like-for-like setup timings, measured regression benefit, and a comparison supporting the claimed advance."
+      ],
+      "target_met": false
+    }
+  },
+  "council_recommendation": "The final papers correct the important scope and evidence-language errors. No new client measurement or primary record was added, so substantiation is at a primary-evidence plateau: AI 10/25, NFT 12/25, Innovation 9/25, with no paper meeting 4/5 on every criterion. Keep the 257-day account claim separate from specialist applications and shared regression; its monthly coverage-task example is nested within it. Keep NFT task savings separate from whole-lifecycle outcomes. Evidence digests and hashes improve traceability but do not verify the source claims. Supply third-party identity privately under organiser rules."
+}

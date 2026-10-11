@@ -1,0 +1,10 @@
+FINAL PACKAGE VALIDATION — 11 October 2026
+PASS — Three Word files exactly match their paste-ready summaries and main entries.
+PASS — All summaries at most 100 whitespace-delimited words; all main entries at most 14,600 characters including headings, spaces and paragraph breaks.
+PASS — All eight final rendered pages inspected: AI 3, NFT 3, Innovation 2. No clipping, overlap or missing glyphs found.
+PASS — All cited A01–A09, N01–N04 and S01–S02 exhibits resolve. Numeric ranges included.
+PASS — Evidence hashes and ZIP byte consistency verified. Source transcriptions remain labelled derived; no identifying source visuals copied.
+PASS — Confidentiality scan and metadata audit. Entrant organization is the authorized DOCX creator; lastModifiedBy empty; no external document links. Seven unchanged local screenshots have no identifying EXIF metadata and were visually checked.
+PASS — Eight reviewers each supplied three rounds. Their review text is retained; raw session/account metadata is excluded. Fable did not participate because usage credits were required.
+OPEN — Primary client outcome and implementation evidence. Passing file checks does not close those substantive gaps or imply award readiness.
+OPEN — Private organiser identity and nomination-scope checks before submission.

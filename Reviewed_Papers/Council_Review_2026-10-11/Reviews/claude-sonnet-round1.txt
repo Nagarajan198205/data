@@ -1,0 +1,99 @@
+# Simulated category-judge review, 11 October 2026
+
+I am not an official judge. Scores reflect substantiation only. Polish and repeated review are not counted as evidence. I do not import unrelated programme figures.
+
+## Paper 1: AI
+
+| Criterion | Score | Reason |
+|---|---|---|
+| A1 Measured quality improvement | 1 | There is no quality comparison. The 59/59 check covers tooling only, and the dataset audit shows 73 of 186 evaluation inputs overlap training data. |
+| A2 Originality | 2 | The fine-tuning design is documented, but a deployed fine-tuned model is not proved. The reviewed workspace displayed a different, smaller model. The impact analyser is a prototype. |
+| A3 Sustained value and adaptability | 2 | The paper offers two quarters of narrative, prompts and growth from 50 to 60 associates. It has no usage or retention records. |
+| A4 Efficiency with quality maintained | 2 | The 257 person-days are asserted, with no portal export or approval record. The 8→4 hour task is plausible but is already inside that total. "Quality maintained" is unmeasured. |
+| A5 Stakeholder outcomes | 1 | No satisfaction or outcome evidence exists. The 85% figure has no numerator, denominator or period. |
+
+**Total: 8/25. Writing: 18/25.** The paper is clear and honest about scope, but it is long on design description and short on results.
+
+**Three biggest defects**
+1. Summary: "with 85 per cent accessibility automation reported separately." An unverifiable headline figure sits in the 100-word summary.
+   - *Replace:* "The team also reports an accessibility automation coverage figure; its numerator, denominator and period are not yet documented, and it is excluded from the account saving." Alternatively, drop it from the summary.
+2. §2: "Our technical documentation describes phi4:14b-a11y, a Phi-4 accessibility adaptation…" This reads as a deployed capability, but the displayed model differed.
+   - *Replace:* "The documented design specifies a fine-tuned accessibility model. The workspace we reviewed displayed a different, smaller model, so we do not claim the fine-tuned model served any client run."
+3. §4: "Our delivery team reports these benefits through Cognizant's Pulse portal, with review by Delivery Excellence and the engagement delivery lead." This implies a verified approval chain that has not been supplied.
+   - *Replace:* "The delivery team reports 125 and 132 person-days net of review time. The portal export and approval record are being compiled and have not been independently inspected."
+
+**Package now:** the A01–A07 screenshots, labelled as illustrative fresh demo workspaces with planned functions marked. The A08 report, described as 59 existing utility tests on synthetic fixtures with no inference or client traffic. The A09 audit, disclosed as a limitation (73 of 186 overlap; 112 deduplicated candidates not validated as an independent holdout) rather than as validation. The fine-tuning design documentation.
+
+**Still absent:** the portal export and approval record. The 85% numerator, denominator and period. Proof of the deployed model. Any quality comparison. Stakeholder feedback. A before/after record for the coverage task.
+
+**Is 4/5 on every criterion defensible? No.** A realistic ceiling today is 1–2 per criterion, perhaps 3 on A4 if the export arrives.
+
+## Paper 2: Non-functional
+
+| Criterion | Score | Reason |
+|---|---|---|
+| N1 Requirements met or exceeded | 2 | The P90 alert (5,134 ms and 4,943 ms against 4,000 ms) shows failure detection, not closure. The 22-endpoint figure conflicts with the aggregates. |
+| N2 Representative conditions | 3 | Workloads are derived from production traffic. 7,532 requests against 7,200 in 60 minutes is real, though the source visual carries an unresolved "125%" label. |
+| N3 Release confidence | 2 | "Three releases, no issues" has no dates or observation window. The migration narrative has no run data. |
+| N4 Goals, resources, results | 2 | The ">90%" figure is team-reported for two tasks, with no before/after hours. |
+| N5 Challenges and response | 3 | The cache-exhaustion reproduction and remediation validation is credible but has no numbers. The telemetry gate (57 of 64 missing) is concrete. |
+
+**Total: 12/25. Writing: 20/25.** The paper is well structured and carefully scoped. Some sections are too dense with tooling detail.
+
+**Three biggest defects**
+1. Summary and §1: "automation reduced manual performance-validation effort by over 90% and infrastructure-validation effort by over 90%."
+   - *Replace:* "The team estimates a reduction of more than 90% in two validation tasks. Before-and-after hours have not been supplied, so this is a team-reported estimate."
+2. "The team reports no production issues following those releases."
+   - *Replace:* "The team reports no performance-related production incidents after three releases. Release dates and the observation window are being compiled, and the statement has not been independently checked."
+3. "One performance report identifies 22 endpoints exceeding the P95 SLA…" Aggregate figures in the sources conflict.
+   - *Replace:* "One report lists 22 endpoints above the P95 threshold. Its aggregates are being reconciled, so we cite it only as an example of endpoint-level detection."
+
+**Package now:**
+- A redacted P90 alert visual, captioned as failure detection only.
+- The workload visual, only if the 125% label is resolved or cropped.
+- The telemetry gate record. Say that "11% available" means 89% missing, not 89% improved.
+- The 285 tests, described as tooling tests rather than client scenarios.
+- The dashboard snapshot, stated as 10 open bugs across 11 projects, not 11 successful deployments.
+- The cache narrative, non-numeric.
+
+**Still absent:** before/after hours. Release dates and window. Numeric cache before/after values. Closure of the failed P90 checks. A reconciled 22-endpoint figure. Redacted originals. The original NFT screenshots must not be uploaded unredacted, and the email image stays excluded.
+
+**Is 4/5 on every criterion defensible? No.** Perhaps N2 and N5 at 3–4 with redacted evidence. N1, N3 and N4 are not close.
+
+## Paper 3: Innovation
+
+| Criterion | Score | Reason |
+|---|---|---|
+| I1 Advancement of practice | 2 | The ownership model is plausible, but the tag mechanism is established technology and there are no run records. |
+| I2 Driver and implementation | 2 | The three-pipeline and template design is described, but no matching implementation records were inspected. |
+| I3 Pushing industry boundaries | 1 | There is no external adoption, and the AI items are prototypes. |
+| I4 Goals, resources, results | 1 | Five teams is a narrative assertion. The setup claim conflicts with other totals. The 257 belongs to a different scope. |
+| I5 Obstacles and response | 2 | The bottleneck and ownership reasoning is sound, but no evidence of the response exists. |
+
+**Total: 8/25. Writing: 17/25.** The paper's own conclusion is thoughtful, but scope blending weakens the summary.
+
+**Three biggest defects**
+1. Summary: "Across a separate account delivery scope, governed AI assistance produced reported savings of 257 person-days…" This borrows another paper's result.
+   - *Replace:* Delete it from the summary. Keep one main-text sentence: "A separate workstream, described in another entry, develops AI assistance."
+2. §2: "manual setup reported as taking two to three days… generation now takes minutes." This conflicts with the 40–50 total hours and the 99% claim.
+   - *Replace:* Omit it, or write "Project-skeleton generation is reported to take minutes. No timing record exists, so the figure is not used as a result."
+3. Summary: "Five service teams now supply business-critical tests to a shared regression suite."
+   - *Replace:* "Five service teams are reported as onboarded; execution records have not yet been inspected."
+
+**Package now:** nothing strong. Redacted pipeline definitions or template output could become evidence if supplied and inspected, but they have not been.
+
+**Still absent:** run records per team. Template output. Setup timings. An external adoption statement. A confirmed common nomination boundary.
+
+**Is 4/5 on every criterion defensible? No.**
+
+## Cross-paper scope conflicts
+- **The 257 person-days** appear in the AI and Innovation papers. Give them one home, in the AI paper only.
+- **The coverage task (8→4 hours)** and **the 85% figure** are duplicated across papers. Keep each in the AI paper only.
+- **The 50→60 associates**, **the A08 check (59 tests)** and **the impact analyser** also appear in both the AI and Innovation papers. Keep them in one paper only.
+- **The NFT paper** closes with "alongside wider accessibility automation" and cites AI-assisted dashboard work. Remove the first. Mark the second as a tooling aid, not an AI result.
+- **Savings, shared regression and the specialist platform** are different populations. State a common boundary, or declare the papers as separate entries.
+- **Third-party identity** must be supplied separately under organiser rules, with the anonymous client text unchanged. Anonymity is not an exemption.
+- **Reconciling counts:** per-paper totals should not sum to a combined claim.
+
+## What editing can and cannot fix
+Editing can fix the scope blending, the overreaching phrasing, the summary content and the duplicate claims. It cannot create the portal export, the before/after hours, the release records, the deployed-model proof, the stakeholder evidence or the run records. Until those exist, expect scores of roughly 8, 12 and 8 out of 25.

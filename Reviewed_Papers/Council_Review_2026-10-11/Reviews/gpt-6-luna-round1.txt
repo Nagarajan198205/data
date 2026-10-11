@@ -1,0 +1,47 @@
+Simulated category judge review — 11 October 2026
+
+Scores assess substantiation in the supplied paper and evidence pack, not likely merit or truth of unverified team reports. Official criteria are abbreviated as in the packet. None earns 4/5 on every criterion. Evidence that can be packaged now means existing artifacts, with their limits disclosed.
+
+AI paper
+A1 2/5 — 257 days are reported net of review, but Pulse approvals and underlying calculation are absent; no quality comparison.
+A2 2/5 — coherent governed workflow and specialist designs, but originality is asserted and deployed model/use is unproved.
+A3 2/5 — versioned controls and reusable prompts suggest adaptability; adoption and change-over-time outcomes are narrative.
+A4 2/5 — reported effort reduction is material, but source records absent; coverage-agent example is 8 to 4 hours, with conflicting wider setup/99% claims appropriately omitted.
+A5 1/5 — stakeholder use cases described; no measured satisfaction or service-user outcome.
+Total 9/25. Writing 21/25: clear, candid scope boundaries, but repetition and broad platform material dilute the account result.
+
+Three defects and replacement text:
+1. “The account team reports 125 person-days saved in Q2 and 132 in Q3, after review time.” Replace: “The team reports 257 person-days of released effort across Q2–Q3 2026, net of review; source approvals and the calculation are not included in this submission.”
+2. “Within the accessibility strand, we report 85 per cent automation of the activity covered by that result.” Replace: “The team reports 85% activity coverage; the numerator, denominator and measurement period are unavailable, so this is not evidence of accuracy or conformance.”
+3. “Our technical documentation describes phi4:14b-a11y, a Phi-4 accessibility adaptation using quantised low-rank adaptation, or QLoRA.” Replace: “The documented design proposes a QLoRA-adapted model; deployment and comparative model uplift have not been demonstrated.”
+Package now: A01–A07 as local interface illustrations, clearly labelled demo/planned; A08 utility test report; A09 dataset audit/candidate manifest; technical design docs. Still absent: Pulse export/approvals and reproducible savings calculation; coverage-task time records; 85% measurement basis; deployed model proof; independent holdout, model comparison and quality/outcome measures. A09 reveals 73/186 eval inputs overlap training; its 112 candidates are not validated independent holdout. 4/5 all criteria defensible? No.
+
+Non-functional paper
+N1 3/5 — threshold-driven checks and a concrete 4,000 ms failure example are reported, but broad requirements/acceptance evidence is missing.
+N2 3/5 — production-informed workload methods and cache reproduction are credible narrative; source run records and workload representativeness evidence are thin.
+N3 3/5 — reported release/migration decisions and detection examples connect testing to confidence, but dates, windows and decision records are absent.
+N4 3/5 — substantial scope, tools and achievements are described; resources/costs and independently traceable results are limited.
+N5 3/5 — useful failure analysis (cache and telemetry), response and limits; before/after evidence and closure measures are absent.
+Total 15/25. Writing 22/25: technically specific and mostly well qualified, but evidence is often narrated rather than attached.
+
+Three defects and replacement text:
+1. “The team reports over 90% less manual effort for each of two activities...” Replace: “The team reports >90% less effort on two validation tasks; no before/after hours are supplied, so magnitude cannot be independently assessed.”
+2. “The team then used the simulation to validate changes...” Replace: “The supplied account describes reproduced cache growth and remediation checks; quantified before/after cache or service results are not available.”
+3. “The team reports no production issues following those releases.” Replace: “The team reports no issues after three releases; release dates, observation window and incident records are not supplied.”
+Package now: workload evidence (7,532 requests/60 minutes vs 7,200 target, ~2.1 vs 2 RPS); P90 alert example showing failure; telemetry audit (57/64 missing, about 11% available); Perf Insights tooling test count; cache reproduction/remediation narrative and dashboards only after confidential identifiers/screenshots are removed. Still absent: hours underlying 90%; raw run/environment records, SLA and release decision records; incident windows; numeric cache remediation comparison; representative production mix validation. Do not characterize 11% telemetry availability as an 89% improvement. 4/5 all criteria defensible? No.
+
+Innovation paper
+I1 2/5 — shared ownership and pipeline contribution model are a plausible practice change; implementation is described, with no independent adoption evidence.
+I2 2/5 — driver and build choices are explained; setup claim lacks records and account AI figures are outside this innovation’s measured scope.
+I3 1/5 — no external adoption or evidence of an industry boundary being pushed; Playwright tagging is acknowledged as established.
+I4 2/5 — five teams, pipelines and assets are reported, but results/resources are not corroborated and setup scope is limited.
+I5 2/5 — ownership, triage and review address challenges, though outcomes and sustained operation are unmeasured.
+Total 9/25. Writing 21/25: clear separation caveats help, but it still imports unrelated AI evidence and repeats generic benefits.
+
+Three defects and replacement text:
+1. “Five service teams are reported as onboarded.” Replace: “The narrative reports five teams onboarded; onboarding records and shared-suite run history are not included.”
+2. “The team reports that generation now takes minutes...” Replace: “The team reports project scaffolding takes minutes versus two to three days of manual setup; timings and like-for-like scope are undocumented.”
+3. “Five-team adoption supplies an internal reuse example...” Replace: “The reported five-team use is an internal example; no external adoption or transfer evidence is supplied.”
+Package now: pipeline/template design and any redacted repository history, configuration, run records, onboarding records and before/after timing records that actually exist. The supplied narrative alone can be packaged as an assertion, not verification. Still absent: inspected implementation/run records, usage and maintenance history, setup timing basis, cross-team defect/reuse outcomes, external uptake. 4/5 all criteria defensible? No.
+
+Cross-paper scope: AI’s 257 days and 8-to-4-hour coverage task are account AI delivery results; Innovation reuses them but correctly says they are not tagged-regression savings. Keep them out of innovation results. NFT’s >90% claims refer to two separate validation tasks, with no hours; do not merge with account savings. The AI 85% activity coverage is neither accuracy nor NFT outcome. Evidence pack can support bounded technical/process descriptions, not headline outcome verification. No client identity or testimonial should appear.

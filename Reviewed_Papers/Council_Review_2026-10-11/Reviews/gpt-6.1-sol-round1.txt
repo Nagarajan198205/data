@@ -1,0 +1,51 @@
+Independent simulated category-judge review — 11 October 2026
+Basis: supplied review packet only. Scores measure substantiation, not plausibility. Statements labelled “reported” remain claims without underlying records. This is not an official judging result.
+
+AI — substantiation 8/25; writing 20/25
+A1 Measured quality improvement: 1/5. Effort and activity coverage are measured claims, but no comparable quality baseline, defect yield, accuracy or verified accessibility improvement is supplied. Review procedures do not demonstrate unchanged quality.
+A2 Originality: 2/5. Domain adaptation, deterministic score recalculation and specialist interpretation are concrete design ideas. Their implementation and comparative advantage are unproved; screenshots establish interfaces only.
+A3 Sustained value/adaptability: 2/5. Two quarters of reported savings, reusable prompts and versioned controls suggest continuity. There are no adoption logs, prompt-change evaluations or repeated client outcomes.
+A4 Efficiency/cost/waste with quality maintained: 2/5. The 257-day total and eight-to-four-hour example are explicitly bounded, without double counting. Original reporting records, operating costs and quality comparisons are absent.
+A5 Stakeholder/customer outcomes: 1/5. A named assurance task has a reported time benefit. There is no verified stakeholder outcome, accessibility correction result or satisfaction evidence.
+Writing: clear, careful and readable; strong separation of reported savings from prototypes. It nevertheless spends substantial space describing development capabilities that do not answer the category's outcome requirements.
+
+Three principal defects and replacements:
+1. “The project has established an account delivery method with reported savings across two quarters and a set of specialist capabilities for further development.” The conclusion substitutes efficiency and capability for measured quality. Replace with: “The disclosed result is team-reported released effort. We have not supplied a before-and-after quality comparison, so this entry cannot yet demonstrate that AI improved testing quality.” Add a matched quality table only after obtaining records.
+2. “Within the accessibility strand, we report 85 per cent automation of the activity covered by that result.” The denominator is effectively undefined. Replace with: “The team reports accessibility automation, but the eligible activity set, calculation and measurement period have not been supplied; no numerical coverage claim is made here.” Restore 85% only with numerator, denominator, period and exclusion rules.
+3. “Our technical documentation describes phi4:14b-a11y, a Phi-4 accessibility adaptation using quantised low-rank adaptation, or QLoRA.” Documentation can be mistaken for deployed originality. Replace with: “Technical documentation proposes a Phi-4 accessibility adaptation using QLoRA. The reviewed local workspace displayed a different model; no serving record links the adaptation to a client result.” A model manifest and evaluated run are needed before claiming deployment.
+Package now: A01–A07 as dated local interface illustrations with planned/demo labels; A08 as 59 utility-test results with synthetic fixtures and no inference; A09 as a dataset-integrity audit showing 73/186 overlaps and 112 unvalidated deduplicated candidates; documented architecture and controls.
+Acquire: original quarterly effort export and approval, baseline task samples, matched quality results, model/training/serving provenance, independent holdout and comparative evaluation, stakeholder outcome records and activity-coverage calculation.
+4/5 on every criterion: not defensible. Editorial restraint can fix scope and ambiguity; it cannot create quality or outcome evidence.
+
+NON-FUNCTIONAL — substantiation 12/25; writing 21/25
+N1 Requirements met/exceeded: 2/5. Numeric thresholds and successful volume checks are shown, but response-time failures and conflicting aggregate results prevent a demonstrated requirements-closure claim.
+N2 Representative conditions: 3/5. Production-informed workload design, six profiles, scaling checks and bot-cache simulation are relevant. Production alignment and workload mix need supporting records; 125% production remains unresolved.
+N3 Release/deployment confidence: 2/5. Detection and readiness reporting have a credible decision path. Release approvals, retest links and incident observation windows are absent.
+N4 Goals/resources/achievements/results: 2/5. Goals, tools, resources and execution examples are specific. Efficiency claims lack source calculations, and adverse findings lack demonstrated closure.
+N5 Challenges/response: 3/5. Data loss, telemetry gaps, failed exit states and cache reproduction receive concrete technical responses. The telemetry gate is especially relevant, but effectiveness after implementation needs run evidence.
+Writing: coherent, technically specific and appropriately distinguishes tooling tests from client scenarios. Some result language still overreaches its evidence.
+
+Three principal defects and replacements:
+1. “The delivery team reports over 90% less manual effort for each of two activities: performance validation and infrastructure validation.” No comparable timings support this central benefit. Replace with: “The team reports substantial reductions in manual performance and infrastructure validation. Baseline and automated task timings have not been supplied, so the percentage reduction remains unverified.” Obtain two separate calculation sheets.
+2. “The team reports no production issues following those releases.” Without dates, monitoring scope or duration, this is not assessable. Replace with: “The team reports that testing supported three release decisions. Release dates, approval records and the post-release incident observation periods are not included in the supplied evidence.” Restore incident claims only against defined monitoring records.
+3. “The team then used the simulation to validate changes to cache-key normalisation, cache bucket segregation and retention.” This implies effective remediation without quantified comparisons. Replace with: “The narrative describes remediation validation using the reproduced request pattern. The supplied material contains no comparable cache-growth, resource-use or error measurements before and after the changes.” Attach paired runs and closure records.
+Package now: redacted workload and alert screenshots; 7,532 requests/60 minutes versus 7,200 target; failed P90 thresholds; endpoint findings with conflicting aggregates flagged; telemetry completeness finding of 7/64 available; generator/gate documentation; tooling regression results. Exclude the email image and all confidential originals.
+Acquire: requirement-to-run matrix, representative traffic and environment comparison, reconciled report totals, passing retests and defect closures, release approvals and incident windows, paired cache measurements, savings timings and gate effectiveness runs.
+4/5 throughout: not defensible. The strongest areas are realism and challenge response; successful closure and operational outcomes remain necessary.
+
+INNOVATION — substantiation 10/25; writing 20/25
+I1 Advancement of practice: 2/5. Distributed ownership and reusable execution offer a practical improvement, but no baseline or demonstrated regression-quality gain is supplied.
+I2 Driver/implementation: 3/5. Bottlenecks, scaffolding and three pipeline roles are described concretely. Matching implementation/run records remain absent.
+I3 Industry boundaries: 1/5. Established tagging, templates and pipelines constitute an internal adaptation. No comparison, external uptake or evidence of a material industry advance is supplied.
+I4 Goals/resources/achievements/results: 2/5. Five-team adoption and setup savings are assertions; the unrelated account savings cannot validate shared regression results.
+I5 Obstacles/response: 2/5. Ownership, triage, environment consistency and review have plausible responses, without examples proving resolution.
+Writing: clear architecture and responsibilities, but the separate AI strand weakens a single innovation narrative.
+
+Three principal defects and replacements:
+1. “Five onboarded teams demonstrate adoption…” Replace with: “The supplied narrative reports five onboarded teams; repository contributions and pipeline execution records have not been supplied.” Add an anonymised adoption/run table.
+2. “Manual setup reported as taking two to three days… generation now takes minutes.” Replace with: “The team reports shorter project generation. Comparable timings and task boundaries are not supplied; generation and complete onboarding are different activities.” Resolve the conflicting 40–50-hour source before quantifying.
+3. “Its wider value is the combination of domain ownership, common execution and reviewable assistance…” Replace with: “This is an internally reported contribution model. Wider testing-industry advancement has not been demonstrated through comparison or external adoption.” Supply a documented comparison if available.
+Package now: labelled design narrative, pipeline/template descriptions and clearly scoped AI illustrative exhibits. Acquire: strategy approval, tagged contributions, team/run provenance, triage cases, setup timings, regression benefit metrics and industry comparison/adoption evidence.
+4/5 throughout: not defensible; I3 is the largest gap.
+
+Cross-paper conflicts: establish one nomination/project boundary before combining account AI, shared regression and specialist prototypes. The 257 days belong to account delivery, not each innovation component; the coverage-task saving is included. Do not transfer NFT efficiency or release outcomes to AI. Separate production delivery, local development and proposed capabilities consistently. Supply organiser-required third-party identity privately; anonymity in prose does not waive that requirement.

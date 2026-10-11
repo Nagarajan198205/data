@@ -1,0 +1,90 @@
+{
+  "reviewer": "gpt-6.1-sol",
+  "papers": {
+    "ai": {
+      "criterion_scores": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "writing_score": 23,
+      "reasons": [
+        "A1: No matched quality comparison, verified finding accuracy or measured improvement is supplied. Utility tests are not AI quality outcomes.",
+        "A2: Domain adaptation and deterministic/model separation are specific design contributions, but deployment, originality relative to alternatives and comparative benefit remain unsubstantiated.",
+        "A3: Two reported quarters, reusable prompts and observed local versioning controls support continuity in principle; longitudinal adoption and adaptation outcomes are absent.",
+        "A4: The 257-day and nested monthly-task claims are coherently scoped, but source digests do not verify calculations, approvals, costs or maintained quality.",
+        "A5: The assurance task provides a reported operational benefit, without verified stakeholder outcomes, accessibility corrections or satisfaction evidence."
+      ],
+      "editorial_fixes": [
+        "\u201cReview time is included in the calculation\u201d is ambiguous beside net savings. Replace with \u201cThe reported released effort is net of human review time; operating and maintenance costs have not been included in a verified cost comparison.\u201d This clarifies the stated calculation without asserting unknown costs were deducted.",
+        "\u201cThe documented development approach adapts Phi-4\u201d can read as verified implementation. Replace with \u201cThe technical documentation describes adapting Phi-4 for accessibility using QLoRA.\u201d Retain the following limitation on serving provenance.",
+        "\u201cFor service users\u201d introduces intended benefits without observed user results. Replace that opening with \u201cThe specialist applications address potential service-quality risks\u201d. Keep the explicit final acknowledgement that measured quality evidence is missing; do not manufacture an outcome."
+      ],
+      "missing_evidence": [
+        "Package now: S01 as an attributed narrative digest; A01\u2013A07 as dated local interface illustrations only; A08 as synthetic utility verification; A09 as adverse dataset-integrity evidence. Neither hashes nor repeated review verify client achievements.",
+        "Acquire the original task ledger, review deductions, quarterly approval provenance and bounded monthly-task samples; a matched quality baseline and follow-up; operating/maintenance costs if claiming financial reduction.",
+        "Acquire model/training/serving provenance and independently reviewed comparative evaluation. The 112 deduplicated candidates are not a validated holdout. Define the 85% numerator, denominator, period and AI versus rule contribution; obtain stakeholder or verified correction outcomes."
+      ],
+      "target_met": false
+    },
+    "nft": {
+      "criterion_scores": [
+        2,
+        3,
+        2,
+        2,
+        3
+      ],
+      "writing_score": 23,
+      "reasons": [
+        "N1: Thresholds and volume achievement are concrete, but the supplied response-time example fails and has four observations per transaction; requirements closure is absent.",
+        "N2: Production-informed design, scaling profiles and abnormal cache reproduction are relevant. Actual transaction mix, production comparability and sufficiently sampled execution remain unverified.",
+        "N3: Failure detection and narrated readiness inputs establish a plausible contribution, without traceable retests, acceptance records or release decisions.",
+        "N4: Goals, tools and activities are specific. Neither savings calculations nor successful requirement/remediation results are independently substantiated.",
+        "N5: Telemetry gaps, rebuilds, exit-state failures and cache reproduction have concrete responses. Gate effectiveness, recovery and durable remediation still need execution records."
+      ],
+      "editorial_fixes": [
+        "\u201cThese validate the tooling that processes performance evidence\u201d overstates the uninspected 285-test source claim. Replace with \u201cThe narrative describes these as tooling regression tests, rather than client performance scenarios; their raw execution output is not attached.\u201d",
+        "\u201cThe framework has been applied to AKS migration programmes and contributed to the client\u2019s wider performance testing strategy\u201d is unqualified despite narrative-only evidence. Replace with \u201cThe supplied narrative reports application to AKS migration work and contribution to the client\u2019s performance testing strategy.\u201d",
+        "\u201cThe source\u2019s separate production-volume label uses an unresolved baseline and is not used here\u201d exposes source-review mechanics without adding a submission result. Delete that sentence; retain N01\u2019s explicit unresolved-baseline warning in the evidence pack and the paper\u2019s transaction-mix/environment/sample caveat."
+      ],
+      "missing_evidence": [
+        "Package now: N01 as a derived, visually checked transcription of workload and failed alert visuals; N02\u2013N04 as source-attributed narrative digests. Retain four-sample limitation, 7/64 telemetry availability and distinction between tooling tests and client scenarios. Withhold confidential original visuals and email image.",
+        "Acquire an agreed requirements-to-run matrix, production traffic/workload and environment comparison, adequately sampled passing retests, reconciled endpoint aggregates, defect closure and migration/release acceptance records.",
+        "Acquire paired cache measurements with equivalent workload/duration, telemetry-gate reruns and raw tooling-test output. Verify each 90% activity saving with comparable timings including review and exceptions. Incident windows are needed only if restoring a post-release incident outcome claim."
+      ],
+      "target_met": false
+    },
+    "innovation": {
+      "criterion_scores": [
+        2,
+        3,
+        1,
+        2,
+        2
+      ],
+      "writing_score": 23,
+      "reasons": [
+        "I1: The contribution model plausibly improves internal practice, but duplicate-maintenance reduction, coverage improvement and active adoption are not measured.",
+        "I2: The ownership bottleneck, tagging, template utility and three pipeline roles are described concretely. Inspected implementation and matching execution records are missing.",
+        "I3: A transferable internal adaptation is articulated, but no substantiated boundary-pushing attempt or comparative contribution demonstrates an industry advance. External adoption is one possible route, not a mandatory condition.",
+        "I4: Goals and responsibilities are clearer after scope narrowing. Five-team participation and delivered assets remain narrative claims without verified outcomes.",
+        "I5: Ownership maintenance, setup consistency and triage have plausible design responses, but no completed failure-to-owner-to-retest example demonstrates resolution."
+      ],
+      "editorial_fixes": [
+        "\u201cA central team still governs execution, but it no longer has to re-author every service\u2019s business-critical scenario\u201d presents an achieved benefit. Replace with \u201cThe design retains central execution governance while allowing service-owned scenarios to be reused without a second platform copy.\u201d",
+        "\u201cA formal test strategy defines the approach\u201d is not backed by an inspected strategy. Replace with \u201cThe supplied narrative describes a formal test strategy defining service maintenance and platform execution responsibilities.\u201d",
+        "\u201cThe source gives inconsistent scopes for setup timing\u201d can be removed from the submission while retained in S02. Replace the paragraph with \u201cNo quantified onboarding saving is claimed. A like-for-like timing comparison would need to cover the same preparation steps and validation effort.\u201d"
+      ],
+      "missing_evidence": [
+        "Package now: S02 as an anonymised design/adoption digest, explicitly distinct from inspected source code, pipeline history and certified timing. AI screenshots and account savings are correctly excluded from innovation results.",
+        "Acquire implementation files, approved strategy, contributions and shared-run records for each reported team, a completed triage/retest chain, and comparable setup timings.",
+        "Acquire baseline/current regression coverage or duplicate-maintenance results, with resources and observation period. For I3, substantiate a specific attempt to exceed prevailing practice using a comparative technical or organisational account; documented external uptake may support this but is not the sole route."
+      ],
+      "target_met": false
+    }
+  },
+  "council_recommendation": "Evidence substantiation has plateaued: AI 8/25, NFT 12/25, innovation 10/25. Writing is substantially improved; no paper defensibly reaches 4/5 on every criterion. The derived pack improves attribution and confidentiality, not client-result verification. Account AI, specialist local development, PerfOps/Perf Insights and shared regression are now substantially better separated; establish the organiser-facing nomination boundary privately. Keep the monthly coverage saving inside 257 days and do not transfer NFT or shared-regression outcomes to AI. Correct the limited residual editorial overstatements, then acquire primary records rather than commission further cosmetic scoring passes. Supply organiser-required third-party identity separately and privately."
+}

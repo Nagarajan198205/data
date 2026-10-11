@@ -1,0 +1,20 @@
+{
+  "ai": {
+    "summary_words": 88,
+    "summary_characters": 651,
+    "main_words": 1088,
+    "main_characters": 7729
+  },
+  "nft": {
+    "summary_words": 85,
+    "summary_characters": 656,
+    "main_words": 1417,
+    "main_characters": 10624
+  },
+  "innovation": {
+    "summary_words": 97,
+    "summary_characters": 675,
+    "main_words": 785,
+    "main_characters": 5672
+  }
+}

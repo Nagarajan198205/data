@@ -1,0 +1,24 @@
+COUNCIL REVISION AND ADJUDICATION LOG
+11 October 2026. Eight successful model reviewers, three rounds. Primary evidence target remains unmet.
+
+Round 1 findings and revision
+Separated account AI delivery, specialist application development, PerfOps/Perf Insights and shared regression. Kept the monthly assurance example within the reported 257-day total. Removed unrelated AI benefits from Innovation. Removed the 90% NFT figure and 85% accessibility coverage from headline summaries while retaining explicitly reported task-level claims in the relevant main text. Removed unsupported production-outcome statements and inconsistent onboarding savings. Created traceable, anonymous source digests and an accurately labelled transcription; retained the adverse dataset-integrity audit. Reinspection found four displayed samples per failed transaction in the P90 alert, now disclosed.
+
+Round 2 findings and revision
+Aligned source attribution; qualified implementation and intended benefits where only design narratives were available. Removed unsupported attendance, staffing and controls/template counts. Replaced five teams onboarded with the source's five teams on the shared platform. Distinguished tooling tests from client performance scenarios. Corrected review-time wording and volume arithmetic; preserved unresolved production denominator and telemetry shortfall. Replaced dashboard snapshot counts with the scoped narrative. All eight reviews found primary evidence gaps.
+
+Round 3 findings and final corrections
+Fixed AI training grammar. Clarified that 1,200 projects is estate size, not the evaluated sample; A05–A07 are local interfaces, not client runs. Matched the AI sustainment heading to its actual content. Qualified the cache incident and shared-pipeline claims. Made the Innovation summary's reuse and triage benefits explicit design intentions. Removed the remaining five-teams-using-onboarding wording. Added N04 locators for data generation, exit-state fixes and daily key retrieval; no keys are reproduced. Explicitly claimed no separate NFT saving from AI engineering assistance. Renamed the NFT requirements heading to describe validation and observed results. These changes add no new measured outcome and do not warrant an automatic evidence-score increase.
+
+Recommendations adjudicated rather than blindly applied
+- Rejected inventing an estimate, asserting that records are being compiled, adding training chronology, or asserting absence of external adopters: none is established.
+- Retained stable exhibit IDs in the papers so evidence references can be checked; they are not placeholders for missing records.
+- Did not treat external adoption as the sole way to satisfy Innovation I3. A substantiated boundary-pushing attempt or comparative contribution can also be relevant.
+- Did not treat screenshots, derived digests, a hash, controls displayed in an interface or 59 utility checks as client outcomes or model uplift.
+- Retained user-authorized entrant name in DOCX creator metadata. An organization name is not a leaked personal identity.
+- Retained attributed reported metrics with limitations rather than relabelling them measured or fabricating baselines.
+- Did not add 'reports' to every background sentence: source attribution is scoped to the surrounding narrative and its exhibit. Material quantitative and deployment claims are explicitly qualified.
+- Preserved the internal corporate benefits-system reference; it identifies neither the government client nor a government programme. No access links or records are supplied.
+
+Stopping condition for this delivery
+The requested score has not been achieved. The council agrees the remaining material blockers require primary records. Publish the improved drafts, available evidence and exact missing-evidence checklist as requested; resume the substantive scoring loop once records arrive. No artificial score floor, official-judge claim or win probability is used.

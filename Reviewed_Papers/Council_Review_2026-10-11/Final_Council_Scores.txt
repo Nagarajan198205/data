@@ -1,0 +1,141 @@
+TESTA COUNCIL FINAL SECTION SCORES — 11 October 2026
+
+Unofficial simulated reviews; not TESTA marks, award predictions or independent certification.
+
+Five selectable Codex models and three successful Claude families reviewed all three papers through three rounds. Fable was attempted but required usage credits and supplied no review.
+
+Working target: at least 4/5 for each of five criteria. No paper meets that target. Scores assess substantiation available to this review, not the quality of work the team may have performed.
+
+Method: each reviewer uses 0–5 per criterion and a separate writing score /25. Overall evidence score is the median of eight reviewers' totals /25. Section scores below are individual criterion medians; their sum can differ from the median total. Equal criterion weight is an internal review convention, not a claimed official weighting. Reviewers share a packet and may have correlated judgments; eight models are not eight independent human judges.
+
+Final wording corrections following round three do not add outcome evidence. Final scores retain the third-round evidence judgments. Writing scores describe the reviewed third-round text before final copyedits.
+
+Official criteria and entry limits checked 11 October 2026:
+https://globalsoftwaretestingawards.com/testa/categories/
+https://globalsoftwaretestingawards.com/testa/entry-template/
+
+
+AI Powered Quality Assurance
+
+Evidence: 8/25; reviewer range 4–11/25. Writing median: 22.5/25. Target not met.
+
+A1 Measured quality improvement: 1/5
+
+A2 Originality of AI approach: 2/5
+
+A3 Sustained value and adaptability: 2/5
+
+A4 Efficiency with quality maintained: 2/5
+
+A5 Customer or stakeholder outcomes: 1/5
+
+Individual final reviews:
+
+gpt-6.1-sol: 1, 2, 2, 2, 1; total 8/25; writing 23/25
+
+gpt-6-astra: 1, 2, 2, 2, 1; total 8/25; writing 22/25
+
+gpt-6-sol: 2, 3, 2, 2, 1; total 10/25; writing 24/25
+
+gpt-6-luna: 1, 2, 2, 2, 1; total 8/25; writing 24/25
+
+gpt-5.6-sol: 2, 3, 2, 3, 1; total 11/25; writing 24/25
+
+claude-opus: 1, 2, 2, 2, 1; total 8/25; writing 19/25
+
+claude-sonnet: 1, 2, 1, 2, 1; total 7/25; writing 21/25
+
+claude-haiku: 0, 2, 1, 1, 0; total 4/25; writing 18/25
+
+Round 2 median total: 8/25. Individual reviews retained in Reviews/.
+
+Round 3 median total: 8/25. Individual reviews retained in Reviews/.
+
+Final entry counts: summary 88 words; main 7,729 characters including headings, spaces and paragraph breaks. Limits pass.
+
+
+Non-functional Test Automation
+
+Evidence: 12/25; reviewer range 8–17/25. Writing median: 23/25. Target not met.
+
+N1 Requirements met or exceeded: 2/5
+
+N2 Representative real-world conditions: 3/5
+
+N3 Release and deployment confidence: 2/5
+
+N4 Goals resources achievements and results: 2/5
+
+N5 Challenges and response: 3/5
+
+Individual final reviews:
+
+gpt-6.1-sol: 2, 3, 2, 2, 3; total 12/25; writing 23/25
+
+gpt-6-astra: 2, 3, 2, 3, 3; total 13/25; writing 23/25
+
+gpt-6-sol: 2, 3, 2, 2, 3; total 12/25; writing 24/25
+
+gpt-6-luna: 3, 3, 2, 2, 3; total 13/25; writing 24/25
+
+gpt-5.6-sol: 3, 4, 3, 3, 4; total 17/25; writing 24/25
+
+claude-opus: 2, 2, 2, 2, 3; total 11/25; writing 20/25
+
+claude-sonnet: 2, 2, 2, 2, 3; total 11/25; writing 21/25
+
+claude-haiku: 1, 1, 1, 2, 3; total 8/25; writing 16/25
+
+Round 2 median total: 12/25. Individual reviews retained in Reviews/.
+
+Round 3 median total: 12/25. Individual reviews retained in Reviews/.
+
+Final entry counts: summary 85 words; main 10,624 characters including headings, spaces and paragraph breaks. Limits pass.
+
+
+Most Innovative Project
+
+Evidence: 9.5/25; reviewer range 8–14/25. Writing median: 23/25. Target not met.
+
+I1 Advancement of testing practice: 2/5
+
+I2 Driver and implementation: 2.5/5
+
+I3 Attempt to push industry boundaries: 1/5
+
+I4 Goals resources achievements and results: 2/5
+
+I5 Obstacles and response: 2/5
+
+Individual final reviews:
+
+gpt-6.1-sol: 2, 3, 1, 2, 2; total 10/25; writing 23/25
+
+gpt-6-astra: 2, 3, 1, 2, 2; total 10/25; writing 23/25
+
+gpt-6-sol: 2, 2, 1, 2, 2; total 9/25; writing 24/25
+
+gpt-6-luna: 2, 2, 1, 2, 2; total 9/25; writing 24/25
+
+gpt-5.6-sol: 3, 3, 3, 2, 3; total 14/25; writing 24/25
+
+claude-opus: 2, 2, 1, 1, 2; total 8/25; writing 18/25
+
+claude-sonnet: 2, 3, 2, 2, 2; total 11/25; writing 21/25
+
+claude-haiku: 2, 2, 1, 2, 2; total 9/25; writing 18/25
+
+Round 2 median total: 9/25. Individual reviews retained in Reviews/.
+
+Round 3 median total: 9.5/25. Individual reviews retained in Reviews/.
+
+Final entry counts: summary 97 words; main 5,672 characters including headings, spaces and paragraph breaks. Limits pass.
+
+
+COUNCIL DISPOSITION
+
+Three cycles completed: review existing drafts; revise scope and evidence pack; independently review revised drafts; apply corrections; independently verify and score again; apply final grammatical and attribution corrections. Primary evidence remains the limiting factor. Additional cosmetic review would not substantiate outcomes. Resume the loop when the linked missing records are supplied; do not claim the target is achieved.
+
+See Evidence/EVIDENCE_REQUIRED.txt for all 15 criteria and the exact records needed. Available evidence is packaged in Evidence/ and the matching ZIP. Narrative digests and hashes establish traceability, not truth. Local utility tests and screenshots are not government deployment evidence.
+
+No entry has been submitted and no organiser has been contacted. Organiser-required client identity and nomination scope must be addressed privately before submission.

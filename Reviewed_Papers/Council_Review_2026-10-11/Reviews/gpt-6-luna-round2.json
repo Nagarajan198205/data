@@ -1,0 +1,87 @@
+{
+  "reviewer": "GPT-6 Luna",
+  "papers": {
+    "ai": {
+      "criterion_scores": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "writing_score": 22,
+      "reasons": [
+        "A1: Account savings are reported, but no matched test-quality comparison establishes improvement or quality maintained.",
+        "A2: Governed use and specialist designs are described; deployed model identity and comparative originality or uplift are unproved.",
+        "A3: Reusable prompts and observed workspace controls support a plausible adaptable method; sustained delivery outcomes are not documented.",
+        "A4: 257 days and the nested 8-to-4-hour task are sourced only to narrative digests; no ledger, approvals, or time study is attached.",
+        "A5: Operational use cases are described, but improved stakeholder or service-user outcomes and satisfaction are unmeasured."
+      ],
+      "editorial_fixes": [
+        "Replace \u2018The account team reports 125 person-days saved in Q2 and 132 in Q3, after review time\u2019 with \u2018The source narrative reports 125 person-days in Q2 and 132 in Q3, net of review (S01); the ledger and approval records are not attached.\u2019 This avoids implying S01 verifies the claim.",
+        "Replace \u2018The Code Coverage Agent provides a smaller, concrete example\u2019 with \u2018The source also reports that one person's monthly evaluation task fell from eight hours to four; this is included in the 257-day claim.\u2019 This makes clear the example is not independently measured evidence."
+      ],
+      "missing_evidence": [
+        "Benefit ledger, review deductions, approval provenance, task-level time records, and retained-quality comparison.",
+        "Definition and measurement period for the reported 85% activity coverage.",
+        "Proof of model deployment and identity; independent holdout and comparative evaluation. A09 reports 73/186 evaluation-input overlaps and says 112 candidates are not validated as independent; A08 is utility testing only."
+      ],
+      "target_met": false
+    },
+    "nft": {
+      "criterion_scores": [
+        3,
+        3,
+        3,
+        2,
+        3
+      ],
+      "writing_score": 23,
+      "reasons": [
+        "N1: Explicit thresholds and failed checks are described, but evidence of requirements being met or accepted is limited.",
+        "N2: Production-informed methods and workload volume are described; N01 has a small four-sample count per failed transaction and no environment comparability evidence.",
+        "N3: The narrative links testing to migration and release decisions, but no decision, retest, or release records are attached.",
+        "N4: Scope and technical assets are clear; reported achievements lack primary records and the effort claim has no before/after hours.",
+        "N5: Cache and telemetry challenges have plausible responses; cache outcomes lack paired measurements and telemetry evidence shows only 7/64 resources supplied data."
+      ],
+      "editorial_fixes": [
+        "Replace \u2018The cloud-native framework ... has been applied to AKS migration programmes and contributed to the client's wider performance testing strategy\u2019 with \u2018The source narrative reports application to AKS migration work and contribution to the wider testing strategy (N03); programme and run records are not attached.\u2019 The current sentence presents an uncorroborated claim as established fact.",
+        "Replace \u2018Performance specialists worked with development and environment teams to define workloads, investigate findings and repeat validation after remediation\u2019 with \u2018The delivery narrative describes specialists defining workloads, investigating findings, and repeating validation after remediation; execution records are not attached.\u2019"
+      ],
+      "missing_evidence": [
+        "Raw workload, environment, transaction-mix and per-transaction sample records; N01 is a transcription of existing visuals, not a newly run test.",
+        "Cache baseline/retest measurements, matched request pattern, change identifier and reviewer acceptance (N02).",
+        "Before/after effort hours; raw run, telemetry-gate retest, migration decision and release/incident-window records (N03/N04)."
+      ],
+      "target_met": false
+    },
+    "innovation": {
+      "criterion_scores": [
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "writing_score": 23,
+      "reasons": [
+        "I1: Distributed scenario ownership with shared execution is a credible adaptation, but implementation and effects are supported only by narrative.",
+        "I2: The problem and described pipelines/template are coherent; no source code, pipeline history, or contribution records were inspected.",
+        "I3: The paper identifies an internal contribution model but supplies no comparative contribution or evidence that it pushes practice boundaries.",
+        "I4: Goals and responsibilities are clear; five-team adoption and assets are not corroborated, and measurable results are absent.",
+        "I5: Ownership and triage address plausible obstacles; no completed failure-to-owner-to-retest example demonstrates the response in operation."
+      ],
+      "editorial_fixes": [
+        "Replace \u2018The source describes five service teams using the onboarding approach\u2019 with \u2018The source narrative reports five teams using the approach (S02); team-level contribution and run records are not attached.\u2019",
+        "Replace \u2018The delivered assets described in the source are the tagging convention, three purpose-specific pipelines and a template-based project generator\u2019 with \u2018S02 describes a tagging convention, three pipeline types and a template utility; implementation records have not been inspected.\u2019"
+      ],
+      "missing_evidence": [
+        "Source repositories, pipeline execution history and team-by-team contributed scenario/run records.",
+        "A completed triage and retest example, matched setup timing, and measured regression or maintenance benefit; S02 records conflicting timing scopes.",
+        "Evidence of comparative contribution or tested transfer to other teams/contexts; external adoption is not the sole possible route, but none is supplied."
+      ],
+      "target_met": false
+    }
+  },
+  "council_recommendation": "None of the papers reaches 4/5 on every criterion from this evidence. Keep the reported-versus-verified distinctions, preserve A09's adverse evaluation-overlap finding, and acquire primary outcome and implementation records before strengthening results. Editorial fixes can calibrate attribution, but cannot close the evidence gaps."
+}

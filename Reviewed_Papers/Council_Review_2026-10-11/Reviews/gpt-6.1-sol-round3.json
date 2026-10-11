@@ -1,0 +1,81 @@
+{
+  "reviewer": "gpt-6.1-sol \u2014 independent simulated category judge, final round three",
+  "papers": {
+    "ai": {
+      "criterion_scores": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "writing_score": 23,
+      "reasons": [
+        "A1: No matched quality baseline/follow-up or measured improvement. A08 is utility verification, not model or client quality evidence.",
+        "A2: Specialist adaptation and fixed-code/model separation are specific documented ideas, but serving provenance and comparative originality remain unverified.",
+        "A3: Reported training, reusable prompts and two quarters suggest continuity; evaluated adaptation and sustained usage/results are not supplied.",
+        "A4: The net 257-day claim and included monthly task are now unambiguous. Underlying timing ledger, review deductions, approvals and retained quality remain absent.",
+        "A5: A reported assurance-task benefit is disclosed without verified stakeholder or service-user outcomes. Undefined activity coverage is not an outcome measure."
+      ],
+      "editorial_fixes": [],
+      "missing_evidence": [
+        "Package now: S01 as narrative attribution; A01\u2013A07 as local illustrations; A08 as synthetic utility checks; A09 as adverse dataset-integrity evidence. None establishes client deployment or AI quality uplift.",
+        "Acquire original task ledger, comparable timings, review deductions and role-only approval records; matched quality evaluation; longitudinal usage and evaluated prompt/model changes; measured stakeholder or verified correction outcomes.",
+        "Define the 85% numerator, denominator, period and rule/AI attribution. Obtain adapted-model provenance, serving records and a valid independent two-model evaluation. The 112 candidates are not an established holdout.",
+        "Confirm the eligible nomination boundary between account delivery and separately scoped specialist development, or narrow the entry. This cannot be settled by grouping applications under a platform name."
+      ],
+      "target_met": false
+    },
+    "nft": {
+      "criterion_scores": [
+        2,
+        3,
+        2,
+        2,
+        3
+      ],
+      "writing_score": 23,
+      "reasons": [
+        "N1: Volume attainment and failed response-time detection are concrete. Four displayed samples per failed transaction limit interpretation; no final passing acceptance/closure is supplied.",
+        "N2: Production-informed workload design, execution profiles and abnormal cache simulation are appropriate. Actual mix, environment equivalence and sufficiently sampled execution remain unverified.",
+        "N3: Narrated readiness inputs and risk detection explain testing contribution; traceable release/migration decisions and accepted retests are missing.",
+        "N4: Goals, resources and described outputs are clear. The two >90% task savings and capacity result lack primary calculation/run records.",
+        "N5: Telemetry gaps, daily rebuilds, exit-state failures and cache reproduction have concrete responses, but gate/recovery effectiveness and remediation magnitude need retests."
+      ],
+      "editorial_fixes": [],
+      "missing_evidence": [
+        "Package now: N01 as a derived transcription of workload and failed alert visuals; N02\u2013N04 as attributed source digests. Keep source limitations, four-observation counts and unresolved production baseline. Withhold confidential originals and email material.",
+        "Acquire agreed NFRs linked to adequately sampled final acceptance runs and defect closures, production workload/mix and environment comparison, reconciled endpoint aggregates and production denominators for capacity claims.",
+        "Acquire matched cache baseline/retest data, telemetry-gate execution/recovery evidence, raw tooling-test output, comparable timings including review/exceptions for each savings claim, and dated release/migration acceptance records.",
+        "Post-release incident scope and observation windows are needed if asserting incident outcomes; they are not substitutes for, or prerequisites to, proving a test informed a release decision."
+      ],
+      "target_met": false
+    },
+    "innovation": {
+      "criterion_scores": [
+        2,
+        3,
+        1,
+        2,
+        2
+      ],
+      "writing_score": 23,
+      "reasons": [
+        "I1: The ownership/reuse method is a plausible internal advance; measured duplicate-maintenance, coverage or regression improvement is absent.",
+        "I2: The ownership bottleneck, tag selection, generator and three pipeline roles are concrete. Matching implementation and execution records remain uninspected.",
+        "I3: Transferability is explained, but a substantiated attempt to exceed prevailing practice or comparative industry contribution is not supplied. External adoption is not the sole qualifying route.",
+        "I4: Goals and roles are clear and timing claims are withdrawn. Five-team participation and delivered assets remain narrative assertions without verified active adoption or measured benefit.",
+        "I5: Maintenance, consistency and triage constraints receive plausible design responses; no completed failure-assignment-correction-rerun chain demonstrates operation."
+      ],
+      "editorial_fixes": [],
+      "missing_evidence": [
+        "Package now: S02 as an attributed design/participation digest. Its source locator and fingerprint do not certify five-team adoption or implementation. Account AI savings and specialist illustrations are correctly excluded.",
+        "Acquire approved strategy, tag/pipeline/template implementation, per-team contribution and shared-run histories, completed triage/retest examples and measured coverage/reuse or central-maintenance change.",
+        "If restoring onboarding savings, reconcile task boundaries, working-day definitions and generation versus full onboarding with comparable timing records.",
+        "For I3, acquire a credible comparison explaining the distinctive contribution or actual boundary-pushing attempt, linked to inspected implementation and results; documented transfer/external reuse can also support the case."
+      ],
+      "target_met": false
+    }
+  },
+  "council_recommendation": "Primary-evidence plateau confirmed: AI 8/25, NFT 12/25, innovation 10/25. Final wording corrects review-time ambiguity, prototype publication/deployment implications, screenshot scope, tooling-test attribution and innovation outcome assertions. No additional material editorial correction is necessary within the explicit reported/design scope. Evidence is unchanged, so substantiation marks do not increase. No paper meets 4/5 throughout. The remaining material issues require real records and a confirmed nomination boundary: account AI, specialist local development, PerfOps/Perf Insights and shared regression are distinct populations; whether NFT Copilot work overlaps the account ledger remains unconfirmed. Retain the monthly saving inside 257 days and do not transfer outcomes between scopes. Supply organiser-required third-party identity through a separate private process. EVIDENCE_REQUIRED.txt provides capture fields and permissible anonymous alternatives; further cosmetic review cannot resolve the gaps."
+}

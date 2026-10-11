@@ -1,0 +1,108 @@
+{
+  "reviewer": "Claude (Opus 5.5) \u2014 simulated category judge, unofficial; independent round-two review",
+  "papers": {
+    "ai": {
+      "criterion_scores": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "writing_score": 19,
+      "reasons": [
+        "A1 1/5: The paper itself concedes that no matched quality comparison exists. A08 shows 59 utility tests on synthetic fixtures with no inference. A09 is adverse evidence: 73 of 186 evaluation inputs overlap training. Measured quality improvement is not substantiated.",
+        "A2 2/5: Copilot 365 and GitHub Copilot with reusable prompts is mainstream practice. The QLoRA Phi-4 adaptation and fixed-code rescoring are documented designs only. The deployed model is unproven, and the local service did not list phi4:14b-a11y.",
+        "A3 2/5: Training, reusable prompts, co-learning sessions, versioned prompts and controls are plausible sustainment mechanisms. However, the 50-to-60 growth, the 25 participants and the observed workspace controls have no cited exhibit or run history.",
+        "A4 2/5: The 257 person-days and the nested 8-to-4-hour task are clearly attributed to S01. There is no Pulse export, task ledger, review-deduction record or approval provenance. 'Quality maintained' is unevidenced.",
+        "A5 1/5: No satisfaction measure, stakeholder record or service-user outcome is given. The 85% figure is user-reported activity coverage with no numerator, denominator or period, and is correctly disclaimed."
+      ],
+      "editorial_fixes": [
+        "\u00a71 'We trained the 50 associates then on the account' \u2192 'We trained the 50 associates then working on the account'.",
+        "\u00a74 'Review time is included in the calculation' contradicts 'Review time was deducted from the reported savings' \u2192 'Review time was deducted in that calculation; operating and maintenance costs are not included.'",
+        "\u00a73 'The IntelliA11y AI SDLC workspace was observed with seven configurable AI controls and ten versioned prompt templates': cite the exhibit showing these, or delete the sentence. It currently has no source.",
+        "\u00a73 'as the team grew from 50 to 60 associates' and 'approximately 25 regular participants': attribute both to the S01 account narrative, or remove them if S01 does not contain them.",
+        "Check that 'Inteliperf' versus the 'Intelli-' naming of the other applications matches the product's actual name. Do not normalise it without confirmation.",
+        "Do not replace 'reports' with 'estimated' or add statements that records are being compiled. Neither is established."
+      ],
+      "missing_evidence": [
+        "Packageable now: S01 (source digest only), A01\u2013A07 (interface illustrations), A08 (limited utility verification) and A09 (dataset-overlap audit, retained as adverse evidence).",
+        "Absent: Pulse quarterly records and the underlying task ledger with review deductions, plus the original approval record.",
+        "Absent: a matched before/after quality comparison of AI-assisted versus prior test artefacts.",
+        "Absent: the calculation of the 85% figure (definition, numerator, denominator, period).",
+        "Absent: deployment evidence linking phi4:14b-a11y to any client run, and an independently curated holdout with a frozen two-model comparison.",
+        "Absent: any stakeholder or satisfaction measure, and a timing record for the Code Coverage Agent task."
+      ],
+      "target_met": false
+    },
+    "nft": {
+      "criterion_scores": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "writing_score": 20,
+      "reasons": [
+        "N1 2/5: N01 shows 104.6% of target volume, but the only response-time evidence is a FAILED P90 alert with four samples per transaction. No passing acceptance or closure record exists.",
+        "N2 2/5: KQL traffic modelling, the six profiles and cache-pattern reproduction are well described. Representativeness, environment comparability and transaction mix are unevidenced, and the 125% production label remains unresolved.",
+        "N3 2/5: The telemetry-completeness gate is a credible confidence mechanism. The three releases lack dates, acceptance records and an observation window, and the dashboard figures (11 projects, 10 bugs) are status, not outcomes.",
+        "N4 2/5: The 90% effort reductions have no baseline hours. The 57/64 missing-telemetry finding and the 1,000 TPM exercise come from narrative digests only. The 285 tests validate tooling, not client NFT.",
+        "N5 3/5: This is the strongest criterion. It gives a candid, specific evaluation of daily rebuilds, false-success exit states, cache non-reproduction and telemetry loss, with concrete responses. The responses are narrative-supported and lack retest records."
+      ],
+      "editorial_fixes": [
+        "Heading 'Meeting non functional requirements' \u2192 'Meeting non-functional requirements'.",
+        "'It scales test environments to production-like capacity' \u2192 'The source describes scaling test environments to production-like capacity (N03)'. Comparability is not evidenced.",
+        "'The framework has been applied to AKS migration programmes and contributed to the client's wider performance testing strategy' \u2192 add attribution: 'The delivery narrative reports that\u2026' with its source ID.",
+        "'We also corrected failure paths that had returned successful exit states\u2026', 'integrates six evidence sources and four output formats' and '16 data files': attribute each to its source digest, or remove any that no digest contains.",
+        "Cross-paper: state whether the Copilot-assisted dashboard and PowerShell work are counted in the AI paper's 257 account person-days. If unknown, state that the boundary is unconfirmed."
+      ],
+      "missing_evidence": [
+        "Packageable now: N01 (anonymised transcription with fingerprints), and N02\u2013N04 (source digests only).",
+        "Absent: a passing acceptance run with adequate per-transaction samples, and the remediation retest for the failed P90 transactions.",
+        "Absent: the production baseline behind the 125% label and the 50x capacity claim.",
+        "Absent: paired cache before/after measurements, change identifier and reviewer acceptance.",
+        "Absent: baseline and post-automation hours, run counts and exception effort for the 90% claims.",
+        "Absent: release dates, acceptance records and a post-release observation window.",
+        "Absent: telemetry-gate retest records and raw tooling test output.",
+        "Absent: endpoint P95 values with the aggregate conflict reconciled."
+      ],
+      "target_met": false
+    },
+    "innovation": {
+      "criterion_scores": [
+        2,
+        2,
+        1,
+        1,
+        2
+      ],
+      "writing_score": 19,
+      "reasons": [
+        "I1 2/5: Domain-team-owned, tag-selected shared regression is a coherent ownership model. The paper rightly calls it an application of existing Playwright and pipeline features. No comparative advance over prior practice is evidenced.",
+        "I2 2/5: The driver (central team cannot hold all domain knowledge) is clear, and three pipelines plus a generator are described. No repository, pipeline definition or run history has been inspected, and S02 is a narrative digest.",
+        "I3 1/5: External adoption is not required. However, no substantiated attempt to push boundaries is shown: no publication, comparison with industry practice, novel mechanism or measured contribution. The paper itself concedes comparative impact is unestablished.",
+        "I4 1/5: The five teams are reported participation only, timing claims are rightly withdrawn, and no benefit (duplicate maintenance avoided, coverage, defect detection) is quantified or evidenced.",
+        "I5 2/5: Distributed-ownership risk and triage routing are honestly evaluated. No completed failure-assign-fix-rerun example demonstrates the response working."
+      ],
+      "editorial_fixes": [
+        "Heading '4 Goals resources and reported results' \u2192 '4 Goals, resources and reported results'.",
+        "\u00a75 closing 'ready to be evaluated through its team and run records' reads as reviewer-facing \u2192 'The method combines domain-led test maintenance with shared execution; its operational record is limited to the reported onboarding of five teams.'",
+        "Summary 'Its contribution is a reusable ownership and execution method' \u2192 'Its contribution is an ownership and execution method designed for reuse'. Reuse beyond this client is not shown.",
+        "Do not add a statement that there were no external adopters. Retain only 'Wider adoption\u2026 have not yet been established'."
+      ],
+      "missing_evidence": [
+        "Packageable now: S02 (design and adoption digest only).",
+        "Absent: per-team contribution history and shared-regression run records.",
+        "Absent: the pipeline YAML and template generator implementation.",
+        "Absent: a completed triage-and-retest example.",
+        "Absent: matched setup timing with consistent scope.",
+        "Absent: a measured regression benefit versus the prior central-pack approach.",
+        "Absent: any comparative or external-facing contribution evidence supporting I3."
+      ],
+      "target_met": false
+    }
+  },
+  "council_recommendation": "All three papers are now honest, well attributed and largely free of overclaim. That candour, together with repeated review and the hashed digests, establishes source traceability, not achievement. Every score plateau here comes from absent primary records, and further editing cannot lift any criterion to 4/5. Apply the residual editorial fixes listed above. These include the AI review-deduction wording, unattributed NFT sentences and Innovation heading punctuation; none requires new facts. Scope conflicts: (1) the AI paper's 'account' 257 person-days may include Copilot work described in the NFT paper and effort from shared-regression teams. The papers exclude these in one direction only, and the population boundary is unconfirmed. (2) Inteliperf (AI paper) versus PerfOps/Perf Insights (NFT paper) is now correctly separated and should stay so. (3) All three papers name the same client, so its identity must be supplied to the organiser under its rules and kept out of entry text. Evidence acquisition required before submission is defensible at 4/5: the Pulse ledger and approval record plus a quality comparison (AI); passing and retest runs, baselines, release records and effort timings (NFT); repositories, run history, a triage example and a measured benefit or comparative contribution (Innovation). Without them, the realistic position is roughly 8\u201311/25 per paper on substantiation, and target_met is false for all three."
+}

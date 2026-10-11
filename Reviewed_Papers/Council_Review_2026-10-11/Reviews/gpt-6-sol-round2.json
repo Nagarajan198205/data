@@ -1,0 +1,84 @@
+{
+  "reviewer": "gpt-6-sol simulated category judge, 11 October 2026",
+  "papers": {
+    "ai": {
+      "criterion_scores": [
+        2,
+        3,
+        2,
+        2,
+        1
+      ],
+      "writing_score": 23,
+      "reasons": [
+        "A1: Net effort and accessibility coverage are reported, but neither a matched quality measure nor source calculations establish improvement.",
+        "A2: Selective impact analysis and accessibility adaptation are specific designs; deployment and comparative model evidence remain absent.",
+        "A3: Training, versioned prompts and controls indicate adaptability; sustained usage and evaluated changes are unshown.",
+        "A4: The reported 257 days and bounded monthly task support an efficiency case, but ledger, costs and maintained quality are missing.",
+        "A5: Assurance use is described without measured stakeholder or service-user benefit or satisfaction."
+      ],
+      "editorial_fixes": [
+        "The summary's 'introduced AI assistance into test delivery' is supported as a source claim. No material remaining claim requires a fact-free rewrite; retain the explicit source and scope qualifications.",
+        "Optional precision: replace 'The client assurance team uses it to review coverage' with 'The account narrative says the client assurance team uses it to review coverage'; direct usage records have not been inspected."
+      ],
+      "missing_evidence": [
+        "Package now: A01\u2013A07 as local interface demonstrations, A08 as 59 utility checks with synthetic fixtures, A09 as dataset-overlap evidence, and S01 as an attributed narrative digest. None proves client deployment or quality uplift.",
+        "Acquire the original benefit ledger and approvals, matched quality comparison, 85% numerator/denominator/period, deployed-model record, independently validated model comparison and stakeholder outcome evidence. The 112 candidate inputs are not yet an independent holdout."
+      ],
+      "target_met": false
+    },
+    "nft": {
+      "criterion_scores": [
+        2,
+        3,
+        2,
+        2,
+        3
+      ],
+      "writing_score": 23,
+      "reasons": [
+        "N1: N01 documents failure detection at P90, with only four samples per transaction; acceptance, closure and conflicting endpoint aggregates are unresolved.",
+        "N2: Production-informed design, six profiles and the observed 7,532-request volume support the approach, but mix and production comparability lack run records.",
+        "N3: Testing is linked to reported releases and migration decisions, but decision records and post-release observation are absent.",
+        "N4: Goals, tools and some outputs are clear; the reported >90% effort reductions lack comparable timings and complete resource accounting.",
+        "N5: Cache reproduction, telemetry gating and data-rebuild responses are concrete, though remediation magnitude and gate operation are unverified."
+      ],
+      "editorial_fixes": [
+        "Replace 'The framework has been applied to AKS migration programmes and contributed to the client's wider performance testing strategy' with 'The delivery narrative reports use of the framework in AKS migration work and its contribution to the client's wider performance testing strategy.' The current sentence reads as independently established impact.",
+        "Replace 'The checks distinguish idle resources from collection errors' with 'The described checks are intended to distinguish idle resources from collection errors' unless a gate run demonstrating that distinction is attached."
+      ],
+      "missing_evidence": [
+        "Package now: N01 as an anonymised transcription showing workload volume and a failed alert with counts of four; N02\u2013N04 as attributed narrative digests; the dashboard only as a portfolio snapshot. Keep identifying originals withheld until redacted.",
+        "Acquire requirements and accepted retests, workload mix and production baseline, matched effort timings, cache baseline/retest metrics, telemetry-gate run records, corrected endpoint analysis, and dated release approvals and observation windows."
+      ],
+      "target_met": false
+    },
+    "innovation": {
+      "criterion_scores": [
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "writing_score": 23,
+      "reasons": [
+        "I1: The ownership model could improve shared regression, but contribution and execution history has not been inspected.",
+        "I2: Driver, tags, utility and pipelines are described in S02; implementation and five-team adoption need primary records.",
+        "I3: A transferable combination is articulated, but a substantiated boundary-pushing attempt or comparison with prior practice is missing; external adoption is not the only possible proof.",
+        "I4: Goals and roles are clear, while timing scopes conflict and measured coverage or maintenance outcomes are absent.",
+        "I5: The design addresses central bottlenecks and ownership risks; actual triage and recovery examples remain absent."
+      ],
+      "editorial_fixes": [
+        "Replace summary sentence 'Tagged Playwright tests feed a common regression suite, supported by three Azure DevOps pipelines and a project-generation utility' with 'The supplied design describes tagged Playwright tests feeding a common regression suite, supported by three Azure DevOps pipelines and a project-generation utility.' This aligns the summary with S02's narrative-only status.",
+        "Replace 'A formal test strategy defines the approach' with 'The delivery narrative describes a formal test strategy for the approach' unless the strategy itself is included."
+      ],
+      "missing_evidence": [
+        "Package now: S02 as a source digest and any existing design description, clearly labelled as narrative rather than inspected implementation.",
+        "Acquire team-level contributions, pipeline/template source and run history, a completed triage-to-rerun case, matched setup timings, measured reuse or regression benefit, and a comparison substantiating the claimed advance."
+      ],
+      "target_met": false
+    }
+  },
+  "council_recommendation": "All three entries are substantially clearer, and the evidence index correctly separates original local checks, transcriptions and narrative digests. Retain these scope limits. The AI account saving, specialist platform, NFT results and shared regression have distinct populations; do not transfer outcomes between them. The 8-to-4-hour example is inside the 257-day claim, and the 85% accessibility measure has a separate undefined denominator. No paper meets 4/5 on all criteria without primary client records. Supply third-party identity privately under organiser rules."
+}

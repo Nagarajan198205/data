@@ -1,0 +1,61 @@
+Summary
+
+Cognizant Worldwide Limited UK developed PerfOps to automate performance assurance for a UK government client. Pipelines prepare environments, execute workloads, assess results and publish reports. Transcribed visuals show workload volume against target and response-time failures despite passing volume checks. The team reports using a custom JMeter simulation to reproduce abnormal cache growth for remediation testing. Resource checks also exposed missing infrastructure telemetry. Together, these capabilities give engineers a repeatable way to examine service behaviour and the completeness of supporting evidence before advising on release readiness.
+
+Main entry
+
+Project goals and engineering resources
+
+Cognizant Worldwide Limited UK developed PerfOps to make performance assurance repeatable for a UK government client. Engineers needed timely evidence of capacity and response times, together with a reliable view of the infrastructure data available for interpretation. The team reports that the wider work supported three major releases and migration decisions (N04).
+
+The starting process required engineers to validate results, inspect server utilisation, prepare reports and distribute findings manually. Cloud migration added distributed services and Kubernetes scaling behaviour to the scope. Daily rebuilds in some environments removed test data and left a short window for collecting infrastructure telemetry. A repeatable test therefore depended on reliable preparation and evidence collection as well as workload execution.
+
+Performance specialists worked with development and environment teams to define workloads, investigate findings and repeat validation after remediation. Azure DevOps coordinated execution; JMeter and Azure Load Testing supplied workloads; Python routines assessed results; and a .NET generator prepared related synthetic records. Perf Insights supported reproducible analysis. The work combined a reusable automation approach with investigations into particular service risks.
+
+Performance validation approach and observed results
+
+PerfOps integrates performance assurance into Azure DevOps pipelines. It scales test environments to production-like capacity before execution and scales them down afterwards to limit running costs. Custom Python routines validate response-time SLAs, error thresholds, throughput targets and capacity requirements. Infrastructure metrics are collected and assessed alongside application results, with automated pass or fail outcomes.
+
+PerfOps generates HTML reports and automated alerts. One supplied alert records P90 response times of 5,134 ms and 4,943 ms against a 4,000 ms threshold, while its volume checks pass (N01). Each transaction has a displayed count of four, limiting percentile interpretation. The example demonstrates failure detection and an investigation route through pipeline artefacts; it is not a passing acceptance result or a closure record.
+
+The delivery narrative reports that, for identity migration, peak-load, 1x to 4x scalability and endurance testing examined response times, throughput, errors and resource behaviour. Early runs exposed load-balancing, session-stickiness and subsystem integration issues. The teams investigated these findings and repeated validation after remediation before supplying evidence for the migration decision. It also reports a separate integration capacity exercise at 1,000 transactions per minute, approximately 50 times the regular production volume reported by the team, to inform sizing decisions (N04).
+
+Testing representative conditions
+
+The cloud-native framework provides a structured approach to performance testing for services running on Azure Kubernetes Service. A reusable Kusto Query Language library analyses production traffic to establish request rates, transaction mix, peak periods and workload distribution. This gives teams a practical basis for defining workloads and non-functional requirements from observed service use.
+
+The approach covers baseline, load, stress, spike, endurance and failover testing. It includes validation of Horizontal Pod Autoscaling and Cluster Autoscaler behaviour, sizing at pod and node level, and assessment of dependencies between services. Application and Kubernetes telemetry support investigation across both software and infrastructure. The delivery narrative reports use of the framework in AKS migration work and its contribution to the client's wider performance testing strategy.
+
+The workload visual records 7,532 requests over 60 minutes against a target of 7,200, with approximately 2.1 requests per second against a target of 2 (N01). The transcribed values give 104.6% of the test volume target; this is a calculation from the visual, not a separate measurement. Representative performance also depends on transaction mix, environment comparability and adequate samples for each transaction. The source's separate production-volume label uses an unresolved baseline and is not used here.
+
+The delivery narrative also describes an identity performance suite that standardises six execution profiles: smoke, load at 1x peak demand, scalability at 2x, 3x and 4x, and endurance. Each uses a shared data preparation stage. Azure Load Testing integration includes 16 data files, with central metric configuration for 64 Azure resources. Environment readiness checks and consolidated stage reporting distinguish unavailable environments from executed tests.
+
+Overcoming execution and evidence challenges
+
+Daily rebuilds required fresh, consistent data for repeated testing. The .NET 8 generator sizes datasets to each profile and creates related records across the identity and business systems. Schema validation, retries, duplicate protection and per-file checks support provisioning. The delivery narrative reports that routine repopulation is automated, while exceptional partial-creation failures follow a documented recovery process. It also describes correcting failure paths that had returned successful exit states, adding validation gates and automating retrieval of the current storage key (N04). These changes address specific causes of invalid or interrupted runs.
+
+A cache-exhaustion investigation demonstrated why realistic testing also had to account for abnormal traffic. The case narrative reports that a production service experienced excessive cache growth following repeated requests to a public endpoint (N02). Conventional browser-like tests reused cached responses and could not reproduce the behaviour. The team examined application logs, request characteristics and cache activity to identify how automated clients differed from normal browser traffic.
+
+The team reports building a custom JMeter simulation using dynamic request fingerprinting and cache-key variation to recreate the relevant request pattern. The supplied case narrative reports controlled reproduction of cache growth in a non-production environment, followed by validation of cache-key normalisation, bucket segregation and retention changes (N02). The case describes the investigation method, but supplies no paired numerical before-and-after measurements. The extent of the reported remediation therefore remains to be substantiated.
+
+Perf Insights addresses the next difficulty: assembling results from separate test files and infrastructure sources into a report that can be reproduced. The delivery narrative describes integration of several evidence sources and output formats using deterministic insight rules (N04). A common JSON summary supports baseline comparison and offline regeneration, while stable run identifiers preserve traceability when files move or are renamed.
+
+Endpoint analysis identifies response-time threshold breaches for investigation. Examining individual transactions matters because an aggregate can conceal slower user journeys. Transaction results and infrastructure metrics support diagnosis, while the underlying report values require reconciliation before being used as a quantified outcome.
+
+The delivery narrative records that resource-level checks detected missing telemetry for 57 of 64 configured resources on runs that had previously appeared successful. Only about 11% of the expected resources had supplied telemetry. The narrative describes a quality gate that fails substantially incomplete collection, with configurable coverage requirements and a controlled override. The described checks are intended to distinguish idle resources from collection errors (N04).
+
+The delivery narrative describes a short telemetry-recovery window between daily rebuilds. Identifying incomplete collection during the workflow gives engineers a chance to respond while evidence is still available. The source reports 285 passing automated regression tests for the analysis platform (N04). These are reported checks of the analysis tooling, not client performance scenarios; raw execution output is not attached. Further controlled adoption of Perf Insights is planned.
+
+Release confidence and operational results
+
+The delivery team reports over 90% less manual effort separately for performance validation and infrastructure validation (N03). These are claims about two PerfOps activities, not the entire testing lifecycle. Comparable task timings, review effort and exceptions are still needed to verify the percentages. Report generation automates preparation, while engineers continue interpreting results, investigating defects and advising on release readiness.
+
+The delivery narrative describes Power BI dashboards that draw on Azure DevOps Boards to combine project status, open defects, assurance activities and test strategy progress. The intended benefit is to make unresolved performance risks visible alongside delivery progress. A dashboard view does not itself establish release acceptance.
+
+The delivery narrative reports performance-readiness inputs for three major releases and migration decisions (N04). It describes investigation of load-balancing, session and integration issues before repeat validation. Release dates, acceptance records and a defined post-release observation window are required to substantiate the resulting deployment outcomes.
+
+AI supported the engineering of these capabilities. Microsoft Copilot assisted dashboard design, data modelling, DAX and report development. AI assistance also helped create a PowerShell utility that updates transaction names, naming conventions and think times in large JMeter suites containing more than 1,000 requests. The resulting utility automates repetitive maintenance of test assets. This entry claims no separate saving from that AI assistance.
+
+The project produced reusable assets at several levels: execution profiles, test-data generation, cloud-native testing guidance, automated validation and the cache-reproduction scenario. Teams can repeat the method while adapting workloads and acceptance criteria to the service under test. The value lies in making both the result and its supporting evidence available for engineering review.
+
+Further work will extend controlled adoption of Perf Insights and automate exceptional recovery. PerfOps and Perf Insights are the capabilities described in this entry; the specialist Inteliperf application is covered separately in the AI paper.
