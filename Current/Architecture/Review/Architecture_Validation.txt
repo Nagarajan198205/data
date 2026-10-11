@@ -1,6 +1,0 @@
-ARCHITECTURE VALIDATION — 11 October 2026
-Four-page vector PDF and four SVG diagrams prepared from the three source inspections. All four pages rendered and visually inspected; final changed security/performance pages re-rendered and inspected. Text and connectors remain readable within page bounds.
-Three specialist source reviews completed. Corrections applied: separate accessibility CLI path; conditional ADO hand-off; explicit missing ticket consumer; separate RAG and training paths; security imports bypass native detection; gate does not require triage; retest returns a recorded verdict; performance deterministic analysis and human decision bypass optional AI; simulated remediation excluded from live execution claims.
-Editable Mermaid files retain detailed source scope; they are not the rendering source of the curated PDF/SVG. No Mermaid renderer check claimed.
-Source maps and hashes identify inspected local files; source presence does not establish a completed run. No scans, model training, video recording or client outcome verification were performed during this architecture task.
-No changes to paper text or council evidence scores. Reserved video IDs are recording-plan references, not existing evidence files.

@@ -1,0 +1,13 @@
+INTELLISEC SYNTHETIC NATIVE-ENGINE DEMO — 11 October 2026
+
+Result: the local CodeReviewAgent returned one finding for a deliberately predictable PHP token and zero findings for the corrected version. The finding was `insecure_random`, CWE-330, medium severity, line 3, with reported confidence 0.98. Both direct scans reported success. This is evidence of one bounded native detector path on synthetic input, not a client scan, expert confirmation, full application coverage or a deployed remediation outcome.
+
+Reproduce from the distribution repository root using a Python environment containing IntelliSec's dependencies, replacing the absolute checkout path:
+INTELLISEC_REPO=/absolute/IntelliSec python3 Evidence/A12_IntelliSec_Runtime/run_synthetic_sast.py
+Set INTELLISEC_REPO explicitly for this distributed copy; its fallback is intended for the original local harness layout.
+
+The script holds both synthetic source versions in memory and calls CodeReviewAgent._scan_file_sync directly with the same synthetic path. It does not call the API, scan a repository or URL, query a database, invoke a model, change IntelliSec files, or write to ADO. It writes raw_results.json in this directory. The relevant source implementation is ../IntelliSec/src/agents/code_review_agent.py at lines 2592–2600 and 2668 onward; SHA256 c80e929ad5d406f5b3472767fef4e78c631267ed377b12de6b960f079c33111b. Reproduction script SHA256 1cc5bbaddf7c950c82d384a22cb8fc8dd7ea9417b87d5750aed25a8192e0f4e7. This run's raw JSON SHA256 eade7117d52e8b86d4c32aa838dbea635487a68a0b3e14ed4c72e865faa14784.
+
+The demo deliberately disabled semantic AI, structural, CFG, incremental, interprocedural and cross-file processing to keep it offline and bounded. The raw coverage records show structural as disabled, dataflow/signature/secret stages as completed and semantic as disabled; the finding's analysis_type is `structural_php_crypto`, a native PHP-specific classification. The successful file-level status is therefore not a claim of complete SAST coverage. The corrected code's zero findings only means this selected scanner call did not report a finding on this selected synthetic version.
+
+Local UI readiness: at inspection, an IntelliSec Vite frontend and a uvicorn API were already running on loopback, and both returned HTTP 200. No process was started or stopped and no application data or findings were queried. These existing local services may be used for screen recording if the operator verifies the displayed workspace is synthetic and contains no confidential records. The direct detector run above was not sent to that UI, so it will not appear there automatically.

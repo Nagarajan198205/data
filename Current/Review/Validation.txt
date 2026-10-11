@@ -1,9 +1,0 @@
-FINAL VALIDATION — 11 October 2026
-PASS: three DOCX files match paste-ready summary and main texts exactly; entry counts within limits.
-PASS: AI v6 and NFT v6 each rendered to three pages and all six pages visually checked. Innovation v2 unchanged, byte-identical to its previously checked two-page document.
-PASS: all 103 moved substantive files match their original hashes. Only operating-system .DS_Store metadata removed. Source narratives preserved.
-PASS: all current README navigation links resolve; historical README retained unchanged and labelled historical.
-PASS: every evidence-manifest hash verified; ZIP content matches the evidence directory byte-for-byte.
-PASS: current text scanned for emails, application URLs, credentials and personal local paths; source inspection does not publish raw confidential data.
-PASS: eight round-four reviews retained, with individual scores and separate writing scores. Small score changes reflect reviewer judgment; they are not proof of improved client outcomes.
-OPEN: primary client measurements, approvals and implementation/run records. File-quality checks do not establish award readiness.

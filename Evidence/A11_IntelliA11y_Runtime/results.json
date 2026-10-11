@@ -1,0 +1,502 @@
+{
+  "generatedAt": "2026-10-11T13:48:31.150Z",
+  "scope": "Direct native-engine execution on synthetic HTML. No browser probes, LLM, ADO workflow or client benefit claim. Fixture corrections made by the evidence author; not autonomous product remediation.",
+  "sourceFiles": [
+    {
+      "file": "src/services/rule-engine.ts",
+      "sha256": "180d08e72503d30059d780800d34f5f95d0df6da426888f4f82087f78d132e83"
+    },
+    {
+      "file": "src/services/rules/engine.ts",
+      "sha256": "099d2e4381bf01a572d3d69e0ffc08d5f250bd3025e584c11a7d6b4975e8a24c"
+    },
+    {
+      "file": "src/services/rules/index.ts",
+      "sha256": "6679f52e8cffe29639f0f7a4550b7bbe78a06ad0d607cf5d2853a614227453e3"
+    }
+  ],
+  "options": {
+    "enableLLM": false,
+    "wcagVersion": "2.2",
+    "wcagLevel": "AA",
+    "includeBestPractices": false
+  },
+  "runs": [
+    {
+      "phase": "before",
+      "started": "2026-10-11T13:48:30.586Z",
+      "finished": "2026-10-11T13:48:30.858Z",
+      "fixtureSha256": "8f8f5fc2f431fe085ed425338265c1ff2befbd780165748c87809db7f0acc94a",
+      "score": 85,
+      "summary": {
+        "total": 3,
+        "critical": 3,
+        "serious": 0,
+        "moderate": 0,
+        "minor": 0
+      },
+      "confirmed": [
+        {
+          "ruleId": "input-label",
+          "title": "Associate labels with form inputs using for/id attributes or nesting",
+          "severity": "critical",
+          "elementSelector": "#visitor-name",
+          "detectedBy": 1,
+          "tier": "confirmed",
+          "evidence": "deterministic"
+        },
+        {
+          "ruleId": "act-button-accessible-name",
+          "title": "Provide text content, aria-label, or aria-labelledby for buttons",
+          "severity": "critical",
+          "elementSelector": "main > form > button",
+          "detectedBy": 1,
+          "tier": "confirmed",
+          "evidence": "deterministic"
+        },
+        {
+          "ruleId": "act-form-field-accessible-name",
+          "title": "Associate labels with form controls or use aria-label",
+          "severity": "critical",
+          "elementSelector": "#visitor-name",
+          "detectedBy": 1,
+          "tier": "confirmed",
+          "evidence": "deterministic"
+        }
+      ],
+      "needsReview": [
+        {
+          "ruleId": "act-html-lang-attribute",
+          "title": "Add lang attribute to the html element",
+          "severity": "serious",
+          "elementSelector": "html",
+          "detectedBy": 2,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "sr-announcement-quality",
+          "title": "Interactive elements must provide meaningful accessible names for screen readers",
+          "severity": "serious",
+          "elementSelector": "#visitor-name",
+          "detectedBy": 1,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "sr-announcement-quality",
+          "title": "Interactive elements must provide meaningful accessible names for screen readers",
+          "severity": "serious",
+          "elementSelector": "main > form > button",
+          "detectedBy": 1,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "mobile-sr-landmarks",
+          "title": "Use landmarks like main, nav, header, footer for rotor navigation",
+          "severity": "moderate",
+          "elementSelector": "body",
+          "detectedBy": 1,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "consistent-ui-patterns",
+          "title": "Keep navigation, search, and help in consistent positions",
+          "severity": "minor",
+          "elementSelector": "body",
+          "detectedBy": 2,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "ported-heading-label-descriptive",
+          "title": "Give each form control a label that clearly conveys what to enter (e.g. \"Email address\", \"Phone number\"), not a generic word or a technical identifier.",
+          "severity": "moderate",
+          "elementSelector": "#visitor-name",
+          "detectedBy": 2,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "ported-page-language",
+          "title": "Add a valid BCP-47 language code to the <html> element, e.g. <html lang=\"en\">, matching the page content.",
+          "severity": "serious",
+          "elementSelector": "html",
+          "detectedBy": 1,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "icon-sensory-only",
+          "title": "Add visible text, aria-label, or title tooltip to icon-only controls",
+          "severity": "moderate",
+          "elementSelector": "main > form > button",
+          "detectedBy": 3,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "visible-label-not-associated",
+          "title": "Associate visible labels with form fields using for/id matching, wrapping <label>, aria-label, or aria-labelledby",
+          "severity": "moderate",
+          "elementSelector": "#visitor-name",
+          "detectedBy": 3,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "ported-page-title",
+          "title": "Add a <title> in <head> that describes the page content and site.",
+          "severity": "serious",
+          "elementSelector": "html",
+          "detectedBy": 3,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "ported-part-language",
+          "title": "Wrap foreign-language text in an element with a lang attribute (for example <span lang=\"fr\">…</span>), and add dir=\"rtl\" for right-to-left languages.",
+          "severity": "moderate",
+          "elementSelector": "main > p",
+          "detectedBy": 3,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        }
+      ],
+      "advisory": [],
+      "issues": [
+        {
+          "ruleId": "input-label",
+          "title": "Associate labels with form inputs using for/id attributes or nesting",
+          "severity": "critical",
+          "elementSelector": "#visitor-name",
+          "detectedBy": 1,
+          "tier": "confirmed",
+          "evidence": "deterministic"
+        },
+        {
+          "ruleId": "act-button-accessible-name",
+          "title": "Provide text content, aria-label, or aria-labelledby for buttons",
+          "severity": "critical",
+          "elementSelector": "main > form > button",
+          "detectedBy": 1,
+          "tier": "confirmed",
+          "evidence": "deterministic"
+        },
+        {
+          "ruleId": "act-form-field-accessible-name",
+          "title": "Associate labels with form controls or use aria-label",
+          "severity": "critical",
+          "elementSelector": "#visitor-name",
+          "detectedBy": 1,
+          "tier": "confirmed",
+          "evidence": "deterministic"
+        }
+      ]
+    },
+    {
+      "phase": "after",
+      "started": "2026-10-11T13:48:30.858Z",
+      "finished": "2026-10-11T13:48:30.995Z",
+      "fixtureSha256": "bf809cc372f18174a6ac8bfa9790190f1632f32c3556d8f7413f10a09104133e",
+      "score": 100,
+      "summary": {
+        "total": 0,
+        "critical": 0,
+        "serious": 0,
+        "moderate": 0,
+        "minor": 0
+      },
+      "confirmed": [],
+      "needsReview": [
+        {
+          "ruleId": "autocomplete-missing",
+          "title": "Add autocomplete attribute to inputs that collect personal information",
+          "severity": "moderate",
+          "elementSelector": "#visitor-name",
+          "detectedBy": 2,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "mobile-sr-landmarks",
+          "title": "Use landmarks like main, nav, header, footer for rotor navigation",
+          "severity": "moderate",
+          "elementSelector": "body",
+          "detectedBy": 1,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "consistent-ui-patterns",
+          "title": "Keep navigation, search, and help in consistent positions",
+          "severity": "minor",
+          "elementSelector": "body",
+          "detectedBy": 2,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "ported-heading-label-descriptive",
+          "title": "Give each form control a label that clearly conveys what to enter (e.g. \"Email address\", \"Phone number\"), not a generic word or a technical identifier.",
+          "severity": "moderate",
+          "elementSelector": "#visitor-name",
+          "detectedBy": 3,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "ported-page-title",
+          "title": "Add a <title> in <head> that describes the page content and site.",
+          "severity": "serious",
+          "elementSelector": "html",
+          "detectedBy": 3,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        }
+      ],
+      "advisory": [],
+      "issues": []
+    },
+    {
+      "phase": "before_repeat",
+      "started": "2026-10-11T13:48:30.995Z",
+      "finished": "2026-10-11T13:48:31.073Z",
+      "fixtureSha256": "8f8f5fc2f431fe085ed425338265c1ff2befbd780165748c87809db7f0acc94a",
+      "score": 85,
+      "summary": {
+        "total": 3,
+        "critical": 3,
+        "serious": 0,
+        "moderate": 0,
+        "minor": 0
+      },
+      "confirmed": [
+        {
+          "ruleId": "input-label",
+          "title": "Associate labels with form inputs using for/id attributes or nesting",
+          "severity": "critical",
+          "elementSelector": "#visitor-name",
+          "detectedBy": 1,
+          "tier": "confirmed",
+          "evidence": "deterministic"
+        },
+        {
+          "ruleId": "act-button-accessible-name",
+          "title": "Provide text content, aria-label, or aria-labelledby for buttons",
+          "severity": "critical",
+          "elementSelector": "main > form > button",
+          "detectedBy": 1,
+          "tier": "confirmed",
+          "evidence": "deterministic"
+        },
+        {
+          "ruleId": "act-form-field-accessible-name",
+          "title": "Associate labels with form controls or use aria-label",
+          "severity": "critical",
+          "elementSelector": "#visitor-name",
+          "detectedBy": 1,
+          "tier": "confirmed",
+          "evidence": "deterministic"
+        }
+      ],
+      "needsReview": [
+        {
+          "ruleId": "act-html-lang-attribute",
+          "title": "Add lang attribute to the html element",
+          "severity": "serious",
+          "elementSelector": "html",
+          "detectedBy": 2,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "sr-announcement-quality",
+          "title": "Interactive elements must provide meaningful accessible names for screen readers",
+          "severity": "serious",
+          "elementSelector": "#visitor-name",
+          "detectedBy": 1,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "sr-announcement-quality",
+          "title": "Interactive elements must provide meaningful accessible names for screen readers",
+          "severity": "serious",
+          "elementSelector": "main > form > button",
+          "detectedBy": 1,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "mobile-sr-landmarks",
+          "title": "Use landmarks like main, nav, header, footer for rotor navigation",
+          "severity": "moderate",
+          "elementSelector": "body",
+          "detectedBy": 1,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "consistent-ui-patterns",
+          "title": "Keep navigation, search, and help in consistent positions",
+          "severity": "minor",
+          "elementSelector": "body",
+          "detectedBy": 2,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "ported-heading-label-descriptive",
+          "title": "Give each form control a label that clearly conveys what to enter (e.g. \"Email address\", \"Phone number\"), not a generic word or a technical identifier.",
+          "severity": "moderate",
+          "elementSelector": "#visitor-name",
+          "detectedBy": 2,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "ported-page-language",
+          "title": "Add a valid BCP-47 language code to the <html> element, e.g. <html lang=\"en\">, matching the page content.",
+          "severity": "serious",
+          "elementSelector": "html",
+          "detectedBy": 1,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "icon-sensory-only",
+          "title": "Add visible text, aria-label, or title tooltip to icon-only controls",
+          "severity": "moderate",
+          "elementSelector": "main > form > button",
+          "detectedBy": 3,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "visible-label-not-associated",
+          "title": "Associate visible labels with form fields using for/id matching, wrapping <label>, aria-label, or aria-labelledby",
+          "severity": "moderate",
+          "elementSelector": "#visitor-name",
+          "detectedBy": 3,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "ported-page-title",
+          "title": "Add a <title> in <head> that describes the page content and site.",
+          "severity": "serious",
+          "elementSelector": "html",
+          "detectedBy": 3,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "ported-part-language",
+          "title": "Wrap foreign-language text in an element with a lang attribute (for example <span lang=\"fr\">…</span>), and add dir=\"rtl\" for right-to-left languages.",
+          "severity": "moderate",
+          "elementSelector": "main > p",
+          "detectedBy": 3,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        }
+      ],
+      "advisory": [],
+      "issues": [
+        {
+          "ruleId": "input-label",
+          "title": "Associate labels with form inputs using for/id attributes or nesting",
+          "severity": "critical",
+          "elementSelector": "#visitor-name",
+          "detectedBy": 1,
+          "tier": "confirmed",
+          "evidence": "deterministic"
+        },
+        {
+          "ruleId": "act-button-accessible-name",
+          "title": "Provide text content, aria-label, or aria-labelledby for buttons",
+          "severity": "critical",
+          "elementSelector": "main > form > button",
+          "detectedBy": 1,
+          "tier": "confirmed",
+          "evidence": "deterministic"
+        },
+        {
+          "ruleId": "act-form-field-accessible-name",
+          "title": "Associate labels with form controls or use aria-label",
+          "severity": "critical",
+          "elementSelector": "#visitor-name",
+          "detectedBy": 1,
+          "tier": "confirmed",
+          "evidence": "deterministic"
+        }
+      ]
+    },
+    {
+      "phase": "after_repeat",
+      "started": "2026-10-11T13:48:31.073Z",
+      "finished": "2026-10-11T13:48:31.149Z",
+      "fixtureSha256": "bf809cc372f18174a6ac8bfa9790190f1632f32c3556d8f7413f10a09104133e",
+      "score": 100,
+      "summary": {
+        "total": 0,
+        "critical": 0,
+        "serious": 0,
+        "moderate": 0,
+        "minor": 0
+      },
+      "confirmed": [],
+      "needsReview": [
+        {
+          "ruleId": "autocomplete-missing",
+          "title": "Add autocomplete attribute to inputs that collect personal information",
+          "severity": "moderate",
+          "elementSelector": "#visitor-name",
+          "detectedBy": 2,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "mobile-sr-landmarks",
+          "title": "Use landmarks like main, nav, header, footer for rotor navigation",
+          "severity": "moderate",
+          "elementSelector": "body",
+          "detectedBy": 1,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "consistent-ui-patterns",
+          "title": "Keep navigation, search, and help in consistent positions",
+          "severity": "minor",
+          "elementSelector": "body",
+          "detectedBy": 2,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "ported-heading-label-descriptive",
+          "title": "Give each form control a label that clearly conveys what to enter (e.g. \"Email address\", \"Phone number\"), not a generic word or a technical identifier.",
+          "severity": "moderate",
+          "elementSelector": "#visitor-name",
+          "detectedBy": 3,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        },
+        {
+          "ruleId": "ported-page-title",
+          "title": "Add a <title> in <head> that describes the page content and site.",
+          "severity": "serious",
+          "elementSelector": "html",
+          "detectedBy": 3,
+          "tier": "needs_review",
+          "evidence": "heuristic"
+        }
+      ],
+      "advisory": [],
+      "issues": []
+    }
+  ]
+}

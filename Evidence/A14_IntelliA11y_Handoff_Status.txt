@@ -1,0 +1,80 @@
+INTELLIA11Y AI SDLC / ADO-WORKFLOW HANDOFF STATUS
+Read-only local inspection: 11 October 2026.
+
+SCOPE
+Inspected the authorised local ado-workflow repository, the existing IntelliA11y producer service and its installed plugin, and safe aggregate fields from local stored runtime artifacts. No ADO network, source edits, service execution, ticket messages, tests, deployments or model calls occurred. No confidential feedback, ticket IDs, actors, project names, locations, credentials, stdout/stderr or raw event payloads are reproduced.
+No AGENTS.md was found at the ado-workflow root, plugin root or plugin/lib paths checked. Existing instructions for the IntelliA11y source inspection remain respected.
+
+VERIFIED SOURCE CHAIN
+1. IntelliA11y trust-aware review implements an approved-pending-FP branch that calls an optional ADO story producer. Configuration and a successful external response are required. Its attachment work can fail independently.
+2. The created story includes instructions for human/coding-assistant analysis, rule/prompt correction, tests, rescan and later reassignment. That story construction does not invoke a ticket consumer or apply changes.
+3. A generic ado-workflow plugin is physically installed under the IntelliA11y repository. Its adapter recognises the installation layout and can derive the host repository as working directory. Generic webhook intake, ticket routing and a named-phase CLI execution boundary exist in local code.
+4. No inspected source/runtime record establishes that the specific IntelliA11y-produced story was delivered to this consumer, executed successfully, changed a rule/prompt, passed regression, resolved/reassigned or received an originating-user confirmation.
+Therefore there is now evidence of available installed consumer machinery, beyond producer-only instructions. The actual end-to-end A11y handoff remains unproved. Do not describe the plugin as absent, but do not turn installation into operational completion.
+
+SAFE LOCAL RUNTIME OBSERVATIONS
+Installed plugin: no runtime/workflow.db was found; no runtime artifact directory was found in the inspected installation. Its state directory contained one extensionless file, not a demonstrated completed run. The installed version lacks the standalone runtime_engine.py at the corresponding path checked. No actual plugin phase was invoked.
+Standalone runtime database, opened with SQLite mode=ro, contained:
+- 2 workflow runs: 1 active and 1 cancelled; neither recorded as completed.
+- 15 workflow events and 2 phase attempts: analyst phase failed once and queued once.
+- 0 intake_events, 2 registered artifacts, 0 sealed evidence_manifests and 1 approval record. No approval identity or rationale is copied, and no approval is asserted for IntelliA11y.
+- Outbox states included acknowledgement and execution tasks marked completed plus an execution task pending. Task-delivery completion must not be confused with successful phase or workflow completion.
+Case-insensitive private checks of phase input/event/intake/manifest payload fields found no IntelliA11y, FP-fix, rule-file or agent-prompt markers. Absence of these markers alone cannot prove the runs unrelated, but no positive issue-to-run linkage was established.
+Six stored standalone dispatch JSON reports exist: five returncode 0, one returncode 1. None had an execution working-directory value identifying IntelliA11y. Return codes and file existence are not evidence that the requested FP loop completed. Raw commands, working paths, ticket IDs and output text were withheld.
+These are bounded local observations. They do not prove no handoff ever occurred on another installation, host or ADO environment.
+
+SOURCE FINGERPRINTS AND LOCATORS
+
+Source: ../Cognizant-IntelliA11y/api/src/services/validation.ts
+Locator: 199–301;421–489
+SHA256: 2fced40ce176a96b639f773e8720a911e47062747a10724162dcf7271b08b767
+Producer: approved pending FP review calls createFPUserStory. Direct trusted validation and rejected requests are distinct paths.
+
+Source: ../Cognizant-IntelliA11y/api/src/services/azure-devops.ts
+Locator: 97–145;150–211;343–445
+SHA256: afcfd4d5e1c776aa83adef048bd13e0e4d7bfe539a915c2c6cb328c0501dd76e
+Producer: conditional ADO story API call and non-blocking screenshot attachment. Ticket text instructs a coding assistant, source/prompt change, tests, rescan and reassignment; it is not the consumer.
+
+Source: ../Cognizant-IntelliA11y/.claude/plugins/ado-workflow/lib/claude_adapter.py
+Locator: 30–35;110–159;185–198
+SHA256: 2e44133cfcdf8998f8baeef34cf05882116ce813f6b30f7c74511d0369b1a92c
+Installed adapter: installation-layout root detection can resolve the IntelliA11y repository as execution directory; code constructs and executes a named-phase CLI dispatch. This is source linkage, not a proved successful dispatch.
+
+Source: ../Cognizant-IntelliA11y/.claude/plugins/ado-workflow/lib/webhook_runner.py
+Locator: 337–411;414 onwards
+SHA256: 099e0de2903cd601075725f4df19e14ffd7b7b903ee29095ad5de32c4c28afa9
+Installed generic webhook/command-executor implementation. Actual service-hook subscription, agent-command configuration and live delivery were not verified. Do not infer wiring from plugin installation.
+
+Source: ../ado-workflow/plugin/lib/webhook_runner.py
+Locator: 258–287;337–411;414–434;503–539
+SHA256: 5bcdc7ea61d235a9e81a7273342cc280a82dca7ee3f1b8773878d9814e838ceb
+Standalone generic webhook intake, queueing, configured execution-command and bounded ticket routing are implemented. Runtime requires a configured command; no network connection was exercised.
+
+Source: ../ado-workflow/plugin/lib/claude_adapter.py
+Locator: 30–35;110–159;162–198
+SHA256: 329a2b7a49402149a98f5c53752b7da4b2164bac08ec50ec2cc022bf72126724
+Standalone adapter and stored-dispatch report writer. A zero subprocess return code is not by itself proof of a correct source change, passing regression or completed ticket.
+
+Source: ../ado-workflow/plugin/lib/dispatch.py
+Locator: 100–211;211–259
+SHA256: b1703207a6b8598c80e63acee85c350af3ca65003fde8bcf40eb3ead890fd2ae
+Deterministic phase routing/planning implemented; no accessibility-specific FP consumer signature established in inspected consumer code.
+
+Source: ../ado-workflow/plugin/lib/runtime_engine.py
+Locator: whole module
+SHA256: 01a1c0cb02ae05deea670bfd7fb9246216fccbc52aa549eb83c513edaad9f9f9
+Durable runtime implementation present in standalone repository. It is not present at the corresponding installed-plugin path inspected here; installation and standalone versions must not be equated.
+
+PERMISSIBLE EVIDENCE THAT CAN BE PREPARED NOW
+This source/aggregate report and hashes can document producer implementation and installed generic consumer capability. The separate stored runtime artifacts may be described as unrelated/unlinked local workflow observations only; do not attach raw reports or infer IntelliA11y outcomes. Their schemas contain identifiers, command paths, stdout/stderr and contextual fields requiring confidentiality review.
+No sealed runtime manifest or successful completed accessibility workflow was found that can now serve as a client or end-to-end FP result.
+
+WHAT IS NEEDED TO VERIFY THE REAL HANDOFF
+Use permitted structured records, without emails or feedback contents:
+- An anonymous issue/review-to-created-work-item mapping with approved-pending-FP status and actual creation result.
+- Evidence of the permitted ADO service-hook/polling subscription and consumer configuration, without secret values or application URLs.
+- The same aliased work item received as an intake event, linked run/attempt IDs, configured consumer/adapter version and correct repository binding.
+- Successful named-phase output, reviewed source/prompt change hash, real regression/evaluation result and accepted version. A subprocess returncode or completed outbox item alone is insufficient.
+- Actual work-item state/assignment transitions, followed by a fresh linked originating-user rescan and role-only confirmation/closure or reopening.
+- For any model branch: separate dataset lineage, completed training/model artifacts and serving/evaluation proof. Generic workflow completion cannot substitute for model or client-quality evidence.
+A local synthetic engine demo can establish specific execution behaviour but cannot retrospectively prove this external ticket handoff or a historical client outcome.

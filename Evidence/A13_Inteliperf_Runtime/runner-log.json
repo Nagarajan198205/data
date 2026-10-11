@@ -1,0 +1,350 @@
+[
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] ENTRY - scanId: synthetic-before, safetyMode: safe"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] Plan: 1 scenarios, calibration enabled: false"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "💓 Heartbeat started for scan synthetic-before (every 60s)"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] Auth context created - profileId: none, namespaceId: undefined"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner:synthetic-before] ✅ Pre-flight auth check passed (HTTP 200) — starting load phase"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] Creating LoadControlEngine..."
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] LoadControlEngine created, generating schedule..."
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] Schedule generated: 1 steps"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner:synthetic-before] 🎯 Goal-Driven Execution: CUSTOM"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner:synthetic-before]    Planned steps: 1"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner:synthetic-before]    Max duration: 2s"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner:synthetic-before]    Stop on knee: true"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] Creating RuntimeSafetyMonitor..."
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] Starting RuntimeSafetyMonitor..."
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "🛡️ RuntimeSafetyMonitor: ACTIVE - Kill switch armed"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "   Error rate threshold: 10.0%"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "   P95 latency threshold: 60000ms"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "   Breach window: 3 consecutive"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] RuntimeSafetyMonitor started"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] Starting step execution loop - 1 steps to execute"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] Executing step 1/1"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner:synthetic-before] 📊 Step 1: Step 1: 1 VUs"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner:synthetic-before]    VUs: 1, Duration: 2s, Hold: 30s"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner:synthetic-before] 📈 Step 1 metrics: P95=3ms, errors=100.0%"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner:synthetic-before] 🛑 Load control decision: STOP - Error rate 100.0% exceeds threshold 10.0%"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "🛡️ RuntimeSafetyMonitor: COMPLETED"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner:synthetic-before] ✅ Execution complete: 1 steps, knee=false"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "💓 Heartbeat stopped for scan synthetic-before"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] Scan synthetic-before unregistered and heartbeat stopped"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] ENTRY - scanId: synthetic-after, safetyMode: safe"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] Plan: 1 scenarios, calibration enabled: false"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "💓 Heartbeat started for scan synthetic-after (every 60s)"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] Auth context created - profileId: none, namespaceId: undefined"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner:synthetic-after] ✅ Pre-flight auth check passed (HTTP 200) — starting load phase"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] Creating LoadControlEngine..."
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] LoadControlEngine created, generating schedule..."
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] Schedule generated: 1 steps"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner:synthetic-after] 🎯 Goal-Driven Execution: CUSTOM"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner:synthetic-after]    Planned steps: 1"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner:synthetic-after]    Max duration: 2s"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner:synthetic-after]    Stop on knee: true"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] Creating RuntimeSafetyMonitor..."
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] Starting RuntimeSafetyMonitor..."
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "🛡️ RuntimeSafetyMonitor: ACTIVE - Kill switch armed"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "   Error rate threshold: 10.0%"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "   P95 latency threshold: 60000ms"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "   Breach window: 3 consecutive"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] RuntimeSafetyMonitor started"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] Starting step execution loop - 1 steps to execute"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] Executing step 1/1"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner:synthetic-after] 📊 Step 1: Step 1: 1 VUs"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner:synthetic-after]    VUs: 1, Duration: 2s, Hold: 30s"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner:synthetic-after] 📈 Step 1 metrics: P95=2ms, errors=0.0%"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner:synthetic-after] 🛑 Load control decision: STOP - All steps completed"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "🛡️ RuntimeSafetyMonitor: COMPLETED"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner:synthetic-after] ✅ Execution complete: 1 steps, knee=false"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "💓 Heartbeat stopped for scan synthetic-after"
+    ]
+  },
+  {
+    "level": "info",
+    "args": [
+      "[InternalRunner.run] Scan synthetic-after unregistered and heartbeat stopped"
+    ]
+  }
+]
