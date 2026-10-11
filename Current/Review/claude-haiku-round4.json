@@ -1,0 +1,96 @@
+{
+  "reviewer": "claude-haiku-5-5 (simulated category judge, not an official judge)",
+  "papers": {
+    "ai": {
+      "criterion_scores": {
+        "A1": 1,
+        "A2": 2,
+        "A3": 1,
+        "A4": 1,
+        "A5": 1
+      },
+      "writing_score": 15,
+      "reasons": [
+        "Total 6/25. A1: no matched quality observations or verified correctness labels. The evaluation split overlaps training data (A09), and A08 tests utilities, not output quality.",
+        "A2: The QLoRA design, prompt versioning and A/B machinery exist in source (A10). That is implementation evidence, not measured quality. No completed adaptation, served model or originality comparison beyond ordinary tool use is shown.",
+        "A3: Prompt versioning and A/B code exist, but there is no populated usage history and no real version-change evaluation. Source code is not a measured outcome.",
+        "A4: 257 person-days is an unledgered team claim after review deduction. There is no retained-quality comparison or cost accounting, and the 85% figure has no definition or denominator.",
+        "A5: One reported task reduction and reported use by assurance staff. No satisfaction or service-outcome data.",
+        "Writing: readable and well structured. Internal labels (A03, A04, A09, S01) and an adverse audit sentence sit in public prose. The 'Cognizant Intelligent Platform' paragraph reads as a disclaimer rather than an argument."
+      ],
+      "editorial_fixes": [
+        "Remove artifact labels from public text. Keep them in the internal pack.",
+        "Replace 'A09 records overlap in a local training/evaluation split...' with: 'Available evaluation records overlap with training data, so this entry makes no claim of independent model improvement.'",
+        "Replace the 85% sentence with: 'A team-reported activity coverage figure is not yet defined in full and is not a measure of model accuracy.' Otherwise drop it from the summary.",
+        "Replace the platform paragraph with: 'Specialist applications are scoped separately and do not establish a common client deployment.'",
+        "Consolidate the repeated 'The delivery narrative describes' openers into one attribution per claim."
+      ],
+      "missing_evidence": [
+        "Packageable now: A08 (scoped utility checks, no inference); L01 to L05 and L08 to L11 as a source-inspection exhibit with hashes and locators, labelled as implementation only; A09 retained internally as adverse evidence.",
+        "Absent: quarterly task ledger with review deductions; role-based approval provenance; comparable task timings; retained-quality comparison; matched human-versus-AI correctness labels; completed training log, adapter hash and serving manifest; populated A/B results; validated, frozen holdout (the 112 candidates are unvalidated); permitted client deployment records; 85% definition, numerator, denominator and period."
+      ],
+      "target_met": false
+    },
+    "nft": {
+      "criterion_scores": {
+        "N1": 2,
+        "N2": 2,
+        "N3": 1,
+        "N4": 2,
+        "N5": 3
+      },
+      "writing_score": 16,
+      "reasons": [
+        "Total 10/25. N1: The volume check is arithmetically sound (7,532 / 7,200 = 104.6%, as N01 records). The failed P90 alert demonstrates detection, not acceptance. No requirement set is stated, and the '125% of production' label has no baseline.",
+        "N2: KQL traffic analysis and the cache reproduction are described, but the production baseline is absent. The 1,000 TPM exercise is described as about 50 times normal volume, which implies roughly 20 TPM. The 125% label implies roughly 100 requests per minute. These are unreconciled.",
+        "N3: Release and migration claims lack dates, acceptance records and a post-release observation window. Omitting the 'no production issues' claim is correct.",
+        "N4: Goals and resources are clear. The 57-of-64 telemetry gap is arithmetically consistent (7/64 = 10.9%). The 'over 90% less effort' claim is unverified, and the 285 tests cover tooling only.",
+        "N5: The strongest criterion. Challenges (rebuild data loss, false success exits, missing telemetry, abnormal cache traffic, session issues) and responses are specific. There are no paired before-and-after figures, so it cannot reach 4.",
+        "Writing: clear and honest about limits, but 'the delivery narrative describes' recurs throughout, and evidence IDs (N01, N02, N04) appear in prose."
+      ],
+      "editorial_fixes": [
+        "Correct the comparator. 46 requests over 15 minutes is about 0.05 requests per second, not the 0.03 displayed. Either reconcile it or omit the comparator.",
+        "Remove the '125% of production load' label from public text unless a baseline is supplied.",
+        "Replace the wider-releases sentence with: 'Performance evidence was supplied for three releases and migration decisions; release dates and acceptance records are not reproduced here.'",
+        "Reconcile the 1,000 TPM and 50-times figures against a stated baseline, or present the exercise as a sizing test without a multiple.",
+        "Remove evidence IDs from prose and reduce attribution repetition to one opening statement per section."
+      ],
+      "missing_evidence": [
+        "Packageable now: N01 transcription (failure and volume observations, with fingerprints); N02 as a method description with the no-numbers limit stated; N04 limited to tooling test counts, caveated as not client scenarios.",
+        "Absent: production baseline and derivation of the 50-times and 125% figures; matched baseline and retest cache measurements with run dates, change identifier and reviewer acceptance; release dates, acceptance records and observation window; raw output for the 285 tests; timed effort study with baseline hours, post-automation hours and review time; telemetry gate retest record; closure record for the failed alert."
+      ],
+      "target_met": false
+    },
+    "innovation": {
+      "criterion_scores": {
+        "I1": 2,
+        "I2": 2,
+        "I3": 1,
+        "I4": 1,
+        "I5": 2
+      },
+      "writing_score": 17,
+      "reasons": [
+        "Total 8/25. I1: The advance is a contribution convention with separated execution. The paper honestly says it applies existing tooling, so the advance is modest.",
+        "I2: The driver (the central team cannot hold every service's domain knowledge) is clear. The implementation is described, but no pipeline or template code was inspected (S02), so it rests on narrative.",
+        "I3: The boundary claim is internal reuse only. The paper correctly states that wider adoption is not established, but it offers no comparison with alternative shared-test governance models.",
+        "I4: Five teams is reported participation. There are no contribution, run or onboarding records and no quantified result. Correctly, no onboarding saving is claimed.",
+        "I5: Obstacles (maintenance obligation, inconsistent setup, failure attribution) and responses are specific. No completed triage or retest example is shown.",
+        "Writing: clean and well organised. 'The source describes' and 'as described in the source' read as internal document language in a public entry."
+      ],
+      "editorial_fixes": [
+        "Replace 'The source describes internal participation; contribution and execution records remain necessary' with: 'Participation is reported across five service teams; contribution and run records are needed to show active use.'",
+        "Name the exact Playwright selection mechanism used (tag convention and runtime filter) once the implementation is confirmed.",
+        "Replace 'As described in the source, the platform pipeline selects...' with a direct statement of what the pipeline does.",
+        "Add a worked triage example only if a real one exists. Otherwise, state the triage rule and its decision criteria.",
+        "Do not cite the onboarding timing figures from S02. They conflict with each other and must not be used."
+      ],
+      "missing_evidence": [
+        "Packageable now: S02 digest as design evidence, with adoption and timing limits stated. After read-only inspection of the pipeline definitions and template utility, with hashes, these could support I2.",
+        "Absent: per-team contribution logs; shared-regression run history; a completed triage and retest example; matched setup timing with defined task scope and working-day definition; measured regression benefit; comparison with prior practice."
+      ],
+      "target_met": false
+    }
+  },
+  "council_recommendation": "No paper is defensibly 4/5 on every criterion on the current records, so target_met is false for all three: AI 6/25, NFT 10/25, Innovation 8/25. Treat all three as drafts. A10 source inspection adds implementation evidence for AI A2 and A3 only. It does not change A1, A4 or A5, and no criterion is raised on source code alone. Cross-paper conflicts to resolve before any resubmission: (1) NFT's 50-times and 125% baselines are inconsistent by about five times; (2) the NFT comparator rate does not match its own counts; (3) AI's 257 person-days, NFT's over-90% effort claim and Innovation's onboarding timing may overlap, so the ledger must show disjoint scopes before any combined claim; (4) the specialist performance application is named in the AI paper while NFT describes the performance work, so the boundary needs one sentence in each. Priority records: the quarterly ledger with review deductions, the performance baseline, release acceptance records and shared-regression contribution logs. Do not invent or infer these."
+}

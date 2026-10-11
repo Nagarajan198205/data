@@ -1,0 +1,12 @@
+N03 — PERFOPS ENGINEERING SOURCE DIGEST
+Prepared 11 October 2026. Evidence type: supplied delivery narrative, not a timed effort study.
+NFT - Key Achievement 1 Main.docx
+Source SHA256: 2f2bb8f0ba528eb3bddacbc5e0cb72dc142fc0f333f099c6758edef523942f4c
+Source locators: Word paragraphs 14–31 (workload and infrastructure approach), 63–85 (PerfOps), 87–89 (reported savings), 98–107 (dashboards), 150–157 (script maintenance).
+
+The source describes production-traffic analysis with Kusto Query Language, workload mix and rate selection, Kubernetes autoscaling checks, and infrastructure observation. PerfOps is described as an Azure DevOps-integrated workflow that scales environments, validates response time/error/throughput/capacity criteria, assesses infrastructure metrics and generates reports/alerts.
+
+The author reports over 90% less manual effort separately for performance validation and infrastructure validation. Baseline hours, post-automation hours, run count, observation period and review/exception effort are not supplied. The paper may attribute these as reported claims, not independently verified results.
+
+The source describes a Power BI dashboard based on Azure DevOps Boards and a PowerShell utility for maintaining JMeter suites containing more than 1,000 requests. It does not quantify their incremental AI contribution.
+Client/programme names, feedback, email-related material and all identifying infrastructure details have been omitted.

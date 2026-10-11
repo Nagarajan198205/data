@@ -1,0 +1,31 @@
+N01 — ANONYMISED TRANSCRIPTION OF EXISTING NFT VISUALS
+Prepared and visually checked 11 October 2026. This is a derived transcription, not a newly executed performance test. Original visuals remain local because they contain identifying details. No original pixels have been altered or represented as a clean screenshot.
+
+Source container:
+NFT - Key Achievement 1.docx
+Source SHA256: fc82def9458e04ce0b892825e8233d131a91dc5256fcba68419c417f6c5c8db5
+Locators: embedded word/media/image2.png (workload slide); word/media/image7.png (automated alert).
+
+WORKLOAD TABLE
+Target rate: 2 requests per second.
+Reported test rate: 2.1 requests per second.
+Target and reported duration: 60 minutes.
+Target requests: 7,200. Reported test requests: 7,532.
+Calculated volume relative to target: 7,532 / 7,200 = 1.046111..., or about 104.6%.
+The visual separately labels the achieved requests as 125% of production load. Its production baseline is not supplied. This may use a different denominator; it must not be treated as 125% of the 7,200 target.
+A comparator column shows 46 requests over 15 minutes and 0.03 requests per second. The different duration and workload prevent a like-for-like quality or efficiency conclusion.
+
+AUTOMATED ALERT
+Overall displayed status: FAILED.
+Two transaction labels anonymised as Transaction A and Transaction B.
+A: P90 5,134 milliseconds, SLA 4,000 milliseconds, displayed count 4.
+B: P90 4,943 milliseconds, SLA 4,000 milliseconds, displayed count 4.
+Volumetric SLA message: met for monitored transactions.
+This demonstrates a failed response-time check even when volume checks pass. The small displayed transaction counts limit percentile interpretation. The image does not show final remediation, retest or release approval.
+Application names, resource labels, transaction names, endpoint paths and link targets are omitted for confidentiality. Metric values and units are retained.
+
+SOURCE IMAGE FINGERPRINTS
+image2.png: 412192641312f33ec4248a6965b26cbe0e3be552b19da0800e97a709bf6f80ce
+image7.png: 69e0902fef3855b885a1fa0e35b62f59d99e437f12acd7a4861e855e4e9491bf
+
+Follow-up arithmetic check: 46 requests / (15 x 60 seconds) = approximately 0.051 requests per second, whereas the visual displays 0.03. The source therefore contains an unresolved rate/count/duration inconsistency in its comparator. Neither comparator value is used in the paper or as evidence of improvement.

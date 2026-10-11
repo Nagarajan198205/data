@@ -1,0 +1,25 @@
+REVIEW COVERAGE AND OPEN ITEMS
+11 October 2026
+
+COMPLETED IN THIS DELIVERY
+Grammar and UK English: council review plus final copyedits; product naming and awkward headings corrected.
+Approach and narrative: problem, method, responsibilities and reported result remain distinct; removed tangential NFT AI paragraph.
+Category fit: five criteria for each of three papers assessed by eight models; no forced score threshold.
+Technical accuracy: source inspection distinguishes implementation, historical local reports, runtime proof and client outcomes.
+Evidence integrity: all references resolve; A10 added; adverse dataset overlap and NFT comparator discrepancies retained.
+Confidentiality: anonymous client; excluded emails, feedback, email screenshots, credentials and application URLs. Local source inspection reports contain only scoped technical descriptions and hashes.
+Consistency: account AI, local specialist applications, PerfOps/Perf Insights and shared regression are separate populations. Monthly assurance example stays within 257-day claim.
+Entry limits: all three summaries and main texts checked; exact counts in Entry_Counts.json.
+Repository organisation: current deliverables separated from sources and immutable historical versions; moved-file hashes retained; OS metadata ignored.
+
+PARTIALLY CLOSED
+AI implementation: inspected training and governance/evaluation code now provides A10 support. Training completion, model serving, populated experiments and measured outcomes are still absent.
+NFT figure reconciliation: target-volume arithmetic and telemetry completeness are explicit. Comparator discrepancy identified and excluded. Accepted retests and cache results still absent.
+
+OPEN — PRIMARY RECORDS NEEDED
+AI: benefit ledger and original role-only approvals; matched quality results; 85% numerator/denominator/period; completed adapted-model and serving provenance; independent evaluation; measured stakeholder outcomes.
+NFT: comparable task timings; accepted NFR retests; representative workload/environment records; cache baseline/retest metrics; telemetry gate reruns; release acceptance records.
+Innovation: pipeline/template implementation, actual team contributions and shared runs; completed triage/correction/retest chain; measured reuse or coverage benefit; supported comparison with prior practice.
+All: establish nomination/project boundary and organiser identity requirements privately. Anonymous papers do not establish eligibility by themselves.
+
+No owner, historical observation, approval or client result has been invented. The original records may exist outside the searched locations. The next substantive loop depends on locating those records. See the exact capture fields in ../Capture/ and the evidence checklist.

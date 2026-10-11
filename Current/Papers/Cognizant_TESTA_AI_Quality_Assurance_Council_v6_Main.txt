@@ -1,0 +1,49 @@
+1 Quality goals and the delivery approach
+
+Our test services team at Cognizant Worldwide Limited UK needed to reduce repetitive preparation for a UK government client without weakening review. Test design, documentation and automation scripting were the initial focus. The client selected and approved the available tools, so our approach had to work within that environment. We began with a planning quarter and introduced AI into test plans during Q2 2026.
+
+Microsoft 365 Copilot supported the first delivery phase. The account narrative describes training for associates then on the account and the creation of reusable prompts. GitHub Copilot extended the approach to automation coding in Q3. Engineers checked AI-assisted deliverables before they entered the test management system, including whether test cases addressed expected behaviour and negative scenarios. Review remained part of the work.
+
+The account team reports 125 person-days of released effort in Q2 and 132 in Q3, after review time. These figures describe AI-assisted delivery across the account (S01). Cognizant Intelligent Platform is a separately scoped development strand covering IntelliA11y, IntelliSec and Inteliperf. No common client deployment is established by grouping those applications under a platform name.
+
+The accessibility team reports 85 per cent automation within its workflow. The reported coverage combines repeatable rules and AI-assisted interpretation, while specialists examine potential barriers and verify corrections. It is an activity-coverage claim, with its calculation and measurement period still to be substantiated, rather than a measure of model accuracy or accessibility conformance.
+
+2 Applying AI to specific quality decisions
+
+The Code Coverage Agent uses GitHub Copilot to assemble analysis and reporting for a Sonar estate of more than 1,200 projects; the number of projects evaluated is not stated in the source. The account narrative says the client assurance team uses it to review coverage, quality indicators and maintenance needs. Bringing those observations together gives the reviewer a starting point for examining gaps across the estate.
+
+A prototype Test Impact Analyser explores a more selective regression approach. Its documented design considers a change alongside requirements, dependencies, risks and existing tests, and provides for publishing recommendations and proposed test cases into Azure DevOps. The documented design uses fixed code to recalculate scores after model interpretation. It also separates team data and caches repeated requests. The design supports batches of up to 200 change identifiers. Delivery savings from this prototype are not included in our reported total.
+
+IntelliA11y addresses the interpretation of accessibility findings. A rule can detect a missing label, while assessing whether a label is meaningful requires the surrounding interaction. The documented development approach specifies adaptation of Phi-4 for accessibility using quantised low-rank adaptation, or QLoRA, under the identifier phi4:14b-a11y. It covers finding classification, proposed remediation and severity assessment. Retrieved guidance supplies reference context separately from model adaptation. Source inspection confirms a QLoRA training implementation with adapter saving and evaluation-loss reporting (A10). A completed training run and a served adapted model remain to be established.
+
+The accessibility design covers forms, keyboard interaction, screen-reader experience, visual presentation and cognitive load. Exhibits A03 and A04 show a local platform introduction and knowledge interface; they do not show model identity or an accessibility analysis run. The reviewed workspace did not establish that the documented adapted model served a client run. A09 records overlap in a local training/evaluation split, so that split cannot substantiate independent model uplift.
+
+IntelliSec assists investigation and prioritisation across code, application, dependency and cloud findings. Engineers confirm the suspected weakness and its relevance. Local exhibits A01 and A02 show the investigation and assessment interfaces, including functions labelled as planned. The A01 figures are local evaluation data, not client results. Inteliperf helps interpret performance measurements against workload intent, with AI assistance separated from deterministic execution. Its documented boundaries prohibit invented endpoints, silent scenario changes and release decisions made by AI alone. Exhibits A05 to A07 illustrate local interfaces and score descriptions in a demonstration workspace; they do not show client runs.
+
+3 Training and prompt review
+
+The account narrative describes reusable prompts, initial training and practical co-learning sessions. These provide a shared starting point for AI-assisted work. Sustained value needs to be assessed through use over time and the quality of reviewed outputs.
+
+Local source inspection confirms version-aware prompt lookup and usage recording, together with A/B experiment assignment, result persistence and comparison routines in IntelliA11y (A10). IntelliSec also implements deterministic checks for control completion, required evidence and coverage before a release verdict (A10). These mechanisms make proposed controls concrete in code. Populated experiment results and client operating records are still needed to demonstrate their effectiveness over time.
+
+Local verification on 9 October 2026 passed 59 existing tests across two utility suites. These exercised selected input-sanitisation and output-validation behaviours, including instruction-override patterns and benign inputs. Exhibit A08 records this limited technical check. It did not run model inference or measure client outcomes.
+
+Further work includes a discovery exercise for a QA knowledge hub and AI-assisted retrieval, together with failure analysis that links pipeline triage to application logs. These activities remain development work. New AI services depend on client approval, and the roadmap separates proposed capabilities from the delivery benefits already reported.
+
+4 Effort released through governed adoption
+
+The supplied account narrative reports 257 person-days across Q2 and Q3 2026 and describes quarterly recording in Cognizant's Pulse portal, with review by Delivery Excellence and the engagement delivery lead (S01). Review time was deducted from the reported savings. The underlying calculation and approval records remain to be verified. No saving is attributed to the planning quarter.
+
+The Code Coverage Agent provides a smaller, concrete example within that total. The team reports that one person's monthly evaluation task fell from eight hours to four. Those hours are already included in the 257 person-days.
+
+We report the days as released delivery effort. Review time was deducted from the reported figure; operating and maintenance costs remain separate considerations. The accessibility automation claim concerns activity coverage within its own workflow and is not used to calculate the account saving.
+
+The practical change is that testers can start with proposed test content and engineers can review consolidated quality information. They still assess whether the output is correct for the requirement or system. This review step is part of both the delivery method and the reported effort calculation.
+
+5 Outcomes for assurance teams
+
+The reported use of the Code Coverage Agent by the client assurance team connects the delivery work to a defined operational need: reviewing a large Sonar estate without assembling every observation manually. The reported reduction in the monthly evaluation task gives a bounded example of that benefit. It does not establish a satisfaction score.
+
+The accessibility design aims to help specialists assess barriers and proposed corrections. IntelliSec and Inteliperf address different technical decisions about security and performance. These purposes do not establish measured service-user outcomes.
+
+The disclosed delivery result is team-reported released effort after review. The approach gives testers proposed content and assurance engineers consolidated information to assess. A matched quality comparison is still needed to establish whether the assistance improved test quality or maintained it at lower effort. Specialists remain responsible for accepting each finding and proposed correction.

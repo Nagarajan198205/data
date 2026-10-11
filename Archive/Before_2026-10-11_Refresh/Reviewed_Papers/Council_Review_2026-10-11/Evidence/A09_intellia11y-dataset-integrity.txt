@@ -1,0 +1,19 @@
+ARTIFACT A09  INTELLIA11Y DATASET INTEGRITY AUDIT
+Date: 9 October 2026
+Scope: read-only analysis of the existing training_dataset.jsonl and eval_dataset.jsonl files. No example text, client identifiers or source records are reproduced.
+
+Training rows: 1,675. Evaluation rows: 186. Combined total: 1,861. The combined count must not be described as 1,861 training rows plus 186 evaluation rows.
+Exact full-record matches: 71 evaluation rows match a training record, including instruction, input and output (63 distinct shared records).
+Exact instruction-plus-input matches: 73 evaluation rows match training inputs (65 distinct shared inputs). Whitespace-normalised comparison produces the same counts.
+Within-training duplicates beyond the first: 377 full records; 383 instruction-plus-input records.
+Within-evaluation duplicates beyond the first: 9 under either definition.
+
+Interpretation: the full evaluation split cannot be presented as independent held-out evidence of model improvement. This audit does not measure model performance or establish that historical published metrics used these exact files.
+
+Action completed: prepared a candidate manifest excluding instruction/input matches against training and deduplicating remaining evaluation inputs. 112 candidate inputs remain. The source datasets were not changed. The manifest contains row numbers and hashes, not example content.
+Before use: review labels independently, check semantic near-duplicates and common source/site provenance, verify the examples were not used for model selection or tuning, and freeze the same candidate set for both models. Filtering exact duplicates alone does not establish independence. A fresh independently curated holdout is preferable for a final award claim.
+
+The local model service did not list phi4:14b or phi4:14b-a11y at inspection. No model comparison was run and no accuracy or improvement result is asserted.
+
+Training file SHA256: 433d86f5a61d4b77c3228f0e88929d1cdf05da318b5b65d44ce23332bcf69336
+Evaluation file SHA256: 619ea4e430a47c48b13c5ad9d655702adc4fbdcf0bdde570b8eb8cf7514a478d

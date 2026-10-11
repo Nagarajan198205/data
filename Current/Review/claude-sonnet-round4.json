@@ -1,0 +1,140 @@
+{
+  "reviewer": "Claude Sonnet 5.5, simulated category judge (not an official judge)",
+  "papers": {
+    "ai": {
+      "criterion_scores": {
+        "A1": 1,
+        "A2": 2,
+        "A3": 2,
+        "A4": 3,
+        "A5": 1,
+        "total": "9/25"
+      },
+      "writing_score": "20/25",
+      "reasons": {
+        "A1": "No measured quality improvement. A09 is adverse: the evaluation split overlaps training, so uplift cannot be shown. A08 covers utility-level checks only.",
+        "A2": "The design (adapted model plus retrieved guidance) and QLoRA code are credible. There is no completed run, no adapter artefact, no served model and no comparison against ordinary tool use. The training directory is absent on this host.",
+        "A3": "Prompt-version, usage and A/B code exists (A10), but there is no populated history and only two quarters of use.",
+        "A4": "The strongest criterion. 257 person-days are reported after review deduction, with a bounded 8 to 4 hour example. There is no ledger, approval record or retained-quality comparison, so this is a source claim.",
+        "A5": "No stakeholder outcome is evidenced. The 85% figure is an undefined activity claim."
+      },
+      "editorial_fixes": [
+        {
+          "defect": "A1/A4 rest on an open admission: \"A matched quality comparison is still needed to establish whether the assistance improved test quality or maintained it at lower effort.\"",
+          "replacement": "No measured quality comparison is claimed. Engineers reviewed each AI-assisted item before it entered the test management system; the reported effort is team-recorded and net of review time."
+        },
+        {
+          "defect": "A3 overreach risk: \"These mechanisms make proposed controls concrete in code.\"",
+          "replacement": "Version-aware prompt lookup and A/B experiment code exist in local source. No populated experiment or usage history is claimed."
+        },
+        {
+          "defect": "A5 is padded: \"IntelliSec and Inteliperf address different technical decisions about security and performance.\" This describes tool purpose, not outcome.",
+          "replacement": "No satisfaction or stakeholder-outcome measure is claimed. The only reported operational effect is the monthly task falling from eight hours to four."
+        },
+        {
+          "defect": "Reference inconsistency: the paper cites A10, but the evidence pack lists only A01 to A09, and the inspection report uses L-IDs. The internal tool name for the effort-recording portal is also unnecessary.",
+          "replacement": "Add A10 to the pack, mapped to L01 to L05 and L08 to L11, and describe the portal generically as the \"internal effort-recording system\"."
+        },
+        {
+          "defect": "Verify the summary is at or under 100 words and the main text is at or under 14,600 characters. Neither was counted."
+        }
+      ],
+      "missing_evidence": {
+        "package_now": "A08, A09 as adverse internal evidence, A10 source-inspection exhibit with hashes, S01 digest, and a redacted transcription of L12/L13 labelled as historical local workflow evidence.",
+        "absent": "Task ledger and review deductions, role-only approval provenance, matched quality observations with verified labels, completed adapter and serving manifest, independent holdout comparison, populated usage and A/B history, definition of the 85% figure, and accessibility retest records."
+      },
+      "target_met": false
+    },
+    "nft": {
+      "criterion_scores": {
+        "N1": 2,
+        "N2": 3,
+        "N3": 2,
+        "N4": 3,
+        "N5": 3,
+        "total": "13/25"
+      },
+      "writing_score": "21/25",
+      "reasons": {
+        "N1": "The only primary-derived evidence (N01) shows an SLA failure and a 104.6% volume calculation. It shows no requirement met, retest or acceptance.",
+        "N2": "Production-traffic query analysis, profiles and a cache case are credible, but they are narrative only. The production baseline is unresolved and transaction counts are 4.",
+        "N3": "Three releases are reported with no dates, approvals or observation window. The 90% saving has no baseline.",
+        "N4": "Goals, resources and tooling are clearly described. The 285 tests have no raw output, and the 57/64 telemetry figure is a narrative.",
+        "N5": "The strongest criterion: the rebuild window, missing telemetry, false successes and cache reproduction. It is still unsupported by primary logs and the cache case has no before/after numbers."
+      },
+      "editorial_fixes": [
+        {
+          "defect": "\"approximately 50 times the regular production volume reported by the team\" rests on an absent baseline.",
+          "replacement": "A separate capacity exercise ran at 1,000 transactions per minute; the production baseline and run records are not supplied."
+        },
+        {
+          "defect": "\"The team reports that the wider work supported three major releases and migration decisions\" is unsupported in scope.",
+          "replacement": "The team reports supplying performance evidence to three releases; dates and acceptance records are not yet attached."
+        },
+        {
+          "defect": "\"The delivery team reports over 90% less manual effort separately for performance validation and infrastructure validation.\"",
+          "replacement": "The author reports a reduction of over 90% for each activity. Baseline and post-automation timings are not supplied, so no saving is claimed."
+        },
+        {
+          "defect": "Possible double counting: the AI-assisted dashboard and PowerShell utility sit beside the AI account claim."
+        }
+      ],
+      "missing_evidence": {
+        "package_now": "N01 to N04 digests, the 104.6% calculation labelled as derived, and the failing-alert transcription.",
+        "absent": "Pipeline run logs, matched cache baseline and retest, telemetry gate before/after, release dates and acceptance records, post-release observation window, effort timings, and raw output of the 285 tests."
+      },
+      "target_met": false
+    },
+    "innovation": {
+      "criterion_scores": {
+        "I1": 2,
+        "I2": 2,
+        "I3": 1,
+        "I4": 2,
+        "I5": 2,
+        "total": "9/25"
+      },
+      "writing_score": "21/25",
+      "reasons": {
+        "I1": "A sensible ownership model, but it applies existing Playwright and pipeline features. No adoption or benefit is shown.",
+        "I2": "The driver is clear, but no code, pipeline history or run record has been inspected.",
+        "I3": "The paper concedes it is an application of existing technology and that wider impact is not established.",
+        "I4": "The goals are stated, but the resources and results are mostly absent.",
+        "I5": "Obstacles are described as design responses. No example of triage or retest is given."
+      },
+      "editorial_fixes": [
+        {
+          "defect": "\"One maintained scenario can therefore serve both service-level testing and shared regression\" is stated as fact.",
+          "replacement": "The design allows one maintained scenario to serve both purposes; run records are not yet attached."
+        },
+        {
+          "defect": "The heading \"Goals resources and reported results\" promises results that the text then disclaims.",
+          "replacement": "Goals, resources and status of evidence"
+        },
+        {
+          "defect": "\"Its contribution is an ownership and execution method designed for reuse\" implies a transferability claim that is untested.",
+          "replacement": "Its proposed contribution is an ownership and execution method; transferability beyond this platform has not been tested."
+        },
+        {
+          "defect": "Setup-time figures conflict and are correctly excluded, but add no support. Keep them out."
+        }
+      ],
+      "missing_evidence": {
+        "package_now": "The S02 digest and a design description of the tags, three pipelines and template utility.",
+        "absent": "Repository and pipeline history, per-team contribution and run records, a completed triage and retest example, matched setup timing, regression benefit and comparison with prior practice."
+      },
+      "target_met": false
+    }
+  },
+  "council_recommendation": {
+    "verdict": "4/5 on every criterion is not defensible for any paper. Polish and repeated review are not evidence; the remaining gaps are missing primary records. Scores of 4 would need at least a ledger and quality comparison (AI), run logs and release records (NFT), and contribution and run records (Innovation).",
+    "advice": "Submit only on honest scores. NFT is the strongest case. AI is the weakest on quality (A1, A5), where A09 is adverse. Do not lift A1 or A2 on the basis of A10, which is implementation evidence only. If the records cannot be obtained, avoid narrative inflation and let the scores stand.",
+    "cross_paper_scope_conflicts": [
+      "The AI-assisted dashboard and script work in the NFT paper may overlap the 257 person-days, which the AI paper treats as account-wide. State that no separate saving is claimed in either.",
+      "The performance-interpretation application appears in the AI paper while PerfOps appears in the NFT paper. The cross-reference is correct; keep the boundary explicit.",
+      "Grouping under a platform name could imply a common client deployment. Keep it as separately scoped.",
+      "The shared-regression timing claims conflict internally and must not leak into the AI A4 saving.",
+      "Anonymous client wording: third-party identity must be supplied to the organisers separately and never disclosed in text."
+    ]
+  }
+}

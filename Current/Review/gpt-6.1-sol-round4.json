@@ -1,0 +1,84 @@
+{
+  "reviewer": "gpt-6.1-sol \u2014 independent simulated category judge, round four",
+  "papers": {
+    "ai": {
+      "criterion_scores": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "writing_score": 23,
+      "reasons": [
+        "A1: No measured quality improvement or matched retained-quality comparison. A08 utility checks and A10 source inspection are not AI/client outcomes.",
+        "A2: A10 substantiates actual QLoRA and governance implementation, improving technical provenance. Comparative originality, completed adaptation and serving linkage remain absent.",
+        "A3: Version-aware prompts and A/B routines now have inspected code support, but populated experiments, longitudinal usage and evaluated changes are missing.",
+        "A4: Net 257-day and included monthly-task claims are clearly scoped; original calculations, approvals, comparable timings and maintained quality are absent.",
+        "A5: Reported assurance-task efficiency is plausible but unverified; no measured stakeholder or service-user improvement. Undefined 85% activity coverage is not an outcome."
+      ],
+      "editorial_fixes": [
+        "Optional clarity: \u201c3 Training reusable prompts and review\u201d \u2192 \u201c3 Training, reusable prompts and review\u201d. No material claim correction is otherwise needed; A10 implementation statements retain explicit execution/outcome limits."
+      ],
+      "missing_evidence": [
+        "Package now: A01\u2013A07 labelled local illustrations; A08 limited utility verification; A09 adverse overlap audit; S01 narrative attribution; A10 hashed implementation inspection. Historical local security reports are not client deployment or adapted-model evaluation.",
+        "Acquire task ledgers, review deductions, role-only approvals, task timings and matched quality observations; defined 85% activity numerator/denominator/period; usage/change-evaluation histories; verified stakeholder/correction outcomes.",
+        "Acquire completed adapter/training provenance, serving/inference linkage and valid independent comparative evaluation. The 112 candidates are not a proved holdout. Establish an eligible boundary connecting account delivery and specialist development, or narrow the nomination."
+      ],
+      "target_met": false
+    },
+    "nft": {
+      "criterion_scores": [
+        2,
+        3,
+        2,
+        2,
+        3
+      ],
+      "writing_score": 23,
+      "reasons": [
+        "N1: Achieved volume and failed threshold detection are concrete, but four observations per failed transaction limit percentiles. Passing acceptance and defect closure are absent.",
+        "N2: Production-informed design, six profiles and cache simulation address realism; actual transaction mix, environment comparability and adequately sampled runs remain unverified.",
+        "N3: Narrated readiness inputs explain contribution without traceable accepted retests or dated release/migration decisions.",
+        "N4: Goals, tools and outputs are specific; both >90% task savings and capacity claims lack primary calculations/run provenance.",
+        "N5: Cache reproduction, telemetry gating, rebuild recovery and exit-state correction are concrete responses; effectiveness and durable remediation require actual retest records."
+      ],
+      "editorial_fixes": [
+        "Precision: \u201cRelease dates, acceptance records and a defined post-release observation window are required to substantiate the resulting deployment outcomes\u201d \u2192 \u201cRelease dates and acceptance records are needed to substantiate the reported decision inputs. A defined observation window would also be needed for any post-release incident claim.\u201d The paper currently makes no incident-outcome claim."
+      ],
+      "missing_evidence": [
+        "Package now: N01 derived visual transcription; N02\u2013N04 attributed digests, including added engineering locators. These improve attribution rather than verify savings, remediation or acceptance.",
+        "Acquire requirements-to-run acceptance matrix, passing retests/closures, production mix/environment comparison, capacity denominators, reconciled endpoint aggregates, paired cache data and telemetry/recovery gate executions.",
+        "Acquire comparable activity timings including review/exceptions, raw tooling-test output and dated release/migration acceptance records. Do not turn the reported 285 tooling tests into client performance scenarios."
+      ],
+      "target_met": false
+    },
+    "innovation": {
+      "criterion_scores": [
+        2,
+        3,
+        1,
+        2,
+        2
+      ],
+      "writing_score": 23,
+      "reasons": [
+        "I1: Ownership/reuse offers a plausible internal practice advance without measured coverage, maintenance or regression benefit.",
+        "I2: Driver, tag selection, generator and three pipelines are concrete descriptions; inspected implementation and matching runs remain absent.",
+        "I3: Transferability is articulated, but no substantiated boundary-pushing attempt or comparative contribution. External adoption is one possible route, not compulsory.",
+        "I4: Goals/roles are clear; five-team participation and delivered assets lack verified active contributions and results.",
+        "I5: Maintenance, consistency and triage risks have plausible responses without a completed failure-assignment-fix-rerun example."
+      ],
+      "editorial_fixes": [
+        "Optional punctuation: \u201c4 Goals resources and reported results\u201d \u2192 \u201c4 Goals, resources and reported results\u201d. Scope qualifications already distinguish participation, design and verified benefit."
+      ],
+      "missing_evidence": [
+        "Package now: S02 attributed source digest only. AI implementation, account savings and local specialist demonstrations cannot establish shared-regression achievements.",
+        "Acquire strategy and template/pipeline implementation, each team\u2019s contributions/shared runs, completed triage/retest chain and measured coverage/reuse/maintenance improvement.",
+        "Acquire matched setup timings only if restoring savings; obtain a credible comparison explaining the wider boundary being attempted, supported by implementation/results or documented transfer."
+      ],
+      "target_met": false
+    }
+  },
+  "council_recommendation": "AI 8/25, NFT 12/25, innovation 10/25: primary-outcome evidence plateau persists. A10 genuinely strengthens implementation provenance, but does not establish deployed adaptation, effective experiments or client results; no criterion reaches 4/5 throughout. All papers use broadly sound UK English and readable approaches. Summaries are 88/85/97 words; main texts are 8,420/10,624/5,672 characters, within limits. References preserve artifact scopes; privacy exclusions are respected. AI still joins distinct account/development strands without a confirmed nomination boundary. Keep account AI, specialist development, PerfOps/Perf Insights and shared regression populations separate; possible NFT/account-ledger overlap remains unconfirmed. Obtain permissible primary logs, ledgers and role-only approvals using EVIDENCE_REQUIRED.txt; do not invent missing facts or treat blank forms as completion. Supply required third-party identity privately through the organiser process."
+}

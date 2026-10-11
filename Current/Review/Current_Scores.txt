@@ -1,0 +1,79 @@
+CURRENT COUNCIL SCORES — ROUND 4 — 11 October 2026
+
+Eight model reviewers, unofficial simulated assessments. Target: 4/5 for every criterion. No entry meets that target.
+
+Overall evidence score is the median of eight total scores /25; section scores are criterion medians. Equal weights are an internal convention, not an official TESTA weighting. Writing scores assess the reviewed text before narrow final copyedits. Repeated model reviews are not independent human judges or award probabilities.
+
+
+AI
+
+{"median_evidence_total": 8.0, "criterion_medians": [1.0, 2.0, 2.0, 2.0, 1.0], "range": [6, 12], "writing_median": 22.5, "target_met": false}
+
+gpt-6.1-sol: [1, 2, 2, 2, 1]
+
+gpt-6-astra: [1, 2, 2, 2, 1]
+
+gpt-6-sol: [2, 3, 2, 2, 1]
+
+gpt-6-luna: [1, 2, 2, 2, 1]
+
+gpt-5.6-sol: [2, 3, 3, 3, 1]
+
+claude-opus: [1, 2, 2, 2, 1]
+
+claude-sonnet: [1, 2, 2, 3, 1]
+
+claude-haiku: [1, 2, 1, 1, 1]
+
+
+NFT
+
+{"median_evidence_total": 12.5, "criterion_medians": [2.0, 3.0, 2.0, 2.0, 3.0], "range": [10, 17], "writing_median": 22.5, "target_met": false}
+
+gpt-6.1-sol: [2, 3, 2, 2, 3]
+
+gpt-6-astra: [2, 3, 2, 3, 3]
+
+gpt-6-sol: [2, 3, 2, 2, 3]
+
+gpt-6-luna: [3, 3, 2, 2, 3]
+
+gpt-5.6-sol: [3, 4, 3, 3, 4]
+
+claude-opus: [2, 2, 2, 2, 3]
+
+claude-sonnet: [2, 3, 2, 3, 3]
+
+claude-haiku: [2, 2, 1, 2, 3]
+
+
+INNOVATION
+
+{"median_evidence_total": 9.0, "criterion_medians": [2.0, 2.0, 1.0, 2.0, 2.0], "range": [8, 14], "writing_median": 23.0, "target_met": false}
+
+gpt-6.1-sol: [2, 3, 1, 2, 2]
+
+gpt-6-astra: [2, 3, 1, 2, 2]
+
+gpt-6-sol: [2, 2, 1, 2, 2]
+
+gpt-6-luna: [2, 2, 1, 2, 2]
+
+gpt-5.6-sol: [3, 3, 3, 2, 3]
+
+claude-opus: [2, 2, 1, 1, 2]
+
+claude-sonnet: [2, 2, 1, 2, 2]
+
+claude-haiku: [2, 2, 1, 1, 2]
+
+
+A10 supports implemented mechanisms in local code. It does not establish completed fine-tuning, serving, independent evaluation, client deployment, measured quality or benefits. No new primary client outcome records were recovered.
+
+Round-four editorial fixes applied: corrected Microsoft 365 Copilot name, clarified adaptation as a specified approach, linked the security gate directly to A10, simplified a heading, removed tangential AI engineering material from NFT, attributed the cache case, and distinguished release decision evidence from an unclaimed incident outcome.
+
+A10 is included in the index and manifests. N01 now flags the comparator arithmetic discrepancy: 46 requests in 15 minutes is about 0.051 RPS, not the displayed 0.03. The comparator is not used in the paper.
+
+Rejected review suggestions that would invent non-deployment, completed training chronology, comparability assessment or new results. Kept user-requested reported85% figure once with its missing-definition caveat. Preserved stable evidence IDs. Product name Inteliperf follows the user instruction.
+
+All current summaries/main texts meet limits. Missing primary facts remain in Evidence/EVIDENCE_REQUIRED.txt. Capture forms are blank aids, not evidence. The request to close every substantive gap is not yet complete.

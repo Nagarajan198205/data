@@ -1,0 +1,12 @@
+S02 — SHARED REGRESSION SOURCE DIGEST
+Prepared 11 October 2026. Evidence type: repository-supplied design and adoption narrative; no inspected source code or pipeline history attached.
+TESTA_2026_Multi_Category_Master_Prompt_v4.md
+Source SHA256: 81b2d960d1f1e67c3d42c3f735168fc6cd647d6ea713145389b03cdeaf4f7c05
+Repository source revision: 85d7373.
+Source section locator: Tag-Based Decentralised Regression Framework, line 1302. Related sections: Multi-Stage CI/CD Pipelines in Azure DevOps and Automated Service Team Onboarding Utility.
+
+The source describes five service teams on a shared platform. Service teams maintain business-critical Playwright scenarios; a common tag allows the platform suite to select them. Service teams retain scenario ownership while the platform team controls execution/governance. Triage distinguishes service failures from platform/environment problems. Three pipelines are described: pre-merge validation, self-service execution and shared regression. A Node.js template utility generates standard project structures and team-specific configuration.
+
+Setup timing claims cannot yet be reconciled: two to three days per team, minutes for generation, five teams, 40–50 total hours and more than 99% reduction appear together without matching task scope or working-day definition. No timing result is certified by this digest.
+
+Needed to close: contribution and run records for each team, pipeline/template implementation, completed triage/retest example, matched setup timing, measured regression benefit and comparison with prior practice. No external adoption is established.
