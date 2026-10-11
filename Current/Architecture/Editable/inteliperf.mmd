@@ -1,0 +1,44 @@
+flowchart TD
+  LEGEND["Inteliperf source architecture<br/>I: implemented; runtime unverified<br/>P: simulated prototype<br/>D: intended or manual workflow"]
+  IMPORT["JMeter and k6 import conversion<br/>P01–P02; not external engine execution"]
+  PLAN["Canonical scenarios and load goals<br/>P03"]
+  GUARD["Request checks and safety caps<br/>P04–P05"]
+  DISPATCH["Scan orchestration<br/>P05"]
+  WORKER["Redis worker adapters<br/>same InternalRunner class; P06"]
+  ENGINE["Platform-owned InternalRunner<br/>VU scheduling, sessions, assertions; P07"]
+  CAL["Optional generator calibration<br/>native probes; estimated fallback; P08"]
+  CONTROL["Load schedule and runtime safety<br/>P21–P22"]
+  REQUEST["Native HTTP fetch / protocol adapters<br/>P07"]
+  METRICS["Collected run metrics and status"]
+  ANALYSIS["Deterministic normalisation and scoring<br/>P09–P10"]
+  STORE["Persisted results<br/>P05"]
+  CHAT["Separate AI interpretation / chat tools<br/>P11, P23; no required scoring dependency"]
+  SIGN["Evidence signing service<br/>P14; not automatic for every run"]
+  COMPARE["Comparison and CI calculations<br/>P16, P18; equivalence and scoring limits"]
+  REVIEW["Engineer reviews and changes plan<br/>no verified improvement claimed"]
+  FEEDBACK["Intent feedback storage<br/>P15; no demonstrated retraining loop"]
+  REMED["Approved playbook prototype<br/>P17"]
+  SIM["Simulated action and rollback<br/>no real remediation established"]
+
+  IMPORT -->|"E01 I"| PLAN
+  PLAN -->|"E02 I"| GUARD
+  GUARD -->|"E02 I"| DISPATCH
+  DISPATCH -->|"E03 I"| WORKER
+  WORKER -->|"E03 I"| ENGINE
+  DISPATCH -->|"E04 I"| ENGINE
+  ENGINE -->|"E05 I"| CAL
+  CAL -->|"E05 I capacity status"| ENGINE
+  CONTROL -->|"E07 I step or stop"| ENGINE
+  ENGINE -->|"E06 I"| REQUEST
+  REQUEST -->|"E06 I"| METRICS
+  METRICS -->|"E08 I"| ANALYSIS
+  ANALYSIS -->|"E08 I"| STORE
+  STORE -->|"E09 I query tools"| CHAT
+  STORE -->|"E10 I selected evidence"| SIGN
+  STORE -->|"E11 I"| COMPARE
+  CHAT -.->|"E13 D human assessment"| REVIEW
+  COMPARE -.->|"E13 D human assessment"| REVIEW
+  REVIEW -.->|"E13 D correction and authorised rerun"| PLAN
+  REVIEW -->|"E12 I submission mechanism"| FEEDBACK
+  REVIEW -.->|"E14 P approval workflow"| REMED
+  REMED -.->|"E14 P simulated only"| SIM

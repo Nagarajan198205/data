@@ -1,0 +1,26 @@
+OWN ENGINE POSITIONING — SOURCE-BACKED CLAIMS
+11 October 2026
+
+Recommended platform statement
+Cognizant's specialist applications contain application-specific scanning, execution and analysis engines, supported by standard libraries and optional integrations. The inspected core paths are more than interfaces over external testing products: they implement the rules, detector logic, workload execution and evidence-processing decisions described below. Runtime demonstrations and measured comparisons are required to establish effectiveness and client benefit.
+
+IntelliA11y
+The primary API and CLI scan paths use locally implemented accessibility rules and evaluation logic. Optional model agents add contextual interpretation. Expert review can create a configured ADO work item for an approved pending false positive. Rule/prompt changes, RAG ingestion, candidate dataset export and fine-tuning facilities exist as distinct mechanisms; their full operational cycle needs linked proof.
+Supporting components: browser automation, DOM parsing, queues, SQL/vector storage and model runtimes. axe executes in a separately invoked comparison script; it was not found executing the inspected core API/CLI scan path. Some rules draw on established accessibility concepts. Do not claim invention of the standards or every rule.
+
+IntelliSec
+The inspected scan modes contain native request/payload tests, source analysis, dependency analysis and container checks. Custom finding processing and evidence/coverage gates support analyst review. Optional external advisory feeds, utility/policy integrations and imported scan formats coexist with that own logic. This does not make every mode independent of external data, or prove universal coverage.
+Strong demonstration: seed a known issue, show the actual detector/evidence, correct it and show the branch-appropriate retest. Distinguish manual fixed status from replay-confirmed closure.
+
+Inteliperf
+The inspected core calls InternalRunner for in-process or worker execution. It manages virtual users, requests, assertions, scheduling, runtime safety, metrics and deterministic analysis. JMeter/k6 imports convert into canonical plans; those executables do not drive the inspected core path. Separate AI services support interpretation.
+Material limits: operational auto-remediation currently simulates actions; mock regional execution and simulated performance agents do not prove live execution. Calibration can estimate; comparisons do not guarantee equivalent workloads. Demonstrate the real InternalRunner path with raw measurements.
+
+COMPETITIVE CASE TO PROVE
+1. Meaningful custom implementation: connect each diagram box to source/version and an observed run.
+2. Controlled human/AI collaboration: record the real decision, authorised change, version and retest. Do not imply autonomous work where a human or external agent performs it.
+3. Correctness improvement: use expected labels and representative regression cases; retain adverse results and independent review.
+4. Efficient operation: compare equivalent scopes including expert review, exceptions and ongoing effort.
+5. Traceable outcomes: join finding, ticket, change, evaluation and user confirmation. Use measured service or assurance outcomes without exposing confidential client records.
+
+Avoid unsupported absolutes: no third-party tools anywhere; fully autonomous self-learning; all findings have screenshots; every fixed status is verified; every model is fine-tuned; industry-first; guaranteed winner. Own implementation is supported. Superiority over competitors requires a fair, disclosed comparison.

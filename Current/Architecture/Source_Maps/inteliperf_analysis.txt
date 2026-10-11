@@ -1,0 +1,129 @@
+INTELIPERF ARCHITECTURE — READ-ONLY SOURCE INSPECTION
+11 October 2026; local repository ../aegis-test.
+
+Conclusion
+The inspected core implements its own workload executor, orchestration, runtime safety and deterministic result calculation. Calling that core merely a wrapper around a commercial load-test engine would misdescribe the inspected code. ScanRunner instantiates InternalRunner directly or dispatches to workers that instantiate the same class. Virtual users perform HTTP requests with native fetch; application code manages scenarios, sessions, extraction/assertions, scheduling, metrics and stopping. This supports the precise claim “a platform-owned execution and analysis engine built using standard runtime libraries and supporting imported test formats.” It does not establish originality against every competing product, production readiness, performance capacity, client deployment or delivered improvement.
+
+Scope
+Read-only source inspection; no tests, loads, scans, inference, external requests, database reads or product edits. No AGENTS.md found by scoped repository inventory. No client identifiers, target addresses, credentials or private feedback are reproduced. No history or runtime artifact was treated as a measured outcome. Inteliperf in this repository is separate from the client's PerfOps and Perf Insights work; none of their savings, release outcomes or test counts transfers to this architecture.
+
+Status vocabulary for the companion diagram
+I = implemented in inspected source; execution and effectiveness unverified in this task.
+P = prototype implementation that simulates the claimed operational action.
+D = intended/manual workflow; automatic end-to-end connection not established.
+Every edge carries a status. Solid edges never mean proven deployment. References below are repository-relative; line ranges are review locators, and SHA256 fingerprints follow at the end.
+
+1. Inputs and orchestration
+JMeter and k6 compatibility paths convert imported scripts into canonical scenarios (P01/P02). These importers do not demonstrate native execution of arbitrary original scripts; conversion analysis explicitly identifies unsupported constructs. OpenAPI, HAR and manually specified inputs also have canonical plan-building code (P03). Names or legacy result fields containing k6 are not proof that k6 executes the primary scan.
+Scan request routes contain quota, safety-mode, approval, collision and authentication checks (P04). ScanRunner applies load goals and safety caps, validates the plan, then chooses a worker or in-process execution path (P05). Worker execution imports the same InternalRunner and replaces progress/control adapters with Redis-based messaging (P06). This is actual source wiring, not an architecture-document claim.
+
+2. Platform-owned execution and calibration
+InternalRunner's VirtualUser executes scenario control flow, requests, assertions and extraction; HTTP requests use fetch (P07). Non-HTTP steps can delegate through protocol adapters. LoadControlEngine supplies schedules and step decisions; RuntimeSafetyMonitor is started by the runner and can terminate a run. Saturation and capacity checks can invalidate it. These mechanisms exist in source, but no runtime correctness or maximum-throughput benchmark was performed.
+CalibrationService performs stepped concurrent HTTP probes and reads generator health (P08). It measures generator capacity/attempt rate, not service correctness: failed attempts are counted; missing usable targets trigger an estimated-capacity fallback. Calibration may be disabled. “Certified” in source is a platform-generated status, not external certification. This is neither model fine-tuning nor evidence that an AI model learns from runs.
+
+3. Results, deterministic analysis and optional AI
+The runner returns collected metrics and status; ScanRunner normalises results and persists them. The normalisation code invokes RiskEngineService directly (P05/P09/P10). RiskEngineService computes fragility, confidence, knee signals, threshold findings and ranked results without requiring a language-model call. This directly supports a deterministic core.
+Separate chat routes call a configured language-model service and expose tool-assisted interaction (P11). A separate Lambda analysis path calls an analysis service or LLMAgent, with a metric-based fallback (P12/P13); its load generation is also native fetch. Do not collapse these alternative paths into a claim that every scan receives LLM analysis. Core collection/scoring does not depend on these LLM calls. “Optional AI interpretation alongside deterministic execution” is defensible; “no third-party dependencies” is not.
+EvidenceSigningService contains manifest hashing, key management and signing/verification code (P14). This is an available service/API capability; the inspected core does not establish automatic signing of every completed scan. Signed evidence demonstrates identity/integrity when actually produced, not accuracy of the underlying measurements.
+
+4. Feedback, remediation and retesting
+NLIntentService persists intent feedback categories and notes (P15). This supports feedback collection, not a demonstrated training/update loop; no inspected feedback-to-model-retraining connection or improved parsing result was established.
+Comparison code calculates differences between stored runs (P16). Its stated canonical-plan check uses projectId as a proxy and checks versions only when available. Consequently, do not claim it guarantees equivalent workloads. Human correction followed by another authorised scan and comparison is an intended workflow; no closed-loop before/after result was verified.
+AutoRemediationService has playbook, approval, cooldown/rate-limit and audit structures, but uses in-memory maps. Crucially, both execution and rollback call simulateAction, using delays and random simulated failures (P17). Diagram these operational actions as prototype simulation. Do not claim automatic cache clearing, scaling, restart, rollback or proven remediation from this module.
+CIReadinessService computes gate status using configured scores, confidence and failure counts (P18). Code existence does not validate release decisions. Overall and step PRS use different conventions; score meaning and formulas need correctness verification before presenting a uniformly interpreted risk scale or validated release gate. No product change is requested or performed here.
+
+5. Market-tool boundaries and other prototypes
+The core inspected execution path does not spawn k6 or JMeter. Import/conversion support and legacy-compatible result shapes coexist with the native executor. MultiRegionOrchestrator still contains mock regional-runner implementation (P19); it cannot establish distributed external-runner production capability. PerformanceTestAgent also generates simulated random results (P20) and must not be used as proof of real execution. The diagram anchors its native path to InternalRunner, not to that similarly named agent.
+
+Recommended public description
+“Inteliperf implements a platform-owned workload engine that executes canonical scenarios, collects measurements and applies deterministic analysis. It combines request execution with load scheduling, generator calibration and runtime safety checks, and supports imported test formats. Separate AI services assist interpretation and interaction. Source implementation establishes these mechanisms; deployment, measured benefits and operational remediation remain subject to runtime evidence.”
+
+Remaining proof needed
+An authorised representative run tied to the inspected version; persisted raw and normalised metrics; independent reconciliation of calculations; runtime worker/safety/calibration evidence; clear score semantics; evidence of actual signing if claimed; a controlled correction/retest pair with equivalent workloads; and original client outcome records for any client claim. No results are inferred from implementation alone.
+
+EDGE REGISTER
+E01 I imported formats -> canonical plan: P01/P02/P03.
+E02 I canonical plan -> guarded scan dispatch: P04/P05.
+E03 I dispatcher -> worker -> InternalRunner: P05/P06.
+E04 I dispatcher -> in-process InternalRunner: P05.
+E05 I runner -> calibration probes -> capacity status: P07/P08; optional and may estimate.
+E06 I runner -> HTTP/protocol requests -> measured metrics: P07.
+E07 I load/safety controls -> runner stop/step decisions: P07/P21/P22.
+E08 I metrics -> normalisation/deterministic analysis -> stored results: P05/P09/P10.
+E09 I stored-run query tools -> separate AI chat interpretation: P11/P23; not a required scan stage.
+E10 I selected evidence -> signing service: P14; service exists, automatic completion linkage unproved.
+E11 I stored results -> comparison and CI gate calculations: P16/P18; validation limitations above.
+E12 I intent feedback -> feedback persistence: P15; no training edge established.
+E13 D reviewer interpretation -> corrected plan -> fresh authorised run: manual/intended workflow.
+E14 P remediation approval -> simulated actions/rollback: P17; no real target change established.
+
+SOURCE FINGERPRINTS AND LOCATORS
+P01: packages/backend/src/agents/k6Converter.ts
+  Locator: 20–54, 58–118
+  SHA256: 22302dbd3aec47c6d3db2512eed91967ec5eab7d6d8ab714c4b26f886c114249
+P02: packages/backend/src/agents/jmeterConverter.ts
+  Locator: 8–50, 210–230
+  SHA256: 4aa6ea6d158bc126bbd181945ac67d6729162950b9ed1c5d5f86f234ad3640de
+P03: packages/backend/src/prs/planBuilder.ts
+  Locator: plan construction implementation; paired route schemas in routes/prs.ts 90–140
+  SHA256: 9a5eeb24c32d915e9097a8b9acf1538c883178eca9c56e06be13c3cb4c5107ab
+P04: packages/backend/src/routes/scanExecution.ts
+  Locator: 181–530
+  SHA256: 64391c1820936817fa0206f4380f516dea62e206cac45f298bc995fcb5245308
+P05: packages/backend/src/services/ScanRunner.ts
+  Locator: 414–595, 609–667
+  SHA256: e2929e45e037efe5ccea694891f52313d036826a3ded5825ab2c093629cb8cfc
+P06: packages/engine-worker/src/executor.ts
+  Locator: 5–23, 43–109
+  SHA256: 31192dbbd970de8db27ab2137e2b5e4a274439ef7c5f6395240b33ccb1335df1
+P07: packages/backend/src/services/InternalRunner.ts
+  Locator: 356–495, 553–1210, 1888–1955, 2111–2345, 2515–2538
+  SHA256: 4d036fcafa6705d4608ae73579023eb985da241da2b427663e9340a3866c4930
+P08: packages/backend/src/services/CalibrationService.ts
+  Locator: 113–184, 192–250, 278–310
+  SHA256: 4b77afd37926d0d0f64a169c82d0f8b69054f0370f51d3f5013763f49ba6e935
+P09: packages/backend/src/prs/models.ts
+  Locator: 291–330
+  SHA256: 0c80564c9fbf7c1c38714c1a8083fec83f09852057f46b3e40afe4b44fa24d3e
+P10: packages/backend/src/services/RiskEngineService.ts
+  Locator: 32–35, 138–270, 276–351
+  SHA256: d546a8aa6b40ea9629f9fdc97364fccee258c02e5b05f1a30c987e9de056a9c0
+P11: packages/backend/src/routes/chat.ts
+  Locator: 850–1014
+  SHA256: abba3f118ad5b5402ee2bb8a49ddff1ad5899b48a9acea1a436f0e5478ea9fbc
+P12: packages/backend/src/lambda/test-runner.ts
+  Locator: 44–109, 145–166, 232–299
+  SHA256: c0756fed6cefa8ef17188f826fd75df7fcb752724162f3b2f73a962f81369b56
+P13: packages/backend/src/agents/LLMAgent.ts
+  Locator: 104–122, 288–400, 400–477
+  SHA256: 900615a3579980a8d4f753288fc99dd5488bf998f9222f924b184834ee79fb62
+P14: packages/backend/src/services/EvidenceSigningService.ts
+  Locator: 214–267, 370–500, 533–630
+  SHA256: 2605633defbd22a4df6d26573bc1269e7ef1b8ca65f3dddabc6176cdc1f3cb04
+P15: packages/backend/src/services/NLIntentService.ts
+  Locator: 312–320, 839–855
+  SHA256: 498c0b483109a00e265311c54d4ae47b0387e363b4c651c895593954e3fa0d77
+P16: packages/backend/src/routes/comparison.ts
+  Locator: 45–166
+  SHA256: 6f6457399a8866853cec44afc9e1e10d85e3daa6ca0c07f94b498c2ea85d1d04
+P17: packages/backend/src/services/AutoRemediationService.ts
+  Locator: 124–127, 230–316, 397–510
+  SHA256: 029d0f6c037d104b0c156ee9dc6af9745ff80d9f2b3a7b7bfd2b67adddef0896
+P18: packages/backend/src/services/CIReadinessService.ts
+  Locator: 290–325
+  SHA256: 9ea94c747d6ddc8ea8e24c0d377076dae4731beba8fe51c7607fb8e8e0a3ff3c
+P19: packages/backend/src/services/MultiRegionOrchestrator.ts
+  Locator: 100–145
+  SHA256: 6ce8acfb9f65c4421c414a4f622f2bae39bba1ab35ef882b14888b2fb470552f
+P20: packages/backend/src/agents/PerformanceTestAgent.ts
+  Locator: 5–26
+  SHA256: 8dac5f091e2fab2f8a617adbadd4f719e1149eeafadf810c203440122317501b
+P21: packages/backend/src/services/LoadControlEngine.ts
+  Locator: 307–420
+  SHA256: b6214f6c771297d95d65d983cd04f0a9dc83a129219714aa1586b691a2dc4316
+P22: packages/backend/src/services/RuntimeSafetyMonitor.ts
+  Locator: 110–180, 270–318
+  SHA256: 97482dbc2471ff646e4aa2ef2601cd27ced56adffb6034bc4bb6fbd8cd325675
+P23: packages/backend/src/skills/executor.ts
+  Locator: 248–273, 353–436
+  SHA256: a0c08bf113f78e3729581deb8bd63cb039f4e1a70bd28b800d35fa0e40506e95

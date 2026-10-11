@@ -1,0 +1,25 @@
+flowchart LR
+  IN["Authorised URL, repository, CI event or imported result"] --> API["API session and selected agents"]
+  API --> ORCH["IntelliSec orchestration and worker paths"]
+  ORCH --> NATIVE["Native DAST, SAST, SCA, container and other mode-specific detectors"]
+  EXT["Optional advisory feeds, auxiliary tools and external-result imports"] -.-> NATIVE
+  IN -.->|optional imported findings| FIND
+  NATIVE --> FIND["Raw findings and captured evidence"]
+  FIND --> DET["Deterministic filtering, grouping and risk scoring"]
+  DET -.-> AI["Optional LLM challenge or triage"]
+  DET --> REVIEW["Analyst confirmation, false-positive review and history"]
+  AI --> REVIEW
+  DET --> GATE["Evidence, coverage and security gate"]
+  REVIEW -.-> ADO["Configured ADO work item"]
+  REVIEW -.-> FIX["Proposed or applied remediation branch"]
+  FIX -.-> RETEST["Exact replay, rescan or source re-detection"]
+  RETEST --> CLOSURE["Fixed, still present or inconclusive record"]
+  CLOSURE --> REVIEW
+  CLOSURE -.-> ADO
+  REVIEW -.-> LEARN["Project guidance, rule ratchet, prompt and model suggestions"]
+  LEARN -.-> NATIVE
+  LEARN -.-> AI
+  GATE --> DECISION["Advisory release verdict for human decision"]
+  CLOSURE -.-> DECISION
+  LIMIT["No client run, measured uplift or universal verified closure established by source inspection"]:::note
+  classDef note fill:#fff4d6,stroke:#b88a00,color:#222;

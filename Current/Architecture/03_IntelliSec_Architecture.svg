@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1460" height="1040" viewBox="0 0 1460 1040">
+<rect x="0" y="0" width="1460" height="1040" rx="0" fill="#ffffff" stroke="#ffffff"/>
+<rect x="0" y="0" width="1460" height="12" rx="0" fill="#087f79" stroke="#087f79"/>
+<text x="48" y="51" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#52708b">COGNIZANT WORLDWIDE LIMITED UK  /  SOLUTION ARCHITECTURE</text>
+<text x="48" y="98" font-family="Arial, sans-serif" font-size="29" font-weight="700" fill="#18334c">IntelliSec  |  Native detection and governed remediation</text>
+<text x="48" y="131" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#18334c">Mode-specific detector logic, evidence-led triage and explicit retest branches</text>
+<polyline points="338,253.0 406,253.0" fill="none" stroke="#66819a" stroke-width="1.8"/>
+<polygon points="406,253.0 397.8959760788259,256.9146898070011 397.8959760788259,249.08531019299892" fill="#66819a"/>
+<polyline points="696,253.0 764,253.0" fill="none" stroke="#66819a" stroke-width="1.8"/>
+<polygon points="764,253.0 755.8959760788259,256.9146898070011 755.8959760788259,249.08531019299892" fill="#66819a"/>
+<polyline points="1054,253.0 1122,253.0" fill="none" stroke="#66819a" stroke-width="1.8"/>
+<polygon points="1122,253.0 1113.895976078826,256.9146898070011 1113.895976078826,249.08531019299892" fill="#66819a"/>
+<polyline points="1267.0,321 1267.0,410" fill="none" stroke="#66819a" stroke-width="1.8"/>
+<polygon points="1267.0,410 1263.085310192999,401.8959760788259 1270.914689807001,401.8959760788259" fill="#66819a"/>
+<polyline points="1122,478.0 1054,478.0" fill="none" stroke="#ac7210" stroke-width="1.8" stroke-dasharray="6 4"/>
+<polygon points="1054,478.0 1062.104023921174,474.0853101929989 1062.104023921174,481.9146898070011" fill="#ac7210"/>
+<polyline points="764,478.0 696,478.0" fill="none" stroke="#ac7210" stroke-width="1.8" stroke-dasharray="6 4"/>
+<polygon points="696,478.0 704.1040239211741,474.0853101929989 704.1040239211741,481.9146898070011" fill="#ac7210"/>
+<polyline points="193.0,546 193.0,635" fill="none" stroke="#ac7210" stroke-width="1.8" stroke-dasharray="6 4"/>
+<polygon points="193.0,635 189.08531019299892,626.8959760788259 196.91468980700108,626.8959760788259" fill="#ac7210"/>
+<polyline points="551.0,546 551.0,635" fill="none" stroke="#ac7210" stroke-width="1.8" stroke-dasharray="6 4"/>
+<polygon points="551.0,635 547.0853101929989,626.8959760788259 554.9146898070011,626.8959760788259" fill="#ac7210"/>
+<polyline points="696,703.0 764,703.0" fill="none" stroke="#ac7210" stroke-width="1.8" stroke-dasharray="6 4"/>
+<polygon points="764,703.0 755.8959760788259,706.9146898070011 755.8959760788259,699.0853101929989" fill="#ac7210"/>
+<polyline points="1054,703.0 1122,703.0" fill="none" stroke="#ac7210" stroke-width="1.8" stroke-dasharray="6 4"/>
+<polygon points="1122,703.0 1113.895976078826,706.9146898070011 1113.895976078826,699.0853101929989" fill="#ac7210"/>
+<polyline points="1122,478.0 1104,478.0 1104,381 551.0,381 551.0,410" fill="none" stroke="#66819a" stroke-width="1.8"/>
+<polygon points="551.0,410 547.0853101929989,401.8959760788259 554.9146898070011,401.8959760788259" fill="#66819a"/>
+<polyline points="1122,478.0 1104,478.0 1104,366 193.0,366 193.0,410" fill="none" stroke="#66819a" stroke-width="1.8"/>
+<polygon points="193.0,410 189.08531019299892,401.8959760788259 196.91468980700108,401.8959760788259" fill="#66819a"/>
+<polyline points="193.0,185 193.0,156 1267.0,156 1267.0,185" fill="none" stroke="#ac7210" stroke-width="1.8" stroke-dasharray="6 4"/>
+<polygon points="1267.0,185 1263.085310192999,176.8959760788259 1270.914689807001,176.8959760788259" fill="#ac7210"/>
+<polyline points="1412,703 1436,703 1436,578 382,578 382,478 406,478" fill="none" stroke="#66819a" stroke-width="1.8"/>
+<polygon points="406,478 397.8959760788259,481.9146898070011 397.8959760788259,474.0853101929989" fill="#66819a"/>
+<text x="820" y="596" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#52708b">Recorded retest outcome returns to analyst review</text>
+<text x="530" y="167" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#52708b">Imported findings bypass native detection</text>
+<rect x="48" y="185" width="290" height="136" rx="9" fill="#edf3fc" stroke="#345b9a"/>
+<text x="63" y="207" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#345b9a">IMPLEMENTED IN SOURCE</text>
+<text x="63" y="234" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Authorised input</text>
+<text x="63" y="259" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Target, repository or CI event</text>
+<text x="63" y="278" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Optional imported findings</text>
+<text x="63" y="297" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Choose the scan mode</text>
+<text x="315" y="207" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#345b9a">1</text>
+<rect x="406" y="185" width="290" height="136" rx="9" fill="#e9f5f3" stroke="#087f79"/>
+<text x="421" y="207" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#087f79">OWN ENGINE / SOURCE INSPECTED</text>
+<text x="421" y="234" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Session and orchestration</text>
+<text x="421" y="259" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Agent context and selected agents</text>
+<text x="421" y="278" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Orchestrator / worker paths</text>
+<text x="421" y="297" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Mode-specific execution</text>
+<text x="673" y="207" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#087f79">2</text>
+<rect x="764" y="185" width="290" height="136" rx="9" fill="#e9f5f3" stroke="#087f79"/>
+<text x="779" y="207" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#087f79">OWN ENGINE / SOURCE INSPECTED</text>
+<text x="779" y="234" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Native detection logic</text>
+<text x="779" y="259" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">DAST request and payload checks</text>
+<text x="779" y="278" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">SAST analysis; SCA / container logic</text>
+<text x="779" y="297" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Coverage depends on selected mode</text>
+<text x="1031" y="207" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#087f79">3</text>
+<rect x="1122" y="185" width="290" height="136" rx="9" fill="#edf3fc" stroke="#345b9a"/>
+<text x="1137" y="207" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#345b9a">IMPLEMENTED IN SOURCE</text>
+<text x="1137" y="234" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Findings and captured evidence</text>
+<text x="1137" y="259" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Raw detector output</text>
+<text x="1137" y="278" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Execution and coverage context</text>
+<text x="1137" y="297" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Normalise for analysis</text>
+<text x="1389" y="207" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#345b9a">4</text>
+<rect x="1122" y="410" width="290" height="136" rx="9" fill="#e9f5f3" stroke="#087f79"/>
+<text x="1137" y="432" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#087f79">OWN ENGINE / SOURCE INSPECTED</text>
+<text x="1137" y="459" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Deterministic processing</text>
+<text x="1137" y="484" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Filtering, grouping and risk scoring</text>
+<text x="1137" y="503" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Developer-facing finding records</text>
+<text x="1137" y="522" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Preserve uncertain assessments</text>
+<text x="1389" y="432" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#087f79">5</text>
+<rect x="764" y="410" width="290" height="136" rx="9" fill="#edf3fc" stroke="#345b9a"/>
+<text x="779" y="432" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#345b9a">IMPLEMENTED IN SOURCE</text>
+<text x="779" y="459" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Optional AI verification</text>
+<text x="779" y="484" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">LLM challenge / interpretation</text>
+<text x="779" y="503" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Uncertainty retained for review</text>
+<text x="779" y="522" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Not a replacement for evidence</text>
+<text x="1031" y="432" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#345b9a">6</text>
+<rect x="406" y="410" width="290" height="136" rx="9" fill="#edf3fc" stroke="#345b9a"/>
+<text x="421" y="432" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#345b9a">IMPLEMENTED IN SOURCE</text>
+<text x="421" y="459" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Analyst governance</text>
+<text x="421" y="484" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Confirm, false positive or accept risk</text>
+<text x="421" y="503" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Fixed / reopen actions and history</text>
+<text x="421" y="522" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Project-scoped learning signals</text>
+<text x="673" y="432" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#345b9a">7</text>
+<rect x="48" y="410" width="290" height="136" rx="9" fill="#e9f5f3" stroke="#087f79"/>
+<text x="63" y="432" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#087f79">OWN ENGINE / SOURCE INSPECTED</text>
+<text x="63" y="459" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Security evidence gate</text>
+<text x="63" y="484" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Severity + control completion</text>
+<text x="63" y="503" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Required evidence and coverage</text>
+<text x="63" y="522" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Incomplete states can block GO</text>
+<text x="315" y="432" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#087f79">8</text>
+<rect x="48" y="635" width="290" height="136" rx="9" fill="#fff5df" stroke="#ac7210"/>
+<text x="63" y="657" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#ac7210">WORKFLOW / EXECUTION TO DEMONSTRATE</text>
+<text x="63" y="684" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Human release decision</text>
+<text x="63" y="709" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Advisory verdict and limitations</text>
+<text x="63" y="728" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">A gate is not release acceptance</text>
+<text x="63" y="747" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">No client decision is asserted</text>
+<text x="315" y="657" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#ac7210">9</text>
+<rect x="406" y="635" width="290" height="136" rx="9" fill="#edf3fc" stroke="#345b9a"/>
+<text x="421" y="657" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#345b9a">IMPLEMENTED IN SOURCE</text>
+<text x="421" y="684" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Configured ADO work items</text>
+<text x="421" y="709" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Optional finding / scan linkage</text>
+<text x="421" y="728" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Triage can close or reopen items</text>
+<text x="421" y="747" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Manual fixed is not replay proof</text>
+<text x="673" y="657" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#345b9a">10</text>
+<rect x="764" y="635" width="290" height="136" rx="9" fill="#fff5df" stroke="#ac7210"/>
+<text x="779" y="657" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#ac7210">WORKFLOW / EXECUTION TO DEMONSTRATE</text>
+<text x="779" y="684" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Remediation branch</text>
+<text x="779" y="709" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Proposed fix or reviewed code change</text>
+<text x="779" y="728" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Some post-scan wiring incomplete</text>
+<text x="779" y="747" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">No universal auto-fix claim</text>
+<text x="1031" y="657" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#ac7210">11</text>
+<rect x="1122" y="635" width="290" height="136" rx="9" fill="#edf3fc" stroke="#345b9a"/>
+<text x="1137" y="657" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#345b9a">IMPLEMENTED IN SOURCE</text>
+<text x="1137" y="684" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Replay or fresh detection</text>
+<text x="1137" y="709" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">DAST replay / rescan; SAST recheck</text>
+<text x="1137" y="728" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Verdict retained for analyst review</text>
+<text x="1137" y="747" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Close only on qualifying paths</text>
+<text x="1389" y="657" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#345b9a">12</text>
+<rect x="48" y="866" width="1364" height="42" rx="6" fill="#f0f4f8" stroke="#f0f4f8"/>
+<text x="62" y="892" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#18334c">Improvement mechanisms: scoped suppressions and rule candidates; prompt versions, A/B mechanisms and training-data suggestions.</text>
+<text x="48" y="935" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#18334c">Own-engine boundary: native detectors coexist with optional imports, advisory feeds, policy tools and utility integrations. No zero-dependency claim.</text>
+<text x="48" y="958" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#18334c">Retest-backed and manual closure paths differ. Do not equate every fixed status with a verified fix. Source detail: intellisec_analysis.txt.</text>
+<polyline points="48,985 1412,985" fill="none" stroke="#d4dfe8" stroke-width="1.8"/>
+<text x="48" y="1010" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#52708b">Solid = inspected source path. Dashed = optional or human/external hand-off. Code presence does not prove deployment or outcomes.</text>
+<text x="1325" y="1010" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#52708b">11 Oct 2026 / 3</text>
+</svg>

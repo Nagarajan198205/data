@@ -1,0 +1,210 @@
+INTELLIA11Y ARCHITECTURE — SOURCE EVIDENCE MAP
+Date: 11 October 2026. Read-only inspection of authorised repository only.
+
+INTERPRETATION
+This report maps implementation, intended human workflow and gaps separately. Source-present means code was inspected, not that it ran or deployed for a client. No tests, scans, external requests, model training or databases were executed/queried. No confidential identifiers, application URLs, credentials, dataset examples or feedback records are reproduced. Repository-root AGENTS.md was not found in the prior scoped inspection; no product changes were made.
+The requested full lifecycle is a useful intended process. The inspected product supports several individual edges, but it is not evidenced as one automated, completed end-to-end improvement loop.
+
+MAIN COMPONENTS
+1. User surfaces: dashboard scan/issue/review/admin pages; browser verification bookmarklet; separate CLI. API scan intake, authentication/role checks and configurable device/scope/AI options mediate work.
+2. Browser capture/execution: Playwright-based browser work, DOM/accessibility context and screenshots; quick/crawl/journey jobs and asynchronous LLM/screenshot workers. BullMQ/Redis provide queue/cache infrastructure. Browser/session readiness affects screenshots.
+3. Owned accessibility analysis: API wrapper and locally registered IntelliA11y rules. Deterministic existence/validity and quality-pattern stages, grouping/deduplication, result tiers and confidence handling. Optional agent/model interpretation supplements them; the quick scan path disables the engine's internal LLM stage and uses separate agents.
+4. AI services: prompt registry/version lookup, agent-specific context, optional model inference, usage/evaluation/improvement machinery and A/B comparisons. Model and embedding runtimes are external dependencies; their presence does not mean an adapted model is served.
+5. Persistence/reporting: SQL issue/occurrence/validation and prompt/experiment records; Redis scan/screenshot caching; result/report APIs and dashboard views. Migration/source definitions do not establish populated production records.
+6. Expert governance: trust-aware FP/confirmation submission, pending review queue, role-restricted approval/rejection, retained review fields and confidence recalibration.
+7. Optional external work tracking: ADO story creation for approved pending FPs with a rule-versus-agent-prompt target and optional later screenshot attachment. Disabled/missing integration or failed upload can yield no work item/attachment.
+8. Improvement branches: human/AI-assisted rule or prompt change; RAG content ingestion and retrieval; exported JSONL candidates plus standalone dataset/training/conversion scripts; HTML evaluation and existing regression-test definitions. These branches are distinct.
+
+EDGE-BY-EDGE VERIFICATION
+E01 Scan/smart scan → optional LLM
+Source-present: F01/F02/F03/F04/F05/F06. Intake has smart sampling and enableAI options; deterministic checks can run without model agents. Quick scan separately invokes agent interpretation only when AI enabled. “Smart” should be described as scope/sampling/orchestration unless a specific UI operation is named; it is not proof that every scan uses an LLM.
+Runtime missing: linked intake/job/worker/output records with chosen options, model/prompt identity and errors for the same anonymous scan.
+
+E02 Scan → screenshot-supported violation view
+Source-present: F02/F03/F07. Element screenshot caching and delivery, DOM evidence and optional screenshot model context exist. Capture can be asynchronous or missing. ADO screenshot capture is a separate later live-page action; it need not reproduce the original scan state.
+Runtime missing: same-scan screenshot hash, issue/selector linkage, timestamp and capture success record. Do not promise every violation has a screenshot or that a screenshot proves a barrier.
+
+E03 Originating user marks potential false positive → pending expert review
+Source-present: F08/F09/F10. Feedback maps to a validation status. Ordinary users' FP/confirmed/partial labels become pending_review; trusted roles apply immediately. Review rejection restores prior/open status. Expert decision is not identical to the user's requested label.
+Runtime missing: aliased issue, submitting-role, requested-status, review-status and decision trail. No actual user feedback is copied here.
+
+E04 Approved expert FP → ADO ticket
+Source-present, conditional: F09/F10/F11. Approved pending FP calls story creation, conditional on integration configuration and success. Trusted direct validation does not follow the same reviewed-pending branch in the inspected flow. Creation and screenshot attachment are not atomic.
+Runtime missing: permitted aliased review-to-work-item linkage, creation result, attachment success and failure handling. No credentials or application locations are needed in public evidence.
+
+E05 ADO ticket → AI analysis of needed change
+Partial: F11 embeds coding-assistant instructions and selects rule-file versus agent-prompt target. F12 separately reports FP patterns/suggestions. No ticket-consumption worker executing a coding assistant, applying a patch or closing the story was found in the inspected API source.
+Runtime missing: a real human/assistant work record linked to the story, diagnosis, reviewed patch and approval. Draw this edge as human/AI-assisted, not autonomous.
+
+E06 Analysis → rule-set or prompt update
+Intended/manual intervention: F11 acceptance instructions name a source edit or Prompt Lab change; F13/F14/F15 provide prompt/experiment mechanisms. F09 also recalibrates rule confidence; confidence recalibration is not the same as changing a rule's detector logic. No automatic source rewrite/deployment was established.
+Runtime missing: commit/prompt version before/after, reviewed rationale, matching regression output and applied release/configuration. A rule fix needs no model retraining when it changes deterministic logic.
+
+E07 Analysis/expert content → RAG knowledge update
+Source-present but separate workflow: F16 embeds reviewed/classified training chunks and records ingestion. F17/F18 retrieve vector context; F06 inserts retrieved content into agent prompts. No automatic ADO-ticket-to-approved-training-session bridge was established.
+Runtime missing: approved content hash, ingestion IDs and backend, retrieval trace showing that content was used in the relevant prompt. Retrieval supplies reference context and does not modify model weights. F17's hybridSearch currently uses vector search, not demonstrated BM25 hybrid ranking.
+
+E08 Validated content → dataset candidates → fine-tuning
+Partial: F12/F13 export validated issue candidates. F16 writes selected session chunks to a separate candidate JSONL source; general chunks go to RAG only. F19 builds a split from source files 01–05; it does not read source 06_training_sessions, so seamless integration of that branch into the builder is not established. F20 contains actual QLoRA training code. F21 contains merge/conversion/registration code.
+Runtime missing: approved dataset lineage and builder integration, completed training logs/checkpoints, adapter/model hashes and serving manifest. No completed training/served adapted model is proved by scripts. The prior evaluation-overlap finding remains adverse evidence; candidate export is not independent model evaluation.
+
+E09 Rule/prompt/new model → sample HTML regression/evaluation
+Source-present facilities, missing linked execution: F11 requests a regression test; F22 creates expected-behaviour HTML cases and invokes the configured model. F15 supports A/B results and comparisons. Test source/facility existence does not prove a regression passed, nor that a new model was selected or accepted. Configured-model evaluation is not necessarily a head-to-head comparison on a frozen independent set.
+Runtime missing: issue-linked representative HTML fixture (permitted synthetic alternative), expected labels, source/model/prompt version, raw execution result, baseline/current results, independent review and regression scope. Synthetic fixtures verify tooling/behaviour, not client outcome or independent model uplift.
+
+E10 Accepted fix → resolve/reassign external ticket
+Intended manual step: F11 story description asks reassignment to the approving person when resolved. Inspected ADO code sets an optional initial default assignee but has no evidenced resolution/reassignment completion callback. F07 provides an internal issue-status update; this does not establish external ticket completion.
+Runtime missing: actual work-item state/assignment history linked to accepted change, plus role-only acceptance record. Do not conflate internal fixed status with externally resolved or user-confirmed.
+
+E11 Resolve/reassign → originating user rescans/confirms
+Partial reusable capabilities: F01 allows a new scan; F23 allows known-issue confirmation/FP feedback from a bookmarklet. It fetches stored issues rather than proving a fresh rescan. No automatic notification/assignment to the original submitter, enforced fresh-rescan comparison or final closure gate was established.
+Runtime missing: original anonymous submitter-to-new-run link, new build/version, absence/reclassification of the specific issue, submitted confirmation and final acceptance. This remains a human validation step in the intended process.
+
+ENGINE OWNERSHIP AND EXTERNAL DEPENDENCIES
+F04/F05 establish an owned rule registry/evaluation implementation. This is not merely an unmodified wrapper around an external scanner. Some rule headers explicitly cite concepts from established tools/standards, so “own engine” does not establish independent invention of every rule.
+Playwright controls API browser work; the CLI uses Puppeteer. JSDOM parses DOM; queue/database/vector/PDF libraries supply infrastructure. These are external libraries, not all external accessibility detection engines. F25 declares an axe integration dependency. A wider first-party source search found an actual AxeBuilder import/call in the separate comparison script F27. This is an explicit comparator execution path, not an API/CLI scan engine. No axe invocation was found in the inspected primary API/CLI runtime TypeScript paths: API quick scan calls the owned engine (F02/F04/F05), and CLI imports createEngine at line 10 and calls it at lines 140–148 (F24). Thus the supported boundary is owned rules as primary scanning implementation, external axe in a separately invoked benchmark/comparison script. Do not depict axe as an optional ordinary scan engine or claim that the project never executes external scanners. CLI metadata mentioning pa11y is not proof that pa11y executes. API and CLI own-rule paths must be distinguished. Do not claim no external libraries, all criteria covered or standards conformance from these findings.
+Fine-tuning changes model parameters through F20; RAG changes the context retrieved into a prompt through F16–F18/F06. Prompt edits and deterministic rule changes are additional separate mechanisms. Exporting, embedding, training, converting and serving are different states.
+
+SOURCE MANIFEST
+Locators are line numbers or named source sections as observed on this date. Hashes identify exact inspected files; uncommitted source can differ from repository HEAD. None certifies execution or client deployment.
+
+F01: api/src/routes/quick-scan.ts
+Locator: 218–235,430–796
+SHA256: 30e9164e79a730246bdb3f05e0ae60f1f14e1c8c9d415b02484bb5c02046682c
+Scan intake validates configurable AI, scope and smart sampling and queues quick/crawl jobs.
+
+F02: api/src/services/quick-scan.ts
+Locator: 2588–2629,3325–3446,3510–3616,4638,4724–4850
+SHA256: 9d271a0902cf44277a4aaa8c859ec176166a8a3c58c791e908b29aec74832910
+Deterministic scan invokes owned rule engine; engine-level LLM disabled on this path while optional separate agents run. Screenshot context and issue screenshot caching implemented.
+
+F03: api/src/workers/scan-worker.ts
+Locator: 16,459–613,625–698
+SHA256: 165606530f9af1671ec388cd8126ccf8a5c2b67f0d49ae41962e5fa7be3e8cfa
+BullMQ workers run separate LLM and screenshot processing; screenshots may be captured asynchronously.
+
+F04: api/src/services/rule-engine.ts
+Locator: 13–32,202–287
+SHA256: 180d08e72503d30059d780800d34f5f95d0df6da426888f4f82087f78d132e83
+API adapter uses JSDOM and locally registered IntelliA11yEngine/allRules; optional LLM setting.
+
+F05: api/src/services/rules/engine.ts
+Locator: 142–243,282–457
+SHA256: 099d2e4381bf01a572d3d69e0ffc08d5f250bd3025e584c11a7d6b4975e8a24c
+Owned rule registry, deterministic checks, deduplication/grouping, RAG filtering and result tiers.
+
+F06: api/src/services/rules/agent-analyzer.ts
+Locator: 28,1154–1172,1616–1630
+SHA256: 032fa902dd874fa6f30fdf9b7c74b21b903ca8c1b0c5078417edae0e7c5f2cfe
+Optional agent prompts incorporate retrieved guidance; separate retrieval and model interpretation.
+
+F07: api/src/routes/issues.ts
+Locator: 21,116–132,303–336
+SHA256: a55bb5b2d108bc0359c0ed3b73d72de7c54eebb663b39b03a0f8a454bc5004be
+Issue status updates and cached screenshot delivery. Fixed status is writable; no automatic originating-user rescan closure proved.
+
+F08: api/src/routes/feedback.ts
+Locator: 30–85
+SHA256: 6ecf9f9a9530ef4e9ba4fa71f1c3681a19a4b1c88c32db483cd19b6150e8e34b
+Authenticated up/down/partial feedback routes through trust-aware validation service; FP category/details persisted.
+
+F09: api/src/services/validation.ts
+Locator: 50–181,199–301,421–489,490 onwards
+SHA256: 2fced40ce176a96b639f773e8720a911e47062747a10724162dcf7271b08b767
+Ordinary user labels enter pending review; trusted labels apply directly; approved pending FP can trigger ADO story and calibration. Calibration changes confidence, not necessarily rule source.
+
+F10: api/src/routes/validation.ts
+Locator: 95–178,195–260
+SHA256: fcb355fd646849a98656c60a870517ca8862bdd98914e77239f1336870adb7ce
+Validation API and admin/AI-SDLC-admin review endpoint and pending queue.
+
+F11: api/src/services/azure-devops.ts
+Locator: 97–145,150–211,215–310,343–445
+SHA256: afcfd4d5e1c776aa83adef048bd13e0e4d7bfe539a915c2c6cb328c0501dd76e
+Conditional ADO integration creates story and optional screenshot attachment. Story instructions specify rule/prompt fixes, tests, rescan and approver reassignment; those instructions are not executed by this service.
+
+F12: api/src/services/model-improvement.ts
+Locator: 66–148,148–257,298–366
+SHA256: 6cb3e0e0c442b795d476fd46b2d237138457f727d1431b2e91dc5cdef41c1ed3
+Aggregates validation pairs and false-positive patterns; generates improvement suggestions and training-data export.
+
+F13: api/src/routes/prompt-lab.ts
+Locator: 13–110
+SHA256: 22ef1c312d78a81de533a326ce92351c9f098aa3a2592ca51320d0d99b22cc3d
+Admin prompt/improvement interface and validated-issue training-data export.
+
+F14: api/src/services/rules/prompt-templates.ts
+Locator: 215–320
+SHA256: 0f84fa6044963ada003b2c38f35aa734aba673cc8b32c54a44d6171d7647ae99
+Version-aware prompt registry and usage records.
+
+F15: api/src/services/rules/prompt-ab-test.ts
+Locator: 98–160,197–229,296–340,379–404
+SHA256: 3216a9063e8946ec837cd412d48a7141fd6bdf68cfe4422663454fe3ab8d02b8
+Experiment assignment, results, comparison/significance and persistence implementation.
+
+F16: api/src/routes/training-sessions.ts
+Locator: 180–208,224–319,617–693
+SHA256: 038b8f40071ed7a596ba6c474fbf7fd349109da40a50fa95d20256887f5be5c1
+Reviewable training content is embedded; classified chunks can separately produce deduplicated JSONL instruction candidates. General chunks are RAG-only; embedding completion is not model training completion.
+
+F17: api/src/services/knowledge-base/retrieval.ts
+Locator: 41–129,439–446
+SHA256: 04a8a639547518b64971762f10eaaef18dfbd31406594829c26ec867a0a9993e
+Query embeddings plus metadata-filtered vector retrieval/diversification; named hybrid search currently delegates to vector-only search.
+
+F18: api/src/services/knowledge-base/vector-store-factory.ts
+Locator: whole module
+SHA256: fd07fdf41e8bc12944a9ab297cd5f2b20827ea05a2960766abe710b56ac9e0b4
+Configurable vector-store selection. Source existence does not prove a deployed backend.
+
+F19: api/training-data/build-dataset.ts
+Locator: 47–49,154,195,227,279,306,357–376
+SHA256: 5234e837c3139fb1fb4741cabe9daafba11050b977a16582e0cde180a50b7f5d
+Dataset builder reads sources 01–05 and creates train/eval split; no 06_training_sessions input is present in this inspected builder.
+
+F20: api/training-data/scripts/train_qlora.py
+Locator: 29–54,158–169,197–239,243–284
+SHA256: 2edc06de47ccc48149544ced368a5d0c1d9e0e5cf4b45987abf366a042597272
+Standalone Phi-4 QLoRA script trains, saves adapter and produces evaluation loss if executed; no completed run proved.
+
+F21: api/training-data/scripts/export_gguf.py
+Locator: 29–61,94–132,139–193,209–223
+SHA256: 1e145c68c72175719efa2d6466fad602341f42a8492cf544648d6a44648f848f
+Standalone adapter merge, GGUF conversion/quantisation and model registration script. Registration code is not an observed served artifact.
+
+F22: api/src/routes/llm-benchmark.ts
+Locator: 457–482,645–708,767–812,862–910
+SHA256: ed73e8a4861dc887e243288576f27dd23c0d72f4531b1f3365d16b73d4ba91b5
+Sample HTML evaluation cases and configured-model runner persist expected/actual results. No particular corrected issue, independent holdout or new-model acceptance execution was inspected.
+
+F23: api/src/routes/verify.ts
+Locator: 635–710,715 onwards
+SHA256: 5dad65a3a48436f0e02a5f42fb8f15d79e8e7ff092e53c2cd8aaa66ce652091c
+Bookmarklet fetches known issues and submits confirmation/FP feedback. Fetching issue records is not a fresh browser rescan.
+
+F24: packages/cli/src/scanner.ts
+Locator: 1–90
+SHA256: 1f03fde3b509df600241c7088965ab9e57c5bc149b38203b008c38ef6feeba72
+Separate CLI Puppeteer/JSDOM scanner with optional screenshot and owned rules; do not assume API and CLI paths are identical.
+
+F25: api/package.json
+Locator: dependencies
+SHA256: ad81dc10db6e7e4528a819c091864447f24a438efdcd4a0abd0be0cca9232a12
+External infrastructure includes Playwright, JSDOM, database/queue and PDF libraries; axe integration package declared.
+
+F26: packages/cli/package.json
+Locator: dependencies/keywords
+SHA256: 43954b22d418251b9ff73a69c8818e226904049a48e77c2b4bd4995b3f20489e
+CLI dependency/metadata inspection; pa11y appears in metadata, not proof that an external pa11y engine runs.
+
+PUBLISHABLE CLAIM
+“Local source inspection shows an owned accessibility rule engine with optional AI interpretation, screenshot and issue workflows, trust-aware expert review, conditional work-item creation, and separate prompt, retrieval, candidate-data and evaluation mechanisms. Source code also supplies a standalone QLoRA/conversion path. The complete correction-to-original-user-confirmation loop, completed adapted-model training and client operating outcomes remain to be demonstrated through linked execution records.”
+
+DIAGRAM CONVENTION
+Solid arrows indicate implementation paths found in source, not successful runtime execution. Dashed arrows indicate intended/manual or unlinked lifecycle steps. The diagram is not a deployment diagram or proof that all services ran together. Every runtime link still requires anonymous records as set out above.
+
+F27: api/scripts/compare-engines.mjs
+Locator: 7,33–43
+SHA256: 1cee15174c66297de640cd5648c37ec50c761d827906a72623c99b6e4b41f10d
+Separate comparison script imports AxeBuilder and invokes its analyze path; this script was not executed. No runtime default/optional API linkage was established.

@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1460" height="1040" viewBox="0 0 1460 1040">
+<rect x="0" y="0" width="1460" height="1040" rx="0" fill="#ffffff" stroke="#ffffff"/>
+<rect x="0" y="0" width="1460" height="12" rx="0" fill="#087f79" stroke="#087f79"/>
+<text x="48" y="51" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#52708b">COGNIZANT WORLDWIDE LIMITED UK  /  SOLUTION ARCHITECTURE</text>
+<text x="48" y="98" font-family="Arial, sans-serif" font-size="29" font-weight="700" fill="#18334c">IntelliA11y  |  Scan and assurance architecture</text>
+<text x="48" y="131" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#18334c">Custom accessibility analysis with optional model interpretation and expert review</text>
+<polyline points="338,253.0 406,253.0" fill="none" stroke="#66819a" stroke-width="1.8"/>
+<polygon points="406,253.0 397.8959760788259,256.9146898070011 397.8959760788259,249.08531019299892" fill="#66819a"/>
+<polyline points="696,253.0 764,253.0" fill="none" stroke="#66819a" stroke-width="1.8"/>
+<polygon points="764,253.0 755.8959760788259,256.9146898070011 755.8959760788259,249.08531019299892" fill="#66819a"/>
+<polyline points="1054,253.0 1122,253.0" fill="none" stroke="#66819a" stroke-width="1.8"/>
+<polygon points="1122,253.0 1113.895976078826,256.9146898070011 1113.895976078826,249.08531019299892" fill="#66819a"/>
+<polyline points="1267.0,321 1267.0,410" fill="none" stroke="#ac7210" stroke-width="1.8" stroke-dasharray="6 4"/>
+<polygon points="1267.0,410 1263.085310192999,401.8959760788259 1270.914689807001,401.8959760788259" fill="#ac7210"/>
+<polyline points="1122,478.0 1054,478.0" fill="none" stroke="#ac7210" stroke-width="1.8" stroke-dasharray="6 4"/>
+<polygon points="1054,478.0 1062.104023921174,474.0853101929989 1062.104023921174,481.9146898070011" fill="#ac7210"/>
+<polyline points="764,478.0 696,478.0" fill="none" stroke="#66819a" stroke-width="1.8"/>
+<polygon points="696,478.0 704.1040239211741,474.0853101929989 704.1040239211741,481.9146898070011" fill="#66819a"/>
+<polyline points="406,478.0 338,478.0" fill="none" stroke="#66819a" stroke-width="1.8"/>
+<polygon points="338,478.0 346.1040239211741,474.0853101929989 346.1040239211741,481.9146898070011" fill="#66819a"/>
+<polyline points="193.0,546 193.0,635" fill="none" stroke="#66819a" stroke-width="1.8"/>
+<polygon points="193.0,635 189.08531019299892,626.8959760788259 196.91468980700108,626.8959760788259" fill="#66819a"/>
+<polyline points="338,703.0 406,703.0" fill="none" stroke="#ac7210" stroke-width="1.8" stroke-dasharray="6 4"/>
+<polygon points="406,703.0 397.8959760788259,706.9146898070011 397.8959760788259,699.0853101929989" fill="#ac7210"/>
+<polyline points="696,703.0 764,703.0" fill="none" stroke="#ac7210" stroke-width="1.8" stroke-dasharray="6 4"/>
+<polygon points="764,703.0 755.8959760788259,706.9146898070011 755.8959760788259,699.0853101929989" fill="#ac7210"/>
+<polyline points="1054,703.0 1122,703.0" fill="none" stroke="#ac7210" stroke-width="1.8" stroke-dasharray="6 4"/>
+<polygon points="1122,703.0 1113.895976078826,706.9146898070011 1113.895976078826,699.0853101929989" fill="#ac7210"/>
+<polyline points="1267.0,321 1267.0,365.5 909.0,365.5 909.0,410" fill="none" stroke="#66819a" stroke-width="1.8"/>
+<polygon points="909.0,410 905.0853101929989,401.8959760788259 912.9146898070011,401.8959760788259" fill="#66819a"/>
+<rect x="48" y="185" width="290" height="136" rx="9" fill="#edf3fc" stroke="#345b9a"/>
+<text x="63" y="207" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#345b9a">IMPLEMENTED IN SOURCE</text>
+<text x="63" y="234" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Scan request</text>
+<text x="63" y="259" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Dashboard or API</text>
+<text x="63" y="278" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Quick, crawl or journey scope</text>
+<text x="63" y="297" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">AI and smart-sampling options</text>
+<text x="315" y="207" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#345b9a">1</text>
+<rect x="406" y="185" width="290" height="136" rx="9" fill="#e9f5f3" stroke="#087f79"/>
+<text x="421" y="207" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#087f79">OWN ENGINE / SOURCE INSPECTED</text>
+<text x="421" y="234" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Scan orchestration</text>
+<text x="421" y="259" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">API controls and job intake</text>
+<text x="421" y="278" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Scan and screenshot workers</text>
+<text x="421" y="297" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Browser/session management</text>
+<text x="673" y="207" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#087f79">2</text>
+<rect x="764" y="185" width="290" height="136" rx="9" fill="#f0f2f5" stroke="#6a7483"/>
+<text x="779" y="207" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#6a7483">SUPPORTING COMPONENT</text>
+<text x="779" y="234" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Content collection</text>
+<text x="779" y="259" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">DOM, styles and page context</text>
+<text x="779" y="278" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Browser capture when available</text>
+<text x="779" y="297" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Playwright / JSDOM</text>
+<text x="1031" y="207" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#6a7483">3</text>
+<rect x="1122" y="185" width="290" height="136" rx="9" fill="#e9f5f3" stroke="#087f79"/>
+<text x="1137" y="207" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#087f79">OWN ENGINE / SOURCE INSPECTED</text>
+<text x="1137" y="234" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Accessibility rule engine</text>
+<text x="1137" y="259" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Locally registered rules</text>
+<text x="1137" y="278" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Deterministic checks and patterns</text>
+<text x="1137" y="297" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Core scan does not require LLM</text>
+<text x="1389" y="207" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#087f79">4</text>
+<rect x="1122" y="410" width="290" height="136" rx="9" fill="#edf3fc" stroke="#345b9a"/>
+<text x="1137" y="432" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#345b9a">IMPLEMENTED IN SOURCE</text>
+<text x="1137" y="459" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Optional model agents</text>
+<text x="1137" y="484" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Separate AI-enabled path</text>
+<text x="1137" y="503" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Versioned prompts + retrieved context</text>
+<text x="1137" y="522" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Configured LLM provider</text>
+<text x="1389" y="432" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#345b9a">5</text>
+<rect x="764" y="410" width="290" height="136" rx="9" fill="#e9f5f3" stroke="#087f79"/>
+<text x="779" y="432" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#087f79">OWN ENGINE / SOURCE INSPECTED</text>
+<text x="779" y="459" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Finding processing</text>
+<text x="779" y="484" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Group, normalise and reconcile</text>
+<text x="779" y="503" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Confidence and result tiers</text>
+<text x="779" y="522" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Deterministic + optional AI results</text>
+<text x="1031" y="432" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#087f79">6</text>
+<rect x="406" y="410" width="290" height="136" rx="9" fill="#edf3fc" stroke="#345b9a"/>
+<text x="421" y="432" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#345b9a">IMPLEMENTED IN SOURCE</text>
+<text x="421" y="459" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Evidence and issue records</text>
+<text x="421" y="484" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Violation / occurrence linkage</text>
+<text x="421" y="503" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Element evidence and screenshots</text>
+<text x="421" y="522" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Capture can be asynchronous</text>
+<text x="673" y="432" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#345b9a">7</text>
+<rect x="48" y="410" width="290" height="136" rx="9" fill="#edf3fc" stroke="#345b9a"/>
+<text x="63" y="432" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#345b9a">IMPLEMENTED IN SOURCE</text>
+<text x="63" y="459" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Results and reports</text>
+<text x="63" y="484" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Dashboard and export services</text>
+<text x="63" y="503" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Issue details and review controls</text>
+<text x="63" y="522" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Screenshots are not guaranteed</text>
+<text x="315" y="432" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#345b9a">8</text>
+<rect x="48" y="635" width="290" height="136" rx="9" fill="#edf3fc" stroke="#345b9a"/>
+<text x="63" y="657" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#345b9a">IMPLEMENTED IN SOURCE</text>
+<text x="63" y="684" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Expert validation</text>
+<text x="63" y="709" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">User flags a possible false positive</text>
+<text x="63" y="728" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Pending queue for ordinary users</text>
+<text x="63" y="747" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Trusted roles can validate directly</text>
+<text x="315" y="657" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#345b9a">9</text>
+<rect x="406" y="635" width="290" height="136" rx="9" fill="#edf3fc" stroke="#345b9a"/>
+<text x="421" y="657" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#345b9a">IMPLEMENTED IN SOURCE</text>
+<text x="421" y="684" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Configured ADO integration</text>
+<text x="421" y="709" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Approved pending false positives</text>
+<text x="421" y="728" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Conditional story creation</text>
+<text x="421" y="747" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Optional screenshot attachment</text>
+<text x="673" y="657" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#345b9a">10</text>
+<rect x="764" y="635" width="290" height="136" rx="9" fill="#fff5df" stroke="#ac7210"/>
+<text x="779" y="657" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#ac7210">WORKFLOW / EXECUTION TO DEMONSTRATE</text>
+<text x="779" y="684" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Controlled change hand-off</text>
+<text x="779" y="709" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Rule or prompt investigation</text>
+<text x="779" y="728" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">RAG / dataset / model paths</text>
+<text x="779" y="747" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">See detailed improvement flow</text>
+<text x="1031" y="657" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#ac7210">11</text>
+<rect x="1122" y="635" width="290" height="136" rx="9" fill="#fff5df" stroke="#ac7210"/>
+<text x="1137" y="657" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#ac7210">WORKFLOW / EXECUTION TO DEMONSTRATE</text>
+<text x="1137" y="684" font-family="Arial, sans-serif" font-size="15.5" font-weight="700" fill="#18334c">Rescan and confirmation</text>
+<text x="1137" y="709" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Run against the changed version</text>
+<text x="1137" y="728" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Review the specific finding</text>
+<text x="1137" y="747" font-family="Arial, sans-serif" font-size="12.5" font-weight="400" fill="#18334c">Originating-user closure to prove</text>
+<text x="1389" y="657" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#ac7210">12</text>
+<rect x="48" y="866" width="1364" height="42" rx="6" fill="#f0f4f8" stroke="#f0f4f8"/>
+<text x="62" y="892" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#18334c">API stores: PostgreSQL / vector context and Redis. Separate CLI: own rules with Puppeteer / JSDOM; outside this API workflow.</text>
+<text x="48" y="935" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#18334c">Own-engine boundary: primary API/CLI paths execute local rules. axe appears in a separate comparison script, not the inspected core scan path.</text>
+<text x="48" y="958" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#18334c">Ticket creation does not prove automatic code changes, fine-tuning, deployment or final user confirmation. Source detail: intellia11y_analysis.txt (F01-F27).</text>
+<polyline points="48,985 1412,985" fill="none" stroke="#d4dfe8" stroke-width="1.8"/>
+<text x="48" y="1010" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#52708b">Solid = inspected source path. Dashed = optional or human/external hand-off. Code presence does not prove deployment or outcomes.</text>
+<text x="1325" y="1010" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#52708b">11 Oct 2026 / 1</text>
+</svg>

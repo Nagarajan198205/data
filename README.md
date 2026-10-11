@@ -8,6 +8,11 @@ Current review drafts for Cognizant Worldwide Limited UK. The client is describe
 - **Non-functional Automation:** [Word](Current/Papers/Cognizant_TESTA_Non_Functional_Automation_Council_v6.docx) · [Entry text](Current/Papers/Cognizant_TESTA_Non_Functional_Automation_Council_v6_Result.txt)
 - **Most Innovative Project:** [Word](Current/Papers/Cognizant_TESTA_Most_Innovative_Project_Council_v2.docx) · [Entry text](Current/Papers/Cognizant_TESTA_Most_Innovative_Project_Council_v2_Result.txt)
 
+## Architecture and demonstration plan
+
+- [Four-page architecture PDF](Current/Architecture/Cognizant_Intelligent_Platform_Architecture.pdf), [individual diagrams and editable sources](Current/Architecture/README.md).
+- [Own-engine differentiation](Current/Architecture/Own_Engine_Positioning.txt) and [video evidence plan](Current/Architecture/Video_Evidence_Plan.txt). Source-backed design; execution gaps are labelled. No videos recorded yet.
+
 ## Evidence and review
 
 - [Evidence index](Current/Evidence/EVIDENCE_INDEX.txt) and [downloadable evidence pack](Current/TESTA_Evidence_Pack.zip).

@@ -20,3 +20,5 @@ HOW TO USE
 Read each artifact's scope before citing it. Existing A IDs remain unchanged. N and S IDs identify actual derived files prepared in this review, not missing primary reports. See EVIDENCE_REQUIRED.txt for outstanding records. Hashes establish file identity, not truth of an assertion. A separate SHA256SUMS.txt lists all included evidence files.
 
 A10: read-only local implementation inspection with 13 source/artifact hashes and locators. Supports code presence and scoped stored local workflow reports; not completed model training, deployment or client benefit. Added during follow-up evidence recovery.
+
+ARC01–ARC04: source-derived architecture illustrations in ../Architecture, covering IntelliA11y, its improvement loop, IntelliSec and Inteliperf. The four-page PDF, SVGs and editable Mermaid sources have implementation maps and review notes. These establish scoped source architecture, not live deployment, completed model adaptation, client outcomes or a completed automated lifecycle. Video_Evidence_Plan.txt is a capture plan only. Architecture files are available in the repository and are not included in this evidence-only ZIP.
